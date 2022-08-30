@@ -1,0 +1,9 @@
+__pycache__
+config/.config
+config/.bash_history
+config/beet.log
+config/library.db
+config/state.pickle
+data/
+
+

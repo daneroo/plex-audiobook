@@ -1,6 +1,8 @@
 # Plex setup for audiobooks
 
 - Plex server: <http://192.168.86.34:32400/web>
+- [ ] Should/could move to synology
+- [audio tagging in Go](https://github.com/dhowden/tag)
 
 ## plex-audiobook VM on hilbert
 
@@ -9,7 +11,56 @@
 - 4 cores/8G/256G
 - docker and plex
 
+## with Go
+
+```bash
+cd mywalker
+time go run cmd/walk/main.go -path ../beets-audible/beets/data/untagged/
+```
+
+## Tagging with beets-audible (better for automation)
+
+```bash
+cd beets-audible/beets/
+
+# cleanup - and restart
+docker-compose rm --stop --force
+rm -rf data; mkdir -p data/{untagged,audiobooks}
+rm config/library.db
+
+# startup
+docker-compose up -d
+docker exec -it beets bash
+
+## copy in some content
+rsync -av --progress /Volumes/Space/archive/media/audiobooks/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy data/untagged/
+
+# run the tagger
+# on one directory
+time beet -vv import /untagged/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy/Joe\ Abercrombie\ -\ The\ First\ Law\ 01\ The\ Blade\ Itself/
+# on one directory with asin
+time beet -vv import -S B014LL6R5U /untagged/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy/Joe\ Abercrombie\ -\ The\ First\ Law\ 01\ The\ Blade\ Itself/
+
+# asin files in dirs
+find /untagged/Joe\ Abercrombie -name \*.asin -print0 | while read -d $'\0' asinfile; do
+  echo '##' dir: $(dirname "$asinfile") searchID: $(basename "$asinfile" .asin)
+  echo time beet -vv import -S \""$(basename "$asinfile" .asin)"\" \""$(dirname "$asinfile")"\"
+done
+
+
+# metadata.yml
+curl --silent https://api.audnex.us/books/B014LL6R5U | jq
+# curl --silent https://api.audnex.us/books/B014LL6R5U/chapters | jq
+curl --silent https://api.audnex.us/authors/B001JP7WJC | jq
+```
+
+## Tagging with mo3tag (better for automation)
+
+Could not get it to work (wine in docker...)
+
 ## Tagging with bragibooks
+
+_Not working well_
 
 ```bash
 # all in ~/audiobooks (for now)
@@ -68,4 +119,9 @@ sudo chown -R plex: /opt/plexmedia
 - [Guide](https://github.com/seanap/Plex-Audiobook-Guide?utm_source=pocket_mylist#players)
 - [plex on ubuntu](https://linuxize.com/post/how-to-install-plex-media-server-on-ubuntu-20-04/)
 - [Audnexus](https://github.com/djdembeck/Audnexus.bundle)
+- [auto-m4b](https://registry.hub.docker.com/r/seanap/auto-m4b/)
+- [beets tagging](https://github.com/Neurrone/beets-audible)
+  - [seanap's fork](https://github.com/seanap/beets-audible)
+- [xirg's mp3tag](https://github.com/Xirg/docker-mp3tag)
 - [BragiBooks](https://github.com/djdembeck/bragibooks)
+- [audio tagging in Go](https://github.com/dhowden/tag)
