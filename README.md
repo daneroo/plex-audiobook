@@ -1,5 +1,9 @@
 # Plex setup for audiobooks
 
+- Plan
+  - Is it useful - install bookcamp with on deck
+  - examples of untagged to tagged directory - repeatable
+  - survey of tools
 - Plex server: <http://192.168.86.34:32400/web>
 - [ ] Should/could move to synology
 - [audio tagging in Go](https://github.com/dhowden/tag)
@@ -18,10 +22,16 @@ cd mywalker
 time go run cmd/walk/main.go -path ../beets-audible/beets/data/untagged/
 ```
 
+## m4b-tool
+
+```bash
+alias m4b-tool='docker run -it --rm -u $(id -u):$(id -g) -v "$(pwd)":/mnt sandreas/m4b-tool:latest'
+```
+
 ## Tagging with beets-audible (better for automation)
 
 ```bash
-cd beets-audible/beets/
+cd beets-audible-seanap
 
 # cleanup - and restart
 docker-compose rm --stop --force
@@ -41,12 +51,15 @@ time beet -vv import /untagged/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy/Joe
 # on one directory with asin
 time beet -vv import -S B014LL6R5U /untagged/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy/Joe\ Abercrombie\ -\ The\ First\ Law\ 01\ The\ Blade\ Itself/
 
-# asin files in dirs
-find /untagged/Joe\ Abercrombie -name \*.asin -print0 | while read -d $'\0' asinfile; do
+# asin files in dirs - remove metadata.yml
+find /untagged/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy -name \*.asin -print0 | while read -d $'\0' asinfile; do
   echo '##' dir: $(dirname "$asinfile") searchID: $(basename "$asinfile" .asin)
   echo time beet -vv import -S \""$(basename "$asinfile" .asin)"\" \""$(dirname "$asinfile")"\"
 done
 
+# Sherlock: B06X93XQRZ
+rsync -av --progress /Volumes/Space/archive/media/audiobooks/Arthur\ Conan\ Doyle\ -\ Sherlock\ Holmes\ The\ Definitive\ Audio\ Collection data/untagged/
+time beet -vv import -S B06X93XQRZ /untagged/Arthur\ Conan\ Doyle\ -\ Sherlock\ Holmes\ The\ Definitive\ Audio\ Collection/
 
 # metadata.yml
 curl --silent https://api.audnex.us/books/B014LL6R5U | jq
@@ -125,3 +138,5 @@ sudo chown -R plex: /opt/plexmedia
 - [xirg's mp3tag](https://github.com/Xirg/docker-mp3tag)
 - [BragiBooks](https://github.com/djdembeck/bragibooks)
 - [audio tagging in Go](https://github.com/dhowden/tag)
+- [m4b-tool](https://github.com/sandreas/m4b-tool)
+  - []()

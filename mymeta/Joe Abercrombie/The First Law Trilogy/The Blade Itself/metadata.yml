@@ -1,6 +1,6 @@
 ---
 # These are all required fields
-title: The Lord of the Rings (BBC Dramatization)
+title: The Blade Itself
 authors: ["Joe Abercrombie"]
 narrators: ["Steven Pacey"]
 description: |
@@ -18,12 +18,13 @@ description: |
   \n
   Unpredictable, compelling, wickedly funny, and packed with unforgettable characters, The Blade Itself is noir fantasy with a real cutting edge.
 
-genres: ["Literature & Fiction/Action & Adventure", "Fantasy"]
+genres: ["Literature & Fiction/Action & Adventure"]
 releaseDate: 2015-09-08
 publisher: Hachette Audio
 
 # optional fields
 language: English # defaults to "English" if not specified
 # subtitle: "some subtitle"
-series: The First Law Trilogy
-seriesPosition: "1-3"
+series: The First Law Trilogy (Abercrombie)
+# seriesPosition: not "1-3"
+seriesPosition: "1"
