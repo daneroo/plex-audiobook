@@ -1,11 +1,12 @@
 # Plex setup for audiobooks
 
+- Plex server: <http://192.168.86.34:32400/web>
+- [ ] Should/could move to synology (+gateway?)
 - Plan
   - Is it useful - install bookcamp with on deck
-  - examples of untagged to tagged directory - repeatable
+  - examples of untagged to tagged directory
+    - repeatable processes - over the fence
   - survey of tools
-- Plex server: <http://192.168.86.34:32400/web>
-- [ ] Should/could move to synology
 - [audio tagging in Go](https://github.com/dhowden/tag)
 
 ## plex-audiobook VM on hilbert
