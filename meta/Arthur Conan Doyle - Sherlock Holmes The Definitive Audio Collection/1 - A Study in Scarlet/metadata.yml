@@ -1,0 +1,18 @@
+---
+# These are all required fields
+title: A Study in Scarlet
+authors: ["Arthur Conan Doyle"]
+narrators: ["Stephen Fry"]
+description: |
+  Sherlock Holmes investigates the murder of two Americans whose deaths have some mysterious connection to sinister Socialist groups gathering power in both Britain and America.
+
+genres: ["Traditional Detectives", "Literature & Fiction"]
+releaseDate: 2017-02-27
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "Sherlock Holmes: The Definitive Collection"
+# seriesPosition: not "1-3"
+seriesPosition: "1"

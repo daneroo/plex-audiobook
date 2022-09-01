@@ -1,0 +1,18 @@
+---
+# These are all required fields
+title: The Adventures of Sherlock Holmes
+authors: ["Arthur Conan Doyle"]
+narrators: ["Stephen Fry"]
+description: |
+  Scandal, treachery and crime are rife in Old London Town. A king blackmailed by his mistress, dark dealings in opium dens, stolen jewels, a missing bride - these are cases so fiendishly complex that only Sherlock Holmes would dare to investigate.
+
+genres: ["Traditional Detectives", "Literature & Fiction"]
+releaseDate: 2017-02-27
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "Sherlock Holmes: The Definitive Collection"
+# seriesPosition: not "1-3"
+seriesPosition: "3"

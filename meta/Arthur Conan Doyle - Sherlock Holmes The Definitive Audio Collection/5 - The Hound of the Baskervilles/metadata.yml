@@ -1,0 +1,18 @@
+---
+# These are all required fields
+title: The Hound of the Baskervilles
+authors: ["Arthur Conan Doyle"]
+narrators: ["Stephen Fry"]
+description: |
+  The country doctor had come to 221B Baker Street, the famous lodgings of Sherlock Holmes, with an eerie tale---the legend of the Hound of the Baskervilles, the devil-beast that haunted the lonely moors around the Baskervilles' ancestral home. The tale warned the descendants of that ancient family never to venture out on the moor "in those dark hours when the powers of evil are exalted." But one of the most recent Baskervilles, Sir Charles, was now dead, and the footprints of a giant hound had been found near his body. Would the new heir of the Baskervilles meet the same dreadful fate? Sherlock Holmes and his faithful friend Dr. Watson are faced with their most terrifying case in this wonderful classic of masterful detection and bone-chilling suspense.
+
+genres: ["Traditional Detectives", "Literature & Fiction"]
+releaseDate: 2017-02-27
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "Sherlock Holmes: The Definitive Collection"
+# seriesPosition: not "1-3"
+seriesPosition: "5"

@@ -1,0 +1,18 @@
+---
+# These are all required fields
+title: The Casebook of Sherlock Holmes
+authors: ["Arthur Conan Doyle"]
+narrators: ["Stephen Fry"]
+description: |
+  These six cases are among the last undertaken by Sherlock Holmes before he retired to the Sussex downs. However, the problems facing the sleuth are as diverse and challenging as ever. What with seeking the whereabouts of the stolen Mazarin Diamond, discovering the importance of being called Garrideb, encountering a mysterious murder on Thor Bridge, searching for eternal youth and the threat of a vampire in Sussex, there is no sign of Holmes' deductive powers slowing down.
+
+genres: ["Traditional Detectives", "Literature & Fiction"]
+releaseDate: 2017-02-27
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "Sherlock Holmes: The Definitive Collection"
+# seriesPosition: not "1-3"
+seriesPosition: "9"

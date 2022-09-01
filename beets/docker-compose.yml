@@ -16,7 +16,7 @@ services:
       - ./plugins:/plugins
       - ./scripts:/config/custom-cont-init.d
       # - /path/to/plex/audiobooks:/audiobooks
-      - ./data/audiobooks:/audiobooks
+      - /Volumes/Space/Beets/audiobooks:/audiobooks
       # - /path/to/temp/untagged:/untagged
-      - ./data/untagged:/untagged
+      - /Volumes/Space/Beets/untagged:/untagged
     restart: unless-stopped

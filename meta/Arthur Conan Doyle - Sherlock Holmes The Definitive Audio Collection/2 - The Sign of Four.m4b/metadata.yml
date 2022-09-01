@@ -1,0 +1,20 @@
+---
+# These are all required fields
+title: The Sign of Four
+authors: ["Arthur Conan Doyle"]
+narrators: ["Stephen Fry"]
+description: |
+  "You are a wronged woman and shall have justice. Do not bring police. If you do, all will be in vain. Your unknown friend." When a beautiful young woman is sent a letter inviting her to a sinister assignation, she immediately seeks the advice of the consulting detective Sherlock Holmes.
+
+  For this is not the first mysterious item Mary Marston has received in the post. Every year for the last six years an anonymous benefactor has sent her a large lustrous pearl. Now it appears the sender of the pearls would like to meet her to right a wrong. But when Sherlock Holmes and his faithful sidekick Watson, aiding Miss Marston, attend the assignation, they embark on a dark and mysterious adventure involving a one-legged ruffian, some hidden treasure, deadly poison darts
+
+genres: ["Traditional Detectives", "Literature & Fiction"]
+releaseDate: 2017-02-27
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "Sherlock Holmes: The Definitive Collection"
+# seriesPosition: not "1-3"
+seriesPosition: "2"

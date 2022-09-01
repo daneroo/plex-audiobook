@@ -1,0 +1,33 @@
+---
+# These are all required fields
+title: The Return of Sherlock Holmes
+authors: ["Arthur Conan Doyle"]
+narrators: ["Stephen Fry"]
+description: |
+  Three years have passed since Sherlock Holmes and his nemesis Moriarty vanished into the abyss of the Reichenbach Falls. In that time the criminals of London have been able to sleep safe in their beds.
+  But the capital has never been in greater need of its protector. And so it is that Dr Watson meets a mysterious deformed man who reveals the truth behind the fateful final conflict between Holmes and Moriarty, and paves the way for the extraordinary return of the world's greatest sleuth in these thirteen tales of mystery and deduction:
+
+  The Empty House
+  The Norwood Builder
+  The Dancing Men
+  The Solitary Cyclist
+  The Priory School
+  Black Peter
+  Charles Augustus Milverton
+  The Six Napoleons
+  The Three Students
+  The Golden Pince-Nez
+  The Missing Three-Quarter
+  The Abbey Grange
+  The Second Stain
+
+genres: ["Traditional Detectives", "Literature & Fiction"]
+releaseDate: 2017-02-27
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "Sherlock Holmes: The Definitive Collection"
+# seriesPosition: not "1-3"
+seriesPosition: "6"

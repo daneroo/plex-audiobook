@@ -1,11 +1,11 @@
 # Tagging with beets-audible
 
-- [ ] Revert seanap's plugin fork with Neurrone's upstream (which has advanced)
-
 This is a docker based solution from [Neurrone](https://github.com/Neurrone/beets-audible)
-using [seanap's fork](https://github.com/seanap/beets-audible)
 
-The docker-compose files mount _working_ directories (in `/Volumes/Space/Beets` for now)
+We can update the plugin by re-cloning `https://github.com/Neurrone/beets-audible`
+into `beets/plugins/audible`
+
+The docker-compose files mounts _working_ directories (in `/Volumes/Space/Beets` for now)
 
 ```bash
 # cleanup - and restart
@@ -19,7 +19,7 @@ docker-compose up -d
 docker exec -it beets bash
 
 ## copy in some content
-rsync -av --progress /Volumes/Space/archive/media/audiobooks/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy data/untagged/
+rsync -av --progress /Volumes/Space/archive/media/audiobooks/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy /Volumes/Space/Beets/clean/
 
 # run the tagger
 # on one directory

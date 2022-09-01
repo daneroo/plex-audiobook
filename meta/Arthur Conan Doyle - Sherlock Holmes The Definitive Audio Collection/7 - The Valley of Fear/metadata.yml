@@ -1,0 +1,19 @@
+---
+# These are all required fields
+title: The Valley of Fear
+authors: ["Arthur Conan Doyle"]
+narrators: ["Stephen Fry"]
+description: |
+  Only Holmes and Watson can get to the bottom of this baffling murder mystery. John Douglas is found in his study, blasted faceless by a sawed-off shotgun. There is no obvious motive or suspect. Douglas and his wife, Ivy, a rich and locally popular couple, have lived for years in the ancient, moated Birlstone Manor House. Despite Douglas' nightly ritual of raising the drawbridge, the perpetrator had somehow concealed himself, shot Douglas, and made a clean getaway.
+  Does the mystery have something to do with the "interesting" relationship between Cecil Baker, Douglas' only friend from his obscure past, and the surprisingly merry widow? There are plenty of clues, including a brand mark on the deceased's arm and the fact that his wedding ring is missing, but not the ring that he always wore above it.
+
+genres: ["Traditional Detectives", "Literature & Fiction"]
+releaseDate: 2017-02-27
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "Sherlock Holmes: The Definitive Collection"
+# seriesPosition: not "1-3"
+seriesPosition: "7"

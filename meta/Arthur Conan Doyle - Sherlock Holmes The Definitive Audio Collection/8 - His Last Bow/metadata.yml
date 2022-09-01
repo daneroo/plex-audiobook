@@ -1,0 +1,22 @@
+---
+# These are all required fields
+title: His Last Bow
+authors: ["Arthur Conan Doyle"]
+narrators: ["Stephen Fry"]
+description: |
+  Gathering together in one volume the later exploits of Sherlock Holmes, the world's first consulting detective, His Last Bow includes tales published individually between 1908 and 1917. It also contains one early story, 1892's "The Adventure of the Cardboard Box", which, with its themes of adultery, was previously considered too "scandalous" for American audiences.
+  \n
+  Here, Holmes must contend with mysterious bearded men, stolen secret submarine plans, a missing lady aristocrat, and his own near-fatal illness.
+  \n
+  The stories contained in His Last Bow are "The Adventure of Wisteria Lodge", "The Adventure of the Cardboard Box", "The Adventure of the Red Circle", "The Adventure of the Bruce-Partington Plans", "The Adventure of the Dying Detective", "The Disappearance of Lady Frances Carfax", "The Adventure of the Devil's Foot", and "His Last Bow".
+
+genres: ["Traditional Detectives", "Literature & Fiction"]
+releaseDate: 2017-02-27
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "Sherlock Holmes: The Definitive Collection"
+# seriesPosition: not "1-3"
+seriesPosition: "8"

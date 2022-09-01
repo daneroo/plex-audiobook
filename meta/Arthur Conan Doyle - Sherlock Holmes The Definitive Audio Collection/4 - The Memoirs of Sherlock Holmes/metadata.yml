@@ -1,0 +1,18 @@
+---
+# These are all required fields
+title: The Memoirs of Sherlock Holmes
+authors: ["Arthur Conan Doyle"]
+narrators: ["Stephen Fry"]
+description: |
+  The Memoirs of Sherlock Holmes are overshadowed by the event with which they close - the meeting of the great detective and Moriarty, the Napoleon of Crime. When "The Final Problem" was first published, the struggle between Holmes and his arch nemesis, seemingly to the death, left many readers desolate at the loss of Holmes, but it also led to his immortality as a literary figure. The stories that precede it included two narratives from Holmes himself - on a mutiny at sea and a treasure hunt in a Sussex country house - as well as a meeting with his brilliant brother, Mycroft.
+
+genres: ["Traditional Detectives", "Literature & Fiction"]
+releaseDate: 2017-02-27
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "Sherlock Holmes: The Definitive Collection"
+# seriesPosition: not "1-3"
+seriesPosition: "4"
