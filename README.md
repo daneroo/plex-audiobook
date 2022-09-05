@@ -106,6 +106,7 @@ sudo chown -R plex: /opt/plexmedia
 - [plex in docker](https://github.com/plexinc/pms-docker)
 - [plex on ubuntu](https://linuxize.com/post/how-to-install-plex-media-server-on-ubuntu-20-04/)
 - [Audnexus](https://github.com/djdembeck/Audnexus.bundle)
+- [mutagen-inspect](https://mutagen.readthedocs.io/en/latest/man/mutagen-inspect.html)
 - [auto-m4b](https://registry.hub.docker.com/r/seanap/auto-m4b/)
 - [beets tagging](https://github.com/Neurrone/beets-audible)
   - [seanap's fork](https://github.com/seanap/beets-audible)
