@@ -1,12 +1,16 @@
 # Plex setup for audiobooks
 
-Remote: <https://audiobook.dl.imetrical.com:443/web>
-Local: <http://plex-audiobook.imetrical.com:32400/web>
-Local: <http://192.168.86.34:32400/web>
+Plex server is running in the plex-audio vm in proxmox@hibert.
+
+- Remote: <https://audiobook.dl.imetrical.com:443/web>
+- Local: <http://plex-audiobook.imetrical.com:32400/web>
+- Local: <http://192.168.86.34:32400/web>
 
 - [x] snapshots on proxmox
+- [ ] compare metadata (node.js - music-metadata)
+- [ ] canonical folder layout for process
 - [ ] Check token stuff <https://forums.plex.tv/t/give-custom-server-access-urls-presedence-in-api-resources/274363>
-- [ ] NFS mount of Reading share
+- [ ] NFS mount of Reading share vs SMB
   - Storage on Synology - use nfs/read-only - auth controlled by synology (by host)
   - [NFS](https://saywebsolutions.com/blog/mounting_synology_nas_shared_folder_nfs_ubuntu_16_10)
 - Process for progressive migration /archive/media/audioboos /Reading/audiobooks
@@ -50,8 +54,16 @@ time go run cmd/walk/main.go -path ../beets-audible/beets/data/untagged/
 
 ## m4b-tool
 
+## total-duration:: 23:45:53.617
+
 ```bash
+# from Volumes/Space/Beets
 alias m4b-tool='docker run -it --rm -u $(id -u):$(id -g) -v "$(pwd)":/mnt sandreas/m4b-tool:latest'
+# e.g.
+m4b-tool split --audio-format mp3 Scott\ Lynch\ -\ The\ Republic\ of\ Thieves.m4b
+# get real chapters - from api.audnex.us
+# B00G4K7EUO
+time m4b-tool merge --output-file=rechaptered/Scott\ Lynch\ -\ GB03\ -\ The\ Republic\ of\ Thieves/Scott\ Lynch\ -\ The\ Republic\ of\ Thieves.m4b untagged/Scott\ Lynch\ -\ GB03\ -\ The\ Republic\ of\ Thieves/Scott\ Lynch\ -\ The\ Republic\ of\ Thieves.m4b
 ```
 
 ## Install Audnexus
@@ -107,6 +119,7 @@ sudo chown -R plex: /opt/plexmedia
 - [plex on ubuntu](https://linuxize.com/post/how-to-install-plex-media-server-on-ubuntu-20-04/)
 - [Audnexus](https://github.com/djdembeck/Audnexus.bundle)
 - [mutagen-inspect](https://mutagen.readthedocs.io/en/latest/man/mutagen-inspect.html)
+- [npm/node metadata tagging](https://www.npmjs.com/package/music-metadata)
 - [auto-m4b](https://registry.hub.docker.com/r/seanap/auto-m4b/)
 - [beets tagging](https://github.com/Neurrone/beets-audible)
   - [seanap's fork](https://github.com/seanap/beets-audible)

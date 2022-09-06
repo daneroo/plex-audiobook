@@ -1,0 +1,208 @@
+{
+  "asin": "B00G4K7EUO",
+  "brandIntroDurationMs": 1625,
+  "brandOutroDurationMs": 3297,
+  "chapters": [
+    {
+      "lengthMs": 13082,
+      "startOffsetMs": 0,
+      "startOffsetSec": 0,
+      "title": "Opening Credits"
+    },
+    {
+      "lengthMs": 3260095,
+      "startOffsetMs": 13082,
+      "startOffsetSec": 13,
+      "title": "Prologue: The Minder"
+    },
+    {
+      "lengthMs": 21375,
+      "startOffsetMs": 3273177,
+      "startOffsetSec": 3273,
+      "title": "I Her Shadow"
+    },
+    {
+      "lengthMs": 4947281,
+      "startOffsetMs": 3294552,
+      "startOffsetSec": 3295,
+      "title": "Chapter One: Things Get Worse"
+    },
+    {
+      "lengthMs": 4214747,
+      "startOffsetMs": 8241833,
+      "startOffsetSec": 8242,
+      "title": "Interlude: The Undrowned Girl"
+    },
+    {
+      "lengthMs": 1811992,
+      "startOffsetMs": 12456580,
+      "startOffsetSec": 12457,
+      "title": "Chapter Two: The Business"
+    },
+    {
+      "lengthMs": 3554418,
+      "startOffsetMs": 14268572,
+      "startOffsetSec": 14269,
+      "title": "Interlude: The Boy Who Chased Red Dresses"
+    },
+    {
+      "lengthMs": 139923,
+      "startOffsetMs": 17822990,
+      "startOffsetSec": 17823,
+      "title": "Intersect (I): Fuel"
+    },
+    {
+      "lengthMs": 2231345,
+      "startOffsetMs": 17962913,
+      "startOffsetSec": 17963,
+      "title": "Chapter Three: Blood And Breath And Water"
+    },
+    {
+      "lengthMs": 2454721,
+      "startOffsetMs": 20194258,
+      "startOffsetSec": 20194,
+      "title": "Interlude: Orphan’s Moon"
+    },
+    {
+      "lengthMs": 5547015,
+      "startOffsetMs": 22648979,
+      "startOffsetSec": 22649,
+      "title": "Chapter Four: Across The Amathel"
+    },
+    {
+      "lengthMs": 3000,
+      "startOffsetMs": 28195994,
+      "startOffsetSec": 28196,
+      "title": "II Cross-Purposes"
+    },
+    {
+      "lengthMs": 2694741,
+      "startOffsetMs": 28198994,
+      "startOffsetSec": 28199,
+      "title": "Interlude: Striking Sparks"
+    },
+    {
+      "lengthMs": 5279196,
+      "startOffsetMs": 30893735,
+      "startOffsetSec": 30894,
+      "title": "Chapter Five: The Five-Year Game: Starting Position"
+    },
+    {
+      "lengthMs": 2312057,
+      "startOffsetMs": 36172931,
+      "startOffsetSec": 36173,
+      "title": "Interlude: Bastards Abroad"
+    },
+    {
+      "lengthMs": 4608975,
+      "startOffsetMs": 38484988,
+      "startOffsetSec": 38485,
+      "title": "Chapter Six: The Five-Year Game: Change Of Venue"
+    },
+    {
+      "lengthMs": 49830,
+      "startOffsetMs": 43093963,
+      "startOffsetSec": 43094,
+      "title": "Intersect (II): Tinder"
+    },
+    {
+      "lengthMs": 4085505,
+      "startOffsetMs": 43143793,
+      "startOffsetSec": 43144,
+      "title": "Interlude: The Moncraine Company"
+    },
+    {
+      "lengthMs": 2409349,
+      "startOffsetMs": 47229298,
+      "startOffsetSec": 47229,
+      "title": "Chapter Seven: The Five-Year Game: Countermove"
+    },
+    {
+      "lengthMs": 4582504,
+      "startOffsetMs": 49638647,
+      "startOffsetSec": 49639,
+      "title": "Interlude: Aurin And Amadine"
+    },
+    {
+      "lengthMs": 20000,
+      "startOffsetMs": 54221151,
+      "startOffsetSec": 54221,
+      "title": "III Fatal Honesty"
+    },
+    {
+      "lengthMs": 7228666,
+      "startOffsetMs": 54241151,
+      "startOffsetSec": 54241,
+      "title": "Chapter Eight: The Five-Year Game: Infinite Variation"
+    },
+    {
+      "lengthMs": 5660932,
+      "startOffsetMs": 61469817,
+      "startOffsetSec": 61470,
+      "title": "Interlude: Happenings In Bedchambers"
+    },
+    {
+      "lengthMs": 1241060,
+      "startOffsetMs": 67130749,
+      "startOffsetSec": 67131,
+      "title": "Chapter Nine: The Five-Year Game: Reasonable Doubt"
+    },
+    {
+      "lengthMs": 344538,
+      "startOffsetMs": 68371809,
+      "startOffsetSec": 68372,
+      "title": "Intersect (III): Spark"
+    },
+    {
+      "lengthMs": 1821745,
+      "startOffsetMs": 68716347,
+      "startOffsetSec": 68716,
+      "title": "Interlude: An Inconvenient Patron"
+    },
+    {
+      "lengthMs": 5282772,
+      "startOffsetMs": 70538092,
+      "startOffsetSec": 70538,
+      "title": "Chapter Ten: The Five-Year Game: Final Approaches"
+    },
+    {
+      "lengthMs": 4717041,
+      "startOffsetMs": 75820864,
+      "startOffsetSec": 75821,
+      "title": "Interlude: Death-Masks"
+    },
+    {
+      "lengthMs": 1692502,
+      "startOffsetMs": 80537905,
+      "startOffsetSec": 80538,
+      "title": "Chapter Eleven: The Five-Year Game: Returns"
+    },
+    {
+      "lengthMs": 398919,
+      "startOffsetMs": 82230407,
+      "startOffsetSec": 82230,
+      "title": "Intersect (IV): Ignition"
+    },
+    {
+      "lengthMs": 160403,
+      "startOffsetMs": 82629326,
+      "startOffsetSec": 82629,
+      "title": "Last Interlude: Thieves Prosper"
+    },
+    {
+      "lengthMs": 857420,
+      "startOffsetMs": 82789729,
+      "startOffsetSec": 82790,
+      "title": "Chapter Twelve: The End Of Old Dreams"
+    },
+    {
+      "lengthMs": 1764899,
+      "startOffsetMs": 83647149,
+      "startOffsetSec": 83647,
+      "title": "Epilogue Wings"
+    }
+  ],
+  "isAccurate": true,
+  "runtimeLengthMs": 85412048,
+  "runtimeLengthSec": 85412
+}

@@ -7,6 +7,15 @@ into `beets/plugins/audible`
 
 The docker-compose files mounts _working_ directories (in `/Volumes/Space/Beets` for now)
 
+## Process
+
+- [ ] Define these...
+  - directories: /Volumes/Space/Beets/{untagged,audiobooks,clean,combined}
+
+beets: `/untagged` -> `/audiobooks` both under `/Volumes/Space/Beets/`
+
+## Notes
+
 ```bash
 # cleanup - and restart
 docker-compose rm --stop --force
@@ -19,7 +28,7 @@ docker-compose up -d
 docker exec -it beets bash
 
 ## copy in some content
-rsync -av --progress /Volumes/Space/archive/media/audiobooks/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy /Volumes/Space/Beets/clean/
+rsync -av --progress /Volumes/Space/archive/media/audiobooks/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy /Volumes/Space/Beets/orig/
 
 # run the tagger
 # on one directory
@@ -39,6 +48,6 @@ time beet -vv import -S B06X93XQRZ /untagged/Arthur\ Conan\ Doyle\ -\ Sherlock\ 
 
 # metadata.yml
 curl --silent https://api.audnex.us/books/B014LL6R5U | jq
-# curl --silent https://api.audnex.us/books/B014LL6R5U/chapters | jq
+curl --silent https://api.audnex.us/books/B014LL6R5U/chapters | jq
 curl --silent https://api.audnex.us/authors/B001JP7WJC | jq
 ```

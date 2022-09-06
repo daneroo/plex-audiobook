@@ -1,0 +1,36 @@
+# Chapter for asin:B00G4K7EUO metadata from:
+#  https://api.audnex.us/books/B00G4K7EUO/chapters
+## total-duration:: 23:43:32.048 - 85412048ms - 85412s
+00:00:00.000 Opening Credits
+00:00:13.082 Prologue: The Minder
+00:54:33.177 I Her Shadow
+00:54:54.552 Chapter One: Things Get Worse
+02:17:21.833 Interlude: The Undrowned Girl
+03:27:36.580 Chapter Two: The Business
+03:57:48.572 Interlude: The Boy Who Chased Red Dresses
+04:57:02.990 Intersect (I): Fuel
+04:59:22.913 Chapter Three: Blood And Breath And Water
+05:36:34.258 Interlude: Orphan’s Moon
+06:17:28.979 Chapter Four: Across The Amathel
+07:49:55.994 II Cross-Purposes
+07:49:58.994 Interlude: Striking Sparks
+08:34:53.735 Chapter Five: The Five-Year Game: Starting Position
+10:02:52.931 Interlude: Bastards Abroad
+10:41:24.988 Chapter Six: The Five-Year Game: Change Of Venue
+11:58:13.963 Intersect (II): Tinder
+11:59:03.793 Interlude: The Moncraine Company
+13:07:09.298 Chapter Seven: The Five-Year Game: Countermove
+13:47:18.647 Interlude: Aurin And Amadine
+15:03:41.151 III Fatal Honesty
+15:04:01.151 Chapter Eight: The Five-Year Game: Infinite Variation
+17:04:29.817 Interlude: Happenings In Bedchambers
+18:38:50.749 Chapter Nine: The Five-Year Game: Reasonable Doubt
+18:59:31.809 Intersect (III): Spark
+19:05:16.347 Interlude: An Inconvenient Patron
+19:35:38.092 Chapter Ten: The Five-Year Game: Final Approaches
+21:03:40.864 Interlude: Death-Masks
+22:22:17.905 Chapter Eleven: The Five-Year Game: Returns
+22:50:30.407 Intersect (IV): Ignition
+22:57:09.326 Last Interlude: Thieves Prosper
+22:59:49.729 Chapter Twelve: The End Of Old Dreams
+23:14:07.149 Epilogue Wings
