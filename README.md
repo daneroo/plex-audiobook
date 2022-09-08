@@ -106,7 +106,41 @@ sudo apt install plexmediaserver
 
 # check plex is running
 sudo systemctl status plexmediaserver
+```
 
+### Remote (SMB) content
+
+This is how we mount some content with CIFS/SMB from synology
+
+```bash
+sudo apt update
+sudo apt install cifs-utils
+
+# Add this user (plex-audiobook) to synology, with read-only access to Share(s)
+sudo nano /etc/synology-cifs-credentials
+# password: echo -n sekret|sha1sum
+# username=plex-audiobook
+# password=a1b9892611956aa13a5ab9ccf01f49662583f2d2
+sudo chmod 400 /etc/synology-cifs-credentials
+
+sudo mkdir -p /Volumes/Reading
+#  to test
+sudo mount -t cifs -o ro,vers=3.0,credentials=/etc/synology-cifs-credentials //syno.imetrical.com/Reading /Volumes/Reading
+sudo umount /Volumes/Reading
+
+# to make permanent and append:
+sudo nano /etc/fstab
+# //syno.imetrical.com/Reading /Volumes/Reading cifs ro,vers=3.0,credentials=/etc/synology-cifs-credentials
+sudo mount -a
+
+# Draw the rest of the Owl: set paths inside plex...
+```
+
+### Local content
+
+This is where we might put a local (to the ubuntu instance)
+
+```bash
 # add content
 sudo mkdir -p /opt/plexmedia/audiobooks  # {movies,series}
 sudo chown -R plex: /opt/plexmedia
@@ -117,6 +151,7 @@ sudo chown -R plex: /opt/plexmedia
 - [Guide](https://github.com/seanap/Plex-Audiobook-Guide?utm_source=pocket_mylist#players)
 - [plex in docker](https://github.com/plexinc/pms-docker)
 - [plex on ubuntu](https://linuxize.com/post/how-to-install-plex-media-server-on-ubuntu-20-04/)
+- [SMB/CIFS on ubuntu](https://linuxhint.com/mount-smb-shares-on-ubuntu/)
 - [Audnexus](https://github.com/djdembeck/Audnexus.bundle)
 - [mutagen-inspect](https://mutagen.readthedocs.io/en/latest/man/mutagen-inspect.html)
 - [npm/node metadata tagging](https://www.npmjs.com/package/music-metadata)
@@ -127,4 +162,3 @@ sudo chown -R plex: /opt/plexmedia
 - [BragiBooks](https://github.com/djdembeck/bragibooks)
 - [audio tagging in Go](https://github.com/dhowden/tag)
 - [m4b-tool](https://github.com/sandreas/m4b-tool)
-  - []()
