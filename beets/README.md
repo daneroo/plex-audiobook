@@ -1,5 +1,7 @@
 # Tagging with beets-audible
 
+Note: _Installing docker under ubuntu snap restricts mounted volumes to `$HOME` so we replaced the docker snap with this [installation method from Docker Inc](https://docs.docker.com/engine/install/ubuntu/)._
+
 This is a docker based solution from [Neurrone](https://github.com/Neurrone/beets-audible)
 
 We can update the plugin by re-cloning `https://github.com/Neurrone/beets-audible`
