@@ -5,11 +5,11 @@ services:
     container_name: beets
     environment:
       # Update as needed
-      # - PUID=1000
-      # - PGID=1000
+      - PUID=1000
+      - PGID=1000
       # for MacOS
-      - PUID=502
-      - PGID=20
+      # - PUID=502
+      # - PGID=20
       - TZ=America/Montreal
     volumes:
       - ./config:/config
