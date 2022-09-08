@@ -10,11 +10,7 @@ Plex server is running in the plex-audio vm in proxmox@hibert.
 - [ ] compare metadata (node.js - music-metadata)
 - [ ] canonical folder layout for process
 - [ ] Check token stuff <https://forums.plex.tv/t/give-custom-server-access-urls-presedence-in-api-resources/274363>
-- [ ] NFS mount of Reading share vs SMB
-  - Storage on Synology - use nfs/read-only - auth controlled by synology (by host)
-  - [NFS](https://saywebsolutions.com/blog/mounting_synology_nas_shared_folder_nfs_ubuntu_16_10)
 - Process for progressive migration /archive/media/audioboos /Reading/audiobooks
-
 - [ ] Run in docker ? what about plugins: later
   - <https://github.com/plexinc/pms-docker>, image at <https://hub.docker.com/r/plexinc/pms-docker/>
 
@@ -53,8 +49,6 @@ time go run cmd/walk/main.go -path ../beets-audible/beets/data/untagged/
 ```
 
 ## m4b-tool
-
-## total-duration:: 23:45:53.617
 
 ```bash
 # from Volumes/Space/Beets
