@@ -1,7 +1,8 @@
 version: "3"
 services:
   beets:
-    image: lscr.io/linuxserver/beets:latest
+    # base image: lscr.io/linuxserver/beets:latest
+    build: .
     container_name: beets
     environment:
       # Update as needed
@@ -12,9 +13,8 @@ services:
       # - PGID=20
       - TZ=America/Montreal
     volumes:
-      - ./config:/config
-      - ./plugins:/plugins
-      - ./scripts:/config/custom-cont-init.d
+      #  map this to override config at runtime
+      # - ./config.yaml:/config.config.yaml
       # - /path/to/plex/audiobooks:/audiobooks
       - /Volumes/Space/Beets/audiobooks:/audiobooks
       # - /path/to/temp/untagged:/untagged

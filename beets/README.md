@@ -20,33 +20,19 @@ beets: `/untagged` -> `/audiobooks` both under `/Volumes/Space/Beets/`
 
 ```bash
 # cleanup - and restart
-docker-compose rm --stop --force
+docker compose down
 # mkdir -p BEETSFOLDER/{untagged,audiobooks}
 mkdir -p /Volumes/Space/Beets/{untagged,audiobooks}
-rm config/library.db
 
 # startup
-docker-compose up -d
+docker compose up --build -d
 docker exec -it beets bash
 
 ## copy in some content
-rsync -av --progress /Volumes/Space/archive/media/audiobooks/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy /Volumes/Space/Beets/orig/
+rsync -av --progress /Volumes/Space/archive/media/audiobooks/xx.. /Volumes/Space/Beets/untagged/
 
-# run the tagger
-# on one directory
-time beet -vv import /untagged/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy/Joe\ Abercrombie\ -\ The\ First\ Law\ 01\ The\ Blade\ Itself/
-# on one directory with asin
-time beet -vv import -S B014LL6R5U /untagged/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy/Joe\ Abercrombie\ -\ The\ First\ Law\ 01\ The\ Blade\ Itself/
-
-# asin files in dirs - remove metadata.yml
-find /untagged/Joe\ Abercrombie\ -\ The\ First\ Law\ Trilogy -name \*.asin -print0 | while read -d $'\0' asinfile; do
-  echo '##' dir: $(dirname "$asinfile") searchID: $(basename "$asinfile" .asin)
-  echo time beet -vv import -S \""$(basename "$asinfile" .asin)"\" \""$(dirname "$asinfile")"\"
-done
-
-# Sherlock: B06X93XQRZ
-rsync -av --progress /Volumes/Space/archive/media/audiobooks/Arthur\ Conan\ Doyle\ -\ Sherlock\ Holmes\ The\ Definitive\ Audio\ Collection data/untagged/
-time beet -vv import -S B06X93XQRZ /untagged/Arthur\ Conan\ Doyle\ -\ Sherlock\ Holmes\ The\ Definitive\ Audio\ Collection/
+# run the tagger on one directory
+time beet -vv import /untagged/xx..
 
 # metadata.yml
 curl --silent https://api.audnex.us/books/B014LL6R5U | jq
