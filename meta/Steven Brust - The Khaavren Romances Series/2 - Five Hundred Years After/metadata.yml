@@ -1,0 +1,20 @@
+---
+# These are all required fields
+title: Five Hundred Years After
+authors: ["Steven Brust"]
+narrators: ["Kevin Stillwell"]
+description: |
+  In which our heroes are reunited a mere five centuries later… just in time for an uprising that threatens to destroy the Imperial Orb itself!
+  \n
+  This is the story of the conspiracy against the Empire that begins in the mean streets of the Underside and flourishes in the courtly politics of the Palace where Khaavren has loyally served in the Guards this past half-millenium. It is the tale of the Dragonlord Adron’s overweening schemes, of his brilliant daughter Aliera, and of the eldritch Sethra Lavode. And it is the tale of four boon companions, of love, and of revenge... a tale from the history of Dragaera, of the events that changed the world.
+
+genres: ["Science Fiction & Fantasy"]
+releaseDate: 2012-07-31
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "The Khaavren Romances Series"
+# seriesPosition: not "1-3"
+seriesPosition: "2"

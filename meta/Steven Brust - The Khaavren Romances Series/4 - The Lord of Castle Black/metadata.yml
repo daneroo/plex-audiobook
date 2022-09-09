@@ -1,0 +1,20 @@
+---
+# These are all required fields
+title: The Lord of Castle Black
+authors: ["Steven Brust"]
+narrators: ["Kevin Stillwell"]
+description: |
+  With his best-selling novel The Phoenix Guards, Steven Brust took readers to a time a thousand years before the events of his popular Vlad Taltos novels. Its sequel, Five Hundred Years After, was hailed by Science Fiction Chronicle as the best fantasy novel of the year.
+  \n
+  Now Brust has returned to the Khaavren epic, first with last year's The Paths of the Dead, and now with its direct continuation, The Lord of Castle Black, a novel that gives Vlad Taltos and Khaavren fans alike a new look at one of Brust's most popular characters, the Dragonlord Morrolan. Along the way, we'll also encounter swordplay, intrigues, quests, battles, romance, snappy dialogue, and the missing heir to the Imperial Throne. It's an old-fashioned adventure, moving at a 21st-century pace.
+
+genres: ["Science Fiction & Fantasy"]
+releaseDate: 2012-07-31
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "The Khaavren Romances Series"
+# seriesPosition: not "1-3"
+seriesPosition: "3.2"

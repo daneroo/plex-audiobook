@@ -1,0 +1,18 @@
+---
+# These are all required fields
+title: The Phoenix Guards
+authors: ["Steven Brust"]
+narrators: ["Kevin Stillwell"]
+description: |
+  Khaavren of the House of Tiassa is a son of landless nobility, possessor of a good sword, and “tolerably well-acquainted with its use.” Along with three loyal friends, he enthusiastically seeks out danger and excitement. But in a realm renowned for repartee and betrayals, where power is as mutable as magic, a young man like Khaavren, newly come from the countryside, had best be wary. His life depends on it. And so does the future of Draegara.
+
+genres: ["Science Fiction & Fantasy"]
+releaseDate: 2012-07-31
+publisher: Audible Studios
+
+# optional fields
+language: English # defaults to "English" if not specified
+# subtitle: "some subtitle"
+series: "The Khaavren Romances Series"
+# seriesPosition: not "1-3"
+seriesPosition: "1"
