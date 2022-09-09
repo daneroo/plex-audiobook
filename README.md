@@ -56,8 +56,9 @@ alias m4b-tool='docker run -it --rm -u $(id -u):$(id -g) -v "$(pwd)":/mnt sandre
 # e.g.
 m4b-tool split --audio-format mp3 Scott\ Lynch\ -\ The\ Republic\ of\ Thieves.m4b
 # get real chapters - from api.audnex.us
-# B00G4K7EUO
-time m4b-tool merge --output-file=rechaptered/Scott\ Lynch\ -\ GB03\ -\ The\ Republic\ of\ Thieves/Scott\ Lynch\ -\ The\ Republic\ of\ Thieves.m4b untagged/Scott\ Lynch\ -\ GB03\ -\ The\ Republic\ of\ Thieves/Scott\ Lynch\ -\ The\ Republic\ of\ Thieves.m4b
+
+time m4b-tool merge --output-file=rechaptered/output.m4b input.m4b
+time m4b-tool merge --output-file=rechaptered/1\ -\ The\ Phoenix\ Guards/1\ -\ The\ Phoenix\ Guards.m4b 1\ -\ The\ Phoenix\ Guards/
 ```
 
 ## Install Audnexus
