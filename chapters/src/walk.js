@@ -8,35 +8,98 @@ await main(rootPath)
 
 async function main (aPath) {
   const startMs = +new Date()
-  await Walk.walk(aPath, async (err, pathname, dirent) => {
+  const directories = await getDirectories(aPath)
+  console.error(
+    `Got ${directories.length} directories in`,
+    formatElapsed(startMs)
+  )
+
+  for (const directoryPath of directories) {
+    await classifyDirectory(directoryPath)
+  }
+  console.error('Done in', formatElapsed(startMs))
+}
+
+async function classifyDirectory (directoryPath) {
+  // console.error('=-=-:', directoryPath)
+  const filenames = await getDirectChildren(directoryPath)
+
+  // just console.error's exceptions
+  verifyExtensionsAllAccountedFor(filenames)
+
+  const audioFiles = filenames.filter(filterKnownAudioFileExtensions)
+
+  for (const filename of filenames) {
+    console.error('  processing', filename)
+    await getMeta(filename)
+  }
+}
+
+// for filenames in a directory, verify that all extensions (and some known filenames are accounted for)
+// simply console.error the exception files.
+function verifyExtensionsAllAccountedFor (filenames) {
+  const excludedFilenames = filenames.filter(filterKnownNonAudioFileExtensions)
+
+  const audioFiles = filenames.filter(filterKnownAudioFileExtensions)
+
+  // make sure all extensions are known, or known to be excluded
+  if (audioFiles.length + excludedFilenames.length !== filenames.length) {
+    const unclassified = filenames.filter(filePath => {
+      if (filterKnownAudioFileExtensions(filePath)) return false
+      if (filterKnownNonAudioFileExtensions(filePath)) return false
+      return true
+    })
+    console.error(
+      `  Got ${audioFiles.length} audio files ${excludedFilenames.length} excluded files and ${unclassified.length} unclassified files`
+    )
+    console.error(JSON.stringify(unclassified, null, 2))
+    return false
+  }
+  return true
+}
+async function getDirectChildren (rootPath) {
+  const pathnames = []
+  await Walk.walk(rootPath, async (err, pathname, dirent) => {
     if (err) {
-      // throw an error to stop walking
-      // (or return to ignore and keep going)
+      // throw an error to stop walking (or return to ignore and keep going)
       console.warn('fs stat error for %s: %s', pathname, err.message)
       return
     }
-
-    // return false to skip a directory
-    // (ex: skipping "dot files")
-    // if (dirent.isDirectory() && dirent.name.startsWith('.')) {
-    //   return false
-    // }
+    if (rootPath === pathname) {
+      return true
+    }
     if (dirent.isDirectory()) {
-      console.log('=-=-:', pathname)
+      // we only want direct children, no nested directories
+      // but we doo need to descend/recurse into the rootPath itself
+      return rootPath === pathname
     } else if (dirent.isFile()) {
-      console.log('  processing', dirent.name)
-      await getMeta(pathname)
+      pathnames.push(pathname)
     } else {
       // dirent.isSymbolicLink(), etc...
-      console.log('  skipping', dirent.name)
+      // console.error('  skipping', dirent.name)
     }
   })
-  console.error('Done in', formatElapsed(startMs))
+  return pathnames
+}
+
+async function getDirectories (rootPath) {
+  const directories = []
+  await Walk.walk(rootPath, async (err, pathname, dirent) => {
+    if (err) {
+      // throw an error to stop walking (or return to ignore and keep going)
+      console.warn('fs stat error for %s: %s', pathname, err.message)
+      return
+    }
+    if (dirent.isDirectory()) {
+      directories.push(pathname)
+    }
+  })
+  return directories
 }
 
 async function getMeta (filePath) {
   // get metadata
-  if (excludeKnownNonAudioFiles(filePath)) {
+  if (filterKnownNonAudioFileExtensions(filePath)) {
     return
   }
   const startMs = +new Date()
@@ -62,7 +125,12 @@ async function getMeta (filePath) {
   }
 }
 
-function excludeKnownNonAudioFiles (filePath) {
+function filterKnownAudioFileExtensions (filePath) {
+  const ext = path.extname(filePath)
+  const includedExtensions = ['.mp3', '.m4b', '.m4a']
+  return includedExtensions.includes(path.extname(filePath))
+}
+function filterKnownNonAudioFileExtensions (filePath) {
   const ext = path.extname(filePath)
   const excludedFilenames = ['.DS_Store', 'MD5SUM']
   const excludedExtensions = [

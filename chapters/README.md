@@ -5,9 +5,19 @@
 - [ ] Walk `/archive/media/audiobooks`
   - extract metadata
   - group by book/album/series
+    - split walking directories, and non nested files
   - lookup on audible -> asin
   - compare total length and get chapters
   - rewrite `.m4b` with tags and chapters (ffmpeg directly)
+
+## TODO
+
+Handle these:
+
+```txt
+/Volumes/Space/archive/media/audiobooks//The7Habitsof-ectivePeople_4.aa
+/Volumes/Space/archive/media/audiobooks//The.Upside.of.Irrationality.m4a
+```
 
 ## References
 
