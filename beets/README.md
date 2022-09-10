@@ -29,7 +29,7 @@ docker compose up --build -d
 docker exec -it beets bash
 
 ## copy in some content
-rsync -av --progress /Volumes/Space/archive/media/audiobooks/xx.. /Volumes/Space/Beets/untagged/
+rsync -av --progress "dirac:/Volumes/Space/archive/media/audiobooks/xx.." /Volumes/Space/Beets/untagged/
 
 # run the tagger on one directory
 time beet -vv import /untagged/xx..
