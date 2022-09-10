@@ -2,6 +2,10 @@
 
 Keeping track of doing/done
 
+## Plan
+
+- [ ] Walk `/archive/media/audiobooks` and extract metadata
+  
 ## Reading/audiobooks (orig is /archive/../audiobooks)
 
 | Title                                                         | Seq   | Type | Orig    | Meta |
