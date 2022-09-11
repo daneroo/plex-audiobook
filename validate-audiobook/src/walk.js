@@ -1,6 +1,11 @@
 import path from 'path'
 import { parseFile } from 'music-metadata'
-import { getDirectories, getFiles } from './traverse/module.js'
+import {
+  getDirectories,
+  getFiles,
+  filterAudioFileExtensions,
+  filterNonAudioExtensionsOrNames
+} from './traverse/module.js'
 // import inspect from 'object-inspect'
 
 const rootPath = '/Volumes/Space/archive/media/audiobooks/'
@@ -59,6 +64,7 @@ function isUnique (ary, label = 'attribute') {
   }
   return dedup.length == 1
 }
+
 // for filenames in a set (typically a directory),
 // verify that all extensions (and some known filenames are accounted for)
 // simply console.error the unaccounted for files files.
@@ -121,42 +127,6 @@ async function getMeta (filePath) {
     )
   }
   return metadata
-}
-
-function filterAudioFileExtensions (filePath) {
-  const includedExtensions = ['.mp3', '.m4b', '.m4a']
-  return includedExtensions.includes(path.extname(filePath))
-}
-
-function filterNonAudioExtensionsOrNames (filePath) {
-  return (
-    filterNonAudioFileExtensions(filePath) || filterNonAudioFilenames(filePath)
-  )
-}
-
-function filterNonAudioFileExtensions (filePath) {
-  const excludedExtensions = [
-    '.jpeg',
-    '.jpg',
-    '.JPG',
-    '.gif',
-    '.png',
-    '.pdf',
-    '.cue',
-    '.epub',
-    '.txt',
-    '.nfo',
-    '.mobi',
-    '.m3u',
-    '.rtf'
-  ]
-  const ext = path.extname(filePath)
-  return excludedExtensions.includes(ext)
-}
-
-function filterNonAudioFilenames (filePath) {
-  const excludedFilenames = ['.DS_Store', 'MD5SUM']
-  return excludedFilenames.includes(path.basename(filePath))
 }
 
 function formatElapsed (startMs) {
