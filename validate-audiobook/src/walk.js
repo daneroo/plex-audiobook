@@ -124,7 +124,6 @@ async function getMeta (filePath) {
 }
 
 function filterAudioFileExtensions (filePath) {
-  const ext = path.extname(filePath)
   const includedExtensions = ['.mp3', '.m4b', '.m4a']
   return includedExtensions.includes(path.extname(filePath))
 }
@@ -154,6 +153,7 @@ function filterNonAudioFileExtensions (filePath) {
   const ext = path.extname(filePath)
   return excludedExtensions.includes(ext)
 }
+
 function filterNonAudioFilenames (filePath) {
   const excludedFilenames = ['.DS_Store', 'MD5SUM']
   return excludedFilenames.includes(path.basename(filePath))
