@@ -13,6 +13,7 @@
   "dependencies": {
     "@root/walk": "^1.1.0",
     "music-metadata": "^8.0.1",
-    "node-fetch": "^3.2.10"
+    "node-fetch": "^3.2.10",
+    "yargs": "^17.5.1"
   }
 }

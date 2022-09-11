@@ -1,4 +1,7 @@
 import path from 'path'
+import yargs from 'yargs'
+import { hideBin } from 'yargs/helpers'
+
 import { parseFile } from 'music-metadata'
 import {
   getDirectories,
@@ -8,10 +11,16 @@ import {
 } from './traverse/module.js'
 // import inspect from 'object-inspect'
 
-const rootPath = '/Volumes/Space/archive/media/audiobooks/'
-await main(rootPath)
+const defaultRootPath = '/Volumes/Space/archive/media/audiobooks/'
+await main()
 
-async function main (aPath) {
+async function main () {
+  const argv = yargs(hideBin(process.argv)).default({
+    rootPath: defaultRootPath
+  }).argv
+  // destructure arguments
+  const { rootPath } = argv
+
   const startMs = +new Date()
   const directories = await getDirectories(aPath)
   console.error(
@@ -19,18 +28,21 @@ async function main (aPath) {
     formatElapsed(startMs)
   )
 
+  // Global validation
   const allFiles = await getFiles(aPath, { recurse: true })
   console.error(`Got ${allFiles.length} files in`, formatElapsed(startMs))
   verifyExtensionsAllAccountedFor(allFiles)
 
+  // per directory validation
   for (const directoryPath of directories) {
     await classifyDirectory(directoryPath)
   }
+
   console.error('Done in', formatElapsed(startMs))
 }
 
 async function classifyDirectory (directoryPath) {
-  console.error('=-=-:', directoryPath.substring(40))
+  console.error('=-=-:', directoryPath.substring(39))
   const filenames = await getFiles(directoryPath)
 
   // just console.error's exceptions
@@ -47,6 +59,8 @@ async function classifyDirectory (directoryPath) {
     // console.log('  - ', JSON.stringify({ artist, album }))
     metadatas.push(metadata)
   }
+
+  // Validate that these fields are unique for the whole audio file collection
   isUnique(
     metadatas.map(m => m.common.artist),
     'artist'

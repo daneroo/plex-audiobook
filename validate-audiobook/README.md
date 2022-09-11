@@ -3,22 +3,15 @@
 ## Plan
 
 - [ ] Walk `/archive/media/audiobooks`
-  - validate: output: info,warn,error
-  - extract metadata
-  - group by book/album/series
-    - split walking directories, and non nested files
-  - lookup on audible -> asin
+  - [x] extract metadata
+  - [ ] lookup on audible -> asin
   - compare total length and get chapters
   - rewrite `.m4b` with tags and chapters (ffmpeg directly)
 
 ## TODO
 
-Handle these:
-
-```txt
-/Volumes/Space/archive/media/audiobooks//The7Habitsof-ectivePeople_4.aa
-/Volumes/Space/archive/media/audiobooks//The.Upside.of.Irrationality.m4a
-```
+- validate: output: info,warn,error - or reporting ov validator array
+- make top level index.js (cli.js) a yargs command thing
 
 ## References
 
@@ -26,3 +19,4 @@ Handle these:
 - [Borewit/music-metadata](https://github.com/Borewit/music-metadata)
 - [audible-api](https://github.com/book-tools/audible-api)
 - [audiobookbay api](https://github.com/ValentinHLica/audiobookbay)
+- [Audible API - unoffilac docs](https://audible.readthedocs.io/en/latest/misc/external_api.html#products)
