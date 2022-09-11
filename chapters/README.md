@@ -3,6 +3,7 @@
 ## Plan
 
 - [ ] Walk `/archive/media/audiobooks`
+  - validate: output: info,warn,error
   - extract metadata
   - group by book/album/series
     - split walking directories, and non nested files
@@ -24,3 +25,4 @@ Handle these:
 - [Modern Walk (AJ ONeal)](https://therootcompany.com/blog/fs-walk-for-node-js/)
 - [Borewit/music-metadata](https://github.com/Borewit/music-metadata)
 - [audible-api](https://github.com/book-tools/audible-api)
+- [audiobookbay api](https://github.com/ValentinHLica/audiobookbay)
