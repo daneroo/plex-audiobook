@@ -1,4 +1,4 @@
-# Audiobook metadata exploration
+# Audiobook metadata validation
 
 ## Plan
 
