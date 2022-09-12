@@ -1,35 +1,40 @@
 import path from 'path'
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
-
 import { parseFile } from 'music-metadata'
+// import inspect from 'object-inspect'
+
 import {
   getDirectories,
   getFiles,
   filterAudioFileExtensions,
   filterNonAudioExtensionsOrNames
 } from './traverse/module.js'
-// import inspect from 'object-inspect'
+import { searchAudible } from './extApi/module.js'
 
 const defaultRootPath = '/Volumes/Space/archive/media/audiobooks/'
 await main()
 
 async function main () {
-  const argv = yargs(hideBin(process.argv)).default({
-    rootPath: defaultRootPath
+  const argv = yargs(hideBin(process.argv)).option('rootPath', {
+    alias: 'r',
+    type: 'string',
+    demandOption: true,
+    default: defaultRootPath,
+    describe: 'Path of the root directory to search from'
   }).argv
   // destructure arguments
   const { rootPath } = argv
 
   const startMs = +new Date()
-  const directories = await getDirectories(aPath)
+  const directories = await getDirectories(rootPath)
   console.error(
     `Got ${directories.length} directories in`,
     formatElapsed(startMs)
   )
 
   // Global validation
-  const allFiles = await getFiles(aPath, { recurse: true })
+  const allFiles = await getFiles(rootPath, { recurse: true })
   console.error(`Got ${allFiles.length} files in`, formatElapsed(startMs))
   verifyExtensionsAllAccountedFor(allFiles)
 
@@ -59,22 +64,53 @@ async function classifyDirectory (directoryPath) {
     // console.log('  - ', JSON.stringify({ artist, album }))
     metadatas.push(metadata)
   }
-
+  // total duration
+  const totalDuration = metadatas
+    .map(m => m.format.duration)
+    .reduce((total, duration) => total + duration, 0)
+  console.log('=', {
+    totalDuration,
+    runtime_length_min: (totalDuration / 60).toFixed(0)
+  })
   // Validate that these fields are unique for the whole audio file collection
-  isUnique(
+  const artistUnique = isUnique(
     metadatas.map(m => m.common.artist),
     'artist'
   )
-  isUnique(
+  const albumUnique = isUnique(
     metadatas.map(m => m.common.album),
     'album'
   )
+  // TODO(daneroo) and neither is falsy
+  if (false && artistUnique && albumUnique) {
+    await sleep(1000)
+    const author = metadatas[0].common.artist
+    const title = metadatas[0].common.album
+    const results = await searchAudible({ author, title })
+    // console.log(JSON.stringify(data, null, 2))
+    console.log(`Got ${results.products.length} results`)
+    results.products.forEach(book => {
+      const { asin, authors, narrators, runtime_length_min, series } = book
+      console.log({
+        asin,
+        title,
+        authors,
+        narrators,
+        runtime_length_min,
+        series
+      })
+    })
+  } else {
+    console.log('skip audible')
+  }
 }
 
 function isUnique (ary, label = 'attribute') {
   const dedup = [...new Set(ary)]
   if (dedup.length > 1) {
     console.log(`Non-unique ${label}: ${dedup}`)
+    // } else {
+    //   console.log(`Unique ${label}: ${dedup}`)
   }
   return dedup.length == 1
 }
@@ -146,4 +182,8 @@ async function getMeta (filePath) {
 function formatElapsed (startMs) {
   const elapsedSeconds = ((+new Date() - startMs) / 1000).toFixed(3)
   return elapsedSeconds + 's'
+}
+
+function sleep (ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
 }

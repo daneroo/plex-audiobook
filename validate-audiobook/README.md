@@ -19,4 +19,4 @@
 - [Borewit/music-metadata](https://github.com/Borewit/music-metadata)
 - [audible-api](https://github.com/book-tools/audible-api)
 - [audiobookbay api](https://github.com/ValentinHLica/audiobookbay)
-- [Audible API - unoffilac docs](https://audible.readthedocs.io/en/latest/misc/external_api.html#products)
+- [Audible API - unofficial docs](https://audible.readthedocs.io/en/latest/misc/external_api.html#products)
