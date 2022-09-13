@@ -11,6 +11,7 @@ import {
   filterNonAudioExtensionsOrNames
 } from './traverse/module.js'
 import { searchAudible } from './extApi/module.js'
+import { getAuthor, getTitle } from './hints/authorTitle.js'
 
 const defaultRootPath = '/Volumes/Space/archive/media/audiobooks/'
 await main()
@@ -26,93 +27,133 @@ async function main () {
   // destructure arguments
   const { rootPath } = argv
 
-  const startMs = +new Date()
-  const directories = await getDirectories(rootPath)
-  console.error(
-    `Got ${directories.length} directories in`,
-    formatElapsed(startMs)
-  )
+  // const startMs = +new Date()
 
   // Global validation
-  const allFiles = await getFiles(rootPath, { recurse: true })
-  console.error(`Got ${allFiles.length} files in`, formatElapsed(startMs))
-  verifyExtensionsAllAccountedFor(allFiles)
+  if (false) {
+    const allFiles = await getFiles(rootPath, { recurse: true })
+    // console.error(`Got ${allFiles.length} files in`, formatElapsed(startMs))
+    verifyExtensionsAllAccountedFor(allFiles)
+  }
+
+  const directories = await getDirectories(rootPath)
+  // console.error(
+  //   `Got ${directories.length} directories in`,
+  //   formatElapsed(startMs)
+  // )
 
   // per directory validation
   for (const directoryPath of directories) {
     await classifyDirectory(directoryPath)
   }
 
-  console.error('Done in', formatElapsed(startMs))
+  // console.error('Done in', formatElapsed(startMs))
 }
 
 async function classifyDirectory (directoryPath) {
-  console.error('=-=-:', directoryPath.substring(39))
+  // console.error('=-=-:', directoryPath.substring(39))
   const filenames = await getFiles(directoryPath)
 
   // just console.error's exceptions
-  verifyExtensionsAllAccountedFor(filenames)
+  if (false) {
+    verifyExtensionsAllAccountedFor(filenames)
+  }
 
   const audioFiles = filenames.filter(filterAudioFileExtensions)
 
-  const metas = []
-  for (const filename of audioFiles) {
-    // console.error('  processing', filename)
-    const metadata = await getMeta(filename)
-    // const { codec, container } = metadata.format
-    // const { artist, artists, album } = metadata.common
-    // console.log('  - ', JSON.stringify({ artist, album }))
-    metas.push(metadata)
-  }
-  // total duration
-  const totalDuration = metas
-    .map(m => m.format.duration)
-    .reduce((total, duration) => total + duration, 0)
-  console.log('=', {
-    totalDuration,
-    runtime_length_min: (totalDuration / 60).toFixed(0)
-  })
+  const metas = await getMetadataForMultipleFiles(audioFiles)
+
   // Validate that these fields are unique for the whole audio file collection
-  const artistUnique = isUnique(
-    metas.map(m => m.common.artist),
-    'artist'
-  )
-  const albumUnique = isUnique(
-    metas.map(m => m.common.album),
-    'album'
-  )
+  const okAuthorTitle = validateUniqueAuthorTitle(metas, directoryPath)
+
+  // total duration
+  // const totalDuration = metas
+  //   .map(m => m.format.duration)
+  //   .reduce((total, duration) => total + duration, 0)
+  // console.log('=', {
+  //   totalDuration,
+  //   runtime_length_min: (totalDuration / 60).toFixed(0)
+  // })
+
   // TODO(daneroo) and neither is falsy
-  if (false && artistUnique && albumUnique) {
-    await sleep(1000)
-    const author = metas[0].common.artist
-    const title = metas[0].common.album
-    const results = await searchAudible({ author, title })
-    // console.log(JSON.stringify(data, null, 2))
-    console.log(`Got ${results.products.length} results`)
-    results.products.forEach(book => {
-      const { asin, authors, narrators, runtime_length_min, series } = book
-      console.log({
-        asin,
-        title,
-        authors,
-        narrators,
-        runtime_length_min,
-        series
+  const doAudible = false
+  if (doAudible) {
+    if (okAuthorTitle) {
+      await sleep(1000)
+      const author = metas[0].common.artist
+      const title = metas[0].common.album
+      const results = await searchAudible({ author, title })
+      // console.log(JSON.stringify(data, null, 2))
+      console.log(`Got ${results.products.length} results`)
+      results.products.forEach(book => {
+        const { asin, authors, narrators, runtime_length_min, series } = book
+        console.log({
+          asin,
+          title,
+          authors,
+          narrators,
+          runtime_length_min,
+          series
+        })
       })
-    })
-  } else {
-    console.log('skip audible')
+    } else {
+      console.log('skip audible')
+    }
   }
 }
 
-function isUnique (ary, label = 'attribute') {
-  const dedup = [...new Set(ary)]
-  if (dedup.length > 1) {
-    console.log(`Non-unique ${label}: ${dedup}`)
-    // } else {
-    //   console.log(`Unique ${label}: ${dedup}`)
+async function validateUniqueAuthorTitle (metas, directoryPath) {
+  if (metas.length == 0) {
+    console.error(`${directoryPath} has ${metas.length} entries`)
+    return true //??
   }
-  return dedup.length == 1
+
+  const authorHint = getAuthor(directoryPath)
+  const titleHint = getTitle(directoryPath)
+  if (authorHint) {
+    console.error('got author hint:', authorHint)
+  }
+  if (titleHint) {
+    console.error('got title hint:', titleHint)
+  }
+  const dedupAuthor = authorHint
+    ? [authorHint]
+    : dedupArray(metas.map(m => m.common.artist))
+  const dedupTitle = titleHint
+    ? [titleHint]
+    : dedupArray(metas.map(m => m.common.album))
+
+  // dedup'd array is ok, if it has exactly one entry, which is not falsy: (null or empty)
+  function isUniqueAndTruthy (dedupAry) {
+    if (dedupAry.length > 1 || dedupAry.length == 0) return false
+    // now we have a single entry
+    const first = dedupAry[0]
+    // might trim the value?
+    if (!first) return false
+    return true
+  }
+  const invalid =
+    !isUniqueAndTruthy(dedupAuthor) || !isUniqueAndTruthy(dedupTitle)
+  if (invalid) {
+    console.error(`${directoryPath} needs author title hints`)
+    console.log(`"${directoryPath}": {`)
+    if (!isUniqueAndTruthy(dedupAuthor)) {
+      console.log('// Non-unique Author:', JSON.stringify(dedupAuthor))
+      console.log('author:"",')
+    }
+    if (!isUniqueAndTruthy(dedupTitle)) {
+      console.log('// Non-unique Title: ', JSON.stringify(dedupTitle))
+      console.log('title: "",')
+    }
+    console.log(`},`)
+  }
+  return false
+}
+
+// remove duplicates from array
+function dedupArray (ary) {
+  const dedup = [...new Set(ary)]
+  return dedup
 }
 
 // for filenames in a set (typically a directory),
@@ -149,24 +190,34 @@ function verifyExtensionsAllAccountedFor (filenames) {
   return true
 }
 
-async function getMeta (filePath) {
+async function getMetadataForMultipleFiles (
+  audioFiles,
+  options = {
+    duration: false, // much slower when true even for some .mp3
+    includeChapters: false
+  }
+) {
+  const metas = []
+  for (const filename of audioFiles) {
+    // console.error('  processing', filename)
+    const metadata = await getMetadataForSingleFile(filename, options)
+    // console.log(inspect(metadata.common, { showHidden: true, depth: null }))
+    // const { codec, container } = metadata.format
+    // const { artist, artists, album } = metadata.common
+    // console.log('  - ', JSON.stringify({ artist, album }))
+    metas.push(metadata)
+  }
+  return metas
+}
+// get metadata for a single audio file
+async function getMetadataForSingleFile (filePath, options) {
   // get metadata
   if (filterNonAudioExtensionsOrNames(filePath)) {
     return
   }
   const startMs = +new Date()
   try {
-    const metadata = await parseFile(filePath, {
-      duration: false, // much slower when true even for some .mp3
-      includeChapters: false
-    })
-    // console.log(inspect(metadata, { showHidden: false, depth: null }))
-    // console.log(inspect(metadata.common, { showHidden: true, depth: null }))
-
-    // const { codec, container } = metadata.format
-    // const { artist, artists, album } = metadata.common
-    // console.log(JSON.stringify({ codec, container, artist, artists, album }))
-    // console.error(formatElapsed(start), path.basename(filePath))
+    const metadata = await parseFile(filePath, options)
     return metadata
   } catch (error) {
     console.error(
