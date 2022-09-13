@@ -108,14 +108,9 @@ async function validateUniqueAuthorTitle (metas, directoryPath) {
     return true //??
   }
 
+  // get hint from db to override tag aggregates
   const authorHint = getAuthor(directoryPath)
   const titleHint = getTitle(directoryPath)
-  if (authorHint) {
-    console.error('got author hint:', authorHint)
-  }
-  if (titleHint) {
-    console.error('got title hint:', titleHint)
-  }
   const dedupAuthor = authorHint
     ? [authorHint]
     : dedupArray(metas.map(m => m.common.artist))
@@ -132,6 +127,7 @@ async function validateUniqueAuthorTitle (metas, directoryPath) {
     if (!first) return false
     return true
   }
+
   const invalid =
     !isUniqueAndTruthy(dedupAuthor) || !isUniqueAndTruthy(dedupTitle)
   if (invalid) {

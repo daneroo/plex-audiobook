@@ -223,54 +223,7 @@ export const db = {
     // Non-unique Title:  [null]
     title: 'The Life You Can Save'
   },
-  '/Volumes/Space/archive/media/audiobooks/Philip.K.Dick/Do Androids Dream Of Electric Sheep': {
-    // Non-unique Author: [null]
-    author: '',
-    // Non-unique Title:  [null]
-    title: ''
-  },
-  '/Volumes/Space/archive/media/audiobooks/Philip.K.Dick/Martian Time Slip': {
-    // Non-unique Author: ["Philip K. Dick 1964",null]
-    author: '',
-    // Non-unique Title:  [null]
-    title: ''
-  },
-  '/Volumes/Space/archive/media/audiobooks/Philip.K.Dick/Of withered apples': {
-    // Non-unique Title:  [null]
-    title: ''
-  },
-  '/Volumes/Space/archive/media/audiobooks/Philip.K.Dick/Three Stigmata of Palmer Eldritch': {
-    // Non-unique Author: [null]
-    author: '',
-    // Non-unique Title:  [null]
-    title: ''
-  },
-  '/Volumes/Space/archive/media/audiobooks/Philip.K.Dick/Valis 1': {
-    // Non-unique Author: [null]
-    author: '',
-    // Non-unique Title:  [null]
-    title: ''
-  },
-  '/Volumes/Space/archive/media/audiobooks/Philip.K.Dick/Valis 2 - Divine Invasion': {
-    // Non-unique Author: [null]
-    author: '',
-    // Non-unique Title:  [null]
-    title: ''
-  },
-  '/Volumes/Space/archive/media/audiobooks/Philip.K.Dick/Valis 3 - The Trnsmigration of Timothy Archer': {
-    // Non-unique Author: [null]
-    author: '',
-    // Non-unique Title:  [null]
-    title: ''
-  },
 
-  // TODO(daneroo) - has 2 versions needs to split, or throw one away
-  '/Volumes/Space/archive/media/audiobooks/Philip.K.Dick/we can remember if for you wholesale': {
-    // Non-unique Author: ["Philip K. Dick","Philip K Dick"]
-    author: '',
-    // Non-unique Title:  ["Minority Report & Other Storie","We Can Remember It For You Wholesale"]
-    title: ''
-  },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Higgs Boson and Beyond': {
     // Non-unique Author: [null]
     author: 'Sean Caroll',
