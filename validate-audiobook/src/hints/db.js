@@ -279,36 +279,37 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/02 - Yendi': {
     // Non-unique Author: [null]
-    author: '',
+    author: 'Steven Brust',
     // Non-unique Title:  [null]
-    title: ''
+    title: 'Yendi'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/08 - Dragon': {
     // Non-unique Author: [null]
-    author: '',
+    author: 'Steven Brust',
     // Non-unique Title:  [null]
-    title: ''
+    title: 'Dragon'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Pinker - The Language Instinct': {
     // Non-unique Author: [null]
-    author: '',
+    author: 'Steven Pinker',
     // Non-unique Title:  [null]
-    title: ''
+    title: 'The Language Instinct'
   },
+  // TODO(daneroo) This is a series - need to be split
   '/Volumes/Space/archive/media/audiobooks/TheGreatestScienceFictionStoriesOfThe20thCentury': {
     // Non-unique Author: ["Harlan Ellison","Richard McGonagle","Nana Visitor","Arte Johnson","Alexander Siddig","Terry Farrell","James A. Watson","Melissa Manchester","David Ackroyd","Wil Wheaton","Denise Crosby"]
     author: ''
   },
   '/Volumes/Space/archive/media/audiobooks/UrsulaKLeGuin-AWizardOfEarthsea': {
     // Non-unique Author: [""]
-    author: '',
+    author: 'Ursula K. Le Guin',
     // Non-unique Title:  [""]
-    title: ''
+    title: 'A Wizard of Earthsea'
   },
   '/Volumes/Space/archive/media/audiobooks/Victoria Schwab - A Darker Shade of Magic Series/Victoria Schwab - SoM03 - A Conjuring of Light': {
     // Non-unique Author: [null]
-    author: '',
+    author: 'V. E. Schwab',
     // Non-unique Title:  [null]
-    title: ''
+    title: 'A Conjuring of Light'
   }
 }
