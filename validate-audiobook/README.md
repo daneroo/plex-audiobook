@@ -4,14 +4,15 @@
 
 - [ ] Walk `/archive/media/audiobooks`
   - [x] extract metadata
+  - [ ] validate all author/titles: unique, override with hint
   - [ ] lookup on audible -> asin
   - compare total length and get chapters
   - rewrite `.m4b` with tags and chapters (ffmpeg directly)
 
 ## TODO
 
-- validate: output: info,warn,error - or reporting ov validator array
-- make top level index.js (cli.js) a yargs command thing
+- [ ] validate: output: info,warn,error - or reporting ov validator array
+- [ ] make top level index.js (cli.js) a yargs command thing
 
 ## References
 

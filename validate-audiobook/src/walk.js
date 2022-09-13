@@ -55,17 +55,17 @@ async function classifyDirectory (directoryPath) {
 
   const audioFiles = filenames.filter(filterAudioFileExtensions)
 
-  const metadatas = []
+  const metas = []
   for (const filename of audioFiles) {
     // console.error('  processing', filename)
     const metadata = await getMeta(filename)
     // const { codec, container } = metadata.format
     // const { artist, artists, album } = metadata.common
     // console.log('  - ', JSON.stringify({ artist, album }))
-    metadatas.push(metadata)
+    metas.push(metadata)
   }
   // total duration
-  const totalDuration = metadatas
+  const totalDuration = metas
     .map(m => m.format.duration)
     .reduce((total, duration) => total + duration, 0)
   console.log('=', {
@@ -74,18 +74,18 @@ async function classifyDirectory (directoryPath) {
   })
   // Validate that these fields are unique for the whole audio file collection
   const artistUnique = isUnique(
-    metadatas.map(m => m.common.artist),
+    metas.map(m => m.common.artist),
     'artist'
   )
   const albumUnique = isUnique(
-    metadatas.map(m => m.common.album),
+    metas.map(m => m.common.album),
     'album'
   )
   // TODO(daneroo) and neither is falsy
   if (false && artistUnique && albumUnique) {
     await sleep(1000)
-    const author = metadatas[0].common.artist
-    const title = metadatas[0].common.album
+    const author = metas[0].common.artist
+    const title = metas[0].common.album
     const results = await searchAudible({ author, title })
     // console.log(JSON.stringify(data, null, 2))
     console.log(`Got ${results.products.length} results`)
