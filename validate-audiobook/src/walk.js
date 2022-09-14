@@ -60,41 +60,56 @@ async function classifyDirectory (directoryPath) {
   }
 
   const audioFiles = filenames.filter(filterAudioFileExtensions)
+  if (audioFiles.length == 0) {
+    console.error('=-=-: early return no files', directoryPath.substring(39))
+    return
+  }
 
   const metas = await getMetadataForMultipleFiles(audioFiles)
+  if (metas.length == 0) {
+    console.error('=-=-: early return no metas', directoryPath.substring(39))
+    return
+  }
 
   // Validate that these fields are unique for the whole audio file collection
-  const okAuthorTitle = validateUniqueAuthorTitle(metas, directoryPath)
+  const { valid: okAuthorTitle, author, title } = validateUniqueAuthorTitle(
+    metas,
+    directoryPath
+  )
+  // early return
+  if (!okAuthorTitle) {
+    console.error(
+      '=-=-: early return !okAuthorTitle ',
+      directoryPath.substring(39)
+    )
+    return
+  }
+  // Now validate total duration against audible lookup runtime_length_min
 
   // total duration
-  // const totalDuration = metas
-  //   .map(m => m.format.duration)
-  //   .reduce((total, duration) => total + duration, 0)
-  // console.log('=', {
-  //   totalDuration,
-  //   runtime_length_min: (totalDuration / 60).toFixed(0)
-  // })
+  console.error('=-=-: Validate total duration', directoryPath.substring(39))
+  console.error('author,title =>', { author, title })
+
+  const totalDuration = metas
+    .map(m => m.format.duration)
+    .reduce((total, duration) => total + duration, 0)
+  console.error('audio files =>', {
+    totalDuration,
+    runtime_length_min: (totalDuration / 60).toFixed(0)
+  })
 
   // TODO(daneroo) and neither is falsy
-  const doAudible = false
+  const doAudible = true
   if (doAudible) {
     if (okAuthorTitle) {
-      await sleep(1000)
-      const author = metas[0].common.artist
-      const title = metas[0].common.album
+      await sleep(200)
       const results = await searchAudible({ author, title })
       // console.log(JSON.stringify(data, null, 2))
       console.log(`Got ${results.products.length} results`)
       results.products.forEach(book => {
         const { asin, authors, narrators, runtime_length_min, series } = book
-        console.log({
-          asin,
-          title,
-          authors,
-          narrators,
-          runtime_length_min,
-          series
-        })
+        const seriesTitle = series?.title
+        console.log(JSON.stringify(parseBook(book)))
       })
     } else {
       console.log('skip audible')
@@ -102,10 +117,24 @@ async function classifyDirectory (directoryPath) {
   }
 }
 
-async function validateUniqueAuthorTitle (metas, directoryPath) {
+function parseBook (book) {
+  const { asin, authors, title, narrators, series, runtime_length_min } = book
+
+  return {
+    asin,
+    authors: authors.map(author => author?.name),
+    title,
+    series: series?.[0].title,
+    seriesPosition: series?.[0].sequence,
+    narrators: narrators?.map(author => author?.name),
+    runtime_length_min
+  }
+}
+// returns {valid:,author:,title:}
+function validateUniqueAuthorTitle (metas, directoryPath) {
   if (metas.length == 0) {
-    console.error(`${directoryPath} has ${metas.length} entries`)
-    return true //??
+    // console.error(`${directoryPath} has ${metas.length} entries`)
+    return { valid: false } // to prevent further lookup and processing
   }
 
   // get hint from db to override tag aggregates
@@ -128,22 +157,26 @@ async function validateUniqueAuthorTitle (metas, directoryPath) {
     return true
   }
 
-  const invalid =
-    !isUniqueAndTruthy(dedupAuthor) || !isUniqueAndTruthy(dedupTitle)
-  if (invalid) {
-    console.error(`${directoryPath} needs author title hints`)
-    console.log(`"${directoryPath}": {`)
-    if (!isUniqueAndTruthy(dedupAuthor)) {
-      console.log('// Non-unique Author:', JSON.stringify(dedupAuthor))
-      console.log('author:"",')
+  const valid = isUniqueAndTruthy(dedupAuthor) || isUniqueAndTruthy(dedupTitle)
+  if (!valid) {
+    // Warning
+    // console.error(`${directoryPath} needs author title hints`)
+    // JS Array Snippet
+    const showJSSnippet = false
+    if (showJSSnippet) {
+      console.log(`"${directoryPath}": {`)
+      if (!isUniqueAndTruthy(dedupAuthor)) {
+        console.log('// Non-unique Author:', JSON.stringify(dedupAuthor))
+        console.log('author:"",')
+      }
+      if (!isUniqueAndTruthy(dedupTitle)) {
+        console.log('// Non-unique Title: ', JSON.stringify(dedupTitle))
+        console.log('title: "",')
+      }
+      console.log(`},`)
     }
-    if (!isUniqueAndTruthy(dedupTitle)) {
-      console.log('// Non-unique Title: ', JSON.stringify(dedupTitle))
-      console.log('title: "",')
-    }
-    console.log(`},`)
   }
-  return false
+  return { valid, author: dedupAuthor[0], title: dedupTitle[0] }
 }
 
 // remove duplicates from array
@@ -186,6 +219,7 @@ function verifyExtensionsAllAccountedFor (filenames) {
   return true
 }
 
+// get metadata for a collection of audio files (typically a directory)
 async function getMetadataForMultipleFiles (
   audioFiles,
   options = {
@@ -205,6 +239,7 @@ async function getMetadataForMultipleFiles (
   }
   return metas
 }
+
 // get metadata for a single audio file
 async function getMetadataForSingleFile (filePath, options) {
   // get metadata

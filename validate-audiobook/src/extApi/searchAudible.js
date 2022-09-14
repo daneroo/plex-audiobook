@@ -1,5 +1,7 @@
 import fetch from 'node-fetch'
 
+// see Unofficial docs:
+// https://audible.readthedocs.io/en/latest/misc/external_api.html#products
 export async function searchAudible ({ author, title }) {
   const AUDIBLE_ENDPOINT = 'https://api.audible.com/1.0/catalog/products'
   const url = new URL(AUDIBLE_ENDPOINT)

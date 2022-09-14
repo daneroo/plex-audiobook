@@ -146,12 +146,12 @@ export const db = {
   // TODO not on audible
   '/Volumes/Space/archive/media/audiobooks/CoryDoctorow-AttackSurface': {
     // Non-unique Author: ["Cory Doctorow","Ron Diebert","Runa Sandvik"]
-    author: ''
+    author: 'Cory Doctorow'
   },
   // TODO not on audible
   '/Volumes/Space/archive/media/audiobooks/CoryDoctorow-Homeland': {
     // Non-unique Author: ["Cory Doctorow","Aaron Swartz","Jacob Appelbaum"]
-    author: ''
+    author: 'Cory Doctorow'
   },
 
   // TODO not on audible
@@ -198,7 +198,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Malcolm Gladwell-TippingPoint': {
     // Non-unique Title:  ["The Tipping Point (Disc 1 of 3)","The Tipping Point (Disc 2 of 3)","The Tipping Point (Disc 3 of 3)"]
-    title: ''
+    title: 'The Tipping Point'
   },
   '/Volumes/Space/archive/media/audiobooks/Margaret Atwood - The Year of the Flood': {
     // Non-unique Author: [null]
