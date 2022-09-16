@@ -1287,13 +1287,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Dan Jones - The Templars': {
     author: 'Dan Jones', // unique
-    title: 'The Templars (Unabridged)', // unique
+    title: 'The Templars', // hint
     '// duration': { seconds: 56162, minutes: 936 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Dan Simmons - Hyperion': {
-    author: 'Top 100 Sci-Fi Books', // unique
-    title: '15 - Hyperion - Dan Simmons - 1989', // unique
+    author: 'Dan Simmons', // hint
+    title: 'Hyperion', // hint
     '// duration': { seconds: 75025, minutes: 1250 },
     '// asin lookup results': 'zero!'
   },
@@ -1324,7 +1324,7 @@ export const db = {
       'Intuition Pumps and Other Tools for Thinking / Daniel C. Dennett / n: Jeff Crawford'
   },
   '/Volumes/Space/archive/media/audiobooks/Daniel C. Dennett - Kinds Of Minds - Toward An Understanding Of Consciousness': {
-    author: 'Daniel Dennet', // unique
+    author: 'Daniel C. Dennett', // hint
     title: 'Kinds of Minds', // unique
     '// duration': { seconds: 12702, minutes: 212 },
     '// asin lookup results': 'zero!'
@@ -1354,7 +1354,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/David E. Sanger - The Perfect Weapon': {
     author: 'David E. Sanger', // unique
-    title: 'The Perfect Weapon (Unabridged)', // unique
+    title: 'The Perfect Weapon', // hint
     '// duration': { seconds: 43302, minutes: 722 },
     '// asin lookup results': 'zero!'
   },
@@ -1373,9 +1373,8 @@ export const db = {
       'The Thousand Autumns of Jacob de Zoet / David Mitchell / n: Tim Pigott-Smith,Paula Wilcox'
   },
   '/Volumes/Space/archive/media/audiobooks/DavidESanger-TheInheritance': {
-    author: 'David E. Sanger', // unique
-    title:
-      'The Inheritance: The World Obama Confronts And The Challenges To American Power', // unique
+    author: 'David Sanger', // unique
+    title: 'The Inheritance', // hint
     '// duration': { seconds: 59778, minutes: 996 },
     '// asin lookup results': 'zero!'
   },
@@ -1411,31 +1410,31 @@ export const db = {
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 01 - The Hitchhiker's Guide to the Galaxy": {
     author: 'Douglas Adams', // unique
-    title: "THGTTG 01 - The Hitchhiker's Guide to the Galaxy", // unique
+    title: "The Hitchhiker's Guide to the Galaxy", // unique
     '// duration': { seconds: 21092, minutes: 352 },
     '// asin lookup results': 'zero!'
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 02 - The Restaurant at the End of the Universe": {
     author: 'Douglas Adams', // unique
-    title: 'THGTTG 02 - The Restaurant at the End of the Universe', // unique
+    title: 'The Restaurant at the End of the Universe', // unique
     '// duration': { seconds: 20834, minutes: 347 },
     '// asin lookup results': 'zero!'
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 03 - Life, the Universe, and Everything": {
     author: 'Douglas Adams', // unique
-    title: 'THGTTG 03 - Life, the Universe, and Everything', // unique
+    title: 'Life, the Universe, and Everything', // unique
     '// duration': { seconds: 20929, minutes: 349 },
     '// asin lookup results': 'zero!'
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 04 - Mostly Harmless": {
     author: 'Douglas Adams', // unique
-    title: 'THGTTG 04 - Mostly Harmless', // unique
+    title: 'Mostly Harmless', // unique
     '// duration': { seconds: 23594, minutes: 393 },
     '// asin lookup results': 'zero!'
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 05 - So Long, and Thanks for All the Fish": {
     author: 'Douglas Adams', // unique
-    title: 'THGTTG 05 - So Long, and Thanks for All the Fish', // unique
+    title: 'So Long, and Thanks for All the Fish', // unique
     '// duration': { seconds: 16754, minutes: 279 },
     '// asin lookup results': 'zero!'
   },
@@ -1539,7 +1538,7 @@ export const db = {
     author: 'Brian Herbert & Kevin J. Anderson', // unique
     title: 'The New Dune Chronicles', // unique
     '// duration': { seconds: 266845, minutes: 4447 },
-    '// asin lookup results': 'zero!'
+    skip: 'multiple books in one directory'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Wilczek - A Beautiful Question': {
     author: 'Frank Wilczek', // unique
@@ -1563,8 +1562,8 @@ export const db = {
       'El amor en los tiempos del cólera [Love in the Time of Cholera] / Gabriel García Márquez / n: Diego Trujillo'
   },
   '/Volumes/Space/archive/media/audiobooks/Gabriel Garcia Marquez - One Hundred Years of Solitude': {
-    author: 'Gabriel García Márquez, Gregory Rabassa - translator', // unique
-    title: 'One Hundred Years of Solitude (Unabridged)', // unique
+    author: 'Gabriel García Márquez', // hint
+    title: 'One Hundred Years of Solitude', // hint
     '// duration': { seconds: 50658, minutes: 844 },
     '// asin lookup results': 'zero!'
   },
@@ -1589,31 +1588,31 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Gene Wolfe - 01 The Shadow of the Torturer': {
     author: 'Gene Wolfe', // unique
-    title: 'The Book of the New Sun 01 The Shadow of the Torturer', // unique
+    title: 'The Shadow of the Torturer', // hint
     '// duration': { seconds: 43574, minutes: 726 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Gene Wolfe - 02 The Claw of the Conciliator': {
     author: 'Gene Wolfe', // unique
-    title: 'The Book of the New Sun 02 The Claw of the Conciliator', // unique
+    title: 'The Claw of the Conciliator', // hint
     '// duration': { seconds: 41237, minutes: 687 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Gene Wolfe - 03 The Sword of the Lictor': {
     author: 'Gene Wolfe', // unique
-    title: 'The Book of the New Sun 03 The Sword of the Lictor', // unique
+    title: 'The Sword of the Lictor', // hint
     '// duration': { seconds: 40946, minutes: 682 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Gene Wolfe - 04 The Citadel of the Autarch': {
     author: 'Gene Wolfe', // unique
-    title: 'The Book of the New Sun 04 The Citadel of the Autarch', // unique
+    title: 'The Citadel of the Autarch', // hint
     '// duration': { seconds: 39946, minutes: 666 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Gene Wolfe - 05 The Urth of the New Sun': {
     author: 'Gene Wolfe', // unique
-    title: 'The Book of the New Sun 05 The Urth of the New Sun', // unique
+    title: 'The Urth of the New Sun', // hint
     '// duration': { seconds: 49963, minutes: 833 },
     '// asin lookup results': 'zero!'
   },
@@ -1649,7 +1648,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Hannu Rajaniemi-TheFractalPrince': {
     author: 'Hannu Rajaniemi', // hint
-    title: 'Hannu Rajaniemi - The Fractal Prince', // unique
+    title: 'The Fractal Prince', // hint
     '// duration': { seconds: 37119, minutes: 619 },
     '// asin lookup results': 'zero!'
   },
@@ -1761,20 +1760,20 @@ export const db = {
       'Walden, or Life in the Woods / Henry David Thoreau / n: Linda Jones'
   },
   '/Volumes/Space/archive/media/audiobooks/Herodotus - Histories': {
-    author: 'David Timson', // unique
-    title: 'Histories by Herodotus', // unique
+    author: 'Herodotus', // hint
+    title: 'Histories', // hint
     '// duration': { seconds: 98901, minutes: 1648 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Herodotus - The Persian Wars': {
     author: 'Herodotus', // unique
-    title: 'The Persian Wars (Unabridged)', // unique
+    title: 'The Persian Wars', // hint
     '// duration': { seconds: null, minutes: null },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Homer - The Iliad': {
     author: 'Homer, Stephen Mitchell - translator', // unique
-    title: 'The Iliad: The Stephen Mitchell Translation', // unique
+    title: 'The Iliad', // hint
     '// duration': { seconds: 57855, minutes: 964 },
     '// asin-0': { asin: 'B07FSX5119', minutes: 963 },
     '// meta-0':
@@ -1784,27 +1783,27 @@ export const db = {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 01 - Consider Phlebas': {
-    author: 'Iain M Banks', // unique
-    title: 'Consider Phlebas Read by Peter Kenny', // unique
+    author: 'Iain M. Banks', // hint
+    title: 'Consider Phlebas', // hint
     '// duration': { seconds: 59225, minutes: 987 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 02 - The Player of Games': {
     author: 'Iain M. Banks', // unique
-    title: 'Culture, Book 2 - The Player of Games', // unique
+    title: 'The Player of Games', // hint
     '// duration': { seconds: 41193, minutes: 687 },
     '// asin-0': { asin: 'B004EF2FOG', minutes: 686 },
     '// meta-0': 'The Player of Games / Iain M. Banks / n: Peter Kenny'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 03 - Use Of Weapons': {
-    author: 'Top 100 Sci-Fi Books', // unique
-    title: '83 - Use of Weapons - Iain M Banks - 1990', // unique
+    author: 'Iain M. Banks', // hint
+    title: 'Use of Weapons', // hint
     '// duration': { seconds: 60557, minutes: 1009 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 04 - The State of the Art': {
     author: 'Iain M. Banks', // unique
-    title: 'Culture, Book 4 - The State of the Art', // unique
+    title: 'The State of the Art', // hint
     '// duration': { seconds: 22847, minutes: 381 },
     '// asin-0': { asin: 'B00HS4OUP2', minutes: 380 },
     '// meta-0': 'The State Of The Art / Iain M. Banks / n: Peter Kenny'
@@ -1818,34 +1817,34 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 06 - Inversions': {
     author: 'Iain M. Banks', // unique
-    title: 'Culture, Book 6 - Inversions', // unique
+    title: 'Inversions', // hint
     '// duration': { seconds: 41236, minutes: 687 },
     '// asin-0': { asin: 'B00CZGIAEA', minutes: 686 },
     '// meta-0': 'Inversions / Iain M. Banks / n: Peter Kenny'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 07 - Look to Windward': {
     author: 'Iain M. Banks', // unique
-    title: 'Culture, Book 7 - Look to Windward', // unique
+    title: 'Look to Windward', // hint
     '// duration': { seconds: 43945, minutes: 732 },
     '// asin-0': { asin: 'B00HS5BC3O', minutes: 731 },
     '// meta-0': 'Look to Windward / Iain M. Banks / n: Peter Kenny'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 08 - Matter': {
     author: 'Iain M. Banks', // unique
-    title: 'Iain M Banks - Matter (Unabridged)', // unique
+    title: 'Matter', // hint
     '// duration': { seconds: 64517, minutes: 1075 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 09 - Surface Detail': {
     author: 'Iain M. Banks', // unique
-    title: 'Culture, Book 9 - Surface Detail', // unique
+    title: 'Surface Detail', // hint
     '// duration': { seconds: 73418, minutes: 1224 },
     '// asin-0': { asin: 'B004561J5U', minutes: 1222 },
     '// meta-0': 'Surface Detail / Iain M. Banks / n: Peter Kenny'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 10 - The Hydrogen Sonata': {
     author: 'Iain M. Banks', // unique
-    title: 'Culture, Book 10 - The Hydrogen Sonata', // unique
+    title: 'The Hydrogen Sonata', // hint
     '// duration': { seconds: 61998, minutes: 1033 },
     '// asin-0': { asin: 'B009H8K40W', minutes: 1032 },
     '// meta-0': 'The Hydrogen Sonata / Iain M. Banks / n: Peter Kenny'
@@ -1867,8 +1866,8 @@ export const db = {
     '// meta-0': 'Calculating the Cosmos / Ian Stewart / n: Dana Hickox'
   },
   '/Volumes/Space/archive/media/audiobooks/Immanuel Kant - The Critique of Pure Reason': {
-    author: 'Immanuel Kant, Israel Bouseman', // unique
-    title: 'The Critique of Pure Reason by Immanuel Kant (Unabridged)', // unique
+    author: 'Immanuel Kant', // hint
+    title: 'The Critique of Pure Reason', // hint
     '// duration': { seconds: 96555, minutes: 1609 },
     '// asin lookup results': 'zero!'
   },
@@ -1990,7 +1989,7 @@ export const db = {
     '// meta-1': 'Robot Visions / Isaac Asimov / n: Graham Winton'
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-RobotSeries/1992 - The Positronic Man (Batho) 56k 08.26.15 {205mb}': {
-    author: 'Isaac Asimov; Robert Silverberg', // unique
+    author: 'Isaac Asimov', // hint
     title: 'The Positronic Man', // unique
     '// duration': { seconds: 30378, minutes: 506 },
     '// asin lookup results': 'zero!'
@@ -2005,7 +2004,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/JamesNestor-BreathTheNewScienceOfALostArt': {
     author: 'James Nestor', // unique
-    title: 'Breath: The New Science of a Lost Art (Unabridged)', // unique
+    title: 'Breath: The New Science of a Lost Art', // hint
     '// duration': { seconds: 26351, minutes: 439 },
     '// asin lookup results': 'zero!'
   },
@@ -2101,19 +2100,19 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Jeff VanderMeer - Southern Reach Trilogy/Jeff VanderMeer - Book 1 - Annihilation': {
     author: 'Jeff VanderMeer', // unique
-    title: 'Annihilation - Southern Reach Book 01', // unique
+    title: 'Annihilation', // hint
     '// duration': { seconds: 21624, minutes: 360 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jeff VanderMeer - Southern Reach Trilogy/Jeff VanderMeer - Book 2 - Authority': {
     author: 'Jeff Vandermeer', // unique
-    title: 'Authority - SR 02', // unique
+    title: 'Authority', // hint
     '// duration': { seconds: 38310, minutes: 639 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jeff VanderMeer - Southern Reach Trilogy/Jeff VanderMeer - Book 3 - Acceptance': {
     author: 'Jeff VanderMeer', // unique
-    title: 'Acceptance Southern Reach Book 03', // unique
+    title: 'Acceptance', // unique
     '// duration': { seconds: 34653, minutes: 578 },
     '// asin lookup results': 'zero!'
   },
@@ -2122,25 +2121,25 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 0.2 - Restoration of Faith': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 0.2 - Restoration of Faith', // unique
+    title: 'Restoration of Faith', // hint
     '// duration': { seconds: 2095, minutes: 35 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 01 - Storm Front': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 01 - Storm Front', // unique
+    title: 'Storm Front', // hint
     '// duration': { seconds: 28914, minutes: 482 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 02 - Fool Moon': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 02 - Fool Moon', // unique
+    title: 'Fool Moon', // hint
     '// duration': { seconds: 36408, minutes: 607 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 02.1 - B is for Bigfoot': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 02.1 - B is for Bigfoot', // unique
+    title: 'B is for Bigfoot', // hint
     '// duration': { seconds: 3817, minutes: 64 },
     '// asin lookup results': 'zero!'
   },
@@ -2160,129 +2159,129 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 05 - Death Masks': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 05 - Death Masks', // unique
+    title: 'Death Masks', // hint
     '// duration': { seconds: 58918, minutes: 982 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 05.1 - Vinette': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 05.1 - Vinette', // unique
+    title: 'Vinette', // hint
     '// duration': { seconds: 350, minutes: 6 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 06 - Blood Rites': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 06 - Blood Rites', // unique
+    title: 'Blood Rites', // hint
     '// duration': { seconds: 46993, minutes: 783 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 07 - Dead Beat': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 07 - Dead Beat', // unique
+    title: 'Dead Beat', // hint
     '// duration': { seconds: 54576, minutes: 910 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 07.1 - Something Borrowed': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 07.1 - Something Borrowed', // unique
+    title: 'Something Borrowed', // hint
     '// duration': { seconds: 3807, minutes: 63 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 07.2 - I Was a Teenage Bigfoot': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 07.2 - I Was a Teenage Bigfoot', // unique
+    title: 'I Was a Teenage Bigfoot', // hint
     '// duration': { seconds: 3396, minutes: 57 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 08 - Proven Guilty': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 08 - Proven Guilty', // unique
+    title: 'Proven Guilty', // hint
     '// duration': { seconds: 58464, minutes: 974 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 09 - White Night': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 09 - White Night', // unique
+    title: 'White Night', // hint
     '// duration': { seconds: 51084, minutes: 851 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 09.1 - Its My Birthday Too': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 09.1 - Its my Birthday too', // unique
+    title: 'Its my Birthday too', // hint
     '// duration': { seconds: 5331, minutes: 89 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 09.2 - Heorot': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 09.2 - Heorot', // unique
+    title: 'Heorot', // hint
     '// duration': { seconds: 4953, minutes: 83 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10 - Small Favor': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 10 - Small Favor', // unique
+    title: 'Small Favor', // hint
     '// duration': { seconds: 49379, minutes: 823 },
     '// asin-0': { asin: 'B002V1L9VU', minutes: 829 },
     '// meta-0': 'Small Favor / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.1 - Day off': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 10.1 - Day off', // unique
+    title: 'Day off', // hint
     '// duration': { seconds: 2564, minutes: 43 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.2 - Backup': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 10.2 - Backup', // unique
+    title: 'Backup', // hint
     '// duration': { seconds: 4512, minutes: 75 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.3 - The Warrior': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 10.3 - The Warrior', // unique
+    title: 'The Warrior', // hint
     '// duration': { seconds: 6690, minutes: 112 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.4 - Last Call': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 10.4 - Last Call', // unique
+    title: 'Last Call', // hint
     '// duration': { seconds: 3630, minutes: 61 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.9 - Curses': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 10.9 - Curses', // unique
+    title: 'Curses', // hint
     '// duration': { seconds: 3189, minutes: 53 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 11 - Turn Coat': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 11 - Turn Coat', // unique
+    title: 'Turn Coat', // hint
     '// duration': { seconds: 52397, minutes: 873 },
     '// asin-0': { asin: 'B002V0M1R2', minutes: 876 },
     '// meta-0': 'Turn Coat / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 11.1 - Love Hurts': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 11.1 - Love Hurts', // unique
+    title: 'Love Hurts', // hint
     '// duration': { seconds: 3638, minutes: 61 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 11.2 - Even Hand': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 11.2 - Even Hand', // unique
+    title: 'Even Hand', // hint
     '// duration': { seconds: 3462, minutes: 58 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 11.3 - Bigfoot on Campus': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 11.3 - Bigfoot on Campus', // unique
+    title: 'Bigfoot on Campus', // hint
     '// duration': { seconds: 6238, minutes: 104 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 12 - Changes': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 12 - Changes', // unique
+    title: 'Changes', // hint
     '// duration': { seconds: 55476, minutes: 925 },
     '// asin-0': { asin: 'B003DORDUU', minutes: 926 },
     '// meta-0':
@@ -2290,31 +2289,31 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 12.1 - Aftermath': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 12.1 - Aftermath', // unique
+    title: 'Aftermath', // hint
     '// duration': { seconds: 10043, minutes: 167 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 13 - Ghost Story': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 13 - Ghost Story', // unique
+    title: 'Ghost Story', // hint
     '// duration': { seconds: 63646, minutes: 1061 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 13.1 - Bombshells': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 13.1 - Bombshells', // unique
+    title: 'Bombshells', // hint
     '// duration': { seconds: 7828, minutes: 130 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 13.6 - Jury Duty': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 13.6 - Jury Duty', // unique
+    title: 'Jury Duty', // hint
     '// duration': { seconds: 3457, minutes: 58 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 14 - Cold Days': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 14 - Cold Days', // unique
+    title: 'Cold Days', // hint
     '// duration': { seconds: 67663, minutes: 1128 },
     '// asin-0': { asin: 'B009Z485KY', minutes: 1127 },
     '// meta-0': 'Cold Days / Jim Butcher / n: James Marsters',
@@ -2323,13 +2322,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 14.5 - Cold Case': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 14.5 - Cold Case', // unique
+    title: 'Cold Case', // hint
     '// duration': { seconds: 6161, minutes: 103 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 15 - Skin Game': {
     author: 'Jim Butcher', // unique
-    title: 'Dresden Files 15 - Skin Game', // unique
+    title: 'Skin Game', // hint
     '// duration': { seconds: 57003, minutes: 950 },
     '// asin-0': { asin: 'B00JDQ99IQ', minutes: 949 },
     '// meta-0': 'Skin Game / Jim Butcher / n: James Marsters'
@@ -2823,6 +2822,7 @@ export const db = {
     author: 'Lawrence Lessig', // unique
     title: 'Free Culture', // unique
     '// duration': { seconds: 34903, minutes: 582 },
+    skip: 'not on audible',
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher': {
@@ -2830,61 +2830,61 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/01 Killing Floor': {
     author: 'Lee Child', // unique
-    title: '01 Killing Floor', // unique
+    title: 'Killing Floor', // hint
     '// duration': { seconds: 56405, minutes: 940 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/02 Die Trying': {
     author: 'Lee Child', // unique
-    title: '02 Die Trying', // unique
+    title: 'Die Trying', // hint
     '// duration': { seconds: 57313, minutes: 955 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/03 Tripwire': {
     author: 'Lee Child', // unique
-    title: '03 Tripwire', // unique
+    title: 'Tripwire', // hint
     '// duration': { seconds: 56819, minutes: 947 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/04 The Visitor': {
     author: 'Lee Child', // unique
-    title: '04 Running Blind', // unique
+    title: 'Running Blind', // hint
     '// duration': { seconds: 51460, minutes: 858 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/05 Echo Burning': {
     author: 'Lee Child', // unique
-    title: '05 Echo Burning', // unique
+    title: 'Echo Burning', // hint
     '// duration': { seconds: 50325, minutes: 839 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/06 Without Fail': {
     author: 'Lee Child', // unique
-    title: '06 Without Fail', // unique
+    title: 'Without Fail', // hint
     '// duration': { seconds: 50408, minutes: 840 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/07 Persuader': {
     author: 'Lee Child', // unique
-    title: '07 Persuader', // unique
+    title: 'Persuader', // hint
     '// duration': { seconds: 51405, minutes: 857 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/08 The Enemy': {
     author: 'Lee Child', // unique
-    title: '08 The Enemy', // unique
+    title: 'The Enemy', // hint
     '// duration': { seconds: 51667, minutes: 861 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/09 One Shot': {
     author: 'Lee Child', // unique
-    title: '09 One Shot', // unique
+    title: 'One Shot', // hint
     '// duration': { seconds: 46333, minutes: 772 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/10 The Hard Way': {
     author: 'Lee Child', // unique
-    title: '10 The Hard Way', // unique
+    title: 'The Hard Way', // hint
     '// duration': { seconds: 42679, minutes: 711 },
     '// asin-0': { asin: 'B00LI7VIRS', minutes: 854 },
     '// meta-0': 'The Hard Way / Lee Child / n: Dick Hill',
@@ -2893,7 +2893,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/11 Bad Luck and Trouble': {
     author: 'Lee Child', // unique
-    title: '11 Bad Luck and Trouble', // unique
+    title: 'Bad Luck and Trouble', // hint
     '// duration': { seconds: 45651, minutes: 761 },
     '// asin-0': { asin: 'B002V5GR5Y', minutes: 797 },
     '// meta-0': 'Bad Luck and Trouble / Lee Child / n: Dick Hill',
@@ -2906,7 +2906,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/12 Nothing to Lose': {
     author: 'Lee Child', // unique
-    title: '12 Nothing to Lose', // unique
+    title: 'Nothing to Lose', // hint
     '// duration': { seconds: 48412, minutes: 807 },
     '// asin-0': { asin: 'B002V5H4NI', minutes: 865 },
     '// meta-0': 'Nothing to Lose / Lee Child / n: Dick Hill',
@@ -2919,13 +2919,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/12.5 James Penney’s New Identity - Guy Walks into a Bar': {
     author: 'Lee Child', // unique
-    title: '12.5 James Penney’s New Identity - Guy Walks into a Bar', // unique
+    title: 'James Penney’s New Identity - Guy Walks into a Bar', // hint
     '// duration': { seconds: 5087, minutes: 85 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/13 Gone Tomorrow': {
     author: 'Lee Child', // unique
-    title: '13 Gone Tomorrow', // unique
+    title: 'Gone Tomorrow', // hint
     '// duration': { seconds: 47837, minutes: 797 },
     '// asin-0': { asin: 'B002V8KTJQ', minutes: 887 },
     '// meta-0': 'Gone Tomorrow / Lee Child / n: Dick Hill',
@@ -2938,7 +2938,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/14 61 Hours': {
     author: 'Lee Child', // unique
-    title: '14 61 Hours', // unique
+    title: '61 Hours', // hint
     '// duration': { seconds: 44388, minutes: 740 },
     '// asin-0': { asin: 'B003G8RX9O', minutes: 823 },
     '// meta-0': '61 Hours / Lee Child / n: Dick Hill',
@@ -2951,7 +2951,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/15 Worth Dying For': {
     author: 'Lee Child', // unique
-    title: '15 Worth Dying For', // unique
+    title: 'Worth Dying For', // hint
     '// duration': { seconds: 46872, minutes: 781 },
     '// asin-0': { asin: 'B0045VT4NY', minutes: 825 },
     '// meta-0': 'Worth Dying For / Lee Child / n: Dick Hill',
@@ -2964,13 +2964,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/15.5 Second Son': {
     author: 'Lee Child', // unique
-    title: '15.5 Second Son', // unique
+    title: 'Second Son', // hint
     '// duration': { seconds: 4459, minutes: 74 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/16 The Affair': {
     author: 'Lee Child', // unique
-    title: '16 The Affair', // unique
+    title: 'The Affair', // hint
     '// duration': { seconds: 44233, minutes: 737 },
     '// asin-0': { asin: 'B005MS3H6Y', minutes: 963 },
     '// meta-0': 'The Affair / Lee Child / n: Dick Hill',
@@ -2983,13 +2983,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/16.5 Deep Down': {
     author: 'Lee Child', // unique
-    title: '16.5 Deep Down', // unique
+    title: 'Deep Down', // hint
     '// duration': { seconds: 4747, minutes: 79 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/17 A Wanted Man': {
     author: 'Lee Child', // unique
-    title: '17 A Wanted Man', // unique
+    title: 'A Wanted Man', // hint
     '// duration': { seconds: 42453, minutes: 708 },
     '// asin-0': { asin: 'B0092SZZ56', minutes: 389 },
     '// meta-0': 'A Wanted Man / Lee Child / n: Dick Hill',
@@ -3000,13 +3000,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/17.5 High Heat': {
     author: 'Lee Child', // unique
-    title: '17.5 High Heat', // unique
+    title: 'High Heat', // hint
     '// duration': { seconds: 7158, minutes: 119 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/18 Never Go Back': {
     author: 'Lee Child', // unique
-    title: '18 Never Go Back', // unique
+    title: 'Never Go Back', // hint
     '// duration': { seconds: 42311, minutes: 705 },
     '// asin-0': { asin: 'B00E7ZBDLY', minutes: 824 },
     '// meta-0': 'Never Go Back / Lee Child / n: Dick Hill',
@@ -3019,13 +3019,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/18.5 Not a Drill': {
     author: 'Lee Child', // unique
-    title: '18.5 Not a Drill', // unique
+    title: 'Not a Drill', // hint
     '// duration': { seconds: 4399, minutes: 73 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/19 Personal': {
     author: 'Lee Child', // unique
-    title: '19 Personal', // unique
+    title: 'Personal', // hint
     '// duration': { seconds: 40194, minutes: 670 },
     '// asin-0': { asin: 'B00M7DG5EI', minutes: 775 },
     '// meta-0': 'Personal / Lee Child / n: Dick Hill',
@@ -3034,13 +3034,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/19.5 Small Wars': {
     author: 'Lee Child', // unique
-    title: '19.5 Small Wars', // unique
+    title: 'Small Wars', // hint
     '// duration': { seconds: 4611, minutes: 77 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/20 Make Me': {
     author: 'Lee Child', // unique
-    title: '20 Make Me', // unique
+    title: 'Make Me', // hint
     '// duration': { seconds: 42174, minutes: 703 },
     '// asin-0': { asin: 'B011PVUGUG', minutes: 843 },
     '// meta-0': 'Make Me / Lee Child / n: Dick Hill',
@@ -3053,7 +3053,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/21 Night School': {
     author: 'Lee Child', // unique
-    title: '21 Night School', // unique
+    title: 'Night School', // hint
     '// duration': { seconds: 40328, minutes: 672 },
     '// asin-0': { asin: 'B01JKE3C24', minutes: 787 },
     '// meta-0': 'Night School / Lee Child / n: Dick Hill',
@@ -3066,13 +3066,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/21.5 No Middle Name': {
     author: 'Lee Child', // unique
-    title: '21.5 No Middle Name', // unique
+    title: 'No Middle Name', // hint
     '// duration': { seconds: 40748, minutes: 679 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/22 Midnight Line': {
     author: 'Lee Child', // unique
-    title: '22 The Midnight Line', // unique
+    title: 'The Midnight Line', // hint
     '// duration': { seconds: 40638, minutes: 677 },
     '// asin-0': { asin: 'B071D1Q7ZT', minutes: 786 },
     '// meta-0': 'The Midnight Line / Lee Child / n: Dick Hill',
@@ -3083,13 +3083,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/22.5 The Christmas Scorpion': {
     author: 'Lee Child', // unique
-    title: '22.5 The Christmas Scorpion', // unique
+    title: 'The Christmas Scorpion', // hint
     '// duration': { seconds: 2043, minutes: 34 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/23 Past Tense': {
     author: 'Lee Child', // unique
-    title: '23 Past Tense', // unique
+    title: 'Past Tense', // hint
     '// duration': { seconds: 44902, minutes: 748 },
     '// asin-0': { asin: 'B07DK1BBS6', minutes: 771 },
     '// meta-0': 'Past Tense / Lee Child / n: Scott Brick',
@@ -3098,19 +3098,19 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/23.5 The Fourth Man': {
     author: 'Lee Child', // unique
-    title: '23.5 The Fourth Man', // unique
+    title: 'The Fourth Man', // hint
     '// duration': { seconds: 2140, minutes: 36 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/23.6 Cleaning the Gold': {
     author: 'Lee Child, Karin Slaughter', // unique
-    title: '23.6 Cleaning the Gold', // unique
+    title: ' Cleaning the Gold', // hint
     '// duration': { seconds: 8153, minutes: 136 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/24 Blue Moon': {
     author: 'Lee Child', // unique
-    title: '24 Blue Moon', // unique
+    title: 'Blue Moon', // hint
     '// duration': { seconds: 40440, minutes: 674 },
     '// asin-0': { asin: '1524774367', minutes: 681 },
     '// meta-0': 'Blue Moon / Lee Child / n: Scott Brick',
@@ -3121,8 +3121,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Lee McIntyre - How to Talk to a Science Denier': {
     author: 'Lee McIntyre', // unique
-    title:
-      'How to Talk to a Science Denier - Conversations with Flat Earthers, Climate Deniers, and Others Who Defy Reason', // unique
+    title: 'How to Talk to a Science Denier', // hint
     '// duration': { seconds: 30694, minutes: 512 },
     '// asin-0': { asin: 'B09FM6W1WT', minutes: 512 },
     '// meta-0':
@@ -3130,8 +3129,7 @@ export const db = {
   },
   "/Volumes/Space/archive/media/audiobooks/Lee Smolin - Einstein's Unfinished Revolution": {
     author: 'Lee Smolin', // unique
-    title:
-      "Einstein's Unfinished Revolution - The Search for What Lies Beyond the Quantum", // unique
+    title: "Einstein's Unfinished Revolution", // hint
     '// duration': { seconds: 37101, minutes: 618 },
     '// asin-0': { asin: '198483889X', minutes: 618 },
     '// meta-0':
@@ -3149,8 +3147,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Malcolm Gladwell - David and Goliath': {
     author: 'Malcolm Gladwell', // unique
-    title:
-      'David and Goliath Underdogs, Misfits, and the Art of Battling Giants (Unabridged)', // unique
+    title: 'David and Goliath', // hint
     '// duration': { seconds: 25240, minutes: 421 },
     '// asin lookup results': 'zero!'
   },
@@ -3179,7 +3176,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/MalcolmGladwell-Blink': {
     author: 'Malcolm Gladwell', // unique
-    title: 'Blink - The Power of Thinking Without Thinking', // unique
+    title: 'Blink', // hint
     '// duration': { seconds: 27868, minutes: 464 },
     '// asin-0': { asin: 'B002VAEK3K', minutes: 464 },
     '// meta-0': 'Blink / Malcolm Gladwell / n: Malcolm Gladwell',
@@ -3191,8 +3188,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/MalcolmGladwell-TalkingToStrangers': {
     author: 'Malcolm Gladwell', // unique
-    title:
-      'Talking to Strangers: What We Should Know About the People We Don’t Know', // unique
+    title: 'Talking to Strangers', // hint
     '// duration': { seconds: 31328, minutes: 522 },
     '// asin-0': { asin: '1549150340', minutes: 522 },
     '// meta-0':
@@ -3247,7 +3243,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/MargaretAtwood-OryxAndCrake/Oryx and Crake [Read by John Chancer]': {
     author: 'Margaret Atwood', // unique
-    title: 'Oryx and Crake [Read by John Chancer]', // unique
+    title: 'Oryx and Crake', // hint
     '// duration': { seconds: 44563, minutes: 743 },
     '// asin lookup results': 'zero!'
   },
@@ -3260,7 +3256,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Mary Beard - S.P.Q.R.': {
     author: 'Mary Beard', // unique
-    title: 'SPQR (Unabridged)', // unique
+    title: 'SPQR', // unique
     '// duration': { seconds: 66638, minutes: 1111 },
     '// asin lookup results': 'zero!'
   },
@@ -3293,38 +3289,37 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/03-The Poisoned Crown': {
     author: 'Maurice Druon', // unique
-    title: 'The Poisoned Crown (Unabridged)', // unique
+    title: 'The Poisoned Crown', // hint
     '// duration': { seconds: 30154, minutes: 503 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/04-The Royal Succession': {
     author: 'Maurice Druon', // unique
-    title: 'The Royal Succession (Unabridged)', // unique
+    title: 'The Royal Succession', // hint
     '// duration': { seconds: 36011, minutes: 600 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/05-The She-Wolf': {
     author: 'Maurice Druon', // unique
-    title: 'The She-Wolf (Unabridged)', // unique
+    title: 'The She-Wolf', // hint
     '// duration': { seconds: 47181, minutes: 786 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/06-The Lily and the Lion': {
     author: 'Maurice Druon', // unique
-    title: 'The Lily and the Lion (Unabridged)', // unique
+    title: 'The Lily and the Lion', // hint
     '// duration': { seconds: 42415, minutes: 707 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/07-The King Without a Kingdom': {
     author: 'Maurice Druon', // unique
-    title:
-      'The King Without a Kingdom (The Accursed Kings, Book 7) (Unabridged)', // unique
+    title: 'The King Without a Kingdom', // hint
     '// duration': { seconds: 42206, minutes: 703 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Max Tegmark - Life 3.0': {
     author: 'Max Tegmark', // unique
-    title: 'Life 3.0 (Unabridged)', // unique
+    title: 'Life 3.0', // hint
     '// duration': { seconds: 48595, minutes: 810 },
     '// asin lookup results': 'zero!'
   },
@@ -3356,13 +3351,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Michael Lewis - The Undoing Project': {
     author: 'Michael Lewis', // unique
-    title: 'The Undoing Project (Unabridged)', // unique
+    title: 'The Undoing Project', // hint
     '// duration': { seconds: 37115, minutes: 619 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Miguel de Cervantes - Don Quixote': {
-    author: 'Miguel de Cervantes, John Ormsby (translated by)', // unique
-    title: 'Don Quixote (Unabridged)', // unique
+    author: 'Miguel de Cervantes', // hint - Ormsby
+    title: 'Don Quixote', // unique
     '// duration': { seconds: null, minutes: null },
     '// asin lookup results': 'zero!'
   },
@@ -3386,7 +3381,7 @@ export const db = {
       'Flow - der Weg zum Glück / Mihaly Csikszentmihalyi / n: Claus Vester,Julia Fischer'
   },
   '/Volumes/Space/archive/media/audiobooks/Milan Kundera - The Unbearable Lightness of Being': {
-    author: 'Milan Kundera/Richmond Hoxie', // unique
+    author: 'Milan Kundera', // hint
     title: 'The Unbearable Lightness of Being', // unique
     '// duration': { seconds: 34648, minutes: 577 },
     '// asin lookup results': 'zero!'
@@ -3419,19 +3414,19 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/N.K. Jemison - The Broken earth Series/N.K. Jemisin - 03 - The Stone Sky3': {
     author: 'N. K. Jemisin', // unique
-    title: 'Broken Earth bk 3', // unique
+    title: 'The Stone Sky', // hint
     '// duration': { seconds: 51411, minutes: 857 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/NassimNicholasTaleb-Antifragile': {
     author: 'Nassim Nicholas Taleb', // unique
-    title: "Antifragility - How to Live in a World We Don't Understand", // unique
+    title: 'Antifragilite', // hint
     '// duration': { seconds: 58512, minutes: 975 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/NassimNicholasTaleb-TheBlackSwan': {
     author: 'Nassim Nicholas Taleb', // unique
-    title: 'The Black Swan (Unabridged)', // unique
+    title: 'The Black Swan', // unique
     '// duration': { seconds: 51616, minutes: 860 },
     '// asin lookup results': 'zero!'
   },
@@ -3451,43 +3446,43 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 01 - Quicksilver': {
     author: 'Neal Stephenson', // unique
-    title: 'The Baroque Cycle Vol. 01 - Quicksilver', // unique
+    title: 'Quicksilver', // hint
     '// duration': { seconds: 52007, minutes: 867 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 02 - King of the Vagabonds': {
     author: 'Neal Stephenson', // unique
-    title: 'The Baroque Cycle Vol. 02 - King of the Vagabonds', // unique
+    title: 'King of the Vagabonds', // hint
     '// duration': { seconds: 40270, minutes: 671 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 03 - Odalisque': {
     author: 'Neal Stephenson', // unique
-    title: 'The Baroque Cycle Vol. 03 - Odalisque', // unique
+    title: 'Odalisque', // hint
     '// duration': { seconds: 48172, minutes: 803 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 04 and 05 - The Confusion': {
     author: 'Neal Stephenson', // unique
-    title: 'The Baroque Cycle Vol. 04 & 05 - The Confusion', // unique
+    title: 'The Confusion', // hint
     '// duration': { seconds: 124231, minutes: 2071 },
     '// asin lookup results': 'zero!'
   },
   "/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 06 - Solomon's Gold": {
     author: 'Neal Stephenson', // unique
-    title: "The Baroque Cycle Vol. 06 - Solomon's Gold", // unique
+    title: "Solomon's Gold", // hint
     '// duration': { seconds: 51049, minutes: 851 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 07 - Currency': {
     author: 'Neal Stephenson', // unique
-    title: 'The Baroque Cycle Vol. 07 - Currency', // unique
+    title: 'Currency', // hint
     '// duration': { seconds: 51330, minutes: 856 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 08 - The System of the World': {
     author: 'Neal Stephenson', // unique
-    title: 'The Baroque Cycle Vol. 08 - The System of the World', // unique
+    title: 'The System of the World', // hint
     '// duration': { seconds: 41819, minutes: 697 },
     '// asin lookup results': 'zero!'
   },
@@ -3510,8 +3505,8 @@ export const db = {
     '// meta-0': 'Reamde / Neal Stephenson / n: Malcolm Hillgartner'
   },
   '/Volumes/Space/archive/media/audiobooks/NealStephenson-SnowCrash': {
-    author: 'Snow Crash', // unique
-    title: 'Snow Crash by Neal Town Stephenson', // unique
+    author: 'Neal Stephenson', // hint
+    title: 'Snow Crash', // hint
     '// duration': { seconds: 62589, minutes: 1043 },
     '// asin lookup results': 'zero!'
   },
@@ -3524,7 +3519,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Niall Ferguson - Doom': {
     author: 'Niall Ferguson', // unique
-    title: 'Doom - The Politics of Catastrophe', // unique
+    title: 'Doom', // hint
     '// duration': { seconds: 59722, minutes: 995 },
     '// asin-0': { asin: '0593413148', minutes: 995 },
     '// meta-0': 'Doom / Niall Ferguson / n: Niall Ferguson',
@@ -3779,7 +3774,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Oscar Wilde - The Picture of Dorian Gray': {
     author: 'Oscar Wilde', // unique
-    title: 'The Picture of Dorian Gray (Read by Edward Petherbridge)', // unique
+    title: 'The Picture of Dorian Gray', // hint
     '// duration': { seconds: 29110, minutes: 485 },
     '// asin lookup results': 'zero!'
   },
@@ -3832,8 +3827,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Paul Hapern - The Quantum Labyrinth': {
     author: 'Paul Halpern', // unique
-    title:
-      'The Quantum Labyrinth: How Richard Feynman and John Wheeler Revolutionized Time and Reality (Unabridged)', // unique
+    title: 'The Quantum Labyrinth', // hint
     '// duration': { seconds: 38683, minutes: 645 },
     '// asin lookup results': 'zero!'
   },
@@ -3896,8 +3890,8 @@ export const db = {
     '// meta-5': 'Crux / Ramez Naam / n: Uve Teschner'
   },
   '/Volumes/Space/archive/media/audiobooks/RichardMorgan-AlteredCarbon': {
-    author: 'Top 100 Sci-Fi Books', // unique
-    title: '87 - Altered Carbon - Richard Morgan - 2002', // unique
+    author: 'Richard Morgan', // hint
+    title: 'Altered Carbon', // hint
     '// duration': { seconds: 61971, minutes: 1033 },
     '// asin lookup results': 'zero!'
   },
@@ -3934,13 +3928,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Ryan Holiday - Ego Is the Enemy (Unabridged)': {
     author: 'Ryan Holiday', // unique
-    title: 'Ego Is the Enemy (Unabridged)', // unique
+    title: 'Ego Is the Enemy', // hint
     '// duration': { seconds: 24978, minutes: 416 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Salman Rushdie - Midnights Children': {
     author: 'Salman Rushdie', // unique
-    title: "Midnight's Children (Unabridged)", // unique
+    title: "Midnight's Children", // hint
     '// duration': { seconds: 88189, minutes: 1470 },
     '// asin lookup results': 'zero!'
   },
@@ -3982,7 +3976,7 @@ export const db = {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Scott Lynch - Gentleman Bastard Series/Scott Lynch - GB01 - The Lies of Locke Lamora': {
-    author: 'zScott Lynch', // unique
+    author: 'Scott Lynch', // hint
     title: 'The Lies of Locke Lamora', // unique
     '// duration': { seconds: 78807, minutes: 1313 },
     '// asin lookup results': 'zero!'
@@ -4007,7 +4001,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Big Picture': {
     author: 'Sean Carroll', // unique
-    title: 'FULL AUDIOBOOK', // unique
+    title: 'The Big Picture', // hint
     '// duration': { seconds: 62289, minutes: 1038 },
     '// asin lookup results': 'zero!'
   },
