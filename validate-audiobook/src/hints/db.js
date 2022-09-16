@@ -2819,10 +2819,17 @@ export const db = {
     '// meta-6': 'O leopardo [The Leopard] / Jo Nesbø / n: Raul Rosa'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/09. Phantom (Hary Hole) - Jo Nesbo': {
-    author: 'Sean Barrett', // unique
+    author: 'Jo Nesbo', // hint
     title: 'Phantom', // hint
     '// duration': { seconds: 53756, minutes: 896 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0095WKIW4', minutes: 978 },
+    '// meta-0': 'Phantom / Jo Nesbø / n: Robin Sachs',
+    '// asin-1': { asin: 'B0079Q8A82', minutes: 893 },
+    '// meta-1':
+      'Phantom: A Harry Hole Thriller, Book 9 / Jo Nesbø / n: Sean Barrett',
+    '// asin-2': { asin: 'B09NCN88L2', minutes: 964 },
+    '// meta-2':
+      'Fantasma [Phantom] / Jo Nesbo,Carmen Montes Cano,Ana Berntsen / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/10. Police (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbo', // unique
@@ -3919,9 +3926,14 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/NassimNicholasTaleb-Antifragile': {
     author: 'Nassim Nicholas Taleb', // unique
-    title: 'Antifragilie', // hint
+    title: 'Antifragile', // hint
     '// duration': { seconds: 58512, minutes: 975 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B009PRJ6BS', minutes: 974 },
+    '// meta-0': 'Antifragile / Nassim Nicholas Taleb / n: Joe Ochman',
+    '// asin-1': { asin: 'B09R3HCM9H', minutes: 1043 },
+    '// meta-1': 'Antifragile / Nassim Nicholas Taleb / n: Tristan Harvey',
+    '// asin-2': { asin: '3748011806', minutes: 1115 },
+    '// meta-2': 'Antifragile / Nassim Nicholas Taleb / n: Nicola Bonimelli'
   },
   '/Volumes/Space/archive/media/audiobooks/NassimNicholasTaleb-TheBlackSwan': {
     author: 'Nassim Nicholas Taleb', // unique
@@ -4292,9 +4304,31 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Oscar Wilde - The Picture of Dorian Gray': {
     author: 'Oscar Wilde', // unique
-    title: 'The Picture of Dorian Gray (Read by Edward Petherbridge)', // unique
+    title: 'The Picture of Dorian Gray', // hint
     '// duration': { seconds: 29110, minutes: 485 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '0241423244', minutes: 505 },
+    '// meta-0': 'The Picture of Dorian Gray / Oscar Wilde / n: Ben Barnes',
+    '// asin-1': { asin: 'B074ZSTCTK', minutes: 316 },
+    '// meta-1': 'The Picture of Dorian Gray / Oscar Wilde / n: Stephen Fry',
+    '// asin-2': { asin: 'B002UZLLDI', minutes: 486 },
+    '// meta-2': 'The Picture of Dorian Gray / Oscar Wilde / n: Simon Prebble',
+    '// asin-3': { asin: 'B071JCHBY4', minutes: 477 },
+    '// meta-3':
+      'The Picture of Dorian Gray (AmazonClassics Edition) / Oscar Wilde / n: Michael Page',
+    '// asin-4': { asin: 'B002UZLN04', minutes: 463 },
+    '// meta-4': 'The Picture of Dorian Gray / Oscar Wilde / n: Michael Page',
+    '// asin-5': { asin: '1666126063', minutes: 430 },
+    '// meta-5':
+      'The Uncensored Picture of Dorian Gray / Oscar Wilde,Nicholas Frankel - editor / n: Edoardo Ballerini',
+    '// asin-6': { asin: 'B002VAEOY0', minutes: 464 },
+    '// meta-6': 'The Picture of Dorian Gray / Oscar Wilde / n: Simon Vance',
+    '// asin-7': { asin: 'B075VF1R27', minutes: 515 },
+    '// meta-7': 'The Picture of Dorian Gray / Oscar Wilde / n: Russell Tovey',
+    '// asin-8': { asin: 'B01ESJS5RI', minutes: 468 },
+    '// meta-8':
+      'The Picture of Dorian Gray / Oscar Wilde / n: Peter Batchelor',
+    '// asin-9': { asin: 'B09VYHQ17T', minutes: 488 },
+    '// meta-9': 'The Picture of Dorian Gray / Oscar Wilde / n: Tony Walker'
   },
   '/Volumes/Space/archive/media/audiobooks/Patrick Rothfus - The Slow Regard of Silent Things': {
     author: 'Patrick Rothfuss', // unique
