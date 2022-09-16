@@ -11,7 +11,7 @@ import {
   filterNonAudioExtensionsOrNames
 } from './traverse/module.js'
 import { searchAudible } from './extApi/module.js'
-import { getAuthor, getTitle } from './hints/authorTitle.js'
+import { getAuthor, getTitle, getSkip } from './hints/authorTitle.js'
 
 const defaultRootPath = '/Volumes/Space/archive/media/audiobooks/'
 const _rewriteHintDB = true
@@ -89,13 +89,17 @@ async function classifyDirectory (directoryPath) {
       directoryPath
     )
 
-    // early return
-    if (!okAuthorTitle) {
+    const skipHint = getSkip(directoryPath)
+    if (!okAuthorTitle || skipHint) {
       console.error(
-        '=-=-: early return !okAuthorTitle ',
+        `=-=-: ${JSON.stringify({ okAuthorTitle, skipHint })} `,
         directoryPath.substring(39)
       )
-      rewriteHint('  "// Invalid author or title": "FIX NOW!",')
+      if (skipHint) {
+        rewriteHint(`  "skip": "${skipHint}",`)
+      } else {
+        rewriteHint('  "// Invalid author or title": "FIX NOW!",')
+      }
     } else {
       // Now validate total duration against audible lookup runtime_length_min
 
@@ -119,7 +123,7 @@ async function classifyDirectory (directoryPath) {
       const doAudible = true
       if (doAudible) {
         if (okAuthorTitle) {
-          await sleep(200)
+          await sleep(50)
           const results = await searchAudible({ author, title })
           // console.error(`Got ${results.products.length} results`)
           if (results.products.length == 0) {

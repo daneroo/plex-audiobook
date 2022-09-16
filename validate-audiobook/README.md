@@ -13,12 +13,6 @@
 
 - asin candidates (for known good Authors)
 - [ ] skip:
-  - [ ] skip: "multiple authors"
-    - 'The Greatest Science Fiction Stories of the 20th Century'
-  - [ ] skip: "multiple books in one directory"
-    - Revelation Space
-    - BillBryson-5Audiobooks
-    - 01 - Dune Saga
   - [ ] skip: "no asin"
   - [ ] skip: "found in Arcanum": Delete extraneous Cosmere - from Arcanum Unbounded
     - Cosmere 10 - Sixth of the Dusk - Arcanum Unbounded - Chapter 64-66

@@ -77,7 +77,7 @@ export const db = {
       'Revelation Space 04 Absolution Gap',
       'Revelation Space 05 The Prefect'
     ],
-    '// Invalid author or title': 'FIX NOW!'
+    skip: 'multiple books in one directory'
   },
   '/Volumes/Space/archive/media/audiobooks/Andrew Morton - 17 Carnations': {
     author: 'Andrew Morton', // unique
@@ -371,7 +371,7 @@ export const db = {
       'Shakespeare - The World as Stage -- Disc 4 of 5',
       'Shakespeare - The World as Stage -- Disc 5 of 5'
     ],
-    '// Invalid author or title': 'FIX NOW!'
+    skip: 'multiple books in one directory'
   },
   '/Volumes/Space/archive/media/audiobooks/Blake Crouch - Dark Matter': {
     author: 'Blake Crouch', // unique
@@ -1166,7 +1166,7 @@ export const db = {
       'Hunters of Dune',
       'Sandworms of Dune'
     ],
-    '// Invalid author or title': 'FIX NOW!'
+    skip: 'multiple books in one directory'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/02 - Prelude to Dune': {
     author: 'Brian Herbert & Kevin J. Anderson', // unique
@@ -4085,7 +4085,7 @@ export const db = {
       'Denise Crosby'
     ],
     title: 'The Greatest Science Fiction Stories of the 20th Century', // unique
-    '// Invalid author or title': 'FIX NOW!'
+    skip: 'multiple authors'
   },
   '/Volumes/Space/archive/media/audiobooks/TinaFey-Bossypants': {
     author: 'Tina Fey', // unique

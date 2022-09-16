@@ -6,3 +6,6 @@ export function getAuthor (directoryPath) {
 export function getTitle (directoryPath) {
   return db?.[directoryPath]?.title
 }
+export function getSkip (directoryPath) {
+  return db?.[directoryPath]?.skip
+}
