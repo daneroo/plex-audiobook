@@ -1289,13 +1289,36 @@ export const db = {
     author: 'Dan Jones', // unique
     title: 'The Templars', // hint
     '// duration': { seconds: 56162, minutes: 936 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B074F4FKFF', minutes: 935 },
+    '// meta-0': 'The Templars / Dan Jones / n: Dan Jones',
+    '// asin-1': { asin: 'B077DD8YQD', minutes: 935 },
+    '// meta-1': 'The Templars / Dan Jones / n: Dan Jones'
   },
   '/Volumes/Space/archive/media/audiobooks/Dan Simmons - Hyperion': {
     author: 'Dan Simmons', // hint
     title: 'Hyperion', // hint
     '// duration': { seconds: 75025, minutes: 1250 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V5BLIW', minutes: 1244 },
+    '// meta-0':
+      'Hyperion / Dan Simmons / n: Marc Vietor,Allyson Johnson,Kevin Pariseau,Jay Snyder,Victor Bevine',
+    '// asin-1': { asin: 'B002V5D34W', minutes: 1305 },
+    '// meta-1': 'The Fall of Hyperion / Dan Simmons / n: Victor Bevine',
+    '// asin-2': { asin: 'B002UZDVW2', minutes: 1787 },
+    '// meta-2': 'The Rise of Endymion / Dan Simmons / n: Victor Bevine',
+    '// asin-3': { asin: 'B002V0PW3W', minutes: 1397 },
+    '// meta-3': 'Endymion / Dan Simmons / n: Victor Bevine',
+    '// asin-4': { asin: 'B076BRG27W', minutes: 1281 },
+    '// meta-4': 'Hypérion / Dan Simmons / n: Matthieu Dahan',
+    '// asin-5': { asin: 'B0776Z3TSC', minutes: 1498 },
+    '// meta-5': "La chute d'Hypérion / Dan Simmons / n: Matthieu Dahan",
+    '// asin-6': { asin: 'B077PGGL82', minutes: 1510 },
+    '// meta-6': 'Endymion / Dan Simmons / n: Matthieu Dahan',
+    '// asin-7': { asin: 'B00TW32HJI', minutes: 621 },
+    '// meta-7': 'Hyperion & Endymion 1 / Dan Simmons / n: Detlef Bierstedt',
+    '// asin-8': { asin: 'B00TW31XXY', minutes: 638 },
+    '// meta-8': 'Hyperion & Endymion 2 / Dan Simmons / n: Detlef Bierstedt',
+    '// asin-9': { asin: 'B00TWHQ6TQ', minutes: 971 },
+    '// meta-9': 'Hyperion & Endymion 8 / Dan Simmons / n: Detlef Bierstedt'
   },
   '/Volumes/Space/archive/media/audiobooks/DanCarlin-TheEndIsAlwaysNear': {
     author: 'Dan Carlin', // unique
@@ -1327,7 +1350,8 @@ export const db = {
     author: 'Daniel C. Dennett', // hint
     title: 'Kinds of Minds', // unique
     '// duration': { seconds: 12702, minutes: 212 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '150199610X', minutes: 381 },
+    '// meta-0': 'Kinds of Minds / Daniel C. Dennett / n: Daniel Henning'
   },
   '/Volumes/Space/archive/media/audiobooks/DanielGilbert-StumblingOnHappiness': {
     author: 'Daniel Gilbert', // unique
@@ -1356,7 +1380,8 @@ export const db = {
     author: 'David E. Sanger', // unique
     title: 'The Perfect Weapon', // hint
     '// duration': { seconds: 43302, minutes: 722 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B07B7R1BXD', minutes: 773 },
+    '// meta-0': 'The Perfect Weapon / David E. Sanger / n: Robertson Dean'
   },
   '/Volumes/Space/archive/media/audiobooks/David Mitchell - The Thousand Autumns of Jacob de Zoet': {
     author: 'Mitchell, David', // unique
@@ -1373,10 +1398,11 @@ export const db = {
       'The Thousand Autumns of Jacob de Zoet / David Mitchell / n: Tim Pigott-Smith,Paula Wilcox'
   },
   '/Volumes/Space/archive/media/audiobooks/DavidESanger-TheInheritance': {
-    author: 'David Sanger', // unique
+    author: 'David Sanger', // hint
     title: 'The Inheritance', // hint
     '// duration': { seconds: 59778, minutes: 996 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V8MHSW', minutes: 996 },
+    '// meta-0': 'The Inheritance / David Sanger / n: Robertson Dean'
   },
   '/Volumes/Space/archive/media/audiobooks/DavidThomas-ThePragmaticProgrammer': {
     author: 'David Thomas, Andrew Hunt', // unique
@@ -1410,33 +1436,88 @@ export const db = {
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 01 - The Hitchhiker's Guide to the Galaxy": {
     author: 'Douglas Adams', // unique
-    title: "The Hitchhiker's Guide to the Galaxy", // unique
+    title: "The Hitchhiker's Guide to the Galaxy", // hint
     '// duration': { seconds: 21092, minutes: 352 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002VA9SWS', minutes: 351 },
+    '// meta-0':
+      "The Hitchhiker's Guide to the Galaxy / Douglas Adams / n: Stephen Fry",
+    '// asin-1': { asin: 'B002V0KBTW', minutes: 230 },
+    '// meta-1':
+      "The Hitchhiker's Guide to the Galaxy: The Secondary Phase (Dramatized) / Douglas Adams / n: Peter Jones,Simon Jones,Geoffrey McGivern,Mark Wing-Davey,Susan Sheridan,Stephen Moore",
+    '// asin-2': { asin: 'B0093PY9KK', minutes: 351 },
+    '// meta-2':
+      "Hitchhiker's Guide to the Galaxy / Douglas Adams / n: Stephen Fry",
+    '// asin-3': { asin: 'B00AN7O78Q', minutes: 392 },
+    '// meta-3': 'Mostly Harmless / Douglas Adams / n: Martin Freeman',
+    '// asin-4': { asin: 'B002V5IWMU', minutes: 236 },
+    '// meta-4':
+      "The Hitchhiker's Guide to the Galaxy: The Primary Phase (Dramatized) / Douglas Adams / n: Peter Jones,Simon Jones,Geoffrey McGivern,Mark Wing-Davey,Susan Sheridan,Stephen Moore,full cast",
+    '// asin-5': { asin: 'B002V02SHK', minutes: 348 },
+    '// meta-5':
+      'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
+    '// asin-6': { asin: 'B002V5D5ZE', minutes: 347 },
+    '// meta-6':
+      'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman',
+    '// asin-7': { asin: 'B00AAZE0LA', minutes: 344 },
+    '// meta-7':
+      'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
+    '// asin-8': { asin: 'B002V8MJWQ', minutes: 145 },
+    '// meta-8':
+      "The Hitchhiker's Guide to the Galaxy, The Quintessential Phase (Dramatized) / Douglas Adams / n: Simon Jones,Geoffrey McGivern,Full Cast",
+    '// asin-9': { asin: 'B00AAZDJG2', minutes: 347 },
+    '// meta-9':
+      'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman'
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 02 - The Restaurant at the End of the Universe": {
     author: 'Douglas Adams', // unique
-    title: 'The Restaurant at the End of the Universe', // unique
+    title: 'The Restaurant at the End of the Universe', // hint
     '// duration': { seconds: 20834, minutes: 347 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V5D5ZE', minutes: 347 },
+    '// meta-0':
+      'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman',
+    '// asin-1': { asin: 'B00AAZDJG2', minutes: 347 },
+    '// meta-1':
+      'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman',
+    '// asin-2': { asin: 'B09YFBXDBZ', minutes: 388 },
+    '// meta-2':
+      'O restaurante no fim do universo [The Restaurant at the End of the Universe] / Douglas Adams / n: Adriano Pellegrini'
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 03 - Life, the Universe, and Everything": {
     author: 'Douglas Adams', // unique
-    title: 'Life, the Universe, and Everything', // unique
+    title: 'Life, the Universe, and Everything', // hint
     '// duration': { seconds: 20929, minutes: 349 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V02SHK', minutes: 348 },
+    '// meta-0':
+      'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
+    '// asin-1': { asin: 'B00AAZE0LA', minutes: 344 },
+    '// meta-1':
+      'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
+    '// asin-2': { asin: 'B0B57QCMZL', minutes: 384 },
+    '// meta-2':
+      'A vida, o universo e tudo mais [Life, the Universe and Everything] / Douglas Adams / n: Adriano Pellegrini'
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 04 - Mostly Harmless": {
     author: 'Douglas Adams', // unique
-    title: 'Mostly Harmless', // unique
+    title: 'Mostly Harmless', // hint
     '// duration': { seconds: 23594, minutes: 393 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00AN7O78Q', minutes: 392 },
+    '// meta-0': 'Mostly Harmless / Douglas Adams / n: Martin Freeman',
+    '// asin-1': { asin: 'B002V5H3AW', minutes: 393 },
+    '// meta-1': 'Mostly Harmless / Douglas Adams / n: Martin Freeman'
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 05 - So Long, and Thanks for All the Fish": {
     author: 'Douglas Adams', // unique
-    title: 'So Long, and Thanks for All the Fish', // unique
+    title: 'So Long, and Thanks for All the Fish', // hint
     '// duration': { seconds: 16754, minutes: 279 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00AAZEQK0', minutes: 279 },
+    '// meta-0':
+      'So Long and Thanks for All the Fish / Douglas Adams / n: Martin Freeman',
+    '// asin-1': { asin: 'B002V1AGC8', minutes: 279 },
+    '// meta-1':
+      'So Long, and Thanks for All the Fish / Douglas Adams / n: Martin Freeman',
+    '// asin-2': { asin: 'B0BBPJCZN8', minutes: 314 },
+    '// meta-2':
+      'Até mais, e obrigado pelos peixes! [So Long, and Thanks for All the Fish] / Douglas Adams / n: Adriano Pellegrini'
   },
   '/Volumes/Space/archive/media/audiobooks/Edward Chancellor - Devil Take the Hindmost': {
     author: 'Edward Chancellor', // unique
@@ -1565,7 +1646,12 @@ export const db = {
     author: 'Gabriel García Márquez', // hint
     title: 'One Hundred Years of Solitude', // hint
     '// duration': { seconds: 50658, minutes: 844 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00EF8DG68', minutes: 844 },
+    '// meta-0':
+      'One Hundred Years of Solitude / Gabriel García Márquez,Gregory Rabassa - translator / n: John Lee',
+    '// asin-1': { asin: '8439735995', minutes: 797 },
+    '// meta-1':
+      'Cien años de soledad [One Hundred Years of Solitude] / Gabriel García Márquez / n: Juan Pablo Raba'
   },
   '/Volumes/Space/archive/media/audiobooks/GaryTaubes-WhyWeGetFat': {
     author: 'Gary Taubes', // unique
@@ -1590,31 +1676,52 @@ export const db = {
     author: 'Gene Wolfe', // unique
     title: 'The Shadow of the Torturer', // hint
     '// duration': { seconds: 43574, minutes: 726 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00309TZRM', minutes: 727 },
+    '// meta-0': 'The Shadow of the Torturer / Gene Wolfe / n: Jonathan Davis',
+    '// asin-1': { asin: '1473233070', minutes: 698 },
+    '// meta-1': 'The Shadow of the Torturer / Gene Wolfe / n: James Lailey'
   },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Gene Wolfe - 02 The Claw of the Conciliator': {
     author: 'Gene Wolfe', // unique
     title: 'The Claw of the Conciliator', // hint
     '// duration': { seconds: 41237, minutes: 687 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0030EJON2', minutes: 687 },
+    '// meta-0': 'The Claw of the Conciliator / Gene Wolfe / n: Jonathan Davis',
+    '// asin-1': { asin: '1473233089', minutes: 664 },
+    '// meta-1': 'The Claw of the Conciliator / Gene Wolfe / n: James Lailey'
   },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Gene Wolfe - 03 The Sword of the Lictor': {
     author: 'Gene Wolfe', // unique
     title: 'The Sword of the Lictor', // hint
     '// duration': { seconds: 40946, minutes: 682 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0031OSNME', minutes: 682 },
+    '// meta-0': 'The Sword of the Lictor / Gene Wolfe / n: Jonathan Davis',
+    '// asin-1': { asin: '1473233097', minutes: 652 },
+    '// meta-1': 'The Sword of the Lictor / Gene Wolfe / n: James Lailey'
   },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Gene Wolfe - 04 The Citadel of the Autarch': {
     author: 'Gene Wolfe', // unique
     title: 'The Citadel of the Autarch', // hint
     '// duration': { seconds: 39946, minutes: 666 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0031SIQZY', minutes: 665 },
+    '// meta-0': 'The Citadel of the Autarch / Gene Wolfe / n: Jonathan Davis',
+    '// asin-1': { asin: '1473233100', minutes: 721 },
+    '// meta-1': 'The Citadel of the Autarch / Gene Wolfe / n: James Lailey'
   },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Gene Wolfe - 05 The Urth of the New Sun': {
     author: 'Gene Wolfe', // unique
     title: 'The Urth of the New Sun', // hint
     '// duration': { seconds: 49963, minutes: 833 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B07DM7756K', minutes: 832 },
+    '// meta-0': 'The Urth of the New Sun / Gene Wolfe / n: Jonathan Davis',
+    '// asin-1': { asin: '1473233097', minutes: 652 },
+    '// meta-1': 'The Sword of the Lictor / Gene Wolfe / n: James Lailey',
+    '// asin-2': { asin: '1473233070', minutes: 698 },
+    '// meta-2': 'The Shadow of the Torturer / Gene Wolfe / n: James Lailey',
+    '// asin-3': { asin: '1473233100', minutes: 721 },
+    '// meta-3': 'The Citadel of the Autarch / Gene Wolfe / n: James Lailey',
+    '// asin-4': { asin: '1473233089', minutes: 664 },
+    '// meta-4': 'The Claw of the Conciliator / Gene Wolfe / n: James Lailey'
   },
   '/Volumes/Space/archive/media/audiobooks/Guy Gavriel Kay - The Lions of al-Rassan': {
     author: 'Guy Gavriel Kay', // unique
@@ -1650,7 +1757,8 @@ export const db = {
     author: 'Hannu Rajaniemi', // hint
     title: 'The Fractal Prince', // hint
     '// duration': { seconds: 37119, minutes: 619 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00DLDONIS', minutes: 619 },
+    '// meta-0': 'The Fractal Prince / Hannu Rajaniemi / n: Scott Brick'
   },
   '/Volumes/Space/archive/media/audiobooks/Haruki Murakami - 1Q84': {
     '// No audio files': null
@@ -1763,20 +1871,60 @@ export const db = {
     author: 'Herodotus', // hint
     title: 'Histories', // hint
     '// duration': { seconds: 98901, minutes: 1648 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01FKX2766', minutes: 1648 },
+    '// meta-0': 'Histories / Herodotus / n: David Timson',
+    '// asin-1': { asin: 'B06ZZ3LYWP', minutes: 1678 },
+    '// meta-1':
+      'The Histories / Herodotus,A. D. Godley Translator / n: Charlton Griffin',
+    '// asin-2': { asin: 'B002V5BVD2', minutes: 1669 },
+    '// meta-2': 'The Histories / Herodotus / n: Bernard Mayes',
+    '// asin-3': { asin: '0241527538', minutes: 1628 },
+    '// meta-3':
+      'The Histories / Herodotus,Tom Holland - translator / n: Frank Laverty',
+    '// asin-4': { asin: 'B0B9HHPWFG', minutes: 147 },
+    '// meta-4':
+      'Book 6 - Erato / Herodotus,George Rawlinson / n: Bryan Godwin',
+    '// asin-5': { asin: 'B0B9HGCT3Z', minutes: 147 },
+    '// meta-5':
+      'Book 8 - Urania / Herodotus,George Rawlinson / n: Bryan Godwin',
+    '// asin-6': { asin: 'B0B9HDD18L', minutes: 244 },
+    '// meta-6':
+      'Book 7 - Polymnia / Herodotus,George Rawlinson / n: Bryan Godwin',
+    '// asin-7': { asin: 'B078C82XDV', minutes: 1130 },
+    '// meta-7': 'Histories / Herodotus / n: Alastair Cameron',
+    '// asin-8': { asin: 'B002UZMPP6', minutes: 235 },
+    '// meta-8':
+      'The Persian War from The Histories / Herodotus / n: Roy Marsden'
   },
   '/Volumes/Space/archive/media/audiobooks/Herodotus - The Persian Wars': {
     author: 'Herodotus', // unique
     title: 'The Persian Wars', // hint
     '// duration': { seconds: null, minutes: null },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B06ZZ3LYWP', minutes: 1678 },
+    '// meta-0':
+      'The Histories / Herodotus,A. D. Godley Translator / n: Charlton Griffin',
+    '// asin-1': { asin: 'B00HQ1T6AQ', minutes: 1763 },
+    '// meta-1': 'The Persian Wars / Herodotus / n: Charlton Griffin',
+    '// asin-2': { asin: 'B002UUQU0C', minutes: 898 },
+    '// meta-2': 'The Persian Wars, Volume 1 / Herodotus / n: Charlton Griffin',
+    '// asin-3': { asin: 'B002UUKPRQ', minutes: 864 },
+    '// meta-3': 'The Persian Wars, Volume 2 / Herodotus / n: Charlton Griffin',
+    '// asin-4': { asin: 'B002UZMPP6', minutes: 235 },
+    '// meta-4':
+      'The Persian War from The Histories / Herodotus / n: Roy Marsden'
   },
   '/Volumes/Space/archive/media/audiobooks/Homer - The Iliad': {
     author: 'Homer, Stephen Mitchell - translator', // unique
     title: 'The Iliad', // hint
     '// duration': { seconds: 57855, minutes: 964 },
-    '// asin-0': { asin: 'B07FSX5119', minutes: 963 },
+    '// asin-0': { asin: 'B005TJS450', minutes: 964 },
     '// meta-0':
+      'The Iliad / Homer,Stephen Mitchell - translator / n: Alfred Molina',
+    '// asin-1': { asin: 'B07FSX5119', minutes: 963 },
+    '// meta-1':
+      'The Iliad / Homer,Stephen Mitchell - translator / n: Alfred Molina',
+    '// asin-2': { asin: 'B006G0AUXK', minutes: 962 },
+    '// meta-2':
       'The Iliad / Homer,Stephen Mitchell - translator / n: Alfred Molina'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels': {
@@ -1786,20 +1934,31 @@ export const db = {
     author: 'Iain M. Banks', // hint
     title: 'Consider Phlebas', // hint
     '// duration': { seconds: 59225, minutes: 987 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B004ZLBCO8', minutes: 986 },
+    '// meta-0': 'Consider Phlebas / Iain M. Banks / n: Peter Kenny',
+    '// asin-1': { asin: 'B004ASGI7C', minutes: 985 },
+    '// meta-1': 'Consider Phlebas / Iain M. Banks / n: Peter Kenny',
+    '// asin-2': { asin: '1549102893', minutes: 985 },
+    '// meta-2':
+      'Consider Phlebas (Booktrack Edition) / Iain M. Banks / n: Peter Kenny'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 02 - The Player of Games': {
     author: 'Iain M. Banks', // unique
     title: 'The Player of Games', // hint
     '// duration': { seconds: 41193, minutes: 687 },
-    '// asin-0': { asin: 'B004EF2FOG', minutes: 686 },
-    '// meta-0': 'The Player of Games / Iain M. Banks / n: Peter Kenny'
+    '// asin-0': { asin: 'B004ZLBFZ4', minutes: 685 },
+    '// meta-0': 'The Player of Games / Iain M. Banks / n: Peter Kenny',
+    '// asin-1': { asin: 'B004EF2FOG', minutes: 686 },
+    '// meta-1': 'The Player of Games / Iain M. Banks / n: Peter Kenny'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 03 - Use Of Weapons': {
     author: 'Iain M. Banks', // hint
     title: 'Use of Weapons', // hint
     '// duration': { seconds: 60557, minutes: 1009 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00B505CH0', minutes: 809 },
+    '// meta-0': 'Use of Weapons / Iain M. Banks / n: Peter Kenny',
+    '// asin-1': { asin: 'B007O0J9TM', minutes: 808 },
+    '// meta-1': 'Use of Weapons / Iain M. Banks / n: Peter Kenny'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 04 - The State of the Art': {
     author: 'Iain M. Banks', // unique
@@ -1833,21 +1992,32 @@ export const db = {
     author: 'Iain M. Banks', // unique
     title: 'Matter', // hint
     '// duration': { seconds: 64517, minutes: 1075 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00I470OY8', minutes: 1078 },
+    '// meta-0': 'Matter / Iain M. Banks / n: Toby Longworth',
+    '// asin-1': { asin: 'B0032N8UAY', minutes: 1077 },
+    '// meta-1': 'Matter / Iain M. Banks / n: Toby Longworth',
+    '// asin-2': { asin: 'B002V5GVTG', minutes: 333 },
+    '// meta-2': 'Matter / Iain M. Banks / n: Toby Longworth',
+    '// asin-3': { asin: 'B0032N8UFE', minutes: 332 },
+    '// meta-3': 'Matter / Iain M. Banks / n: Toby Longworth'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 09 - Surface Detail': {
     author: 'Iain M. Banks', // unique
     title: 'Surface Detail', // hint
     '// duration': { seconds: 73418, minutes: 1224 },
-    '// asin-0': { asin: 'B004561J5U', minutes: 1222 },
-    '// meta-0': 'Surface Detail / Iain M. Banks / n: Peter Kenny'
+    '// asin-0': { asin: 'B00482T0DY', minutes: 1223 },
+    '// meta-0': 'Surface Detail / Iain M. Banks / n: Peter Kenny',
+    '// asin-1': { asin: 'B004561J5U', minutes: 1222 },
+    '// meta-1': 'Surface Detail / Iain M. Banks / n: Peter Kenny'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 10 - The Hydrogen Sonata': {
     author: 'Iain M. Banks', // unique
     title: 'The Hydrogen Sonata', // hint
     '// duration': { seconds: 61998, minutes: 1033 },
-    '// asin-0': { asin: 'B009H8K40W', minutes: 1032 },
-    '// meta-0': 'The Hydrogen Sonata / Iain M. Banks / n: Peter Kenny'
+    '// asin-0': { asin: 'B009KPSRIS', minutes: 1034 },
+    '// meta-0': 'The Hydrogen Sonata / Iain M. Banks / n: Peter Kenny',
+    '// asin-1': { asin: 'B009H8K40W', minutes: 1032 },
+    '// meta-1': 'The Hydrogen Sonata / Iain M. Banks / n: Peter Kenny'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - The Algebraist': {
     author: 'Iain M Banks', // unique
@@ -1869,7 +2039,28 @@ export const db = {
     author: 'Immanuel Kant', // hint
     title: 'The Critique of Pure Reason', // hint
     '// duration': { seconds: 96555, minutes: 1609 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B073XTSBHX', minutes: 1359 },
+    '// meta-0':
+      'The Critique of Pure Reason / Immanuel Kant / n: Martin Wilson',
+    '// asin-1': { asin: 'B0195HTWXE', minutes: 1609 },
+    '// meta-1':
+      'The Critique of Pure Reason by Immanuel Kant / Immanuel Kant,Israel Bouseman / n: Marlain Angelides',
+    '// asin-2': { asin: 'B08X1B151N', minutes: 1658 },
+    '// meta-2': 'Critique of Pure Reason / Immanuel Kant / n: Michael Lunts',
+    '// asin-3': { asin: 'B094XJNTNN', minutes: 2713 },
+    '// meta-3':
+      'The Titans of Philosophy Collection: Confucius, Plato, Aristotle, Marcus Aurelius, Kant, Kierkegaard / Confucius,Plato,Aristotle,Marcus Aurelius,Immanuel Kant,Soren Kierkegaard / n: Museum Audiobooks Cast',
+    '// asin-4': { asin: 'B08MTLB3Y4', minutes: 1802 },
+    '// meta-4':
+      'Immanuel Kant Collection / Immanuel Kant / n: Gregory T. Luzitano',
+    '// asin-5': { asin: 'B09X1Z4FHR', minutes: 1509 },
+    '// meta-5': 'Critique of Pure Reason / Immanuel Kant / n: Peter Wickham',
+    '// asin-6': { asin: 'B07NRR2ZK6', minutes: 1299 },
+    '// meta-6':
+      'The Critique of Pure Reason / Immanuel Kant / n: Johann Zeiger',
+    '// asin-7': { asin: 'B08ML4XR2R', minutes: 1493 },
+    '// meta-7':
+      'The Immanuel Kant Collection / Immanuel Kant / n: Johann Zeiger'
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-FoundationSeries': {
     '// No audio files': null
@@ -2006,7 +2197,12 @@ export const db = {
     author: 'James Nestor', // unique
     title: 'Breath: The New Science of a Lost Art', // hint
     '// duration': { seconds: 26351, minutes: 439 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '0593211510', minutes: 438 },
+    '// meta-0': 'Breath / James Nestor / n: James Nestor',
+    '// asin-1': { asin: '024199022X', minutes: 439 },
+    '// meta-1': 'Breath / James Nestor / n: James Nestor',
+    '// asin-2': { asin: 'B0BCN634BY', minutes: 468 },
+    '// meta-2': 'Respirația [Breath] / James Nestor / n: Bogdan Șerban'
   },
   '/Volumes/Space/archive/media/audiobooks/JamesSurowiecki-TheWisdomofCrowds': {
     '// No audio files': null
@@ -2102,19 +2298,46 @@ export const db = {
     author: 'Jeff VanderMeer', // unique
     title: 'Annihilation', // hint
     '// duration': { seconds: 21624, minutes: 360 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00HYG9KMC', minutes: 360 },
+    '// meta-0': 'Annihilation / Jeff VanderMeer / n: Carolyn McCormick',
+    '// asin-1': { asin: 'B00Q78O86G', minutes: 1574 },
+    '// meta-1':
+      'Area X / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands',
+    '// asin-2': { asin: 'B00IEAPH4W', minutes: 360 },
+    '// meta-2': 'Annihilation / Jeff VanderMeer / n: Carolyn McCormick',
+    '// asin-3': { asin: 'B07CG9WXBF', minutes: 360 },
+    '// meta-3': 'Annihilation / Jeff VanderMeer / n: Carolyn McCormick'
   },
   '/Volumes/Space/archive/media/audiobooks/Jeff VanderMeer - Southern Reach Trilogy/Jeff VanderMeer - Book 2 - Authority': {
     author: 'Jeff Vandermeer', // unique
     title: 'Authority', // hint
     '// duration': { seconds: 38310, minutes: 639 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00J8KWFOM', minutes: 635 },
+    '// meta-0': 'Authority / Jeff VanderMeer / n: Bronson Pinchot',
+    '// asin-1': { asin: 'B00Q78O86G', minutes: 1574 },
+    '// meta-1':
+      'Area X / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands',
+    '// asin-2': { asin: 'B07C7LKG5X', minutes: 635 },
+    '// meta-2': 'Authority / Jeff VanderMeer / n: Bronson Pinchot',
+    '// asin-3': { asin: 'B00K6N487W', minutes: 634 },
+    '// meta-3': 'Authority / Jeff VanderMeer / n: Bronson Pinchot'
   },
   '/Volumes/Space/archive/media/audiobooks/Jeff VanderMeer - Southern Reach Trilogy/Jeff VanderMeer - Book 3 - Acceptance': {
     author: 'Jeff VanderMeer', // unique
-    title: 'Acceptance', // unique
+    title: 'Acceptance', // hint
     '// duration': { seconds: 34653, minutes: 578 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00Q78O86G', minutes: 1574 },
+    '// meta-0':
+      'Area X / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands',
+    '// asin-1': { asin: 'B00MX3Q2BS', minutes: 578 },
+    '// meta-1':
+      'Acceptance / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands',
+    '// asin-2': { asin: 'B00MWFPUNS', minutes: 577 },
+    '// meta-2':
+      'Acceptance / Jeff VanderMeer / n: Bronson Pinchot,Xe Sands,Carolyn McCormick',
+    '// asin-3': { asin: 'B07CMDSQ2J', minutes: 578 },
+    '// meta-3':
+      'Acceptance / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files': {
     '// No audio files': null
@@ -2129,13 +2352,15 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Storm Front', // hint
     '// duration': { seconds: 28914, minutes: 482 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V8KYMI', minutes: 481 },
+    '// meta-0': 'Storm Front / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 02 - Fool Moon': {
     author: 'Jim Butcher', // unique
     title: 'Fool Moon', // hint
     '// duration': { seconds: 36408, minutes: 607 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V1BII4', minutes: 606 },
+    '// meta-0': 'Fool Moon / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 02.1 - B is for Bigfoot': {
     author: 'Jim Butcher', // unique
@@ -2161,7 +2386,8 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Death Masks', // hint
     '// duration': { seconds: 58918, minutes: 982 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V9ZE4A', minutes: 677 },
+    '// meta-0': 'Death Masks / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 05.1 - Vinette': {
     author: 'Jim Butcher', // unique
@@ -2173,13 +2399,15 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Blood Rites', // hint
     '// duration': { seconds: 46993, minutes: 783 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003C28QUE', minutes: 785 },
+    '// meta-0': 'Blood Rites / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 07 - Dead Beat': {
     author: 'Jim Butcher', // unique
     title: 'Dead Beat', // hint
     '// duration': { seconds: 54576, minutes: 910 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003C24LIA', minutes: 907 },
+    '// meta-0': 'Dead Beat / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 07.1 - Something Borrowed': {
     author: 'Jim Butcher', // unique
@@ -2197,13 +2425,15 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Proven Guilty', // hint
     '// duration': { seconds: 58464, minutes: 974 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002VACELA', minutes: 976 },
+    '// meta-0': 'Proven Guilty / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 09 - White Night': {
     author: 'Jim Butcher', // unique
     title: 'White Night', // hint
     '// duration': { seconds: 51084, minutes: 851 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V00SWM', minutes: 852 },
+    '// meta-0': 'White Night / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 09.1 - Its My Birthday Too': {
     author: 'Jim Butcher', // unique
@@ -2297,7 +2527,8 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Ghost Story', // hint
     '// duration': { seconds: 63646, minutes: 1061 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00UVR0LWY', minutes: 1056 },
+    '// meta-0': 'Ghost Story / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 13.1 - Bombshells': {
     author: 'Jim Butcher', // unique
@@ -2331,7 +2562,9 @@ export const db = {
     title: 'Skin Game', // hint
     '// duration': { seconds: 57003, minutes: 950 },
     '// asin-0': { asin: 'B00JDQ99IQ', minutes: 949 },
-    '// meta-0': 'Skin Game / Jim Butcher / n: James Marsters'
+    '// meta-0': 'Skin Game / Jim Butcher / n: James Marsters',
+    '// asin-1': { asin: 'B00J9QNA0I', minutes: 949 },
+    '// meta-1': 'Skin Game / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/JimCollins-GoodToGreat': {
     author: 'Jim Collins', // unique
@@ -2353,32 +2586,42 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/01. The Bat (Hary Hole) - Jo Nesbo (Barrett)': {
     author: 'Jo Nesbo', // unique
-    title: 'The Bat (Harry Hole 1)', // unique
+    title: 'The Bat', // hint
     '// duration': { seconds: 38649, minutes: 644 },
     '// asin-0': { asin: 'B009L9ES22', minutes: 643 },
     '// meta-0': 'The Bat / Jo Nesbø / n: Sean Barrett',
-    '// asin-1': { asin: 'B07DLCPKMH', minutes: 655 },
-    '// meta-1': 'El murciélago [The Bat] / Jo Nesbø / n: Alfons Vallés'
+    '// asin-1': { asin: 'B00CP6SVEE', minutes: 579 },
+    '// meta-1': 'The Bat / Jo Nesbø / n: John Lee',
+    '// asin-2': { asin: 'B0B57QFWPB', minutes: 604 },
+    '// meta-2': 'Liliacul [The Bat] / Jo Nesbø / n: George Mihalcea',
+    '// asin-3': { asin: 'B07DLCPKMH', minutes: 655 },
+    '// meta-3': 'El murciélago [The Bat] / Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/02. Cockroaches (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbo', // unique
-    title: 'Cockroaches (Harry Hole 2)', // unique
+    title: 'Cockroaches', // hint
     '// duration': { seconds: 38296, minutes: 638 },
-    '// asin-0': { asin: '8417511334', minutes: 705 },
-    '// meta-0':
+    '// asin-0': { asin: 'B00GMPVKZG', minutes: 642 },
+    '// meta-0': 'Cockroaches / Jo Nesbø / n: Sean Barrett',
+    '// asin-1': { asin: 'B00HUAR1NM', minutes: 587 },
+    '// meta-1': 'Cockroaches / Jo Nesbø / n: John Lee',
+    '// asin-2': { asin: '8417511334', minutes: 705 },
+    '// meta-2':
       'Cucarachas (Harry Hole 2) [Cockroaches] / Bente Teigen Gundersen - translator,Mariano González Campo - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/03. The Redbreast (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbo', // unique
-    title: 'The Redbreast (Harry Hole 3)', // unique
+    title: 'The Redbreast', // hint
     '// duration': { seconds: 60069, minutes: 1001 },
-    '// asin-0': { asin: 'B005BHBTWU', minutes: 877 },
-    '// meta-0':
+    '// asin-0': { asin: 'B004XDO31C', minutes: 1000 },
+    '// meta-0': 'The Redbreast / Jo Nesbø / n: Robin Sachs',
+    '// asin-1': { asin: 'B005BHBTWU', minutes: 877 },
+    '// meta-1':
       'The Redbreast: A Harry Hole Thriller, Book 3 / Jo Nesbø / n: Sean Barrett',
-    '// asin-1': { asin: 'B07BTDTVGG', minutes: 967 },
-    '// meta-1': 'Petirrojo [The Redbreast] / Jo Nesbø / n: Alfons Vallés',
-    '// asin-2': { asin: '0735278059', minutes: 1000 },
-    '// meta-2':
+    '// asin-2': { asin: 'B07BTDTVGG', minutes: 967 },
+    '// meta-2': 'Petirrojo [The Redbreast] / Jo Nesbø / n: Alfons Vallés',
+    '// asin-3': { asin: '0735278059', minutes: 1000 },
+    '// meta-3':
       'The Redbreast: A Harry Hole Novel / Don Bartlett - translator,Jo Nesbø / n: Robin Sachs'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)': {
@@ -2386,177 +2629,267 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 1': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 4300, minutes: 72 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 10': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 3875, minutes: 65 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 11': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 4327, minutes: 72 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 12': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 3919, minutes: 65 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 13': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 3999, minutes: 67 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 2': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 4248, minutes: 71 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 3': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 3965, minutes: 66 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 4': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 4311, minutes: 72 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 5': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 4310, minutes: 72 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 6': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 4361, minutes: 73 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 7': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 3984, minutes: 66 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 8': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 3924, minutes: 65 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)/Disc 9': {
     author: 'Jo Nesbø', // unique
-    title: 'Nemesis (Harry Hole 3)', // unique
+    title: 'Nemesis', // hint
     '// duration': { seconds: 4222, minutes: 70 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003IVZF3A', minutes: 817 },
+    '// meta-0': 'Nemesis / Jo Nesbø / n: Thor Knai',
+    '// asin-1': { asin: '8417511342', minutes: 964 },
+    '// meta-1':
+      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés'
   },
   "/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/05. The Devil's Star (Hary Hole) - Jo Nesbo": {
     author: 'Jo Nesbø', // unique
-    title: "The Devil's Star (Harry Hole 5)", // unique
+    title: "The Devil's Star", // hint
     '// duration': { seconds: 51528, minutes: 859 },
     '// asin-0': { asin: 'B005PQGWH4', minutes: 846 },
     '// meta-0':
       'The Devil’s Star: A Harry Hole Thriller, Book 5 / Jo Nesbø / n: Sean Barrett',
-    '// asin-1': { asin: '841751130X', minutes: 840 },
-    '// meta-1':
-      "La estrella del diablo [The Devil's Star: A Novel] / Jo Nesbø / n: Alfons Vallés"
+    '// asin-1': { asin: 'B004XDW9EA', minutes: 858 },
+    '// meta-1': "The Devil's Star / Jo Nesbø / n: Robin Sachs",
+    '// asin-2': { asin: '841751130X', minutes: 840 },
+    '// meta-2':
+      "La estrella del diablo [The Devil's Star: A Novel] / Jo Nesbø / n: Alfons Vallés",
+    '// asin-3': { asin: '0735278032', minutes: 858 },
+    '// meta-3':
+      "The Devil's Star: A Harry Hole Novel / Don Bartlett - translator,Jo Nesbø / n: Robin Sachs"
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/06. The Redeemer (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbø', // unique
-    title: 'The Redeemer (Harry Hole  06)', // unique
+    title: 'The Redeemer', // hint
     '// duration': { seconds: 53650, minutes: 894 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00CH8ZMHE', minutes: 831 },
+    '// meta-0':
+      'The Redeemer / Jo Nesbø,Don Bartlett - translator / n: John Lee',
+    '// asin-1': { asin: 'B00434VDN2', minutes: 891 },
+    '// meta-1':
+      'The Redeemer: A Harry Hole Thriller, Book 6 / Jo Nesbø / n: Sean Barrett',
+    '// asin-2': { asin: '8417511601', minutes: 962 },
+    '// meta-2': 'El redentor [The Redeemer] / Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/07.  The Snowman (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbo', // unique
-    title: ' The Snowman (Harry Hole  07)', // unique
+    title: ' The Snowman', // hint
     '// duration': { seconds: 52728, minutes: 879 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B004VFMU26', minutes: 938 },
+    '// meta-0': 'The Snowman / Jo Nesbø,Don Bartlett / n: Robin Sachs',
+    '// asin-1': { asin: 'B0042LLAFW', minutes: 876 },
+    '// meta-1':
+      'The Snowman: A Harry Hole Thriller, Book 7 / Jo Nesbø / n: Sean Barrett'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/08. The Leopard (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbø', // unique
-    title: 'The Leopard (Harry Hole 8)', // unique
+    title: 'The Leopard', // hint
     '// duration': { seconds: 69830, minutes: 1164 },
-    '// asin-0': { asin: 'B004N1Q9HK', minutes: 1166 },
+    '// asin-0': { asin: 'B00686TD9O', minutes: 1280 },
     '// meta-0':
-      'The Leopard: A Harry Hole Thriller, Book 8 / Jo Nesbø / n: Sean Barrett',
-    '// asin-1': { asin: 'B0B25LSGZM', minutes: 1323 },
+      'The Leopard / Jo Nesbø,Don Bartlett - translator / n: Robin Sachs',
+    '// asin-1': { asin: 'B004N1Q9HK', minutes: 1166 },
     '// meta-1':
+      'The Leopard: A Harry Hole Thriller, Book 8 / Jo Nesbø / n: Sean Barrett',
+    '// asin-2': { asin: 'B0B25LSGZM', minutes: 1323 },
+    '// meta-2':
       'Le léopard / Jo Nesbø,Alex Fouillet - traducteur / n: Olivier Martinaud',
-    '// asin-2': { asin: '8417511067', minutes: 1224 },
-    '// meta-2': 'El leopardo [The Leopard] / Jo Nesbø / n: Alfons Vallés',
-    '// asin-3': { asin: 'B00TVNY89Q', minutes: 446 },
-    '// meta-3': 'Leopard / Jo Nesbø / n: Burghart Klaußner',
-    '// asin-4': { asin: 'B01ALUBG9M', minutes: 1285 },
-    '// meta-4': 'Leopard / Jo Nesbø / n: Uve Teschner'
+    '// asin-3': { asin: '8417511067', minutes: 1224 },
+    '// meta-3': 'El leopardo [The Leopard] / Jo Nesbø / n: Alfons Vallés',
+    '// asin-4': { asin: 'B00TVNY89Q', minutes: 446 },
+    '// meta-4': 'Leopard / Jo Nesbø / n: Burghart Klaußner',
+    '// asin-5': { asin: 'B01ALUBG9M', minutes: 1285 },
+    '// meta-5': 'Leopard / Jo Nesbø / n: Uve Teschner',
+    '// asin-6': { asin: 'B07D81SMMM', minutes: 1189 },
+    '// meta-6': 'O leopardo [The Leopard] / Jo Nesbø / n: Raul Rosa'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/09. Phantom (Hary Hole) - Jo Nesbo': {
     author: 'Sean Barrett', // unique
-    title: 'Phantom (Harry Hole 9)', // unique
+    title: 'Phantom', // hint
     '// duration': { seconds: 53756, minutes: 896 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/10. Police (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbo', // unique
-    title: 'The Police (Harry Hole 10)', // unique
+    title: 'The Police', // hint
     '// duration': { seconds: 61434, minutes: 1024 },
-    '// asin-0': { asin: 'B09RTHZHD8', minutes: 1123 },
-    '// meta-0':
+    '// asin-0': { asin: 'B00EFAC748', minutes: 997 },
+    '// meta-0': 'Police / Jo Nesbø / n: John Lee',
+    '// asin-1': { asin: 'B00F0U6D8I', minutes: 1023 },
+    '// meta-1': 'Police / Jo Nesbø / n: Sean Barrett',
+    '// asin-2': { asin: 'B09RTHZHD8', minutes: 1123 },
+    '// meta-2':
       'Policía [Police] / Jo Nesbo,Carmen Montes Cano - translator / n: Alfons Vallés',
-    '// asin-1': { asin: 'B00XY0ISUW', minutes: 1118 },
-    '// meta-1': 'Police [French Version] / Jo Nesbø / n: Frédéric Dimnet'
+    '// asin-3': { asin: 'B00XY0ISUW', minutes: 1118 },
+    '// meta-3': 'Police [French Version] / Jo Nesbø / n: Frédéric Dimnet'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/11. The Thirst (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbo', // unique
-    title: 'The Thirst - (Harry Hole  11)', // unique
+    title: 'The Thirst', // hint
     '// duration': { seconds: 63775, minutes: 1063 },
     '// asin-0': { asin: 'B01MQKQJHY', minutes: 1063 },
     '// meta-0': 'The Thirst / Jo Nesbø / n: Sean Barrett',
-    '// asin-1': { asin: 'B09V3CJKPG', minutes: 1096 },
-    '// meta-1':
+    '// asin-1': { asin: 'B06XDSVMFR', minutes: 1028 },
+    '// meta-1': 'The Thirst / Neil Smith - translator,Jo Nesbø / n: John Lee',
+    '// asin-2': { asin: 'B09V3CJKPG', minutes: 1096 },
+    '// meta-2':
       'La sed [Thirst] / Jo Nesbo,Lotte Katrine Tollefsen - translator / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/12. Knife (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbo', // unique
-    title: 'Knife (Harry Hole 12)', // unique
+    title: 'Knife', // hint
     '// duration': { seconds: 61006, minutes: 1017 },
-    '// asin-0': { asin: '1473565235', minutes: 1043 },
-    '// meta-0': 'Knife / Jo Nesbø / n: Sean Barrett',
-    '// asin-1': { asin: '8417910093', minutes: 1053 },
-    '// meta-1': 'Cuchillo [Knife] / Jo Nesbø / n: Alfons Vallés'
+    '// asin-0': { asin: '1984891995', minutes: 1016 },
+    '// meta-0': 'Knife / Neil Smith - translator,Jo Nesbø / n: John Lee',
+    '// asin-1': { asin: '1473565235', minutes: 1043 },
+    '// meta-1': 'Knife / Jo Nesbø / n: Sean Barrett',
+    '// asin-2': { asin: '8417910093', minutes: 1053 },
+    '// meta-2': 'Cuchillo [Knife] / Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law Trilogy': {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law Trilogy/Joe Abercrombie - The First Law 01 The Blade Itself': {
     author: 'Joe Abercrombie', // unique
-    title: 'The First Law 01 The Blade Itself', // unique
+    title: 'The Blade Itself', // hint
     '// duration': { seconds: 80073, minutes: 1335 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B014LL6R5U', minutes: 1335 },
+    '// meta-0': 'The Blade Itself / Joe Abercrombie / n: Steven Pacey',
+    '// asin-1': { asin: 'B003LZ8PMG', minutes: 1335 },
+    '// meta-1': 'The Blade Itself / Joe Abercrombie / n: Steven Pacey'
   },
   '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law Trilogy/Joe Abercrombie - The First Law 02 Before They Are Hanged': {
     author: 'Joe Abercrombie', // unique
-    title: 'The First Law 02 Before They Are Hanged', // unique
+    title: 'Before They Are Hanged', // hint
     '// duration': { seconds: 81473, minutes: 1358 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B014LL69TO', minutes: 1359 },
+    '// meta-0': 'Before They Are Hanged / Joe Abercrombie / n: Steven Pacey',
+    '// asin-1': { asin: 'B003NHE6DE', minutes: 1358 },
+    '// meta-1': 'Before They Are Hanged / Joe Abercrombie / n: Steven Pacey'
   },
   '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law Trilogy/Joe Abercrombie - The First Law 03 Last Argument Of Kings': {
     author: 'Joe Abercrombie', // unique
-    title: 'The First Law 03 Last Argument Of Kings', // unique
+    title: 'Last Argument Of Kings', // hint
     '// duration': { seconds: 97348, minutes: 1622 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B014LL6Y4O', minutes: 1624 },
+    '// meta-0': 'Last Argument of Kings / Joe Abercrombie / n: Steven Pacey',
+    '// asin-1': { asin: 'B003NHEU1M', minutes: 1623 },
+    '// meta-1': 'Last Argument of Kings / Joe Abercrombie / n: Steven Pacey'
   },
   '/Volumes/Space/archive/media/audiobooks/John Brunner - Stand on Zanzibar': {
     author: 'John Brunner', // unique
@@ -2650,15 +2983,19 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn-Falling Awake How to Practice Mindfulness in Everyday Life': {
     author: 'Jon Kabat-Zinn', // unique
-    title: 'Falling Awake - How to Practice Mindfulness in Everyday Life', // unique
+    title: 'Falling Awake', // hint
     '// duration': { seconds: 18617, minutes: 310 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B07FTVRVG6', minutes: 310 },
+    '// meta-0': 'Falling Awake / Jon Kabat-Zinn / n: Jon Kabat-Zinn',
+    '// asin-1': { asin: 'B07DM97H8T', minutes: 310 },
+    '// meta-1': 'Falling Awake / Jon Kabat-Zinn / n: Jon Kabat-Zinn'
   },
   '/Volumes/Space/archive/media/audiobooks/Jorge Luis Borges - Labyrinths': {
-    author: 'Henry Strozier', // unique
-    title: 'Labyrinths by Jorge Luis Borges', // unique
+    author: 'Jorge Luis Borges', // hint
+    title: 'Labyrinths', // hint
     '// duration': { seconds: 10411, minutes: 174 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0814KTR8F', minutes: 621 },
+    '// meta-0': 'Labyrinths / Jorge Luis Borges / n: Dominic Keating'
   },
   '/Volumes/Space/archive/media/audiobooks/Jorge Luis Borges - The Aleph and Other Stories': {
     author: 'Jorge Luis Borges', // unique
@@ -2822,8 +3159,7 @@ export const db = {
     author: 'Lawrence Lessig', // unique
     title: 'Free Culture', // unique
     '// duration': { seconds: 34903, minutes: 582 },
-    skip: 'not on audible',
-    '// asin lookup results': 'zero!'
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher': {
     '// No audio files': null
@@ -2832,55 +3168,88 @@ export const db = {
     author: 'Lee Child', // unique
     title: 'Killing Floor', // hint
     '// duration': { seconds: 56405, minutes: 940 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B015RQON6I', minutes: 1067 },
+    '// meta-0': 'Killing Floor / Lee Child / n: Dick Hill',
+    '// asin-1': { asin: 'B076HY1YBF', minutes: 951 },
+    '// meta-1': 'Killing Floor / Lee Child / n: Jeff Harding'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/02 Die Trying': {
     author: 'Lee Child', // unique
     title: 'Die Trying', // hint
     '// duration': { seconds: 57313, minutes: 955 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B009WROSXW', minutes: 888 },
+    '// meta-0': 'Die Trying / Lee Child / n: Johnathan McClain',
+    '// asin-1': { asin: 'B076HYJF7Q', minutes: 955 },
+    '// meta-1': 'Die Trying / Lee Child / n: Jeff Harding'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/03 Tripwire': {
     author: 'Lee Child', // unique
     title: 'Tripwire', // hint
     '// duration': { seconds: 56819, minutes: 947 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B009WU6R8I', minutes: 892 },
+    '// meta-0': 'Tripwire / Lee Child / n: Johnathan McClain',
+    '// asin-1': { asin: 'B07751PKQS', minutes: 946 },
+    '// meta-1': 'Tripwire / Lee Child / n: Jeff Harding'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/04 The Visitor': {
     author: 'Lee Child', // unique
     title: 'Running Blind', // hint
     '// duration': { seconds: 51460, minutes: 858 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B009WRO5LW', minutes: 825 },
+    '// meta-0': 'Running Blind / Lee Child / n: Johnathan McClain'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/05 Echo Burning': {
     author: 'Lee Child', // unique
     title: 'Echo Burning', // hint
     '// duration': { seconds: 50325, minutes: 839 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0160FSUW8', minutes: 1054 },
+    '// meta-0': 'Echo Burning / Lee Child / n: Dick Hill',
+    '// asin-1': { asin: 'B00BM7FR7G', minutes: 838 },
+    '// meta-1': 'Echo Burning / Lee Child / n: Jeff Harding',
+    '// asin-2': { asin: 'B0030ELVXI', minutes: 212 },
+    '// meta-2': 'Echo Burning / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/06 Without Fail': {
     author: 'Lee Child', // unique
     title: 'Without Fail', // hint
     '// duration': { seconds: 50408, minutes: 840 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B016J85CWW', minutes: 995 },
+    '// meta-0': 'Without Fail / Lee Child / n: Dick Hill',
+    '// asin-1': { asin: 'B00BM7F5FK', minutes: 840 },
+    '// meta-1': 'Without Fail / Lee Child / n: Jeff Harding',
+    '// asin-2': { asin: 'B00455WR3E', minutes: 336 },
+    '// meta-2': 'Without Fail / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/07 Persuader': {
     author: 'Lee Child', // unique
     title: 'Persuader', // hint
     '// duration': { seconds: 51405, minutes: 857 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '0593339096', minutes: 826 },
+    '// meta-0': 'Persuader / Lee Child / n: Dick Hill',
+    '// asin-1': { asin: 'B076HXF34R', minutes: 856 },
+    '// meta-1': 'Persuader / Lee Child / n: Jeff Harding',
+    '// asin-2': { asin: 'B003CUSLG0', minutes: 329 },
+    '// meta-2': 'Persuader / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/08 The Enemy': {
     author: 'Lee Child', // unique
     title: 'The Enemy', // hint
     '// duration': { seconds: 51667, minutes: 861 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '0593339126', minutes: 849 },
+    '// meta-0': 'The Enemy / Lee Child / n: Dick Hill',
+    '// asin-1': { asin: 'B00BLRB83O', minutes: 861 },
+    '// meta-1': 'The Enemy / Lee Child / n: Jeff Harding',
+    '// asin-2': { asin: 'B0032N2N3E', minutes: 362 },
+    '// meta-2': 'The Enemy / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/09 One Shot': {
     author: 'Lee Child', // unique
     title: 'One Shot', // hint
     '// duration': { seconds: 46333, minutes: 772 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00LI9GZTM', minutes: 873 },
+    '// meta-0': 'One Shot / Lee Child / n: Dick Hill',
+    '// asin-1': { asin: 'B004PKBLUY', minutes: 771 },
+    '// meta-1': 'One Shot / Lee Child / n: Jeff Harding'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/10 The Hard Way': {
     author: 'Lee Child', // unique
@@ -2921,7 +3290,9 @@ export const db = {
     author: 'Lee Child', // unique
     title: 'James Penney’s New Identity - Guy Walks into a Bar', // hint
     '// duration': { seconds: 5087, minutes: 85 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00A7FQ1NI', minutes: 84 },
+    '// meta-0':
+      'James Penney’s New Identity - Guy Walks into a Bar / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/13 Gone Tomorrow': {
     author: 'Lee Child', // unique
@@ -2966,7 +3337,11 @@ export const db = {
     author: 'Lee Child', // unique
     title: 'Second Son', // hint
     '// duration': { seconds: 4459, minutes: 74 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00JOPT6BG', minutes: 429 },
+    '// meta-0':
+      "Three Jack Reacher Novellas (with Bonus Jack Reacher's Rules) / Lee Child / n: Dick Hill,Lee Child",
+    '// asin-1': { asin: 'B005GWANOA', minutes: 74 },
+    '// meta-1': 'Second Son / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/16 The Affair': {
     author: 'Lee Child', // unique
@@ -2985,24 +3360,34 @@ export const db = {
     author: 'Lee Child', // unique
     title: 'Deep Down', // hint
     '// duration': { seconds: 4747, minutes: 79 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00JOPT6BG', minutes: 429 },
+    '// meta-0':
+      "Three Jack Reacher Novellas (with Bonus Jack Reacher's Rules) / Lee Child / n: Dick Hill,Lee Child",
+    '// asin-1': { asin: 'B008MM6G1K', minutes: 79 },
+    '// meta-1': 'Deep Down / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/17 A Wanted Man': {
     author: 'Lee Child', // unique
     title: 'A Wanted Man', // hint
     '// duration': { seconds: 42453, minutes: 708 },
-    '// asin-0': { asin: 'B0092SZZ56', minutes: 389 },
+    '// asin-0': { asin: 'B0090Q9BM8', minutes: 852 },
     '// meta-0': 'A Wanted Man / Lee Child / n: Dick Hill',
-    '// asin-1': { asin: 'B008Y4YCYO', minutes: 707 },
-    '// meta-1': 'A Wanted Man / Lee Child / n: Jeff Harding',
-    '// asin-2': { asin: 'B009152IJQ', minutes: 263 },
-    '// meta-2': 'A Wanted Man / Lee Child / n: Kerry Shale'
+    '// asin-1': { asin: 'B0092SZZ56', minutes: 389 },
+    '// meta-1': 'A Wanted Man / Lee Child / n: Dick Hill',
+    '// asin-2': { asin: 'B008Y4YCYO', minutes: 707 },
+    '// meta-2': 'A Wanted Man / Lee Child / n: Jeff Harding',
+    '// asin-3': { asin: 'B009152IJQ', minutes: 263 },
+    '// meta-3': 'A Wanted Man / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/17.5 High Heat': {
     author: 'Lee Child', // unique
     title: 'High Heat', // hint
     '// duration': { seconds: 7158, minutes: 119 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00JOPT6BG', minutes: 429 },
+    '// meta-0':
+      "Three Jack Reacher Novellas (with Bonus Jack Reacher's Rules) / Lee Child / n: Dick Hill,Lee Child",
+    '// asin-1': { asin: 'B00F4582YM', minutes: 119 },
+    '// meta-1': 'High Heat / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/18 Never Go Back': {
     author: 'Lee Child', // unique
@@ -3021,22 +3406,34 @@ export const db = {
     author: 'Lee Child', // unique
     title: 'Not a Drill', // hint
     '// duration': { seconds: 4399, minutes: 73 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B06XPX5LJC', minutes: 488 },
+    '// meta-0': 'Three More Jack Reacher Novellas / Lee Child / n: Dick Hill',
+    '// asin-1': { asin: 'B00LV58PIW', minutes: 73 },
+    '// meta-1': 'Not a Drill / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/19 Personal': {
     author: 'Lee Child', // unique
     title: 'Personal', // hint
     '// duration': { seconds: 40194, minutes: 670 },
-    '// asin-0': { asin: 'B00M7DG5EI', minutes: 775 },
+    '// asin-0': { asin: 'B00MEPAWMA', minutes: 389 },
     '// meta-0': 'Personal / Lee Child / n: Dick Hill',
-    '// asin-1': { asin: 'B09T73W9JR', minutes: 677 },
-    '// meta-1': 'Personal / Lee Child / n: Ruggero Andreozzi'
+    '// asin-1': { asin: 'B00M7DG5EI', minutes: 775 },
+    '// meta-1': 'Personal / Lee Child / n: Dick Hill',
+    '// asin-2': { asin: 'B00MQ7DHZ0', minutes: 669 },
+    '// meta-2': 'Personal / Lee Child / n: Jeff Harding',
+    '// asin-3': { asin: 'B09T73W9JR', minutes: 677 },
+    '// meta-3': 'Personal / Lee Child / n: Ruggero Andreozzi',
+    '// asin-4': { asin: 'B00MR1AQKY', minutes: 253 },
+    '// meta-4': 'Personal / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/19.5 Small Wars': {
     author: 'Lee Child', // unique
     title: 'Small Wars', // hint
     '// duration': { seconds: 4611, minutes: 77 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B06XPX5LJC', minutes: 488 },
+    '// meta-0': 'Three More Jack Reacher Novellas / Lee Child / n: Dick Hill',
+    '// asin-1': { asin: 'B013GX3JH8', minutes: 76 },
+    '// meta-1': 'Small Wars / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/20 Make Me': {
     author: 'Lee Child', // unique
@@ -3068,24 +3465,26 @@ export const db = {
     author: 'Lee Child', // unique
     title: 'No Middle Name', // hint
     '// duration': { seconds: 40748, minutes: 679 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B071XPHGPQ', minutes: 679 },
+    '// meta-0': 'No Middle Name / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/22 Midnight Line': {
     author: 'Lee Child', // unique
     title: 'The Midnight Line', // hint
     '// duration': { seconds: 40638, minutes: 677 },
-    '// asin-0': { asin: 'B071D1Q7ZT', minutes: 786 },
+    '// asin-0': { asin: 'B071CR63RR', minutes: 430 },
     '// meta-0': 'The Midnight Line / Lee Child / n: Dick Hill',
-    '// asin-1': { asin: 'B06ZZS4WPB', minutes: 677 },
-    '// meta-1': 'The Midnight Line / Lee Child / n: Jeff Harding',
-    '// asin-2': { asin: 'B071CR63RR', minutes: 430 },
-    '// meta-2': 'The Midnight Line / Lee Child / n: Dick Hill'
+    '// asin-1': { asin: 'B071D1Q7ZT', minutes: 786 },
+    '// meta-1': 'The Midnight Line / Lee Child / n: Dick Hill',
+    '// asin-2': { asin: 'B06ZZS4WPB', minutes: 677 },
+    '// meta-2': 'The Midnight Line / Lee Child / n: Jeff Harding'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/22.5 The Christmas Scorpion': {
     author: 'Lee Child', // unique
     title: 'The Christmas Scorpion', // hint
     '// duration': { seconds: 2043, minutes: 34 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B07FSR973C', minutes: 33 },
+    '// meta-0': 'The Christmas Scorpion / Lee Child / n: Jeff Harding'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/23 Past Tense': {
     author: 'Lee Child', // unique
@@ -3094,19 +3493,30 @@ export const db = {
     '// asin-0': { asin: 'B07DK1BBS6', minutes: 771 },
     '// meta-0': 'Past Tense / Lee Child / n: Scott Brick',
     '// asin-1': { asin: 'B07HKNV7CL', minutes: 389 },
-    '// meta-1': 'Past Tense / Lee Child / n: Scott Brick'
+    '// meta-1': 'Past Tense / Lee Child / n: Scott Brick',
+    '// asin-2': { asin: 'B079Y7KRKL', minutes: 748 },
+    '// meta-2': 'Past Tense / Lee Child / n: Jeff Harding'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/23.5 The Fourth Man': {
     author: 'Lee Child', // unique
     title: 'The Fourth Man', // hint
     '// duration': { seconds: 2140, minutes: 36 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '1473568846', minutes: 35 },
+    '// meta-0': 'The Fourth Man / Lee Child / n: Jeff Harding'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/23.6 Cleaning the Gold': {
     author: 'Lee Child, Karin Slaughter', // unique
     title: ' Cleaning the Gold', // hint
     '// duration': { seconds: 8153, minutes: 136 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '0062970232', minutes: 124 },
+    '// meta-0':
+      'Cleaning the Gold / Karin Slaughter,Lee Child / n: Eric Jason Martin,Jeff Harding',
+    '// asin-1': { asin: '1460780787', minutes: 135 },
+    '// meta-1':
+      'Cleaning the Gold / Lee Child,Karin Slaughter / n: Eric Jason Martin,Jeff Harding',
+    '// asin-2': { asin: '0008358958', minutes: 135 },
+    '// meta-2':
+      'Cleaning the Gold / Karin Slaughter,Lee Child / n: Eric Jason Martin,Jeff Harding'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/24 Blue Moon': {
     author: 'Lee Child', // unique
@@ -3149,7 +3559,16 @@ export const db = {
     author: 'Malcolm Gladwell', // unique
     title: 'David and Goliath', // hint
     '// duration': { seconds: 25240, minutes: 421 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00EKQO0AG', minutes: 421 },
+    '// meta-0': 'David and Goliath / Malcolm Gladwell / n: Malcolm Gladwell',
+    '// asin-1': { asin: 'B00FA48ZPS', minutes: 420 },
+    '// meta-1': 'David and Goliath / Malcolm Gladwell / n: Malcolm Gladwell',
+    '// asin-2': { asin: 'B09RQ3Z263', minutes: 481 },
+    '// meta-2':
+      'David y Goliat [David and Goliath] / Malcolm Gladwell,Ezequiel Martinez Llorente / n: Javier Portugués (Portu)',
+    '// asin-3': { asin: 'B01E7MUQU0', minutes: 529 },
+    '// meta-3':
+      'David and Goliath (Russian Edition) / Malcolm Gladwell / n: Maxim Kireev'
   },
   '/Volumes/Space/archive/media/audiobooks/Malcolm Gladwell-TippingPoint': {
     author: 'Malcolm Gladwell', // unique
@@ -3180,11 +3599,15 @@ export const db = {
     '// duration': { seconds: 27868, minutes: 464 },
     '// asin-0': { asin: 'B002VAEK3K', minutes: 464 },
     '// meta-0': 'Blink / Malcolm Gladwell / n: Malcolm Gladwell',
-    '// asin-1': { asin: 'B09LP1D5RL', minutes: 479 },
-    '// meta-1':
+    '// asin-1': { asin: 'B0032N4Y18', minutes: 463 },
+    '// meta-1': 'Blink / Malcolm Gladwell / n: Malcolm Gladwell',
+    '// asin-2': { asin: 'B09LP1D5RL', minutes: 479 },
+    '// meta-2':
       'Inteligencia intuitiva (en castellano) [Blink. The Power of Thinking Without Thinking] / Malcolm Gladwell / n: Javier Portugués',
-    '// asin-2': { asin: 'B08D6XSGFH', minutes: 548 },
-    '// meta-2': 'Blink (Hindi Edition) / Malcolm Gladwell / n: Neeraj Yadav'
+    '// asin-3': { asin: 'B09NMFG863', minutes: 480 },
+    '// meta-3': 'Blink! / Malcolm Gladwell / n: Alexander Bolte',
+    '// asin-4': { asin: 'B08D6XSGFH', minutes: 548 },
+    '// meta-4': 'Blink (Hindi Edition) / Malcolm Gladwell / n: Neeraj Yadav'
   },
   '/Volumes/Space/archive/media/audiobooks/MalcolmGladwell-TalkingToStrangers': {
     author: 'Malcolm Gladwell', // unique
@@ -3193,12 +3616,17 @@ export const db = {
     '// asin-0': { asin: '1549150340', minutes: 522 },
     '// meta-0':
       'Talking to Strangers / Malcolm Gladwell / n: Malcolm Gladwell',
-    '// asin-1': { asin: '024140827X', minutes: 522 },
+    '// asin-1': { asin: '8430623418', minutes: 561 },
     '// meta-1':
-      'Talking to Strangers / Malcolm Gladwell / n: Malcolm Gladwell',
-    '// asin-2': { asin: 'B09W9V4Z5W', minutes: 656 },
+      'Hablar con extraños [Talking to Strangers] / Malcolm Gladwell / n: Edson Matus',
+    '// asin-2': { asin: '024140827X', minutes: 522 },
     '// meta-2':
-      'Falando com estranhos [Talking to Strangers] / Malcolm Gladwell / n: Marcos Breda'
+      'Talking to Strangers / Malcolm Gladwell / n: Malcolm Gladwell',
+    '// asin-3': { asin: 'B09W9V4Z5W', minutes: 656 },
+    '// meta-3':
+      'Falando com estranhos [Talking to Strangers] / Malcolm Gladwell / n: Marcos Breda',
+    '// asin-4': { asin: 'B08FRL6GRZ', minutes: 585 },
+    '// meta-4': 'Quiproquos / Malcolm Gladwell / n: François Montagut'
   },
   '/Volumes/Space/archive/media/audiobooks/Margaret Atwood - Maddadam': {
     author: 'Margaret Atwood', // unique
@@ -3245,7 +3673,16 @@ export const db = {
     author: 'Margaret Atwood', // unique
     title: 'Oryx and Crake', // hint
     '// duration': { seconds: 44563, minutes: 743 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002UZKX5K', minutes: 630 },
+    '// meta-0': 'Oryx and Crake / Margaret Atwood / n: Campbell Scott',
+    '// asin-1': { asin: 'B075H2G8PG', minutes: 630 },
+    '// meta-1': 'Oryx and Crake / Margaret Atwood / n: Campbell Scott',
+    '// asin-2': { asin: 'B002V9Z3JG', minutes: 742 },
+    '// meta-2': 'Oryx and Crake / Margaret Atwood / n: John Chancer',
+    '// asin-3': { asin: 'B07259Y834', minutes: 676 },
+    '// meta-3': 'Oryx und Crake / Margaret Atwood / n: Uve Teschner',
+    '// asin-4': { asin: 'B079YV3LXM', minutes: 707 },
+    '// meta-4': 'Oryx og Crake / Margaret Atwood / n: Martin Paludan-Müller'
   },
   '/Volumes/Space/archive/media/audiobooks/Mary Beard - Classics': {
     author: 'Mary Beard, John Henderson', // unique
@@ -3256,9 +3693,12 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Mary Beard - S.P.Q.R.': {
     author: 'Mary Beard', // unique
-    title: 'SPQR', // unique
+    title: 'SPQR', // hint
     '// duration': { seconds: 66638, minutes: 1111 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01865AOJW', minutes: 1110 },
+    '// meta-0': 'SPQR / Mary Beard / n: Phyllida Nash',
+    '// asin-1': { asin: '1782839674', minutes: 1110 },
+    '// meta-1': 'SPQR / Mary Beard / n: Phyllida Nash'
   },
   '/Volumes/Space/archive/media/audiobooks/Mary Beard - Twelve Caesars': {
     author: 'Mary Beard', // unique
@@ -3273,9 +3713,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/01-The Iron King': {
     author: 'Maurice Druon', // unique
-    title: 'The Iron King (Unabridged)', // unique
+    title: 'The Iron King', // hint
     '// duration': { seconds: 39761, minutes: 663 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00B89HF5K', minutes: 662 },
+    '// meta-0': 'The Iron King / Maurice Druon / n: Peter Joyce',
+    '// asin-1': { asin: '8490707545', minutes: 582 },
+    '// meta-1':
+      'El rey de hierro [The Iron King] / Maurice Druon / n: Luis Grau'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/02-The Strangled Queen': {
     author: 'Maurice Druon', // unique
@@ -3291,37 +3735,46 @@ export const db = {
     author: 'Maurice Druon', // unique
     title: 'The Poisoned Crown', // hint
     '// duration': { seconds: 30154, minutes: 503 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00EJRZ3NY', minutes: 502 },
+    '// meta-0': 'The Poisoned Crown / Maurice Druon / n: Peter Joyce'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/04-The Royal Succession': {
     author: 'Maurice Druon', // unique
     title: 'The Royal Succession', // hint
     '// duration': { seconds: 36011, minutes: 600 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00HZNULJK', minutes: 600 },
+    '// meta-0': 'The Royal Succession / Maurice Druon / n: Peter Joyce'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/05-The She-Wolf': {
     author: 'Maurice Druon', // unique
     title: 'The She-Wolf', // hint
     '// duration': { seconds: 47181, minutes: 786 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00J9OB2IC', minutes: 786 },
+    '// meta-0': 'The She-Wolf / Maurice Druon / n: Peter Joyce'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/06-The Lily and the Lion': {
     author: 'Maurice Druon', // unique
     title: 'The Lily and the Lion', // hint
     '// duration': { seconds: 42415, minutes: 707 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00NGVV88I', minutes: 706 },
+    '// meta-0': 'The Lily and the Lion / Maurice Druon / n: Peter Joyce'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/07-The King Without a Kingdom': {
     author: 'Maurice Druon', // unique
     title: 'The King Without a Kingdom', // hint
     '// duration': { seconds: 42206, minutes: 703 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00R59NIE4', minutes: 703 },
+    '// meta-0':
+      'The King Without a Kingdom (The Accursed Kings, Book 7) / Maurice Druon / n: Peter Joyce'
   },
   '/Volumes/Space/archive/media/audiobooks/Max Tegmark - Life 3.0': {
     author: 'Max Tegmark', // unique
     title: 'Life 3.0', // hint
     '// duration': { seconds: 48595, minutes: 810 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0742K1G4Q', minutes: 809 },
+    '// meta-0': 'Life 3.0 / Max Tegmark / n: Rob Shapiro',
+    '// asin-1': { asin: 'B07BNM7DX2', minutes: 809 },
+    '// meta-1': 'Life 3.0 / Max Tegmark / n: Rob Shapiro'
   },
   '/Volumes/Space/archive/media/audiobooks/Max Tegmark - Our Mathematical Universe': {
     author: 'Max Tegmark', // unique
@@ -3353,13 +3806,48 @@ export const db = {
     author: 'Michael Lewis', // unique
     title: 'The Undoing Project', // hint
     '// duration': { seconds: 37115, minutes: 619 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01KBM825G', minutes: 618 },
+    '// meta-0': 'The Undoing Project / Michael Lewis / n: Dennis Boutsikaris',
+    '// asin-1': { asin: 'B01MTOIOQQ', minutes: 617 },
+    '// meta-1': 'The Undoing Project / Michael Lewis / n: Dennis Boutsikaris',
+    '// asin-2': { asin: 'B09N9VCGHX', minutes: 746 },
+    '// meta-2':
+      'Deshaciendo errores [The Undoing Project] / Michael Lewis,Juan Manuel Ibeas Delgado - translator,Roberto Falcó Miramontes - translator / n: Mario de Candia'
   },
   '/Volumes/Space/archive/media/audiobooks/Miguel de Cervantes - Don Quixote': {
-    author: 'Miguel de Cervantes', // hint - Ormsby
-    title: 'Don Quixote', // unique
+    author: 'Miguel de Cervantes', // hint
+    title: 'Don Quixote', // hint
     '// duration': { seconds: null, minutes: null },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B009XEJWP8', minutes: 2377 },
+    '// meta-0':
+      'Don Quixote / Edith Grossman - translator,Miguel de Cervantes / n: George Guidall',
+    '// asin-1': { asin: 'B0052XV1SK', minutes: 2165 },
+    '// meta-1':
+      'Don Quixote / John Ormsby - translator,Miguel de Cervantes / n: Roy McMillan',
+    '// asin-2': { asin: 'B0044V0KM4', minutes: 279 },
+    '// meta-2':
+      'Don Quixote (Adapted for Modern Listeners) / Miguel de Cervantes / n: Johnny Heller',
+    '// asin-3': { asin: '0241429536', minutes: 2357 },
+    '// meta-3':
+      'Don Quixote / Miguel Cervantes,John Rutherford / n: Kayvan Novak,Josh Cohen,Alistair Petrie,Richard Hughes',
+    '// asin-4': { asin: 'B002V8LKCQ', minutes: 1287 },
+    '// meta-4':
+      'Don Quijote de la Mancha Tomo I [Don Quixote, Part I] / Miguel de Cervantes Saavedra / n: Alejandro Magnone',
+    '// asin-5': { asin: 'B00E8JMNUO', minutes: 1200 },
+    '// meta-5':
+      'Don Quixote / Miguel de Cervantes,Gerald J. Davis - translator / n: John Hanks',
+    '// asin-6': { asin: 'B002V8NB50', minutes: 324 },
+    '// meta-6':
+      'Don Quijote de la Mancha [Don Quixote] / Miguel de Cervantes / n: full cast',
+    '// asin-7': { asin: '1799744701', minutes: 2500 },
+    '// meta-7':
+      'Don Quixote (AmazonClassics Edition) / Miguel de Cervantes,John Orsmby - translator / n: Michael Page',
+    '// asin-8': { asin: 'B07L15VXZW', minutes: 2741 },
+    '// meta-8':
+      'Dom Quixote de la Mancha [Don Quixote] / Miguel de Cervantes / n: Jaime Leibovich',
+    '// asin-9': { asin: 'B002V8LDEQ', minutes: 2202 },
+    '// meta-9':
+      'Don Quixote / Tobias Smollett - translator,Miguel de Cervantes / n: Robert Whitfield'
   },
   '/Volumes/Space/archive/media/audiobooks/MihalyCsikszentmihalyi-Flow': {
     author: 'Mihaly Csikszentmihalyi', // unique
@@ -3384,7 +3872,12 @@ export const db = {
     author: 'Milan Kundera', // hint
     title: 'The Unbearable Lightness of Being', // unique
     '// duration': { seconds: 34648, minutes: 577 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0081IIOP6', minutes: 577 },
+    '// meta-0':
+      'The Unbearable Lightness of Being / Milan Kundera,Michael Henry Heim - translator / n: Richmond Hoxie',
+    '// asin-1': { asin: 'B008PTRAWY', minutes: 576 },
+    '// meta-1':
+      'The Unbearable Lightness of Being / Milan Kundera / n: Richmond Hoxie'
   },
   '/Volumes/Space/archive/media/audiobooks/N.K. Jemison - The Broken earth Series': {
     '// No audio files': null
@@ -3416,19 +3909,29 @@ export const db = {
     author: 'N. K. Jemisin', // unique
     title: 'The Stone Sky', // hint
     '// duration': { seconds: 51411, minutes: 857 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B07288JYYG', minutes: 856 },
+    '// meta-0': 'The Stone Sky / N. K. Jemisin / n: Robin Miles',
+    '// asin-1': { asin: 'B06XRM24H2', minutes: 856 },
+    '// meta-1': 'The Stone Sky / N. K. Jemisin / n: Robin Miles',
+    '// asin-2': { asin: '1549128310', minutes: 857 },
+    '// meta-2':
+      'The Stone Sky (Booktrack Edition) / N. K. Jemisin / n: Robin Miles'
   },
   '/Volumes/Space/archive/media/audiobooks/NassimNicholasTaleb-Antifragile': {
     author: 'Nassim Nicholas Taleb', // unique
-    title: 'Antifragilite', // hint
+    title: 'Antifragilie', // hint
     '// duration': { seconds: 58512, minutes: 975 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/NassimNicholasTaleb-TheBlackSwan': {
     author: 'Nassim Nicholas Taleb', // unique
-    title: 'The Black Swan', // unique
+    title: 'The Black Swan', // hint
     '// duration': { seconds: 51616, minutes: 860 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B07KRNNLFF', minutes: 948 },
+    '// meta-0':
+      'The Black Swan, Second Edition: The Impact of the Highly Improbable: With a new section: "On Robustness and Fragility" / Nassim Nicholas Taleb / n: Joe Ochman',
+    '// asin-1': { asin: 'B002V5BGUA', minutes: 860 },
+    '// meta-1': 'The Black Swan / Nassim Nicholas Taleb / n: David Chandler'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - Termination Shock': {
     author: 'Neal Stephenson', // unique
@@ -3448,43 +3951,57 @@ export const db = {
     author: 'Neal Stephenson', // unique
     title: 'Quicksilver', // hint
     '// duration': { seconds: 52007, minutes: 867 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003VKG69K', minutes: 883 },
+    '// meta-0':
+      'Quicksilver / Neal Stephenson / n: Neal Stephenson (introduction),Kevin Pariseau,Simon Prebble'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 02 - King of the Vagabonds': {
     author: 'Neal Stephenson', // unique
     title: 'King of the Vagabonds', // hint
     '// duration': { seconds: 40270, minutes: 671 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003TTMSNQ', minutes: 671 },
+    '// meta-0':
+      'King of the Vagabonds / Neal Stephenson / n: Neal Stephenson (introduction),Simon Prebble,Kevin Pariseau'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 03 - Odalisque': {
     author: 'Neal Stephenson', // unique
     title: 'Odalisque', // hint
     '// duration': { seconds: 48172, minutes: 803 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003TTJ00K', minutes: 801 },
+    '// meta-0':
+      'Odalisque / Neal Stephenson / n: Simon Prebble,Katherine Kellgren,Kevin Pariseau,Neal Stephenson (introduction)'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 04 and 05 - The Confusion': {
     author: 'Neal Stephenson', // unique
     title: 'The Confusion', // hint
     '// duration': { seconds: 124231, minutes: 2071 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003TTX844', minutes: 2065 },
+    '// meta-0':
+      'The Confusion / Neal Stephenson / n: Simon Prebble,Katherine Kellgren,Kevin Pariseau,Neal Stephenson (introduction)'
   },
   "/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 06 - Solomon's Gold": {
     author: 'Neal Stephenson', // unique
     title: "Solomon's Gold", // hint
     '// duration': { seconds: 51049, minutes: 851 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003UNS5NS', minutes: 849 },
+    '// meta-0':
+      'Solomon’s Gold / Neal Stephenson / n: Simon Prebble,Kevin Pariseau,Neal Stephenson (introduction)'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 07 - Currency': {
     author: 'Neal Stephenson', // unique
     title: 'Currency', // hint
     '// duration': { seconds: 51330, minutes: 856 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003XS7P4K', minutes: 855 },
+    '// meta-0':
+      'Currency / Neal Stephenson / n: Simon Prebble,Neal Stephenson (introduction),Kevin Pariseau'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 08 - The System of the World': {
     author: 'Neal Stephenson', // unique
     title: 'The System of the World', // hint
     '// duration': { seconds: 41819, minutes: 697 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B003XS3N6Y', minutes: 697 },
+    '// meta-0':
+      'The System of the World / Neal Stephenson / n: Neal Stephenson (introduction),Kevin Pariseau,Simon Prebble'
   },
   '/Volumes/Space/archive/media/audiobooks/NealStephenson-Anathem': {
     author: 'Neal Stephenson', // unique
@@ -3508,7 +4025,8 @@ export const db = {
     author: 'Neal Stephenson', // hint
     title: 'Snow Crash', // hint
     '// duration': { seconds: 62589, minutes: 1043 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002UUKWCY', minutes: 1023 },
+    '// meta-0': 'Snow Crash / Neal Stephenson / n: Jonathan Davis'
   },
   '/Volumes/Space/archive/media/audiobooks/NealStephenson-TheDiamondAge': {
     author: 'Neal Stephenson', // unique
@@ -3519,7 +4037,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Niall Ferguson - Doom': {
     author: 'Niall Ferguson', // unique
-    title: 'Doom', // hint
+    title: 'Doom - The Politics of Catastrophe', // unique
     '// duration': { seconds: 59722, minutes: 995 },
     '// asin-0': { asin: '0593413148', minutes: 995 },
     '// meta-0': 'Doom / Niall Ferguson / n: Niall Ferguson',
@@ -3774,7 +4292,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Oscar Wilde - The Picture of Dorian Gray': {
     author: 'Oscar Wilde', // unique
-    title: 'The Picture of Dorian Gray', // hint
+    title: 'The Picture of Dorian Gray (Read by Edward Petherbridge)', // unique
     '// duration': { seconds: 29110, minutes: 485 },
     '// asin lookup results': 'zero!'
   },
@@ -3827,7 +4345,8 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Paul Hapern - The Quantum Labyrinth': {
     author: 'Paul Halpern', // unique
-    title: 'The Quantum Labyrinth', // hint
+    title:
+      'The Quantum Labyrinth: How Richard Feynman and John Wheeler Revolutionized Time and Reality (Unabridged)', // unique
     '// duration': { seconds: 38683, minutes: 645 },
     '// asin lookup results': 'zero!'
   },
@@ -3890,8 +4409,8 @@ export const db = {
     '// meta-5': 'Crux / Ramez Naam / n: Uve Teschner'
   },
   '/Volumes/Space/archive/media/audiobooks/RichardMorgan-AlteredCarbon': {
-    author: 'Richard Morgan', // hint
-    title: 'Altered Carbon', // hint
+    author: 'Top 100 Sci-Fi Books', // unique
+    title: '87 - Altered Carbon - Richard Morgan - 2002', // unique
     '// duration': { seconds: 61971, minutes: 1033 },
     '// asin lookup results': 'zero!'
   },
@@ -3928,13 +4447,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Ryan Holiday - Ego Is the Enemy (Unabridged)': {
     author: 'Ryan Holiday', // unique
-    title: 'Ego Is the Enemy', // hint
+    title: 'Ego Is the Enemy (Unabridged)', // unique
     '// duration': { seconds: 24978, minutes: 416 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Salman Rushdie - Midnights Children': {
     author: 'Salman Rushdie', // unique
-    title: "Midnight's Children", // hint
+    title: "Midnight's Children (Unabridged)", // unique
     '// duration': { seconds: 88189, minutes: 1470 },
     '// asin lookup results': 'zero!'
   },
@@ -3976,7 +4495,7 @@ export const db = {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Scott Lynch - Gentleman Bastard Series/Scott Lynch - GB01 - The Lies of Locke Lamora': {
-    author: 'Scott Lynch', // hint
+    author: 'zScott Lynch', // unique
     title: 'The Lies of Locke Lamora', // unique
     '// duration': { seconds: 78807, minutes: 1313 },
     '// asin lookup results': 'zero!'
@@ -4001,7 +4520,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Big Picture': {
     author: 'Sean Carroll', // unique
-    title: 'The Big Picture', // hint
+    title: 'FULL AUDIOBOOK', // unique
     '// duration': { seconds: 62289, minutes: 1038 },
     '// asin lookup results': 'zero!'
   },
