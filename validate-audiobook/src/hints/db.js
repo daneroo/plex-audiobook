@@ -586,9 +586,17 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 20 - The Stormlight Archive 3 - Oathbringer': {
     author: 'Brandon Sanderson', // unique
-    title: 'Oathbringer (Unabridged)', // unique
+    title: 'Oathbringer', // hint
     '// duration': { seconds: null, minutes: null },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01N4VBIPG', minutes: 3324 },
+    '// meta-0':
+      'Oathbringer / Brandon Sanderson / n: Michael Kramer,Kate Reading',
+    '// asin-1': { asin: 'B0718Z5K4C', minutes: 3305 },
+    '// meta-1':
+      'Oathbringer / Brandon Sanderson / n: Kate Reading,Michael Kramer',
+    '// asin-2': { asin: 'B09GX6H7J8', minutes: 3458 },
+    '// meta-2':
+      'Juramentada [Oathbringer] / Brandon Sanderson,Manuel Viciano Delibano - translator / n: Esther Solans,Francesc Belda'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 22 - The Stormlight Archive 4 - Rhythm of War': {
     author: 'Brandon Sanderson', // unique
@@ -693,100 +701,370 @@ export const db = {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [01] The Black Prism [01]': {
-    author: 'Brent Weeks - Graphic Audio', // unique
-    title: 'The Lightbringer Saga 01', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Black Prism', // hint
     '// duration': { seconds: 24184, minutes: 403 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01HZXFARW', minutes: 1286 },
+    '// meta-0': 'The Black Prism / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B005J68TIA', minutes: 1286 },
+    '// meta-1': 'The Black Prism / Brent Weeks / n: Simon Vance',
+    '// asin-2': { asin: 'B09FRBS927', minutes: 1173 },
+    '// meta-2':
+      'Black Prism [Dramatized Adaptation] / Brent Weeks / n: Andy Clemence,Christopher Scheeren,Colleen Delany,David Coyne,Drew Kopas,Dylan Lynch,Elizabeth Jernigan,Eric Messner,James Lewis,Jeff Allin,Joe Brack,Karen Novak,Ken Jackson,Kimberly Gilbert,Lilly David',
+    '// asin-3': { asin: '1648794386', minutes: 403 },
+    '// meta-3':
+      'Black Prism (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
+    '// asin-4': { asin: '1648794424', minutes: 376 },
+    '// meta-4':
+      'Black Prism (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
+    '// asin-5': { asin: '1648794408', minutes: 392 },
+    '// meta-5':
+      'Black Prism (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [01] The Black Prism [02]': {
-    author: 'Brent Weeks - Graphic Audio', // unique
-    title: 'The Lightbringer Saga 01', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Black Prism', // hint
     '// duration': { seconds: 23578, minutes: 393 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01HZXFARW', minutes: 1286 },
+    '// meta-0': 'The Black Prism / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B005J68TIA', minutes: 1286 },
+    '// meta-1': 'The Black Prism / Brent Weeks / n: Simon Vance',
+    '// asin-2': { asin: 'B09FRBS927', minutes: 1173 },
+    '// meta-2':
+      'Black Prism [Dramatized Adaptation] / Brent Weeks / n: Andy Clemence,Christopher Scheeren,Colleen Delany,David Coyne,Drew Kopas,Dylan Lynch,Elizabeth Jernigan,Eric Messner,James Lewis,Jeff Allin,Joe Brack,Karen Novak,Ken Jackson,Kimberly Gilbert,Lilly David',
+    '// asin-3': { asin: '1648794386', minutes: 403 },
+    '// meta-3':
+      'Black Prism (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
+    '// asin-4': { asin: '1648794424', minutes: 376 },
+    '// meta-4':
+      'Black Prism (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
+    '// asin-5': { asin: '1648794408', minutes: 392 },
+    '// meta-5':
+      'Black Prism (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [01] The Black Prism [03]': {
-    author: 'Brent Weeks - Graphic Audio', // unique
-    title: 'The Lightbringer Saga 01', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Black Prism', // hint
     '// duration': { seconds: 22616, minutes: 377 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01HZXFARW', minutes: 1286 },
+    '// meta-0': 'The Black Prism / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B005J68TIA', minutes: 1286 },
+    '// meta-1': 'The Black Prism / Brent Weeks / n: Simon Vance',
+    '// asin-2': { asin: 'B09FRBS927', minutes: 1173 },
+    '// meta-2':
+      'Black Prism [Dramatized Adaptation] / Brent Weeks / n: Andy Clemence,Christopher Scheeren,Colleen Delany,David Coyne,Drew Kopas,Dylan Lynch,Elizabeth Jernigan,Eric Messner,James Lewis,Jeff Allin,Joe Brack,Karen Novak,Ken Jackson,Kimberly Gilbert,Lilly David',
+    '// asin-3': { asin: '1648794386', minutes: 403 },
+    '// meta-3':
+      'Black Prism (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
+    '// asin-4': { asin: '1648794424', minutes: 376 },
+    '// meta-4':
+      'Black Prism (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
+    '// asin-5': { asin: '1648794408', minutes: 392 },
+    '// meta-5':
+      'Black Prism (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [02] The Blinding Knife [01]': {
-    author: 'Brent Weeks - Graphic Audio', // unique
-    title: 'The Lightbringer Saga 02', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Blinding Knife', // hint
     '// duration': { seconds: 25747, minutes: 429 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0096GJ7G2', minutes: 1454 },
+    '// meta-0': 'The Blinding Knife / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B00AOAL1NQ', minutes: 1449 },
+    '// meta-1': 'The Blinding Knife / Brent Weeks / n: Simon Vance',
+    '// asin-2': { asin: '1549102818', minutes: 1454 },
+    '// meta-2': 'The Blinding Knife / Brent Weeks / n: Simon Vance',
+    '// asin-3': { asin: 'B09FTNQYN8', minutes: 1266 },
+    '// meta-3':
+      'The Blinding Knife (Dramatized Adaptation) / Brent Weeks / n: Alyssa Wilmoth,Anastasia Wilson,Barbara Pinolini,Bradley Smith,Casie Platt,Christopher Graybill,Christopher Scheeren,Colleen Delany,Daniel Sontagg,David Coyne,David Harris,Delores King Williams,Drew Kopas,Dylan Lynch,full cast',
+    '// asin-4': { asin: '1648794467', minutes: 416 },
+    '// meta-4':
+      'The Blinding Knife (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne',
+    '// asin-5': { asin: '1648794440', minutes: 429 },
+    '// meta-5':
+      'The Blinding Knife (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne',
+    '// asin-6': { asin: '1648794483', minutes: 421 },
+    '// meta-6':
+      'The Blinding Knife (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [02] The Blinding Knife [02]': {
-    author: 'Brent Weeks - Graphic Audio', // unique
-    title: 'The Lightbringer Saga 02', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Blinding Knife', // hint
     '// duration': { seconds: 25015, minutes: 417 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0096GJ7G2', minutes: 1454 },
+    '// meta-0': 'The Blinding Knife / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B00AOAL1NQ', minutes: 1449 },
+    '// meta-1': 'The Blinding Knife / Brent Weeks / n: Simon Vance',
+    '// asin-2': { asin: '1549102818', minutes: 1454 },
+    '// meta-2': 'The Blinding Knife / Brent Weeks / n: Simon Vance',
+    '// asin-3': { asin: 'B09FTNQYN8', minutes: 1266 },
+    '// meta-3':
+      'The Blinding Knife (Dramatized Adaptation) / Brent Weeks / n: Alyssa Wilmoth,Anastasia Wilson,Barbara Pinolini,Bradley Smith,Casie Platt,Christopher Graybill,Christopher Scheeren,Colleen Delany,Daniel Sontagg,David Coyne,David Harris,Delores King Williams,Drew Kopas,Dylan Lynch,full cast',
+    '// asin-4': { asin: '1648794467', minutes: 416 },
+    '// meta-4':
+      'The Blinding Knife (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne',
+    '// asin-5': { asin: '1648794440', minutes: 429 },
+    '// meta-5':
+      'The Blinding Knife (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne',
+    '// asin-6': { asin: '1648794483', minutes: 421 },
+    '// meta-6':
+      'The Blinding Knife (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [02] The Blinding Knife [03]': {
-    author: 'Brent Weeks - Graphic Audio', // unique
-    title: 'The Lightbringer Saga 02', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Blinding Knife', // hint
     '// duration': { seconds: 25242, minutes: 421 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0096GJ7G2', minutes: 1454 },
+    '// meta-0': 'The Blinding Knife / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B00AOAL1NQ', minutes: 1449 },
+    '// meta-1': 'The Blinding Knife / Brent Weeks / n: Simon Vance',
+    '// asin-2': { asin: '1549102818', minutes: 1454 },
+    '// meta-2': 'The Blinding Knife / Brent Weeks / n: Simon Vance',
+    '// asin-3': { asin: 'B09FTNQYN8', minutes: 1266 },
+    '// meta-3':
+      'The Blinding Knife (Dramatized Adaptation) / Brent Weeks / n: Alyssa Wilmoth,Anastasia Wilson,Barbara Pinolini,Bradley Smith,Casie Platt,Christopher Graybill,Christopher Scheeren,Colleen Delany,Daniel Sontagg,David Coyne,David Harris,Delores King Williams,Drew Kopas,Dylan Lynch,full cast',
+    '// asin-4': { asin: '1648794467', minutes: 416 },
+    '// meta-4':
+      'The Blinding Knife (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne',
+    '// asin-5': { asin: '1648794440', minutes: 429 },
+    '// meta-5':
+      'The Blinding Knife (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne',
+    '// asin-6': { asin: '1648794483', minutes: 421 },
+    '// meta-6':
+      'The Blinding Knife (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [03] The Broken Eye [01]': {
-    author: 'GraphicAudio [Brent Weeks]', // unique
-    title: 'The Lightbringer Saga [03] The Broken Eye [01]', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Broken Eye', // hint
     '// duration': { seconds: 27140, minutes: 452 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00MJDZYLQ', minutes: 1773 },
+    '// meta-0': 'The Broken Eye / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B00M0OYLW2', minutes: 1773 },
+    '// meta-1': 'The Broken Eye / Brent Weeks / n: Simon Vance',
+    '// asin-2': { asin: 'B09GKZP46H', minutes: 1313 },
+    '// meta-2':
+      'The Broken Eye [Dramatized Adaptation] / Brent Weeks / n: Alyssa Wilmoth,Barbara Pinolini,Bradley Smith,Christopher Scheeren,Colleen Delany,David Coyne,David Harris,Drew Kopas,Dylan Lynch,Elliot Dash,Evan Casey,James Lewis,Joe Brack,Johann Dettweiler,Ken Jackson',
+    '// asin-3': { asin: '1648794521', minutes: 464 },
+    '// meta-3':
+      'The Broken Eye ( 2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Karen Novak,Barbara Pinolini,Johann Dettweiler,Bradley Smith,David Coyne,Tracy Olivera,Thomas Penny',
+    '// asin-4': { asin: '1648794505', minutes: 452 },
+    '// meta-4':
+      'The Broken Eye ( 1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Karen Novak,Barbara Pinolini,Johann Dettweiler,Bradley Smith,David Coyne,Tracy Olivera,Thomas Penny',
+    '// asin-5': { asin: '1648794548', minutes: 396 },
+    '// meta-5':
+      'The Broken Eye ( 3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Alyssa Wilmoth,Thomas Penny,Christopher Scheeren,Elliot Dash,Nick DePinto,Ren Kasey,Michael John Casey,Barbara Pinolini'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [03] The Broken Eye [02]': {
-    author: 'GraphicAudio [Brent Weeks]', // unique
-    title: 'The Lightbringer Saga [03] The Broken Eye [02]', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Broken Eye', // hint
     '// duration': { seconds: 27861, minutes: 464 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00MJDZYLQ', minutes: 1773 },
+    '// meta-0': 'The Broken Eye / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B00M0OYLW2', minutes: 1773 },
+    '// meta-1': 'The Broken Eye / Brent Weeks / n: Simon Vance',
+    '// asin-2': { asin: 'B09GKZP46H', minutes: 1313 },
+    '// meta-2':
+      'The Broken Eye [Dramatized Adaptation] / Brent Weeks / n: Alyssa Wilmoth,Barbara Pinolini,Bradley Smith,Christopher Scheeren,Colleen Delany,David Coyne,David Harris,Drew Kopas,Dylan Lynch,Elliot Dash,Evan Casey,James Lewis,Joe Brack,Johann Dettweiler,Ken Jackson',
+    '// asin-3': { asin: '1648794521', minutes: 464 },
+    '// meta-3':
+      'The Broken Eye ( 2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Karen Novak,Barbara Pinolini,Johann Dettweiler,Bradley Smith,David Coyne,Tracy Olivera,Thomas Penny',
+    '// asin-4': { asin: '1648794505', minutes: 452 },
+    '// meta-4':
+      'The Broken Eye ( 1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Karen Novak,Barbara Pinolini,Johann Dettweiler,Bradley Smith,David Coyne,Tracy Olivera,Thomas Penny',
+    '// asin-5': { asin: '1648794548', minutes: 396 },
+    '// meta-5':
+      'The Broken Eye ( 3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Alyssa Wilmoth,Thomas Penny,Christopher Scheeren,Elliot Dash,Nick DePinto,Ren Kasey,Michael John Casey,Barbara Pinolini'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [03] The Broken Eye [03]': {
-    author: 'GraphicAudio [Brent Weeks]', // unique
-    title: 'The Lightbringer Saga [03] The Broken Eye [03]', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Broken Eye', // hint
     '// duration': { seconds: 23808, minutes: 397 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00MJDZYLQ', minutes: 1773 },
+    '// meta-0': 'The Broken Eye / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B00M0OYLW2', minutes: 1773 },
+    '// meta-1': 'The Broken Eye / Brent Weeks / n: Simon Vance',
+    '// asin-2': { asin: 'B09GKZP46H', minutes: 1313 },
+    '// meta-2':
+      'The Broken Eye [Dramatized Adaptation] / Brent Weeks / n: Alyssa Wilmoth,Barbara Pinolini,Bradley Smith,Christopher Scheeren,Colleen Delany,David Coyne,David Harris,Drew Kopas,Dylan Lynch,Elliot Dash,Evan Casey,James Lewis,Joe Brack,Johann Dettweiler,Ken Jackson',
+    '// asin-3': { asin: '1648794521', minutes: 464 },
+    '// meta-3':
+      'The Broken Eye ( 2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Karen Novak,Barbara Pinolini,Johann Dettweiler,Bradley Smith,David Coyne,Tracy Olivera,Thomas Penny',
+    '// asin-4': { asin: '1648794505', minutes: 452 },
+    '// meta-4':
+      'The Broken Eye ( 1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Karen Novak,Barbara Pinolini,Johann Dettweiler,Bradley Smith,David Coyne,Tracy Olivera,Thomas Penny',
+    '// asin-5': { asin: '1648794548', minutes: 396 },
+    '// meta-5':
+      'The Broken Eye ( 3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Alyssa Wilmoth,Thomas Penny,Christopher Scheeren,Elliot Dash,Nick DePinto,Ren Kasey,Michael John Casey,Barbara Pinolini'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [04] The Blood Mirror [01]': {
-    author: 'GraphicAudio [Brent Weeks]', // unique
-    title: 'The Lightbringer Saga [04] The Blood Mirror [01]', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Blood Mirror', // hint
     '// duration': { seconds: 34108, minutes: 568 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01K8S3XDE', minutes: 1230 },
+    '// meta-0': 'The Blood Mirror / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B01LW9CX13', minutes: 1230 },
+    '// meta-1': 'The Blood Mirror / Brent Weeks / n: Simon Vance',
+    '// asin-2': { asin: 'B09G7MDXSQ', minutes: 1073 },
+    '// meta-2':
+      'The Blood Mirror [Dramatized Adaptation] / Brent Weeks / n: full cast',
+    '// asin-3': { asin: '1648794580', minutes: 504 },
+    '// meta-3':
+      'The Blood Mirror (2 of 2) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Yasmin Tuazon,Alyssa Wilmoth,Ren Casey,Michael Glenn,Elliot Dash,Colleen Delany,Thomas Keegan,Barbara Pinolini',
+    '// asin-4': { asin: '1648794564', minutes: 568 },
+    '// meta-4':
+      'The Blood Mirror (1 of 2) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Ren Casey,Alyssa Wilmoth,Elliot Dash,Johann Dettweiler,David Coyne,Scott McCormick,Michael Glenn'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [04] The Blood Mirror [02]': {
-    author: 'GraphicAudio [Brent Weeks]', // unique
-    title: 'The Lightbringer Saga [04] The Blood Mirror [02]', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Blood Mirror', // hint
     '// duration': { seconds: 30254, minutes: 504 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01K8S3XDE', minutes: 1230 },
+    '// meta-0': 'The Blood Mirror / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B01LW9CX13', minutes: 1230 },
+    '// meta-1': 'The Blood Mirror / Brent Weeks / n: Simon Vance',
+    '// asin-2': { asin: 'B09G7MDXSQ', minutes: 1073 },
+    '// meta-2':
+      'The Blood Mirror [Dramatized Adaptation] / Brent Weeks / n: full cast',
+    '// asin-3': { asin: '1648794580', minutes: 504 },
+    '// meta-3':
+      'The Blood Mirror (2 of 2) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Yasmin Tuazon,Alyssa Wilmoth,Ren Casey,Michael Glenn,Elliot Dash,Colleen Delany,Thomas Keegan,Barbara Pinolini',
+    '// asin-4': { asin: '1648794564', minutes: 568 },
+    '// meta-4':
+      'The Blood Mirror (1 of 2) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Ren Casey,Alyssa Wilmoth,Elliot Dash,Johann Dettweiler,David Coyne,Scott McCormick,Michael Glenn'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [05] The Burning White [01]': {
-    author: 'GraphicAudio [Brent Weeks]', // unique
-    title: 'The Lightbringer Saga [05] The Burning White [01]', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Burning White', // hint
     '// duration': { seconds: 26739, minutes: 446 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '147897835X', minutes: 2344 },
+    '// meta-0': 'The Burning White / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B09H3L2XQF', minutes: 2263 },
+    '// meta-1':
+      'The Burning White [Dramatized Adaptation] / Brent Weeks / n: Andy Brownstein,Audrey Bertaux,Bradley Smith,Chris Davenport,Chris Stinson,Christopher Scheeren,Colleen Delany,Delores King Williams,Elliot Dash,Evan Casey,Jeff Allin,Joe Mallon,Johann Dettweiler,Jonathan Feuer,full cast',
+    '// asin-2': { asin: '1405537345', minutes: 2343 },
+    '// meta-2': 'The Burning White / Brent Weeks / n: Simon Vance',
+    '// asin-3': { asin: '1648814794', minutes: 483 },
+    '// meta-3':
+      'The Burning White (4 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Bradley Smith,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Zeke Alton,Richard Rohan,Karen Novack,Elliot Dash,Michael John Casey,Alejandro Ruiz,Nick DePinto',
+    '// asin-4': { asin: '1648810527', minutes: 418 },
+    '// meta-4':
+      'The Burning White (3 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Colleen Delany,Chris Genebach,Karen Novack,Nick DePinto,Bradley Smith,Elliot Dash,Ren Kasey',
+    '// asin-5': { asin: '1648810381', minutes: 460 },
+    '// meta-5':
+      'The Burning White (2 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Karen Novack,Yasmin Tuazon,Bradley Smith,Mort Shelby,Ren Casey,Christopher Scheeren,Elliot Dash,Johann Dettweiler,Nick DePinto',
+    '// asin-6': { asin: '164881560X', minutes: 455 },
+    '// meta-6':
+      'The Burning White (5 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Chris Stinson,Karen Novack,Thomas Penny,Bradley Smith,Yasmin Tuazon,Michael Glenn,Michael John Casey,Kimberly Gilbert,Nick DePinto',
+    '// asin-7': { asin: '1648801544', minutes: 445 },
+    '// meta-7':
+      'The Burning White (1 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Christopher Scheeren,Johann Dettweiler,Yasmin Tuazon,Kimberly Gilbert,Bradley Smith,Steven Carpenter,Karen Novack,Jonathan Feuer,Elliot Dash'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [05] The Burning White [02]': {
-    author: 'GraphicAudio [Brent Weeks]', // unique
-    title: 'The Lightbringer Saga [05] The Burning White [02]', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Burning White', // hint
     '// duration': { seconds: 27609, minutes: 460 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '147897835X', minutes: 2344 },
+    '// meta-0': 'The Burning White / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B09H3L2XQF', minutes: 2263 },
+    '// meta-1':
+      'The Burning White [Dramatized Adaptation] / Brent Weeks / n: Andy Brownstein,Audrey Bertaux,Bradley Smith,Chris Davenport,Chris Stinson,Christopher Scheeren,Colleen Delany,Delores King Williams,Elliot Dash,Evan Casey,Jeff Allin,Joe Mallon,Johann Dettweiler,Jonathan Feuer,full cast',
+    '// asin-2': { asin: '1405537345', minutes: 2343 },
+    '// meta-2': 'The Burning White / Brent Weeks / n: Simon Vance',
+    '// asin-3': { asin: '1648814794', minutes: 483 },
+    '// meta-3':
+      'The Burning White (4 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Bradley Smith,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Zeke Alton,Richard Rohan,Karen Novack,Elliot Dash,Michael John Casey,Alejandro Ruiz,Nick DePinto',
+    '// asin-4': { asin: '1648810527', minutes: 418 },
+    '// meta-4':
+      'The Burning White (3 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Colleen Delany,Chris Genebach,Karen Novack,Nick DePinto,Bradley Smith,Elliot Dash,Ren Kasey',
+    '// asin-5': { asin: '1648810381', minutes: 460 },
+    '// meta-5':
+      'The Burning White (2 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Karen Novack,Yasmin Tuazon,Bradley Smith,Mort Shelby,Ren Casey,Christopher Scheeren,Elliot Dash,Johann Dettweiler,Nick DePinto',
+    '// asin-6': { asin: '164881560X', minutes: 455 },
+    '// meta-6':
+      'The Burning White (5 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Chris Stinson,Karen Novack,Thomas Penny,Bradley Smith,Yasmin Tuazon,Michael Glenn,Michael John Casey,Kimberly Gilbert,Nick DePinto',
+    '// asin-7': { asin: '1648801544', minutes: 445 },
+    '// meta-7':
+      'The Burning White (1 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Christopher Scheeren,Johann Dettweiler,Yasmin Tuazon,Kimberly Gilbert,Bradley Smith,Steven Carpenter,Karen Novack,Jonathan Feuer,Elliot Dash'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [05] The Burning White [03]': {
-    author: 'GraphicAudio [Brent Weeks]', // unique
-    title: 'The Lightbringer Saga [05] The Burning White [03]', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Burning White', // hint
     '// duration': { seconds: 25098, minutes: 418 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '147897835X', minutes: 2344 },
+    '// meta-0': 'The Burning White / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B09H3L2XQF', minutes: 2263 },
+    '// meta-1':
+      'The Burning White [Dramatized Adaptation] / Brent Weeks / n: Andy Brownstein,Audrey Bertaux,Bradley Smith,Chris Davenport,Chris Stinson,Christopher Scheeren,Colleen Delany,Delores King Williams,Elliot Dash,Evan Casey,Jeff Allin,Joe Mallon,Johann Dettweiler,Jonathan Feuer,full cast',
+    '// asin-2': { asin: '1405537345', minutes: 2343 },
+    '// meta-2': 'The Burning White / Brent Weeks / n: Simon Vance',
+    '// asin-3': { asin: '1648814794', minutes: 483 },
+    '// meta-3':
+      'The Burning White (4 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Bradley Smith,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Zeke Alton,Richard Rohan,Karen Novack,Elliot Dash,Michael John Casey,Alejandro Ruiz,Nick DePinto',
+    '// asin-4': { asin: '1648810527', minutes: 418 },
+    '// meta-4':
+      'The Burning White (3 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Colleen Delany,Chris Genebach,Karen Novack,Nick DePinto,Bradley Smith,Elliot Dash,Ren Kasey',
+    '// asin-5': { asin: '1648810381', minutes: 460 },
+    '// meta-5':
+      'The Burning White (2 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Karen Novack,Yasmin Tuazon,Bradley Smith,Mort Shelby,Ren Casey,Christopher Scheeren,Elliot Dash,Johann Dettweiler,Nick DePinto',
+    '// asin-6': { asin: '164881560X', minutes: 455 },
+    '// meta-6':
+      'The Burning White (5 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Chris Stinson,Karen Novack,Thomas Penny,Bradley Smith,Yasmin Tuazon,Michael Glenn,Michael John Casey,Kimberly Gilbert,Nick DePinto',
+    '// asin-7': { asin: '1648801544', minutes: 445 },
+    '// meta-7':
+      'The Burning White (1 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Christopher Scheeren,Johann Dettweiler,Yasmin Tuazon,Kimberly Gilbert,Bradley Smith,Steven Carpenter,Karen Novack,Jonathan Feuer,Elliot Dash'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [05] The Burning White [04]': {
-    author: 'GraphicAudio', // unique
-    title: 'The Lightbringer Saga 5 - The Burning White (4 of 5)', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Burning White', // hint
     '// duration': { seconds: 29010, minutes: 484 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '147897835X', minutes: 2344 },
+    '// meta-0': 'The Burning White / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B09H3L2XQF', minutes: 2263 },
+    '// meta-1':
+      'The Burning White [Dramatized Adaptation] / Brent Weeks / n: Andy Brownstein,Audrey Bertaux,Bradley Smith,Chris Davenport,Chris Stinson,Christopher Scheeren,Colleen Delany,Delores King Williams,Elliot Dash,Evan Casey,Jeff Allin,Joe Mallon,Johann Dettweiler,Jonathan Feuer,full cast',
+    '// asin-2': { asin: '1405537345', minutes: 2343 },
+    '// meta-2': 'The Burning White / Brent Weeks / n: Simon Vance',
+    '// asin-3': { asin: '1648814794', minutes: 483 },
+    '// meta-3':
+      'The Burning White (4 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Bradley Smith,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Zeke Alton,Richard Rohan,Karen Novack,Elliot Dash,Michael John Casey,Alejandro Ruiz,Nick DePinto',
+    '// asin-4': { asin: '1648810527', minutes: 418 },
+    '// meta-4':
+      'The Burning White (3 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Colleen Delany,Chris Genebach,Karen Novack,Nick DePinto,Bradley Smith,Elliot Dash,Ren Kasey',
+    '// asin-5': { asin: '1648810381', minutes: 460 },
+    '// meta-5':
+      'The Burning White (2 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Karen Novack,Yasmin Tuazon,Bradley Smith,Mort Shelby,Ren Casey,Christopher Scheeren,Elliot Dash,Johann Dettweiler,Nick DePinto',
+    '// asin-6': { asin: '164881560X', minutes: 455 },
+    '// meta-6':
+      'The Burning White (5 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Chris Stinson,Karen Novack,Thomas Penny,Bradley Smith,Yasmin Tuazon,Michael Glenn,Michael John Casey,Kimberly Gilbert,Nick DePinto',
+    '// asin-7': { asin: '1648801544', minutes: 445 },
+    '// meta-7':
+      'The Burning White (1 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Christopher Scheeren,Johann Dettweiler,Yasmin Tuazon,Kimberly Gilbert,Bradley Smith,Steven Carpenter,Karen Novack,Jonathan Feuer,Elliot Dash'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [05] The Burning White [05]': {
-    author: 'GraphicAudio [Brent Weeks]', // unique
-    title: 'The Lightbringer Saga [05] The Burning White [05]', // unique
+    author: 'Brent Weeks', // hint
+    title: 'The Burning White', // hint
     '// duration': { seconds: 27350, minutes: 456 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '147897835X', minutes: 2344 },
+    '// meta-0': 'The Burning White / Brent Weeks / n: Simon Vance',
+    '// asin-1': { asin: 'B09H3L2XQF', minutes: 2263 },
+    '// meta-1':
+      'The Burning White [Dramatized Adaptation] / Brent Weeks / n: Andy Brownstein,Audrey Bertaux,Bradley Smith,Chris Davenport,Chris Stinson,Christopher Scheeren,Colleen Delany,Delores King Williams,Elliot Dash,Evan Casey,Jeff Allin,Joe Mallon,Johann Dettweiler,Jonathan Feuer,full cast',
+    '// asin-2': { asin: '1405537345', minutes: 2343 },
+    '// meta-2': 'The Burning White / Brent Weeks / n: Simon Vance',
+    '// asin-3': { asin: '1648814794', minutes: 483 },
+    '// meta-3':
+      'The Burning White (4 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Bradley Smith,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Zeke Alton,Richard Rohan,Karen Novack,Elliot Dash,Michael John Casey,Alejandro Ruiz,Nick DePinto',
+    '// asin-4': { asin: '1648810527', minutes: 418 },
+    '// meta-4':
+      'The Burning White (3 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Colleen Delany,Chris Genebach,Karen Novack,Nick DePinto,Bradley Smith,Elliot Dash,Ren Kasey',
+    '// asin-5': { asin: '1648810381', minutes: 460 },
+    '// meta-5':
+      'The Burning White (2 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Karen Novack,Yasmin Tuazon,Bradley Smith,Mort Shelby,Ren Casey,Christopher Scheeren,Elliot Dash,Johann Dettweiler,Nick DePinto',
+    '// asin-6': { asin: '164881560X', minutes: 455 },
+    '// meta-6':
+      'The Burning White (5 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Chris Stinson,Karen Novack,Thomas Penny,Bradley Smith,Yasmin Tuazon,Michael Glenn,Michael John Casey,Kimberly Gilbert,Nick DePinto',
+    '// asin-7': { asin: '1648801544', minutes: 445 },
+    '// meta-7':
+      'The Burning White (1 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Christopher Scheeren,Johann Dettweiler,Yasmin Tuazon,Kimberly Gilbert,Bradley Smith,Steven Carpenter,Karen Novack,Jonathan Feuer,Elliot Dash'
   },
   '/Volumes/Space/archive/media/audiobooks/Brian Greene - Light Falls': {
     author: 'Brian Greene', // hint

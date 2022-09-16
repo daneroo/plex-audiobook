@@ -27,7 +27,7 @@ export async function searchAudible ({ author, title }) {
   // check cache first
   const cachedResult = await readJSON(cacheKeyPath).catch(() => null)
   if (cachedResult) {
-    console.error('Using cached result for', url.href)
+    // console.error('Using cached result for', url.href)
     return cachedResult
   }
 
@@ -54,7 +54,7 @@ function sha256sum (input) {
 async function storeJSON (json, path) {
   const data = JSON.stringify(json, null, 2)
   await fs.writeFile(path, data)
-  console.error('Wrote', path)
+  // console.error('Wrote', path)
   return path
 }
 

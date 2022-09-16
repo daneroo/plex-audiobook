@@ -13,7 +13,8 @@
 
 - asin candidates (for known good Authors)
 - [ ] Broken duration for 12 directories
-- [ ] fix title/author - '// asin lookup results': 'zero!' - 191 left
+- [ ] Merge Brent Weeks Light Bringer
+- [ ] fix title/author - '// asin lookup results': 'zero!' - 174 left
 - [ ] skip:
   - [ ] skip: "no asin"
   - [ ] skip: "found in Arcanum": Delete extraneous Cosmere - from Arcanum Unbounded
