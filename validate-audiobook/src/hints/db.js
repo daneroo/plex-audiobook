@@ -1417,7 +1417,8 @@ export const db = {
     author: 'Doris Lessing', // hint
     title: 'Shikasta', // hint
     '// duration': { seconds: 51864, minutes: 864 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/DorisKearnsGoodwin-TeamOfRivals': {
     author: 'Doris Kearns Goodwin', // unique
@@ -2144,7 +2145,8 @@ export const db = {
     author: 'Isaac Asimov', // unique
     title: 'The Complete Robot', // unique
     '// duration': { seconds: 85855, minutes: 1431 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-RobotSeries/1983 - The Robots of Dawn (Dufris) 192k 15.43.20 {1.26gb}': {
     author: 'Isaac Asimov', // unique
@@ -2157,7 +2159,8 @@ export const db = {
     author: 'Isaac Asimov', // unique
     title: 'Robots & Empire', // unique
     '// duration': { seconds: 51970, minutes: 866 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-RobotSeries/1986 - Robot Dreams (Russotto) 64k 15.12.02 {422mb}': {
     author: 'Isaac Asimov', // unique
@@ -2183,7 +2186,8 @@ export const db = {
     author: 'Isaac Asimov', // hint
     title: 'The Positronic Man', // unique
     '// duration': { seconds: 30378, minutes: 506 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/JackKornfield-TheInnerArtofMeditation': {
     author: 'Jack Kornfield', // unique
@@ -2346,7 +2350,8 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Restoration of Faith', // hint
     '// duration': { seconds: 2095, minutes: 35 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 01 - Storm Front': {
     author: 'Jim Butcher', // unique
@@ -2366,7 +2371,8 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'B is for Bigfoot', // hint
     '// duration': { seconds: 3817, minutes: 64 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 03 - Grave Peril': {
     author: 'Jim Butcher', // unique
@@ -2393,7 +2399,8 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Vinette', // hint
     '// duration': { seconds: 350, minutes: 6 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 06 - Blood Rites': {
     author: 'Jim Butcher', // unique
@@ -2413,13 +2420,15 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Something Borrowed', // hint
     '// duration': { seconds: 3807, minutes: 63 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 07.2 - I Was a Teenage Bigfoot': {
     author: 'Jim Butcher', // unique
     title: 'I Was a Teenage Bigfoot', // hint
     '// duration': { seconds: 3396, minutes: 57 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 08 - Proven Guilty': {
     author: 'Jim Butcher', // unique
@@ -2439,13 +2448,15 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Its my Birthday too', // hint
     '// duration': { seconds: 5331, minutes: 89 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 09.2 - Heorot': {
     author: 'Jim Butcher', // unique
     title: 'Heorot', // hint
     '// duration': { seconds: 4953, minutes: 83 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10 - Small Favor': {
     author: 'Jim Butcher', // unique
@@ -2458,31 +2469,36 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Day off', // hint
     '// duration': { seconds: 2564, minutes: 43 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.2 - Backup': {
     author: 'Jim Butcher', // unique
     title: 'Backup', // hint
     '// duration': { seconds: 4512, minutes: 75 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.3 - The Warrior': {
     author: 'Jim Butcher', // unique
     title: 'The Warrior', // hint
     '// duration': { seconds: 6690, minutes: 112 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.4 - Last Call': {
     author: 'Jim Butcher', // unique
     title: 'Last Call', // hint
     '// duration': { seconds: 3630, minutes: 61 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.9 - Curses': {
     author: 'Jim Butcher', // unique
     title: 'Curses', // hint
     '// duration': { seconds: 3189, minutes: 53 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 11 - Turn Coat': {
     author: 'Jim Butcher', // unique
@@ -2495,19 +2511,22 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Love Hurts', // hint
     '// duration': { seconds: 3638, minutes: 61 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 11.2 - Even Hand': {
     author: 'Jim Butcher', // unique
     title: 'Even Hand', // hint
     '// duration': { seconds: 3462, minutes: 58 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 11.3 - Bigfoot on Campus': {
     author: 'Jim Butcher', // unique
     title: 'Bigfoot on Campus', // hint
     '// duration': { seconds: 6238, minutes: 104 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 12 - Changes': {
     author: 'Jim Butcher', // unique
@@ -2521,7 +2540,8 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Aftermath', // hint
     '// duration': { seconds: 10043, minutes: 167 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 13 - Ghost Story': {
     author: 'Jim Butcher', // unique
@@ -2534,13 +2554,15 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Bombshells', // hint
     '// duration': { seconds: 7828, minutes: 130 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 13.6 - Jury Duty': {
     author: 'Jim Butcher', // unique
     title: 'Jury Duty', // hint
     '// duration': { seconds: 3457, minutes: 58 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 14 - Cold Days': {
     author: 'Jim Butcher', // unique
@@ -2555,7 +2577,8 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Cold Case', // hint
     '// duration': { seconds: 6161, minutes: 103 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 15 - Skin Game': {
     author: 'Jim Butcher', // unique
@@ -3008,7 +3031,8 @@ export const db = {
     author: 'Jorge Luis Borges', // unique
     title: 'The Aleph and Other Stories', // unique
     '// duration': { seconds: 27241, minutes: 454 },
-    '// asin lookup results': 'zero!'
+    '// asin lookup results': 'zero!',
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Katherine Addison - The Goblin Emperor': {
     author: 'Katherine Addison', // unique
@@ -4379,8 +4403,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Paul Hapern - The Quantum Labyrinth': {
     author: 'Paul Halpern', // unique
-    title:
-      'The Quantum Labyrinth: How Richard Feynman and John Wheeler Revolutionized Time and Reality (Unabridged)', // unique
+    title: 'The Quantum Labyrinth', // hint
     '// duration': { seconds: 38683, minutes: 645 },
     '// asin lookup results': 'zero!'
   },
@@ -4443,8 +4466,8 @@ export const db = {
     '// meta-5': 'Crux / Ramez Naam / n: Uve Teschner'
   },
   '/Volumes/Space/archive/media/audiobooks/RichardMorgan-AlteredCarbon': {
-    author: 'Top 100 Sci-Fi Books', // unique
-    title: '87 - Altered Carbon - Richard Morgan - 2002', // unique
+    author: 'Richard Morgan', // hint
+    title: 'Altered Carbon', // hint
     '// duration': { seconds: 61971, minutes: 1033 },
     '// asin lookup results': 'zero!'
   },
@@ -4481,13 +4504,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Ryan Holiday - Ego Is the Enemy (Unabridged)': {
     author: 'Ryan Holiday', // unique
-    title: 'Ego Is the Enemy (Unabridged)', // unique
+    title: 'Ego Is the Enemy', // hint
     '// duration': { seconds: 24978, minutes: 416 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Salman Rushdie - Midnights Children': {
     author: 'Salman Rushdie', // unique
-    title: "Midnight's Children (Unabridged)", // unique
+    title: "Midnight's Children", // hint
     '// duration': { seconds: 88189, minutes: 1470 },
     '// asin lookup results': 'zero!'
   },
