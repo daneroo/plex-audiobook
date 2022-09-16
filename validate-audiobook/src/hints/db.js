@@ -4855,8 +4855,8 @@ export const db = {
     '// meta-0': 'Yendi / Steven Brust / n: Bernard Setaro Clark'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/03 - Teckla': {
-    author: 'Brust, Steven', // unique
-    title: 'Vlad Taltos - 03 - Teckla', // unique
+    author: 'Steven Brust', // hint
+    title: 'Teckla', // hint
     '// duration': { seconds: 26035, minutes: 434 },
     '// asin lookup results': 'zero!'
   },
@@ -4898,7 +4898,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/06 - Athyra': {
     author: 'Steven Brust', // unique
-    title: 'Athyra: Vlad Taltos, Book 6 (U', // unique
+    title: 'Athyra', //hint
     '// duration': { seconds: 30201, minutes: 503 },
     '// asin lookup results': 'zero!'
   },
@@ -4918,38 +4918,38 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/09 - Issola': {
     author: 'Steven Brust', // unique
-    title: 'Issola: Vlad Taltos, Book 9 (Unabridged)', // unique
+    title: 'Issola', // hint
     '// duration': { seconds: 31167, minutes: 519 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/10 - Dzur': {
     author: 'Steven Brust', // unique
-    title: 'Dzur: Vlad Taltos, Book 10 (Unabridged)', // unique
+    title: 'Dzur', // hint
     '// duration': { seconds: 29287, minutes: 488 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/11 - Jhegaala': {
     author: 'Steven Brust', // unique
-    title: 'Jhegaala: Vlad Taltos, Book 11 (Unabridged)', // unique
+    title: 'Jhegaala', // hint
     '// duration': { seconds: 33087, minutes: 551 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/12 - Iorich': {
     author: 'Steven Brust', // unique
-    title: 'Iorich: Vlad Taltos, Book 12 (Unabridged)', // unique
+    title: 'Iorich', // hint
     '// duration': { seconds: 31294, minutes: 522 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/13 - Tiassa': {
-    author: 'Brust, Steven', // unique
-    title: 'Vlad Taltos - 13 - Tiassa', // unique
+    author: 'Steven Brust', // hint
+    title: 'Tiassa', // hint
     '// duration': { seconds: 30247, minutes: 504 },
     '// asin-0': { asin: 'B008SEHICI', minutes: 504 },
     '// meta-0': 'Tiassa / Steven Brust / n: Bernard Setaro Clark'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/14 - Hawk': {
     author: 'Steven Brust', // unique
-    title: 'Vlad Taltos 14 - Hawk', // unique
+    title: 'Hawk', // hint
     '// duration': { seconds: 31696, minutes: 528 },
     '// asin-0': { asin: 'B00M8HO0I6', minutes: 528 },
     '// meta-0': 'Hawk / Steven Brust / n: Bernard Setaro Clark'
