@@ -4858,7 +4858,8 @@ export const db = {
     author: 'Steven Brust', // hint
     title: 'Teckla', // hint
     '// duration': { seconds: 26035, minutes: 434 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B008SEHKCG', minutes: 433 },
+    '// meta-0': 'Teckla / Steven Brust / n: Bernard Setaro Clark'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/04 - Taltos': {
     author: 'Steven Brust', // unique
@@ -4898,9 +4899,10 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/06 - Athyra': {
     author: 'Steven Brust', // unique
-    title: 'Athyra', //hint
+    title: 'Athyra', // hint
     '// duration': { seconds: 30201, minutes: 503 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B008SEI1WE', minutes: 503 },
+    '// meta-0': 'Athyra / Steven Brust / n: Bernard Setaro Clark'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/07 - Orca': {
     author: 'Steven Brust', // unique
@@ -4920,25 +4922,29 @@ export const db = {
     author: 'Steven Brust', // unique
     title: 'Issola', // hint
     '// duration': { seconds: 31167, minutes: 519 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B008SFEY7O', minutes: 519 },
+    '// meta-0': 'Issola / Steven Brust / n: Bernard Setaro Clark'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/10 - Dzur': {
     author: 'Steven Brust', // unique
     title: 'Dzur', // hint
     '// duration': { seconds: 29287, minutes: 488 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B008SEGMCK', minutes: 487 },
+    '// meta-0': 'Dzur / Steven Brust / n: Bernard Setaro Clark'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/11 - Jhegaala': {
     author: 'Steven Brust', // unique
     title: 'Jhegaala', // hint
     '// duration': { seconds: 33087, minutes: 551 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B008SEH93G', minutes: 551 },
+    '// meta-0': 'Jhegaala / Steven Brust / n: Bernard Setaro Clark'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/12 - Iorich': {
     author: 'Steven Brust', // unique
     title: 'Iorich', // hint
     '// duration': { seconds: 31294, minutes: 522 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B008SEH5QW', minutes: 521 },
+    '// meta-0': 'Iorich / Steven Brust / n: Bernard Setaro Clark'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/13 - Tiassa': {
     author: 'Steven Brust', // hint
@@ -5028,15 +5034,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/StevenPinker-StuffOfThought/Steven Pinker - The Stuff of Thought- Language as a Window into Human Nature, Part 1': {
     author: 'Steven Pinker', // unique
-    title:
-      'The Stuff of Thought: Language as a Window into Human Nature, Part 1', // unique
+    title: 'The Stuff of Thought', // hint
     '// duration': { seconds: 17691, minutes: 295 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/StevenPinker-StuffOfThought/Steven Pinker - The Stuff of Thought- Language as a Window into Human Nature, Part 2': {
     author: 'Steven Pinker', // unique
-    title:
-      'The Stuff of Thought: Language as a Window into Human Nature, Part 2', // unique
+    title: 'The Stuff of Thought', // hint
     '// duration': { seconds: 17012, minutes: 284 },
     '// asin lookup results': 'zero!'
   },
@@ -5051,7 +5055,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Ted Chiang - Exhalation': {
     author: 'Ted Chiang', // unique
-    title: 'Ted Chiang - Exhalation Stories', // unique
+    title: 'Exhalation', // unique
     '// duration': { seconds: 40928, minutes: 682 },
     '// asin lookup results': 'zero!'
   },
@@ -5064,9 +5068,8 @@ export const db = {
       'Stories of Your Life and Others / Ted Chiang / n: Abby Craden,Todd McLaren'
   },
   '/Volumes/Space/archive/media/audiobooks/TheDailyStoic': {
-    author: 'Ryan Holiday, Stephen Hanselman', // unique
-    title:
-      'The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living (Unabridged)', // unique
+    author: 'Ryan Holiday', // hint
+    title: 'The Daily Stoic', // hint
     '// duration': { seconds: 36391, minutes: 607 },
     '// asin lookup results': 'zero!'
   },
@@ -5125,7 +5128,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Tom Holland - Rubicon - The Triumph and Tragedy of the Roman Republic': {
     author: 'Tom Holland', // unique
-    title: 'Rubicon (Unabridged)', // unique
+    title: 'Rubicon', // hint
     '// duration': { seconds: 56220, minutes: 937 },
     '// asin lookup results': 'zero!'
   },
@@ -5143,8 +5146,8 @@ export const db = {
       'A Wizard of Earthsea / Ursula K. Le Guin / n: Harlan Ellison and Ursula K. Le Guin'
   },
   '/Volumes/Space/archive/media/audiobooks/UrsulaKLeGuin-TheLeftHandOfDarkness': {
-    author: 'Ursula K Le Guin', // unique
-    title: 'HC04 - The Left Hand Of Darkness [Guidall]', // unique
+    author: 'Ursula K. Le Guin', // hint
+    title: 'The Left Hand Of Darkness', // hint
     '// duration': { seconds: 34805, minutes: 580 },
     '// asin lookup results': 'zero!'
   },
@@ -5152,20 +5155,20 @@ export const db = {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Vernor Vinge - Zones of Thought Trilogy/Vernor Vinge - 01 - A Fire Upon the Deep': {
-    author: 'Top 100 Sci-Fi Books', // unique
-    title: '41 - A Fire Upon the Deep - Vernor Vinge - 1991', // unique
+    author: 'Vernor Vinge', // hint
+    title: 'A Fire Upon the Deep', // hint
     '// duration': { seconds: 85914, minutes: 1432 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Vernor Vinge - Zones of Thought Trilogy/Vernor Vinge - 02 - A Deepness in the Sky': {
     author: 'Vernor Vinge', // unique
-    title: '03 - A Deepness in the Sky', // unique
+    title: 'A Deepness in the Sky', // hint
     '// duration': { seconds: 102696, minutes: 1712 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Vernor Vinge - Zones of Thought Trilogy/Vernor Vinge - 03 - The Children of the Sky': {
     author: 'Vernor Vinge', // unique
-    title: '02 - The Children of the Sky', // unique
+    title: 'The Children of the Sky', // hint
     '// duration': { seconds: 99775, minutes: 1663 },
     '// asin lookup results': 'zero!'
   },
@@ -5173,15 +5176,14 @@ export const db = {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Victoria Schwab - A Darker Shade of Magic Series/Victoria Schwab - SoM01 - A Darker Shade of Magic': {
-    author: 'V. E. Schwab', // unique
-    title:
-      'A Darker Shade of Magic (A Darker Shade of Magic 1) by V. E. Schwab (2015)', // unique
+    author: 'V.E. Schwab', // hint
+    title: 'A Darker Shade of Magic', // hint
     '// duration': { seconds: 41687, minutes: 695 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Victoria Schwab - A Darker Shade of Magic Series/Victoria Schwab - SoM02 - A Gathering of Shadows': {
     author: 'V.E. Schwab', // unique
-    title: 'A Gathering of Shadows (Unabridged)', // unique
+    title: 'A Gathering of Shadows', // hint
     '// duration': { seconds: 58154, minutes: 969 },
     '// asin lookup results': 'zero!'
   },
@@ -5197,8 +5199,8 @@ export const db = {
       'A Conjuring of Light / V.E. Schwab / n: Kate Reading,Michael Kramer'
   },
   '/Volumes/Space/archive/media/audiobooks/Virgil - The Aeneid': {
-    author: 'Virgil   (Translated from the Latin by Robert Fagles)', // unique
-    title: 'The Aeneid (Unb)', // unique
+    author: 'Virgil', // hint
+    title: 'The Aeneid', // hint
     '// duration': { seconds: 44816, minutes: 747 },
     '// asin lookup results': 'zero!'
   },
@@ -5253,7 +5255,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/WillDurant-OurOrientalHeritage-TheStoryOfCivilization-Volume1': {
     author: 'Will Durant', // unique
-    title: 'Our Oriental Heritage (Unabridged)', // unique
+    title: 'Our Oriental Heritage', // hint
     '// duration': { seconds: null, minutes: null },
     '// asin lookup results': 'zero!'
   },
@@ -5316,7 +5318,7 @@ export const db = {
   },
   "/Volumes/Space/archive/media/audiobooks/Wu Ch'eng-en - Journey to the West (Monkey) [abridged]": {
     author: "Wu Ch'eng-en", // unique
-    title: 'Journey to the West (Arthur Waley translation)', // unique
+    title: 'Monkey', // hint
     '// duration': { seconds: 49258, minutes: 821 },
     '// asin lookup results': 'zero!'
   }
