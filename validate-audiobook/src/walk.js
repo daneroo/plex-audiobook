@@ -89,6 +89,25 @@ async function classifyDirectory (directoryPath) {
       directoryPath
     )
 
+    const seconds = Math.round(
+      metas
+        .map(m => m.format.duration)
+        .reduce((total, duration) => total + duration, 0)
+    )
+    const minutes = Math.round(seconds / 60)
+    if (!seconds) {
+      console.error('Missing audio files duration =>', { seconds, minutes })
+      // console.error(
+      //   'metas =>',
+      //   JSON.stringify(
+      //     metas.map(m => m.format),
+      //     null,
+      //     2
+      //   )
+      // )
+    }
+    rewriteHint('  "// duration":', JSON.stringify({ seconds, minutes }), ',')
+
     const skipHint = getSkip(directoryPath)
     if (!okAuthorTitle || skipHint) {
       console.error(
@@ -106,25 +125,6 @@ async function classifyDirectory (directoryPath) {
       // total duration
       console.error('=-=-: Lookup asin', directoryPath.substring(39))
       // console.error('author,title =>', { author, title })
-
-      const seconds = Math.round(
-        metas
-          .map(m => m.format.duration)
-          .reduce((total, duration) => total + duration, 0)
-      )
-      const minutes = Math.round(seconds / 60)
-      if (!seconds) {
-        console.error('Missing audio files duration =>', { seconds, minutes })
-        // console.error(
-        //   'metas =>',
-        //   JSON.stringify(
-        //     metas.map(m => m.format),
-        //     null,
-        //     2
-        //   )
-        // )
-      }
-      rewriteHint('  "// duration":', JSON.stringify({ seconds, minutes }), ',')
 
       // TODO(daneroo) and neither is falsy
       const doAudible = true

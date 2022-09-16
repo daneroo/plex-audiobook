@@ -77,6 +77,7 @@ export const db = {
       'Revelation Space 04 Absolution Gap',
       'Revelation Space 05 The Prefect'
     ],
+    '// duration': { seconds: 235362, minutes: 3923 },
     skip: 'multiple books in one directory'
   },
   '/Volumes/Space/archive/media/audiobooks/Andrew Morton - 17 Carnations': {
@@ -395,6 +396,7 @@ export const db = {
       'Shakespeare - The World as Stage -- Disc 4 of 5',
       'Shakespeare - The World as Stage -- Disc 5 of 5'
     ],
+    '// duration': { seconds: 85723, minutes: 1429 },
     skip: 'multiple books in one directory'
   },
   '/Volumes/Space/archive/media/audiobooks/Blake Crouch - Dark Matter': {
@@ -480,6 +482,7 @@ export const db = {
     '// Non-unique Author': [null],
     title: '', // non-unique or falsy
     '// Non-unique Title': [null],
+    '// duration': { seconds: 7533, minutes: 126 },
     '// Invalid author or title': 'FIX NOW!'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 11 - Mistborn 4 - The Alloy of Law': {
@@ -496,6 +499,7 @@ export const db = {
     '// Non-unique Author': [null],
     title: '', // non-unique or falsy
     '// Non-unique Title': [null],
+    '// duration': { seconds: 2880, minutes: 48 },
     '// Invalid author or title': 'FIX NOW!'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 13 - Mistborn 5 - Shadows of Self': {
@@ -568,6 +572,7 @@ export const db = {
     '// Non-unique Author': [null],
     title: '', // non-unique or falsy
     '// Non-unique Title': [null],
+    '// duration': { seconds: 18626, minutes: 310 },
     '// Invalid author or title': 'FIX NOW!'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 2 - Mistborn 2 - The Well of Ascension': {
@@ -614,6 +619,7 @@ export const db = {
     '// Non-unique Author': [null],
     title: '', // non-unique or falsy
     '// Non-unique Title': [null],
+    '// duration': { seconds: 3557, minutes: 59 },
     '// Invalid author or title': 'FIX NOW!'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 3 - Mistborn 3 - The Hero of Ages': {
@@ -633,6 +639,7 @@ export const db = {
     '// Non-unique Author': [null],
     title: '', // non-unique or falsy
     '// Non-unique Title': [null],
+    '// duration': { seconds: 2802, minutes: 47 },
     '// Invalid author or title': 'FIX NOW!'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 5 - Mistborn 3.5 - Secret History': {
@@ -640,6 +647,7 @@ export const db = {
     '// Non-unique Author': [null],
     title: '', // non-unique or falsy
     '// Non-unique Title': [null],
+    '// duration': { seconds: 19743, minutes: 329 },
     '// Invalid author or title': 'FIX NOW!'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 6 - Elantris 1 - Elantris': {
@@ -677,6 +685,7 @@ export const db = {
     '// Non-unique Author': [null],
     title: '', // non-unique or falsy
     '// Non-unique Title': [null],
+    '// duration': { seconds: 14272, minutes: 238 },
     '// Invalid author or title': 'FIX NOW!'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 8 - Elantris 1.5 - The Hope of Elantris': {
@@ -684,6 +693,7 @@ export const db = {
     '// Non-unique Author': [null],
     title: '', // non-unique or falsy
     '// Non-unique Title': [null],
+    '// duration': { seconds: 2898, minutes: 48 },
     '// Invalid author or title': 'FIX NOW!'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 9 - Shadows for Silence in the Forests of Hell': {
@@ -1076,9 +1086,13 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Brian Greene - The Fabric of the Cosmos Space, Time, and the Texture of Reality': {
     author: 'Brian Greene', // unique
-    title: 'The Fabric of the Cosmos (Unabridged)', // unique
+    title: 'The Fabric of the Cosmos', // hint
     '// duration': { seconds: 81378, minutes: 1356 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V1K1IM', minutes: 1356 },
+    '// meta-0':
+      'The Fabric of the Cosmos / Brian Greene / n: Michael Prichard',
+    '// asin-1': { asin: 'B002V1OP9S', minutes: 378 },
+    '// meta-1': 'The Fabric of the Cosmos / Brian Greene / n: Erik Davies'
   },
   '/Volumes/Space/archive/media/audiobooks/Brian Greene - Until the End of Time': {
     author: 'Brian Greene', // unique
@@ -1092,9 +1106,12 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/CalNewPort-SoGoodTheyCantIgnoreYou': {
     author: 'Cal Newport', // unique
-    title: "So Good They Can't Ignore You (Unabridged)", // unique
+    title: "So Good They Can't Ignore You", // hint
     '// duration': { seconds: 23335, minutes: 389 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00995OX28', minutes: 388 },
+    '// meta-0': "So Good They Can't Ignore You / Cal Newport / n: Dave Mallow",
+    '// asin-1': { asin: 'B01LZ5KC7W', minutes: 388 },
+    '// meta-1': "So Good They Can't Ignore You / Cal Newport / n: Dave Mallow"
   },
   '/Volumes/Space/archive/media/audiobooks/Camilla Townsend - Fifth Sun': {
     author: 'Camilla Townsend', // unique
@@ -1127,19 +1144,26 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Carlo Rovelli - The Order of Time': {
     author: 'Carlo Rovelli', // unique
-    title: 'The Order of Time (Unabridged)', // unique
+    title: 'The Order of Time', // hint
     '// duration': { seconds: 15545, minutes: 259 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B07B4JGFJT', minutes: 259 },
+    '// meta-0': 'The Order of Time / Carlo Rovelli / n: Benedict Cumberbatch',
+    '// asin-1': { asin: 'B07944SP18', minutes: 258 },
+    '// meta-1': 'The Order of Time / Carlo Rovelli / n: Benedict Cumberbatch'
   },
   '/Volumes/Space/archive/media/audiobooks/Charlie Jane Anders - All the Birds in the Sky': {
     author: 'Charlie Jane Anders', // unique
-    title: 'Charlie Jane Anders - All the Birds in the Sky', // unique
+    title: 'All the Birds in the Sky', // hint
     '// duration': { seconds: 45607, minutes: 760 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01A5QB4NK', minutes: 756 },
+    '// meta-0':
+      'All the Birds in the Sky / Charlie Jane Anders / n: Alyssa Bresnahan',
+    '// asin-1': { asin: '1705014534', minutes: 756 },
+    '// meta-1':
+      'All the Birds in the Sky: International Edition / Charlie Jane Anders / n: Alyssa Bresnahan'
   },
   '/Volumes/Space/archive/media/audiobooks/Chogyam Trungpa - The Myth of Freedom and the Way of Meditation': {
-    author:
-      'Chögyam Trungpa, Pema Chödrön (foreword), John Baker (editor), Marvin Casper', // unique
+    author: 'Chögyam Trungpa', // hint
     title: 'The Myth of Freedom and the Way of Meditation', // unique
     '// duration': { seconds: 18681, minutes: 311 },
     '// asin-0': { asin: 'B00O4DBGMU', minutes: 311 },
@@ -1147,11 +1171,12 @@ export const db = {
       'The Myth of Freedom and the Way of Meditation / Chögyam Trungpa,Marvin Casper,John Baker - editor,Pema Chödrön - foreword / n: Roger Clark'
   },
   '/Volumes/Space/archive/media/audiobooks/Chogyam Trungpa- Cutting Through Spiritual Materialism': {
-    author:
-      'Marvin Casper - editor, John Baker - editor, Chögyam Trungpa, Sakyong Mipham - foreword', // unique
-    title: 'Cutting Through Spiritual Materialism (Unabridged)', // unique
+    author: 'Chögyam Trungpa', // hint
+    title: 'Cutting Through Spiritual Materialism', // hint
     '// duration': { seconds: 31863, minutes: 531 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00YAVP7TY', minutes: 530 },
+    '// meta-0':
+      'Cutting Through Spiritual Materialism / Marvin Casper - editor,John Baker - editor,Chögyam Trungpa,Sakyong Mipham - foreword / n: Jim Gimian'
   },
   '/Volumes/Space/archive/media/audiobooks/ChristopherHitchens-GodIsNotGreat': {
     author: 'Christopher Hitchens', // unique
@@ -1173,9 +1198,16 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/CixinLiu-TheDarkForest': {
     author: 'Cixin Liu', // unique
-    title: '02 - The Dark Forest', // unique
+    title: 'The Dark Forest', // hint
     '// duration': { seconds: 81434, minutes: 1357 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B010PKSKBA', minutes: 1356 },
+    '// meta-0':
+      'The Dark Forest / Cixin Liu,Joel Martinsen - translator / n: P. J. Ochlan',
+    '// asin-1': { asin: 'B01LWV2PWR', minutes: 1384 },
+    '// meta-1': 'The Dark Forest / Cixin Liu / n: Bruno Roubicek',
+    '// asin-2': { asin: '8417347534', minutes: 1359 },
+    '// meta-2':
+      'El bosque oscuro [The Dark Forest] / Cixin Liu / n: Francesc Belda'
   },
   '/Volumes/Space/archive/media/audiobooks/CixinLiu-TheThreeBodyProblem': {
     author: 'Cixin Liu', // unique
@@ -1210,31 +1242,34 @@ export const db = {
     author: 'Cory Doctorow', // hint
     title: 'Attack Surface', // unique
     '// duration': { seconds: 40107, minutes: 668 },
-    '// asin lookup results': 'zero!'
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/CoryDoctorow-ForceMultiplier': {
     author: 'Cory Doctorow', // unique
     title: 'Attack Surface', // unique
     '// duration': { seconds: 1400, minutes: 23 },
-    '// asin lookup results': 'zero!'
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/CoryDoctorow-Homeland': {
     author: 'Cory Doctorow', // hint
     title: 'Homeland', // unique
     '// duration': { seconds: 43501, minutes: 725 },
-    '// asin lookup results': 'zero!'
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/CoryDoctorow-Little Brother': {
     author: 'Cory Doctorow', // unique
     title: 'Little Brother', // unique
     '// duration': { seconds: 42855, minutes: 714 },
-    '// asin lookup results': 'zero!'
+    skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Dan Ariely - The Upside of Irrationality': {
     author: 'Dan Ariely', // unique
-    title: '', // non-unique or falsy
-    '// Non-unique Title': [null],
-    '// Invalid author or title': 'FIX NOW!'
+    title: 'The Upside of Irrationality', // hint
+    '// duration': { seconds: 29171, minutes: 486 },
+    '// asin-0': { asin: 'B003NTYKGA', minutes: 498 },
+    '// meta-0': 'The Upside of Irrationality / Dan Ariely / n: Simon Jones',
+    '// asin-1': { asin: 'B01I3RHUU4', minutes: 496 },
+    '// meta-1': 'The Upside of Irrationality / Dan Ariely / n: Simon Jones'
   },
   '/Volumes/Space/archive/media/audiobooks/Dan Jones - Magna Carta The Birth of Liberty': {
     author: 'Dan Jones', // unique
@@ -1497,6 +1532,7 @@ export const db = {
       'Hunters of Dune',
       'Sandworms of Dune'
     ],
+    '// duration': { seconds: 494617, minutes: 8244 },
     skip: 'multiple books in one directory'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/02 - Prelude to Dune': {
@@ -4417,6 +4453,7 @@ export const db = {
       'Denise Crosby'
     ],
     title: 'The Greatest Science Fiction Stories of the 20th Century', // unique
+    '// duration': { seconds: 23644, minutes: 394 },
     skip: 'multiple authors'
   },
   '/Volumes/Space/archive/media/audiobooks/TinaFey-Bossypants': {
