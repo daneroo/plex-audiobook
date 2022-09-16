@@ -17,7 +17,7 @@ export async function searchAudible ({ author, title }) {
   //  map params object to url's searchParams
   Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
 
-  console.log('fetching', url.href)
+  console.error('fetching', url.href)
   const response = await fetch(url)
   const results = await response.json()
   return results
