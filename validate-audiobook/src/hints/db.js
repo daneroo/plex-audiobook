@@ -4539,7 +4539,10 @@ export const db = {
     author: 'Sam Harris', // unique
     title: 'Waking Up', // hint
     '// duration': { seconds: 21217, minutes: 354 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00M9KCT12', minutes: 353 },
+    '// meta-0': 'Waking Up / Sam Harris / n: Sam Harris',
+    '// asin-1': { asin: 'B00O5D63EK', minutes: 351 },
+    '// meta-1': 'Waking Up / Sam Harris / n: Sam Harris'
   },
   '/Volumes/Space/archive/media/audiobooks/Scott Lynch - Gentleman Bastard Series': {
     '// No audio files': null
@@ -4548,7 +4551,10 @@ export const db = {
     author: 'Scott Lynch', // hint
     title: 'The Lies of Locke Lamora', // unique
     '// duration': { seconds: 78807, minutes: 1313 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B004K50434', minutes: 1319 },
+    '// meta-0': 'The Lies of Locke Lamora / Scott Lynch / n: Michael Page',
+    '// asin-1': { asin: '0593163389', minutes: 1356 },
+    '// meta-1': 'The Lies of Locke Lamora / Scott Lynch / n: Michael Page'
   },
   '/Volumes/Space/archive/media/audiobooks/Scott Lynch - Gentleman Bastard Series/Scott Lynch - GB02 - Red Seas under Red Skies': {
     author: 'Scott Lynch', // unique
@@ -4572,13 +4578,16 @@ export const db = {
     author: 'Sean Carroll', // unique
     title: 'The Big Picture', // hint
     '// duration': { seconds: 62289, minutes: 1038 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01ENXQUGM', minutes: 1042 },
+    '// meta-0': 'The Big Picture / Sean Carroll / n: Sean Carroll'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Higgs Boson and Beyond': {
     author: 'Sean Carroll', // hint
     title: 'The Higgs Boson and Beyond', // hint
     '// duration': { seconds: 22828, minutes: 380 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00SJIXBP6', minutes: 380 },
+    '// meta-0':
+      'The Higgs Boson and Beyond / Sean Carroll,The Great Courses / n: Sean Carroll'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe': {
     '// No audio files': null
@@ -4587,55 +4596,100 @@ export const db = {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00ANTWOSO', minutes: 645 },
+    '// meta-0':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan',
+    '// asin-1': { asin: 'B00DUX2L6A', minutes: 644 },
+    '// meta-1':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 2 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00ANTWOSO', minutes: 645 },
+    '// meta-0':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan',
+    '// asin-1': { asin: 'B00DUX2L6A', minutes: 644 },
+    '// meta-1':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 3 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00ANTWOSO', minutes: 645 },
+    '// meta-0':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan',
+    '// asin-1': { asin: 'B00DUX2L6A', minutes: 644 },
+    '// meta-1':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 4 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 3684, minutes: 61 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00ANTWOSO', minutes: 645 },
+    '// meta-0':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan',
+    '// asin-1': { asin: 'B00DUX2L6A', minutes: 644 },
+    '// meta-1':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 5 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00ANTWOSO', minutes: 645 },
+    '// meta-0':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan',
+    '// asin-1': { asin: 'B00DUX2L6A', minutes: 644 },
+    '// meta-1':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 6 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00ANTWOSO', minutes: 645 },
+    '// meta-0':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan',
+    '// asin-1': { asin: 'B00DUX2L6A', minutes: 644 },
+    '// meta-1':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 7 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00ANTWOSO', minutes: 645 },
+    '// meta-0':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan',
+    '// asin-1': { asin: 'B00DUX2L6A', minutes: 644 },
+    '// meta-1':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 8 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00ANTWOSO', minutes: 645 },
+    '// meta-0':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan',
+    '// asin-1': { asin: 'B00DUX2L6A', minutes: 644 },
+    '// meta-1':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 9 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 1686, minutes: 28 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00ANTWOSO', minutes: 645 },
+    '// meta-0':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan',
+    '// asin-1': { asin: 'B00DUX2L6A', minutes: 644 },
+    '// meta-1':
+      'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
   '/Volumes/Space/archive/media/audiobooks/SeanCarroll-SomethingDeeplyHidden': {
     author: 'Sean Carroll', // unique
@@ -4725,7 +4779,23 @@ export const db = {
     author: 'Stephen Fry', // unique
     title: 'Mythos', // hint
     '// duration': { seconds: 55542, minutes: 926 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '1452184712', minutes: 926 },
+    '// meta-0': 'Mythos / Stephen Fry / n: Stephen Fry',
+    '// asin-1': { asin: '1797204211', minutes: 901 },
+    '// meta-1': 'Heroes / Stephen Fry / n: Stephen Fry',
+    '// asin-2': { asin: '1797213024', minutes: 661 },
+    '// meta-2': 'Troy / Stephen Fry / n: Stephen Fry',
+    '// asin-3': { asin: 'B07253QHF2', minutes: 925 },
+    '// meta-3': 'Mythos / Stephen Fry / n: Stephen Fry',
+    '// asin-4': { asin: '1405944730', minutes: 659 },
+    '// meta-4': 'Troy / Stephen Fry / n: Stephen Fry',
+    '// asin-5': { asin: '1405940573', minutes: 900 },
+    '// meta-5': 'Heroes / Stephen Fry / n: Stephen Fry',
+    '// asin-6': { asin: 'B09S16TFF5', minutes: 800 },
+    '// meta-6':
+      'Mythos (French edition) / Stephen Fry / n: Frédéric Souterelle',
+    '// asin-7': { asin: '3961050198', minutes: 826 },
+    '// meta-7': 'Mythos / Stephen Fry / n: Hans Jürgen Stockerl'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Khaavren Romances': {
     '// No audio files': null
