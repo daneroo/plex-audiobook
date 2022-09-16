@@ -13,12 +13,17 @@
 
 - asin candidates (for known good Authors)
 - [ ] Broken duration for 12 directories
-- [ ] Oscar Wild The picture of Dorian Gray - Read by Edward Petherbridge
-- [ ] Rename directories Sean Caroll -> Sean Carroll
-- [ ] Merge Brent Weeks Light Bringer
-- [ ] Merge Sean Carroll - The Particle at the End of the Universe/Disc 1-9
-- [ ] Merge Nemesis (Hary Hole 4) discs
 - [ ] fix title/author - '// asin lookup results': 'zero!' - 34 left
+- [ ] Check for multiple authors... array?
+- [ ] Rename in final step Monkey -> Journey to the west...
+- [ ] Oscar Wild The picture of Dorian Gray - Read by Edward Petherbridge
+- [ ] Merge and rename
+  - [ ] Rename directories Sean Caroll -> Sean Carroll
+  - [ ] Merge Brent Weeks Light Bringer
+  - [ ] Merge Sean Carroll - The Particle at the End of the Universe/Disc 1-9
+  - [ ] Merge Nemesis (Hary Hole 4) discs
+  - [ ] Merge StevenPinker-StuffOfThought part 1-2
+  - [ ] Merge OrsonScottCard-EndersGame/Disc 1-9
 - [ ] skip:
   - [ ] skip: "not on audible"  // when we know for sure (cory/Lessig,..)
     - [ ] Doris Lessing - Shikasta
