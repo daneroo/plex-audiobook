@@ -1417,7 +1417,6 @@ export const db = {
     author: 'Doris Lessing', // hint
     title: 'Shikasta', // hint
     '// duration': { seconds: 51864, minutes: 864 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/DorisKearnsGoodwin-TeamOfRivals': {
@@ -2145,7 +2144,6 @@ export const db = {
     author: 'Isaac Asimov', // unique
     title: 'The Complete Robot', // unique
     '// duration': { seconds: 85855, minutes: 1431 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-RobotSeries/1983 - The Robots of Dawn (Dufris) 192k 15.43.20 {1.26gb}': {
@@ -2159,7 +2157,6 @@ export const db = {
     author: 'Isaac Asimov', // unique
     title: 'Robots & Empire', // unique
     '// duration': { seconds: 51970, minutes: 866 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-RobotSeries/1986 - Robot Dreams (Russotto) 64k 15.12.02 {422mb}': {
@@ -2186,7 +2183,6 @@ export const db = {
     author: 'Isaac Asimov', // hint
     title: 'The Positronic Man', // unique
     '// duration': { seconds: 30378, minutes: 506 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/JackKornfield-TheInnerArtofMeditation': {
@@ -2350,7 +2346,6 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Restoration of Faith', // hint
     '// duration': { seconds: 2095, minutes: 35 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 01 - Storm Front': {
@@ -2371,7 +2366,6 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'B is for Bigfoot', // hint
     '// duration': { seconds: 3817, minutes: 64 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 03 - Grave Peril': {
@@ -2399,7 +2393,6 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Vinette', // hint
     '// duration': { seconds: 350, minutes: 6 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 06 - Blood Rites': {
@@ -2420,14 +2413,12 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Something Borrowed', // hint
     '// duration': { seconds: 3807, minutes: 63 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 07.2 - I Was a Teenage Bigfoot': {
     author: 'Jim Butcher', // unique
     title: 'I Was a Teenage Bigfoot', // hint
     '// duration': { seconds: 3396, minutes: 57 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 08 - Proven Guilty': {
@@ -2448,14 +2439,12 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Its my Birthday too', // hint
     '// duration': { seconds: 5331, minutes: 89 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 09.2 - Heorot': {
     author: 'Jim Butcher', // unique
     title: 'Heorot', // hint
     '// duration': { seconds: 4953, minutes: 83 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10 - Small Favor': {
@@ -2469,35 +2458,30 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Day off', // hint
     '// duration': { seconds: 2564, minutes: 43 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.2 - Backup': {
     author: 'Jim Butcher', // unique
     title: 'Backup', // hint
     '// duration': { seconds: 4512, minutes: 75 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.3 - The Warrior': {
     author: 'Jim Butcher', // unique
     title: 'The Warrior', // hint
     '// duration': { seconds: 6690, minutes: 112 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.4 - Last Call': {
     author: 'Jim Butcher', // unique
     title: 'Last Call', // hint
     '// duration': { seconds: 3630, minutes: 61 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 10.9 - Curses': {
     author: 'Jim Butcher', // unique
     title: 'Curses', // hint
     '// duration': { seconds: 3189, minutes: 53 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 11 - Turn Coat': {
@@ -2511,21 +2495,18 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Love Hurts', // hint
     '// duration': { seconds: 3638, minutes: 61 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 11.2 - Even Hand': {
     author: 'Jim Butcher', // unique
     title: 'Even Hand', // hint
     '// duration': { seconds: 3462, minutes: 58 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 11.3 - Bigfoot on Campus': {
     author: 'Jim Butcher', // unique
     title: 'Bigfoot on Campus', // hint
     '// duration': { seconds: 6238, minutes: 104 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 12 - Changes': {
@@ -2540,7 +2521,6 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Aftermath', // hint
     '// duration': { seconds: 10043, minutes: 167 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 13 - Ghost Story': {
@@ -2554,14 +2534,12 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Bombshells', // hint
     '// duration': { seconds: 7828, minutes: 130 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 13.6 - Jury Duty': {
     author: 'Jim Butcher', // unique
     title: 'Jury Duty', // hint
     '// duration': { seconds: 3457, minutes: 58 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 14 - Cold Days': {
@@ -2577,7 +2555,6 @@ export const db = {
     author: 'Jim Butcher', // unique
     title: 'Cold Case', // hint
     '// duration': { seconds: 6161, minutes: 103 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 15 - Skin Game': {
@@ -3031,7 +3008,6 @@ export const db = {
     author: 'Jorge Luis Borges', // unique
     title: 'The Aleph and Other Stories', // unique
     '// duration': { seconds: 27241, minutes: 454 },
-    '// asin lookup results': 'zero!',
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/Katherine Addison - The Goblin Emperor': {
@@ -4405,7 +4381,8 @@ export const db = {
     author: 'Paul Halpern', // unique
     title: 'The Quantum Labyrinth', // hint
     '// duration': { seconds: 38683, minutes: 645 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0767ZJZVQ', minutes: 644 },
+    '// meta-0': 'The Quantum Labyrinth / Paul Halpern / n: Brian Troxell'
   },
   '/Volumes/Space/archive/media/audiobooks/Paul J. Steinhardt - The Second Kind of Impossible': {
     author: 'Paul J. Steinhardt', // unique
@@ -4469,7 +4446,16 @@ export const db = {
     author: 'Richard Morgan', // hint
     title: 'Altered Carbon', // hint
     '// duration': { seconds: 61971, minutes: 1033 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V1O6X8', minutes: 1030 },
+    '// meta-0': 'Altered Carbon / Richard K. Morgan / n: Todd McLaren',
+    '// asin-1': { asin: 'B00OL67D36', minutes: 1310 },
+    '// meta-1': 'Woken Furies / Richard Morgan / n: Todd McLaren',
+    '// asin-2': { asin: 'B00BNHKG8A', minutes: 1034 },
+    '// meta-2': 'Altered Carbon / Richard Morgan / n: Todd McLaren',
+    '// asin-3': { asin: 'B00OS9SZ8S', minutes: 940 },
+    '// meta-3': 'Broken Angels / Richard Morgan / n: Todd McLaren',
+    '// asin-4': { asin: 'B07BRYF12F', minutes: 1118 },
+    '// meta-4': 'Carbone modifié / Richard Morgan / n: Nicolas Planchais'
   },
   '/Volumes/Space/archive/media/audiobooks/RobertGreene-Mastery': {
     author: 'Robert Greene', // unique
@@ -4506,13 +4492,20 @@ export const db = {
     author: 'Ryan Holiday', // unique
     title: 'Ego Is the Enemy', // hint
     '// duration': { seconds: 24978, minutes: 416 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01GSIZ5AC', minutes: 416 },
+    '// meta-0': 'Ego Is the Enemy / Ryan Holiday / n: Ryan Holiday'
   },
   '/Volumes/Space/archive/media/audiobooks/Salman Rushdie - Midnights Children': {
     author: 'Salman Rushdie', // unique
     title: "Midnight's Children", // hint
     '// duration': { seconds: 88189, minutes: 1470 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V0RAL4', minutes: 1469 },
+    '// meta-0': "Midnight's Children / Salman Rushdie / n: Lyndam Gregory",
+    '// asin-1': { asin: 'B07575LRMD', minutes: 294 },
+    '// meta-1':
+      "Midnight's Children / Salman Rushdie / n: Nikesh Patel,Meera Syal,Anneika Rose,Preeya Kalidas,Aysha Kala,full cast",
+    '// asin-2': { asin: 'B07FSV39LK', minutes: 1539 },
+    '// meta-2': "Midnight's Children / Salman Rushdie / n: Homer Todiwala"
   },
   '/Volumes/Space/archive/media/audiobooks/Salman Rushdie - The Satanic Verses': {
     author: 'Salman Rushdie', // unique
@@ -4544,7 +4537,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Sam Harris - Waking Up': {
     author: 'Sam Harris', // unique
-    title: 'Waking Up (Unabridged)', // unique
+    title: 'Waking Up', // hint
     '// duration': { seconds: 21217, minutes: 354 },
     '// asin lookup results': 'zero!'
   },
@@ -4552,7 +4545,7 @@ export const db = {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Scott Lynch - Gentleman Bastard Series/Scott Lynch - GB01 - The Lies of Locke Lamora': {
-    author: 'zScott Lynch', // unique
+    author: 'Scott Lynch', // hint
     title: 'The Lies of Locke Lamora', // unique
     '// duration': { seconds: 78807, minutes: 1313 },
     '// asin lookup results': 'zero!'
@@ -4577,12 +4570,12 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Big Picture': {
     author: 'Sean Carroll', // unique
-    title: 'FULL AUDIOBOOK', // unique
+    title: 'The Big Picture', // hint
     '// duration': { seconds: 62289, minutes: 1038 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Higgs Boson and Beyond': {
-    author: 'Sean Caroll', // hint
+    author: 'Sean Carroll', // hint
     title: 'The Higgs Boson and Beyond', // hint
     '// duration': { seconds: 22828, minutes: 380 },
     '// asin lookup results': 'zero!'
@@ -4591,56 +4584,56 @@ export const db = {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 1 - The Particle at the End of the Universe': {
-    author: 'The Particle at the End of the Universe', // unique
-    title: 'Disc 1 - The Particle at the End of the Universe', // unique
+    author: 'Sean Carroll', // hint
+    title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 2 - The Particle at the End of the Universe': {
-    author: 'The Particle at the End of the Universe', // unique
-    title: 'Disc 2 - The Particle at the End of the Universe', // unique
+    author: 'Sean Carroll', // hint
+    title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 3 - The Particle at the End of the Universe': {
-    author: 'The Particle at the End of the Universe', // unique
-    title: 'Disc 3 - The Particle at the End of the Universe', // unique
+    author: 'Sean Carroll', // hint
+    title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 4 - The Particle at the End of the Universe': {
-    author: 'The Particle at the End of the Universe', // unique
-    title: 'Disc 4 - The Particle at the End of the Universe', // unique
+    author: 'Sean Carroll', // hint
+    title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 3684, minutes: 61 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 5 - The Particle at the End of the Universe': {
-    author: 'The Particle at the End of the Universe', // unique
-    title: 'Disc 5 - The Particle at the End of the Universe', // unique
+    author: 'Sean Carroll', // hint
+    title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 6 - The Particle at the End of the Universe': {
-    author: 'The Particle at the End of the Universe', // unique
-    title: 'Disc 6 - The Particle at the End of the Universe', // unique
+    author: 'Sean Carroll', // hint
+    title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 7 - The Particle at the End of the Universe': {
-    author: 'The Particle at the End of the Universe', // unique
-    title: 'Disc 7 - The Particle at the End of the Universe', // unique
+    author: 'Sean Carroll', // hint
+    title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 8 - The Particle at the End of the Universe': {
-    author: 'The Particle at the End of the Universe', // unique
-    title: 'Disc 8 - The Particle at the End of the Universe', // unique
+    author: 'Sean Carroll', // hint
+    title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
     '// asin lookup results': 'zero!'
   },
   '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 9 - The Particle at the End of the Universe': {
-    author: 'The Particle at the End of the Universe', // unique
-    title: 'Disc 9 - The Particle at the End of the Universe', // unique
+    author: 'Sean Carroll', // hint
+    title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 1686, minutes: 28 },
     '// asin lookup results': 'zero!'
   },
@@ -4730,7 +4723,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/StephenFry-Mythos': {
     author: 'Stephen Fry', // unique
-    title: 'Mythos (Unabridged)', // unique
+    title: 'Mythos', // hint
     '// duration': { seconds: 55542, minutes: 926 },
     '// asin lookup results': 'zero!'
   },

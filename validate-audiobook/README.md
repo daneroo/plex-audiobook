@@ -13,10 +13,18 @@
 
 - asin candidates (for known good Authors)
 - [ ] Broken duration for 12 directories
+- [ ] Oscar Wild The picture of Dorian Gray - Read by Edward Petherbridge
+- [ ] Rename directories Sean Caroll -> Sean Carroll
 - [ ] Merge Brent Weeks Light Bringer
-- [ ] fix title/author - '// asin lookup results': 'zero!' - 174 left
+- [ ] Merge Sean Carroll - The Particle at the End of the Universe/Disc 1-9
+- [ ] Merge Nemesis (Hary Hole 4) discs
+- [ ] fix title/author - '// asin lookup results': 'zero!' - 34 left
 - [ ] skip:
-  - [ ] skip: "no asin"
+  - [ ] skip: "not on audible"  // when we know for sure (cory/Lessig,..)
+    - [ ] Doris Lessing - Shikasta
+    - [ ] IsaacAsimov-RobotSeries/1982 - The Complete Robot
+    - [ ] Jim Butcher - The Dresden Files/Dresden Files y.x shorts
+    - [ ] Jorge Luis Borges - The Aleph and Other Stories
   - [ ] skip: "found in Arcanum": Delete extraneous Cosmere - from Arcanum Unbounded
     - Cosmere 10 - Sixth of the Dusk - Arcanum Unbounded - Chapter 64-66
     - Cosmere 12 - Mistborn 4.5 - Allomancer Jak and the Pits of Eltania - Arcanum Unbounded - Chapter 25-26
