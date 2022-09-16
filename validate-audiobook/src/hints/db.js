@@ -142,22 +142,31 @@ export const db = {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Arthur Conan Doyle - Sherlock Holmes The Definitive Audio Collection': {
-    author: 'Arthur Conan Doyle, Stephen Fry - introductions', // unique
-    title: 'Sherlock Holmes: The Definitive Collection (Unabridged)', // unique
+    author: 'Arthur Conan Doyle', // hint
+    title: 'Sherlock Holmes: The Definitive Collection', // hint
     '// duration': { seconds: 259045, minutes: 4317 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B06X93XQRZ', minutes: 4317 },
+    '// meta-0':
+      'Sherlock Holmes: The Definitive Collection / Stephen Fry - introductions,Arthur Conan Doyle / n: Stephen Fry'
   },
   '/Volumes/Space/archive/media/audiobooks/ArthurCClarke-2001-ASpaceOdyssey': {
-    author: 'Top 100 Sci-Fi Books', // unique
-    title: '08 - 2001: A Space Odyssey - Arthur C. Clarke - 1968', // unique
+    author: 'Arthur C. Clarke', // hint
+    title: '2001: A Space Odyssey', // hint
     '// duration': { seconds: 25189, minutes: 420 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002UZJGYY', minutes: 402 },
+    '// meta-0': '2001 / Arthur C. Clarke / n: Dick Hill'
   },
   '/Volumes/Space/archive/media/audiobooks/ArthurCClarke-RendezvousWithRama': {
-    author: 'Top 100 Sci-Fi Books', // unique
-    title: '14 - Rendezvous With Rama - Arthur C Clarke - 1973', // unique
+    author: 'Arthur C. Clarke', // hint
+    title: 'Rendezvous With Rama', // hint
     '// duration': { seconds: 32516, minutes: 542 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002UZLF2U', minutes: 544 },
+    '// meta-0':
+      'Rendezvous with Rama / Arthur C. Clarke / n: Peter Ganim,Robert J. Sawyer - introduction',
+    '// asin-1': { asin: 'B00H2VQXN8', minutes: 441 },
+    '// meta-1': 'Rendezvous with Rama / Arthur C. Clarke / n: Toby Longworth',
+    '// asin-2': { asin: 'B079Q5P62Z', minutes: 538 },
+    '// meta-2': 'Rendez-vous avec Rama / Arthur C. Clarke / n: Pascal Casanova'
   },
   '/Volumes/Space/archive/media/audiobooks/AynRand-AtlasShrugged': {
     author: 'Ayn Rand', // unique
@@ -279,38 +288,53 @@ export const db = {
     '// meta-1': 'Death of Kings / Bernard Cornwell / n: Matt Bates'
   },
   '/Volumes/Space/archive/media/audiobooks/Bernard Cornwell - The Saxon Chronicles/Bernard Cornwell - Saxon Chronicles 07 - The Pagan Lord - Bernard Cornwell': {
-    author: 'Mike Bates', // unique
-    title: "Bernard Cornwell's The Pagan Lord", // unique
+    author: 'Bernard Cornwell', // hint
+    title: 'The Pagan Lord', // hint
     '// duration': { seconds: 42255, minutes: 704 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00HFA6MU0', minutes: 701 },
+    '// meta-0': 'The Pagan Lord / Bernard Cornwell / n: Matt Bates',
+    '// asin-1': { asin: 'B00EUD950O', minutes: 700 },
+    '// meta-1': 'The Pagan Lord / Bernard Cornwell / n: Matt Bates'
   },
   '/Volumes/Space/archive/media/audiobooks/Bernard Cornwell - The Saxon Chronicles/Bernard Cornwell - Saxon Chronicles 08 - The Empty Throne - Bernard Cornwell (Matt Bates)': {
     author: 'Bernard Cornwell', // unique
-    title: '(The Saxon Stories #08) The Empty Throne', // unique
+    title: 'The Empty Throne', // hint
     '// duration': { seconds: 40418, minutes: 674 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00QW0JVNE', minutes: 672 },
+    '// meta-0': 'The Empty Throne / Bernard Cornwell / n: Matt Bates',
+    '// asin-1': { asin: 'B00O3IRCWY', minutes: 672 },
+    '// meta-1': 'The Empty Throne / Bernard Cornwell / n: Matt Bates'
   },
   '/Volumes/Space/archive/media/audiobooks/Bernard Cornwell - The Saxon Chronicles/Bernard Cornwell - Saxon Chronicles 09 - Warriors Of The Storm - Bernard Cornwell (Matt Bates)': {
     author: 'Bernard Cornwell', // unique
-    title: '(The Saxon Stories #09) Warriors Of The Storm', // unique
+    title: 'Warriors Of The Storm', // hint
     '// duration': { seconds: 43946, minutes: 732 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0176W9S66', minutes: 732 },
+    '// meta-0': 'Warriors of the Storm / Bernard Cornwell / n: Matt Bates',
+    '// asin-1': { asin: 'B0149LZ6NQ', minutes: 732 },
+    '// meta-1': 'Warriors of the Storm / Bernard Cornwell / n: Matt Bates'
   },
   '/Volumes/Space/archive/media/audiobooks/Bernard Cornwell - The Saxon Chronicles/Bernard Cornwell - Saxon Chronicles 10 - The Flame Bearer - Saxon Tales': {
     author: 'Bernard Cornwell', // unique
-    title: 'The Flame Bearer (Unabridged)', // unique
+    title: 'The Flame Bearer', // hint
     '// duration': { seconds: 37175, minutes: 620 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01JGP2QNI', minutes: 619 },
+    '// meta-0': 'The Flame Bearer / Bernard Cornwell / n: Matt Bates',
+    '// asin-1': { asin: 'B01IC2YU2G', minutes: 619 },
+    '// meta-1': 'The Flame Bearer / Bernard Cornwell / n: Matt Bates'
   },
   '/Volumes/Space/archive/media/audiobooks/Bernard Cornwell - The Saxon Chronicles/Bernard Cornwell - Saxon Chronicles 11 - War of the Wolf': {
     author: 'Bernard Cornwell', // unique
-    title: 'War of the Wolf (Unabridged)', // unique
+    title: 'War of the Wolf', // hint
     '// duration': { seconds: 48143, minutes: 802 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '0062865781', minutes: 802 },
+    '// meta-0': 'War of the Wolf / Bernard Cornwell / n: Matt Bates',
+    '// asin-1': { asin: 'B07FGVCH3N', minutes: 808 },
+    '// meta-1': 'War of the Wolf / Bernard Cornwell / n: Matt Bates'
   },
   '/Volumes/Space/archive/media/audiobooks/Bernard Cornwell - The Saxon Chronicles/Bernard Cornwell - Saxon Chronicles 12 - Sword of Kings': {
     author: 'Bernard Cornwell', // unique
-    title: 'Sword of Kings: The Last Kingdom Series, Book 12', // unique
+    title: 'Sword of Kings', // hint
     '// duration': { seconds: 47907, minutes: 798 },
     '// asin-0': { asin: '0062956523', minutes: 798 },
     '// meta-0':
@@ -865,15 +889,15 @@ export const db = {
     '// asin-5': { asin: '8417347526', minutes: 877 },
     '// meta-5':
       'El problema de los tres cuerpos [The Three-Body Problem] / Cixin Liu / n: Francesc Belda',
-    '// asin-6': { asin: 'B07F9ZD3W8', minutes: 732 },
-    '// meta-6':
+    '// asin-6': { asin: '8417347542', minutes: 1623 },
+    '// meta-6': 'El fin de la muerte / Cixin Liu / n: Francesc Belda',
+    '// asin-7': { asin: 'B07F9ZD3W8', minutes: 732 },
+    '// meta-7':
       'Ball Lightning / Cixin Liu,Joel Martinsen - translator / n: Feodor Chin',
-    '// asin-7': { asin: 'B07BWM5YXL', minutes: 771 },
-    '// meta-7': 'Ball Lightning / Cixin Liu / n: Bruno Roubicek',
-    '// asin-8': { asin: '1528848330', minutes: 1751 },
-    '// meta-8': "Death's End / Cixin Liu / n: Bruno Roubicek",
-    '// asin-9': { asin: '8417347542', minutes: 1623 },
-    '// meta-9': 'El fin de la muerte / Cixin Liu / n: Francesc Belda'
+    '// asin-8': { asin: 'B07BWM5YXL', minutes: 771 },
+    '// meta-8': 'Ball Lightning / Cixin Liu / n: Bruno Roubicek',
+    '// asin-9': { asin: '1528848330', minutes: 1751 },
+    '// meta-9': "Death's End / Cixin Liu / n: Bruno Roubicek"
   },
   '/Volumes/Space/archive/media/audiobooks/CoryDoctorow-AttackSurface': {
     author: 'Cory Doctorow', // hint
@@ -2445,11 +2469,12 @@ export const db = {
     '// asin-6': { asin: 'B0044ZWHM6', minutes: 574 },
     '// meta-6':
       'Betrayer of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
-    '// asin-7': { asin: 'B002V8KLD0', minutes: 774 },
+    '// asin-7': { asin: 'B008XKUSL0', minutes: 594 },
     '// meta-7':
-      'Juggler of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
-    '// asin-8': { asin: 'B008XKUSL0', minutes: 594 },
-    '// meta-8': 'Fate of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner'
+      'Fate of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
+    '// asin-8': { asin: 'B002V8KLD0', minutes: 774 },
+    '// meta-8':
+      'Juggler of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner'
   },
   '/Volumes/Space/archive/media/audiobooks/LawrenceLessig-FreeCulture': {
     author: 'Lawrence Lessig', // unique
@@ -3888,10 +3913,10 @@ export const db = {
     author: 'Steven Brust', // unique
     title: 'Phoenix', // unique
     '// duration': { seconds: 28562, minutes: 476 },
-    '// asin-0': { asin: 'B008LVS2SM', minutes: 1265 },
-    '// meta-0': 'Five Hundred Years After / Steven Brust / n: Kevin Stillwell',
-    '// asin-1': { asin: 'B008SEHZBM', minutes: 475 },
-    '// meta-1': 'Phoenix / Steven Brust / n: Bernard Setaro Clark',
+    '// asin-0': { asin: 'B008SEHZBM', minutes: 475 },
+    '// meta-0': 'Phoenix / Steven Brust / n: Bernard Setaro Clark',
+    '// asin-1': { asin: 'B008LVS2SM', minutes: 1265 },
+    '// meta-1': 'Five Hundred Years After / Steven Brust / n: Kevin Stillwell',
     '// asin-2': { asin: 'B008LVS2MI', minutes: 974 },
     '// meta-2': 'The Phoenix Guards / Steven Brust / n: Kevin Stillwell'
   },

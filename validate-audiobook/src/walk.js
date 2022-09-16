@@ -92,7 +92,7 @@ async function classifyDirectory (directoryPath) {
     const skipHint = getSkip(directoryPath)
     if (!okAuthorTitle || skipHint) {
       console.error(
-        `=-=-: ${JSON.stringify({ okAuthorTitle, skipHint })} `,
+        `=-=-: Skip ${JSON.stringify({ okAuthorTitle, skipHint })} `,
         directoryPath.substring(39)
       )
       if (skipHint) {
@@ -104,10 +104,7 @@ async function classifyDirectory (directoryPath) {
       // Now validate total duration against audible lookup runtime_length_min
 
       // total duration
-      console.error(
-        '=-=-: Validate total duration',
-        directoryPath.substring(39)
-      )
+      console.error('=-=-: Lookup asin', directoryPath.substring(39))
       // console.error('author,title =>', { author, title })
 
       const seconds = Math.round(
@@ -123,9 +120,7 @@ async function classifyDirectory (directoryPath) {
       const doAudible = true
       if (doAudible) {
         if (okAuthorTitle) {
-          await sleep(50)
           const results = await searchAudible({ author, title })
-          // console.error(`Got ${results.products.length} results`)
           if (results.products.length == 0) {
             console.error(`Got ${results.products.length} results`, {
               author,
@@ -323,8 +318,4 @@ async function getMetadataForSingleFile (filePath, options) {
 function formatElapsed (startMs) {
   const elapsedSeconds = ((+new Date() - startMs) / 1000).toFixed(3)
   return elapsedSeconds + 's'
-}
-
-function sleep (ms) {
-  return new Promise(resolve => setTimeout(resolve, ms))
 }
