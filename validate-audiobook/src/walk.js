@@ -14,6 +14,13 @@ import { searchAudible } from './extApi/module.js'
 import { getAuthor, getTitle } from './hints/authorTitle.js'
 
 const defaultRootPath = '/Volumes/Space/archive/media/audiobooks/'
+const _rewriteHintDB = true
+function rewriteHint (...args) {
+  if (_rewriteHintDB) {
+    console.log(...args)
+  }
+}
+
 await main()
 
 async function main () {
@@ -42,10 +49,12 @@ async function main () {
   //   formatElapsed(startMs)
   // )
 
+  rewriteHint('export const db = {')
   // per directory validation
   for (const directoryPath of directories) {
     await classifyDirectory(directoryPath)
   }
+  rewriteHint('}')
 
   // console.error('Done in', formatElapsed(startMs))
 }
@@ -60,65 +69,97 @@ async function classifyDirectory (directoryPath) {
   }
 
   const audioFiles = filenames.filter(filterAudioFileExtensions)
+  rewriteHint(`"${directoryPath}": {`)
   if (audioFiles.length == 0) {
-    console.error('=-=-: early return no files', directoryPath.substring(39))
-    return
-  }
+    console.error('=-=-: No audio files', directoryPath.substring(39))
+    rewriteHint('  "// No audio files": null,')
+  } else {
+    const metas = await getMetadataForMultipleFiles(audioFiles)
+    if (metas.length == 0) {
+      console.error(
+        '=-=-: no metadata for audio files',
+        directoryPath.substring(39)
+      )
+      rewriteHint('  "// No metadata": null,')
+    }
 
-  const metas = await getMetadataForMultipleFiles(audioFiles)
-  if (metas.length == 0) {
-    console.error('=-=-: early return no metas', directoryPath.substring(39))
-    return
-  }
-
-  // Validate that these fields are unique for the whole audio file collection
-  const { valid: okAuthorTitle, author, title } = validateUniqueAuthorTitle(
-    metas,
-    directoryPath
-  )
-  // early return
-  if (!okAuthorTitle) {
-    console.error(
-      '=-=-: early return !okAuthorTitle ',
-      directoryPath.substring(39)
+    // Validate that these fields are unique for the whole audio file collection
+    const { valid: okAuthorTitle, author, title } = validateUniqueAuthorTitle(
+      metas,
+      directoryPath
     )
-    return
-  }
-  // Now validate total duration against audible lookup runtime_length_min
 
-  // total duration
-  console.error('=-=-: Validate total duration', directoryPath.substring(39))
-  console.error('author,title =>', { author, title })
-
-  const totalDuration = metas
-    .map(m => m.format.duration)
-    .reduce((total, duration) => total + duration, 0)
-  console.error('audio files =>', {
-    totalDuration,
-    runtime_length_min: (totalDuration / 60).toFixed(0)
-  })
-
-  // TODO(daneroo) and neither is falsy
-  const doAudible = true
-  if (doAudible) {
-    if (okAuthorTitle) {
-      await sleep(200)
-      const results = await searchAudible({ author, title })
-      // console.log(JSON.stringify(data, null, 2))
-      console.log(`Got ${results.products.length} results`)
-      results.products.forEach(book => {
-        const { asin, authors, narrators, runtime_length_min, series } = book
-        const seriesTitle = series?.title
-        console.log(JSON.stringify(parseBook(book)))
-      })
+    // early return
+    if (!okAuthorTitle) {
+      console.error(
+        '=-=-: early return !okAuthorTitle ',
+        directoryPath.substring(39)
+      )
+      rewriteHint('  "// Invalid author or title": "FIX NOW!",')
     } else {
-      console.log('skip audible')
+      // Now validate total duration against audible lookup runtime_length_min
+
+      // total duration
+      console.error(
+        '=-=-: Validate total duration',
+        directoryPath.substring(39)
+      )
+      // console.error('author,title =>', { author, title })
+
+      const seconds = Math.round(
+        metas
+          .map(m => m.format.duration)
+          .reduce((total, duration) => total + duration, 0)
+      )
+      const minutes = Math.round(seconds / 60)
+      // console.error('audio files =>', { seconds, minutes })
+      rewriteHint('  "// duration":', JSON.stringify({ seconds, minutes }), ',')
+
+      // TODO(daneroo) and neither is falsy
+      const doAudible = true
+      if (doAudible) {
+        if (okAuthorTitle) {
+          await sleep(200)
+          const results = await searchAudible({ author, title })
+          // console.error(`Got ${results.products.length} results`)
+          if (results.products.length == 0) {
+            console.error(`Got ${results.products.length} results`, {
+              author,
+              title
+            })
+            rewriteHint('  "// asin lookup results": "zero!",')
+          }
+          results.products.forEach((book, index) => {
+            const { asin, minutes, title, authors, narrators } = shortBook(book)
+            rewriteHint(
+              `  "// asin-${index}":`,
+              JSON.stringify({ asin, minutes }),
+              ','
+            )
+            rewriteHint(
+              `  "// meta-${index}":`,
+              JSON.stringify(`${title} / ${authors} / n: ${narrators}`),
+              ','
+            )
+          })
+        } else {
+          console.error('skip audible')
+        }
+      }
     }
   }
+  rewriteHint(`},`)
 }
 
-function parseBook (book) {
-  const { asin, authors, title, narrators, series, runtime_length_min } = book
+function shortBook (book) {
+  const {
+    asin,
+    authors,
+    title,
+    narrators,
+    series,
+    runtime_length_min: minutes
+  } = book
 
   return {
     asin,
@@ -127,7 +168,7 @@ function parseBook (book) {
     series: series?.[0].title,
     seriesPosition: series?.[0].sequence,
     narrators: narrators?.map(author => author?.name),
-    runtime_length_min
+    minutes
   }
 }
 // returns {valid:,author:,title:}
@@ -140,12 +181,8 @@ function validateUniqueAuthorTitle (metas, directoryPath) {
   // get hint from db to override tag aggregates
   const authorHint = getAuthor(directoryPath)
   const titleHint = getTitle(directoryPath)
-  const dedupAuthor = authorHint
-    ? [authorHint]
-    : dedupArray(metas.map(m => m.common.artist))
-  const dedupTitle = titleHint
-    ? [titleHint]
-    : dedupArray(metas.map(m => m.common.album))
+  const dedupAuthor = dedupArray(metas.map(m => m.common.artist))
+  const dedupTitle = dedupArray(metas.map(m => m.common.album))
 
   // dedup'd array is ok, if it has exactly one entry, which is not falsy: (null or empty)
   function isUniqueAndTruthy (dedupAry) {
@@ -157,26 +194,44 @@ function validateUniqueAuthorTitle (metas, directoryPath) {
     return true
   }
 
-  const valid = isUniqueAndTruthy(dedupAuthor) || isUniqueAndTruthy(dedupTitle)
-  if (!valid) {
-    // Warning
-    // console.error(`${directoryPath} needs author title hints`)
-    // JS Array Snippet
-    const showJSSnippet = false
-    if (showJSSnippet) {
-      console.log(`"${directoryPath}": {`)
-      if (!isUniqueAndTruthy(dedupAuthor)) {
-        console.log('// Non-unique Author:', JSON.stringify(dedupAuthor))
-        console.log('author:"",')
-      }
-      if (!isUniqueAndTruthy(dedupTitle)) {
-        console.log('// Non-unique Title: ', JSON.stringify(dedupTitle))
-        console.log('title: "",')
-      }
-      console.log(`},`)
+  if (authorHint) {
+    // prefer unique dedup'd over hint, as a comment, if it is the same as the hint
+    if (isUniqueAndTruthy(dedupAuthor) && authorHint === dedupAuthor[0]) {
+      rewriteHint(`  "author": "${authorHint}",  // unique`)
+    } else {
+      rewriteHint(`  "author": "${authorHint}",  // hint`)
+    }
+  } else {
+    if (isUniqueAndTruthy(dedupAuthor)) {
+      rewriteHint(`  "author": "${dedupAuthor[0]}", // unique`)
+    } else {
+      rewriteHint(`  "author": "", // non-unique or falsy`)
+      rewriteHint('  "// Non-unique Author":', JSON.stringify(dedupAuthor), ',')
     }
   }
-  return { valid, author: dedupAuthor[0], title: dedupTitle[0] }
+  if (titleHint) {
+    // prefer unique dedup'd over hint, as a comment, if it is the same as the hint
+    if (isUniqueAndTruthy(dedupTitle) && titleHint === dedupTitle[0]) {
+      rewriteHint(`  "title": "${titleHint}",  // unique`)
+    } else {
+      rewriteHint(`  "title": "${titleHint}",  // hint`)
+    }
+  } else {
+    if (isUniqueAndTruthy(dedupTitle)) {
+      rewriteHint(`  "title": "${dedupTitle[0]}", // unique`)
+    } else {
+      rewriteHint(`  "title": "", // non-unique or falsy`)
+      rewriteHint('  "// Non-unique Title":', JSON.stringify(dedupTitle), ',')
+    }
+  }
+  const valid =
+    (authorHint || isUniqueAndTruthy(dedupAuthor)) &&
+    (titleHint || isUniqueAndTruthy(dedupTitle))
+  return {
+    valid,
+    author: authorHint ? authorHint : dedupAuthor[0],
+    title: titleHint ? titleHint : dedupTitle[0]
+  }
 }
 
 // remove duplicates from array

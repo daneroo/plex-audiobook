@@ -11,6 +11,7 @@
 
 ## TODO
 
+- asin candidates (for known good Authors)
 - [ ] skip:
   - [ ] skip: "multiple authors"
     - 'The Greatest Science Fiction Stories of the 20th Century'
@@ -28,7 +29,7 @@
     - Cosmere 5 - Mistborn 3.5 - Secret History - Arcanum Unbounded - Chapter 27-53
     - Cosmere 7 - Elantris 1.4 - The Emperor's Soul" - Arcanum Unbounded - Chapter 3-19
     - Cosmere 8 - Elantris 1.5 - The Hope of Elantris - Arcanum Unbounded - Chapter 20-21
-  - From Arcanum Unbounded, so we can skip Cosmere [X] - 
+  - From Arcanum Unbounded, so we can skip Cosmere [X]
     - [--] Arcanum Unbounded - The Cosmere Collection 1 - Chapter 1 - Preface.mp3
     - [--] Arcanum Unbounded - The Cosmere Collection 2 - Chapter 2 - The Selish System.mp3
     - [C7] Arcanum Unbounded - The Cosmere Collection 3 - Chapter 3-19 - The Emperor's Soul.mp3
@@ -45,7 +46,6 @@
     - [C10] Arcanum Unbounded - The Cosmere Collection 14 - Chapter 64-66 - Sixth of the Dusk.mp3
     - [C19] Arcanum Unbounded - The Cosmere Collection 15 - Chapter 67 - The Rosharan System.mp3
     - [C19] Arcanum Unbounded - The Cosmere Collection 16 - Chapter 68-88 - Edgedancer.mp3
-
 
 - [ ] Lookup asin candidates > newdb.js, except 13 'FIX NOW!' entries
 - [ ] rewrite db.js - refactor into sepearate cli
