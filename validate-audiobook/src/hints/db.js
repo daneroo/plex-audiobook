@@ -5036,13 +5036,19 @@ export const db = {
     author: 'Steven Pinker', // unique
     title: 'The Stuff of Thought', // hint
     '// duration': { seconds: 17691, minutes: 295 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V0KHLY', minutes: 576 },
+    '// meta-0': 'The Stuff of Thought / Steven Pinker / n: Dean Olsher',
+    '// asin-1': { asin: '0141992344', minutes: 1286 },
+    '// meta-1': 'The Stuff of Thought / Steven Pinker / n: John Chancer'
   },
   '/Volumes/Space/archive/media/audiobooks/StevenPinker-StuffOfThought/Steven Pinker - The Stuff of Thought- Language as a Window into Human Nature, Part 2': {
     author: 'Steven Pinker', // unique
     title: 'The Stuff of Thought', // hint
     '// duration': { seconds: 17012, minutes: 284 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002V0KHLY', minutes: 576 },
+    '// meta-0': 'The Stuff of Thought / Steven Pinker / n: Dean Olsher',
+    '// asin-1': { asin: '0141992344', minutes: 1286 },
+    '// meta-1': 'The Stuff of Thought / Steven Pinker / n: John Chancer'
   },
   '/Volumes/Space/archive/media/audiobooks/Susan Wise Bauer - The History of the Ancient World': {
     author: 'Susan Wise Bauer', // unique
@@ -5055,9 +5061,14 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Ted Chiang - Exhalation': {
     author: 'Ted Chiang', // unique
-    title: 'Exhalation', // unique
+    title: 'Exhalation', // hint
     '// duration': { seconds: 40928, minutes: 682 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '1984844458', minutes: 682 },
+    '// meta-0':
+      'Exhalation / Ted Chiang / n: Edoardo Ballerini,Dominic Hoffman,Amy Landon,Ted Chiang',
+    '// asin-1': { asin: '1529014522', minutes: 682 },
+    '// meta-1':
+      'Exhalation / Ted Chiang / n: Ted Chiang,Edoardo Ballerini,Amy Landon,Dominic Hoffman'
   },
   '/Volumes/Space/archive/media/audiobooks/Ted Chiang - Stories of Your Life and Others': {
     author: 'Ted Chiang', // unique
@@ -5071,7 +5082,9 @@ export const db = {
     author: 'Ryan Holiday', // hint
     title: 'The Daily Stoic', // hint
     '// duration': { seconds: 36391, minutes: 607 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01M4IDLAG', minutes: 606 },
+    '// meta-0':
+      'The Daily Stoic / Ryan Holiday,Stephen Hanselman / n: Brian Holsopple'
   },
   '/Volumes/Space/archive/media/audiobooks/TheGreatestScienceFictionStoriesOfThe20thCentury': {
     author: '', // non-unique or falsy
@@ -5130,7 +5143,10 @@ export const db = {
     author: 'Tom Holland', // unique
     title: 'Rubicon', // hint
     '// duration': { seconds: 56220, minutes: 937 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '1405544228', minutes: 909 },
+    '// meta-0': 'Rubicon / Tom Holland / n: Mark Meadows,Tom Holland',
+    '// asin-1': { asin: 'B0032N8U40', minutes: 344 },
+    '// meta-1': 'Rubicon / Tom Holland / n: Andrew Sachs'
   },
   '/Volumes/Space/archive/media/audiobooks/UrsulaKLeGuin-AWizardOfEarthsea': {
     author: 'Ursula K. Le Guin', // hint
@@ -5149,7 +5165,12 @@ export const db = {
     author: 'Ursula K. Le Guin', // hint
     title: 'The Left Hand Of Darkness', // hint
     '// duration': { seconds: 34805, minutes: 580 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01NH0D987', minutes: 579 },
+    '// meta-0':
+      'The Left Hand of Darkness / Ursula K. Le Guin / n: George Guidall',
+    '// asin-1': { asin: 'B09G7B8XXY', minutes: 470 },
+    '// meta-1':
+      'The Complete Earthsea Series & The Left Hand of Darkness / Ursula K. Le Guin / n: full cast,Toby Jones,Kobna Holdbrook-Smith,Lesley Sharp,Adjoa Andoh,Noma Dumezweni,Robert Glenister,James McArdle,Sam Dale'
   },
   '/Volumes/Space/archive/media/audiobooks/Vernor Vinge - Zones of Thought Trilogy': {
     '// No audio files': null
@@ -5158,19 +5179,22 @@ export const db = {
     author: 'Vernor Vinge', // hint
     title: 'A Fire Upon the Deep', // hint
     '// duration': { seconds: 85914, minutes: 1432 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0036N2C7M', minutes: 1297 },
+    '// meta-0': 'A Fire Upon the Deep / Vernor Vinge / n: Peter Larkin'
   },
   '/Volumes/Space/archive/media/audiobooks/Vernor Vinge - Zones of Thought Trilogy/Vernor Vinge - 02 - A Deepness in the Sky': {
     author: 'Vernor Vinge', // unique
     title: 'A Deepness in the Sky', // hint
     '// duration': { seconds: 102696, minutes: 1712 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B0030GOEUS', minutes: 1699 },
+    '// meta-0': 'A Deepness in the Sky / Vernor Vinge / n: Peter Larkin'
   },
   '/Volumes/Space/archive/media/audiobooks/Vernor Vinge - Zones of Thought Trilogy/Vernor Vinge - 03 - The Children of the Sky': {
     author: 'Vernor Vinge', // unique
     title: 'The Children of the Sky', // hint
     '// duration': { seconds: 99775, minutes: 1663 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B005UPL55Y', minutes: 1662 },
+    '// meta-0': 'The Children of the Sky / Vernor Vinge / n: Oliver Wyman'
   },
   '/Volumes/Space/archive/media/audiobooks/Victoria Schwab - A Darker Shade of Magic Series': {
     '// No audio files': null
@@ -5179,13 +5203,33 @@ export const db = {
     author: 'V.E. Schwab', // hint
     title: 'A Darker Shade of Magic', // hint
     '// duration': { seconds: 41687, minutes: 695 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00VVZPEX6', minutes: 694 },
+    '// meta-0': 'A Darker Shade of Magic / V. E. Schwab / n: Steven Crossley',
+    '// asin-1': { asin: 'B01BKXMZ8K', minutes: 969 },
+    '// meta-1':
+      'A Gathering of Shadows / V. E. Schwab / n: Michael Kramer,Kate Reading',
+    '// asin-2': { asin: 'B01N9V499O', minutes: 1143 },
+    '// meta-2':
+      'A Conjuring of Light / V. E. Schwab / n: Kate Reading,Michael Kramer',
+    '// asin-3': { asin: '1004007310', minutes: 694 },
+    '// meta-3': 'A Darker Shade of Magic / V. E. Schwab / n: Steven Crossley',
+    '// asin-4': { asin: '1004015674', minutes: 1143 },
+    '// meta-4':
+      'A Conjuring of Light / V.E. Schwab / n: Kate Reading,Michael Kramer',
+    '// asin-5': { asin: '1004015704', minutes: 968 },
+    '// meta-5':
+      'A Gathering of Shadows / V. E. Schwab / n: Kate Reading,Michael Kramer'
   },
   '/Volumes/Space/archive/media/audiobooks/Victoria Schwab - A Darker Shade of Magic Series/Victoria Schwab - SoM02 - A Gathering of Shadows': {
     author: 'V.E. Schwab', // unique
     title: 'A Gathering of Shadows', // hint
     '// duration': { seconds: 58154, minutes: 969 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B01BKXMZ8K', minutes: 969 },
+    '// meta-0':
+      'A Gathering of Shadows / V. E. Schwab / n: Michael Kramer,Kate Reading',
+    '// asin-1': { asin: '1004015704', minutes: 968 },
+    '// meta-1':
+      'A Gathering of Shadows / V. E. Schwab / n: Kate Reading,Michael Kramer'
   },
   '/Volumes/Space/archive/media/audiobooks/Victoria Schwab - A Darker Shade of Magic Series/Victoria Schwab - SoM03 - A Conjuring of Light': {
     author: 'V. E. Schwab', // hint
@@ -5202,7 +5246,30 @@ export const db = {
     author: 'Virgil', // hint
     title: 'The Aeneid', // hint
     '// duration': { seconds: 44816, minutes: 747 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B002VA9BZC', minutes: 746 },
+    '// meta-0': 'The Aeneid / Virgil / n: Simon Callow',
+    '// asin-1': { asin: 'B002UZL76E', minutes: 936 },
+    '// meta-1': 'The Aeneid / Virgil / n: Charlton Griffin',
+    '// asin-2': { asin: 'B0030313BO', minutes: 520 },
+    '// meta-2':
+      'The Aeneid / Virgil,Robert Fitzgerald - translator / n: Christopher Ravenscroft',
+    '// asin-3': { asin: 'B00U6DBTYM', minutes: 781 },
+    '// meta-3': 'The Aeneid / Virgil / n: David Collins',
+    '// asin-4': { asin: 'B003IRZM0U', minutes: 800 },
+    '// meta-4':
+      'The Aeneid / Virgil,John Dryden - translator / n: Michael Page',
+    '// asin-5': { asin: 'B002V1A9UW', minutes: 314 },
+    '// meta-5':
+      'Aeneid / Virgil / n: Paul Scofield,Jill Balcon,Toby Stephens,Geraldine Fitzgerald,John McAndrew,Stephen Thorne',
+    '// asin-6': { asin: 'B0B7CMPBXN' },
+    '// meta-6': 'The Aeneid - Virgil / Virgil / n: undefined',
+    '// asin-7': { asin: 'B09W49FV8V', minutes: 24 },
+    '// meta-7':
+      'The Descent to Hell / James Elroy Flecker - translator,Virgil / n: Denis Daly',
+    '// asin-8': { asin: 'B007X6E1X6', minutes: 114 },
+    '// meta-8': 'The Aeneid / Virgil / n: Eleanor Bron',
+    '// asin-9': { asin: 'B002V1JT8U', minutes: 839 },
+    '// meta-9': 'The Aeneid / Virgil / n: Frederick Davidson'
   },
   '/Volumes/Space/archive/media/audiobooks/Walter Isaacson - The Code Breaker': {
     author: 'Walter Isaacson', // unique
@@ -5257,7 +5324,8 @@ export const db = {
     author: 'Will Durant', // unique
     title: 'Our Oriental Heritage', // hint
     '// duration': { seconds: null, minutes: null },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B00FZYU6IC', minutes: 3017 },
+    '// meta-0': 'Our Oriental Heritage / Will Durant / n: Robin Field'
   },
   '/Volumes/Space/archive/media/audiobooks/William Gibson & Bruce Sterling - The Difference Engine': {
     author: 'William Gibson, Bruce Sterling', // unique
@@ -5320,6 +5388,11 @@ export const db = {
     author: "Wu Ch'eng-en", // unique
     title: 'Monkey', // hint
     '// duration': { seconds: 49258, minutes: 821 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B015WVALV4', minutes: 819 },
+    '// meta-0':
+      'Monkey / Wu Ch’êng-ên,Arthur Waley - translator / n: Kenneth Williams',
+    '// asin-1': { asin: '0141997818', minutes: 720 },
+    '// meta-1':
+      "Monkey King: Journey to the West / Wu Ch'eng-en,Julia Lovell / n: Kevin Shen"
   }
 }
