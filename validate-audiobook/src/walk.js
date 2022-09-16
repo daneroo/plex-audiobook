@@ -113,7 +113,17 @@ async function classifyDirectory (directoryPath) {
           .reduce((total, duration) => total + duration, 0)
       )
       const minutes = Math.round(seconds / 60)
-      // console.error('audio files =>', { seconds, minutes })
+      if (!seconds) {
+        console.error('Missing audio files duration =>', { seconds, minutes })
+        // console.error(
+        //   'metas =>',
+        //   JSON.stringify(
+        //     metas.map(m => m.format),
+        //     null,
+        //     2
+        //   )
+        // )
+      }
       rewriteHint('  "// duration":', JSON.stringify({ seconds, minutes }), ',')
 
       // TODO(daneroo) and neither is falsy

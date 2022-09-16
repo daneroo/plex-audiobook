@@ -12,7 +12,8 @@
 ## TODO
 
 - asin candidates (for known good Authors)
-- [ ] fix title author for 0 results
+- [ ] Broken duration for 12 directories
+- [ ] fix title/author - '// asin lookup results': 'zero!' - 191 left
 - [ ] skip:
   - [ ] skip: "no asin"
   - [ ] skip: "found in Arcanum": Delete extraneous Cosmere - from Arcanum Unbounded

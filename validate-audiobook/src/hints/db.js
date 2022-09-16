@@ -418,16 +418,24 @@ export const db = {
       'Dark Matter: Der Zeitenläufer / Blake Crouch / n: Florian Lukas,Karoline Schuch'
   },
   '/Volumes/Space/archive/media/audiobooks/Blake Crouch - Recursion': {
-    author: 'Jon Lindstrom, Abby Craden', // unique
-    title: 'Crouch, B: Recursion', // unique
+    author: 'Blake Crouch', // hint
+    title: 'Recursion', // hint
     '// duration': { seconds: 38859, minutes: 648 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: '1984886878', minutes: 647 },
+    '// meta-0': 'Recursion / Blake Crouch / n: Jon Lindstrom,Abby Craden',
+    '// asin-1': { asin: '1509866701', minutes: 647 },
+    '// meta-1': 'Recursion / Blake Crouch / n: Jon Lindstrom,Abby Craden',
+    '// asin-2': { asin: 'B09JGDHD9K', minutes: 722 },
+    '// meta-2': 'Recursión / Blake Crouch / n: Ignacio Casas'
   },
   '/Volumes/Space/archive/media/audiobooks/Blake Crouch - Upgrade': {
     author: 'Blake Crouch', // unique
-    title: 'Blake Crouch - Upgrade', // unique
+    title: 'Upgrade', // hint
     '// duration': { seconds: 35275, minutes: 588 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B09L9TXHN4', minutes: 587 },
+    '// meta-0': 'Upgrade / Blake Crouch / n: Henry Levya',
+    '// asin-1': { asin: 'B09RKK53LP', minutes: 587 },
+    '// meta-1': 'Upgrade / Blake Crouch / n: Henry Levya'
   },
   '/Volumes/Space/archive/media/audiobooks/BobWoodward-ObamasWars': {
     author: 'Bob Woodward', // unique
@@ -476,9 +484,12 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 11 - Mistborn 4 - The Alloy of Law': {
     author: 'Brandon Sanderson', // unique
-    title: 'Mistborn 04 - The Alloy of Law', // unique
+    title: 'The Alloy of Law', // hint
     '// duration': { seconds: 38892, minutes: 648 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B005ZUI3OA', minutes: 648 },
+    '// meta-0': 'The Alloy of Law / Brandon Sanderson / n: Michael Kramer',
+    '// asin-1': { asin: 'B0064EL8YS', minutes: 648 },
+    '// meta-1': 'The Alloy of Law / Brandon Sanderson / n: Michael Kramer'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 12 - Mistborn 4.5 - Allomancer Jak and the Pits of Eltania': {
     author: '', // non-unique or falsy
@@ -489,9 +500,12 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 13 - Mistborn 5 - Shadows of Self': {
     author: 'Brandon Sanderson', // unique
-    title: 'Mistborn Adventures - 02 - Shadows of Self', // unique
+    title: 'Shadows of Self', // hint
     '// duration': { seconds: 45461, minutes: 758 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B014LLCT7A', minutes: 757 },
+    '// meta-0': 'Shadows of Self / Brandon Sanderson / n: Michael Kramer',
+    '// asin-1': { asin: 'B010I4APLQ', minutes: 777 },
+    '// meta-1': 'Shadows of Self / Brandon Sanderson / n: Michael Kramer'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 14 - Mistborn 6 - The Bands of Mourning': {
     author: 'Brandon Sanderson', // unique
@@ -505,9 +519,24 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 16 - Warbreaker': {
     author: 'Brandon Sanderson', // unique
-    title: 'Warbreaker (Unabridged)', // unique
+    title: 'Warbreaker', // hint
     '// duration': { seconds: 89829, minutes: 1497 },
-    '// asin lookup results': 'zero!'
+    '// asin-0': { asin: 'B018UG5HJY', minutes: 1496 },
+    '// meta-0': 'Warbreaker / Brandon Sanderson / n: Alyssa Bresnahan',
+    '// asin-1': { asin: 'B077YXZM2N', minutes: 1496 },
+    '// meta-1': 'Warbreaker / Brandon Sanderson / n: Alyssa Bresnahan',
+    '// asin-2': { asin: '1685081851', minutes: 1070 },
+    '// meta-2':
+      'Warbreaker (Dramatized Adaptation) / Brandon Sanderson / n: Christopher Graybill,Colleen Delany,David Coyne,Dylan Lynch,Elizabeth Jernigan,James Konicek,Karen Carbone,Ken Jackson,Scott McCormick,Steven Carpenter,Tim Getman',
+    '// asin-3': { asin: '1645417913', minutes: 375 },
+    '// meta-3':
+      'Warbreaker (1 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: Dylan Lynch,James Konicek,Ken Jackson,Karen Carbone,Elizabeth Jernigan,Colleen Delany,Tim Getman,Steven Carpenter,David Coyne,Scott McCormick,Christopher Graybill',
+    '// asin-4': { asin: '164541793X', minutes: 314 },
+    '// meta-4':
+      'Warbreaker (2 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: David Coyne,James Konicek,Tim Getman,Ren Casey,Elizabeth Jernigan,Colleen Delany,Scott McCormick,Christopher Graybill,Richard Rohan,Mort Shelby,Terence Aselford',
+    '// asin-5': { asin: '1645417956', minutes: 380 },
+    '// meta-5':
+      'Warbreaker (3 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: Dylan Lynch,Elizabeth Jernigan,Colleen Delany,James Konicek,Tim Getman,Steven Carpenter,Ren Casey,David Coyne,Richard Rohan,Ken Jackson,Amanda Thickpenny'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 17 - The Stormlight Archive 1 - The Way of Kings': {
     author: 'Brandon Sanderson', // unique
