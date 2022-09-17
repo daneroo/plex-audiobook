@@ -18,8 +18,8 @@
 - [ ] Rename in final step Monkey -> Journey to the west...
 - [ ] Oscar Wild The picture of Dorian Gray - Read by Edward Petherbridge
 - [ ] Merge and rename
-  - [ ] Rename directories Sean Caroll -> Sean Carroll
-  - [ ] Merge Brent Weeks Light Bringer
+  - [x] Rename directories Sean Caroll -> Sean Carroll
+  - [x] Merge Brent Weeks Light Bringer
   - [ ] Merge Sean Carroll - The Particle at the End of the Universe/Disc 1-9
   - [ ] Merge Nemesis (Hary Hole 4) discs
   - [ ] Merge StevenPinker-StuffOfThought part 1-2
@@ -61,6 +61,9 @@
 - [ ] rewrite db.js - refactor into sepearate cli
 - [ ] validate: output: info,warn,error - or reporting ov validator array
 - [ ] make top level index.js (cli.js) a yargs command thing
+
+## Merge workflow
+
 
 ## References
 
