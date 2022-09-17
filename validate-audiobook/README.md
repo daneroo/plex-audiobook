@@ -13,18 +13,16 @@
 
 - QA with matching narrator (for asin lookup,..)
 - asin candidates (for known good Authors)
-- [ ] Broken duration for 12 directories
-- [ ] fix title/author - '// asin lookup results': 'zero!' - 34 left
+- [ ] Merge LarryBossidy-Execution/Execution Disc 1-5
+- Split  skip: 'multiple books in one directory'
+  - [x] BillBryson-5Audiobooks
+  - [x] Alistair Reynolds - Revelation Space
+  - Frank Herbert - Dune Collection/01 - Dune Saga
+  - Frank Herbert - Dune Collection/02 - Prelude to Dune
+- [ ] Broken duration from meta for 12 directories
 - [ ] Check for multiple authors... array?
 - [ ] Rename in final step Monkey -> Journey to the west...
 - [ ] Oscar Wild The picture of Dorian Gray - Read by Edward Petherbridge
-- [ ] Merge and rename
-  - [x] Rename directories Sean Caroll -> Sean Carroll
-  - [x] Merge Brent Weeks Light Bringer
-  - [x] Delete Sean Carroll - The Particle at the End of the Universe/Disc 1-9
-  - [x] Merge Nemesis (Hary Hole 4) discs
-  - [x] Merge StevenPinker-StuffOfThought part 1-2
-  - [x] Merge OrsonScottCard-EndersGame/Disc 1-9
 - [ ] skip:
   - [ ] skip: "not on audible"  // when we know for sure (cory/Lessig,..)
     - [ ] Doris Lessing - Shikasta
@@ -66,7 +64,19 @@
 ## Merge workflow
 
 ```bash
-mv Steven\ Pinker\ -\ The\ Stuff\ of\ Thought-\ Language\ as\ a\ Window\ into\ Human\ Nature\,\ Part\ */*mp3 .
+
+for i in *.m4b; do 
+  echo  "$i"  TO "${i%.m4b}"; 
+  echo mkdir "${i%.m4b}";
+  echo mv "$i" "${i%.m4b}";
+  echo touch -r "${i%.m4b}/$i" "${i%.m4b}" 
+done
+
+# 1. Alastair Reynolds - Revelation Space 01 Revelation Space.m4b
+# 2. Alastair Reynolds - Revelation Space 02 Chasm City.m4b
+# 3. Alastair Reynolds - Revelation Space 03 Redemption Ark.m4b
+# 4. Alastair Reynolds - Revelation Space 04 Absolution Gap.m4b
+# 5. Alastair Reynolds - Revelation Space 05 The Prefect.m4b
 
 ```
 

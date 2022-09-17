@@ -68,17 +68,61 @@ export const db = {
     '// meta-0': 'The Stars My Destination / Alfred Bester / n: Gerard Doyle'
   },
   '/Volumes/Space/archive/media/audiobooks/Alistair Reynolds - Revelation Space': {
+    '// No audio files': null
+  },
+  '/Volumes/Space/archive/media/audiobooks/Alistair Reynolds - Revelation Space/1. Alastair Reynolds - Revelation Space 01 Revelation Space': {
     author: 'Alastair Reynolds', // unique
-    title: '', // non-unique or falsy
-    '// Non-unique Title': [
-      'Revelation Space 01 Revelation Space',
-      'Revelation Space 02 Chasm City',
-      'Revelation Space 03 Redemption Ark',
-      'Revelation Space 04 Absolution Gap',
-      'Revelation Space 05 The Prefect'
-    ],
-    '// duration': { seconds: 235362, minutes: 3923 },
-    skip: 'multiple books in one directory'
+    title: 'Revelation Space', // hint
+    '// duration': { seconds: 79965, minutes: 1333 },
+    '// asin-0': { asin: 'B002V5GYHA', minutes: 1332 },
+    '// meta-0': 'Revelation Space / Alastair Reynolds / n: John Lee',
+    '// asin-1': { asin: 'B0128481DI', minutes: 418 },
+    '// meta-1':
+      'Diamond Dogs, Turquoise Days / Alastair Reynolds / n: John Lee',
+    '// asin-2': { asin: 'B0030MTMLS', minutes: 1383 },
+    '// meta-2': 'Chasm City / Alastair Reynolds / n: John Lee',
+    '// asin-3': { asin: 'B002V5B3BW', minutes: 1630 },
+    '// meta-3': 'Absolution Gap / Alastair Reynolds / n: John Lee',
+    '// asin-4': { asin: 'B004P7VGWU', minutes: 1181 },
+    '// meta-4': 'The Prefect / Alastair Reynolds / n: John Lee',
+    '// asin-5': { asin: 'B002V1O58E', minutes: 1638 },
+    '// meta-5': 'Redemption Ark / Alastair Reynolds / n: John Lee',
+    '// asin-6': { asin: 'B002V8MRS2', minutes: 775 },
+    '// meta-6': 'Galactic North / Alastair Reynolds / n: John Lee',
+    '// asin-7': { asin: 'B09F8VYDVH', minutes: 1176 },
+    '// meta-7': 'Inhibitor Phase / Alastair Reynolds / n: John Lee'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Alistair Reynolds - Revelation Space/2. Alastair Reynolds - Revelation Space 02 Chasm City': {
+    author: 'Alastair Reynolds', // unique
+    title: 'Chasm City', // hint
+    '// duration': { seconds: 83070, minutes: 1385 },
+    '// asin-0': { asin: 'B0030MTMLS', minutes: 1383 },
+    '// meta-0': 'Chasm City / Alastair Reynolds / n: John Lee'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Alistair Reynolds - Revelation Space/3. Alastair Reynolds - Revelation Space 03 Redemption Ark': {
+    author: 'Alastair Reynolds', // unique
+    title: 'Redemption Ark', // hint
+    '// duration': { seconds: 958, minutes: 16 },
+    '// asin-0': { asin: 'B002V1O58E', minutes: 1638 },
+    '// meta-0': 'Redemption Ark / Alastair Reynolds / n: John Lee'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Alistair Reynolds - Revelation Space/4. Alastair Reynolds - Revelation Space 04 Absolution Gap': {
+    author: 'Alastair Reynolds', // unique
+    title: 'Absolution Gap', // hint
+    '// duration': { seconds: 478, minutes: 8 },
+    '// asin-0': { asin: 'B002V5B3BW', minutes: 1630 },
+    '// meta-0': 'Absolution Gap / Alastair Reynolds / n: John Lee'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Alistair Reynolds - Revelation Space/5. Alastair Reynolds - Revelation Space 05 The Prefect': {
+    author: 'Alastair Reynolds', // unique
+    title: 'The Prefect', // hint
+    '// duration': { seconds: 70891, minutes: 1182 },
+    '// asin-0': { asin: 'B004P7VGWU', minutes: 1181 },
+    '// meta-0': 'The Prefect / Alastair Reynolds / n: John Lee',
+    '// asin-1': { asin: 'B077YXPBCC', minutes: 1069 },
+    '// meta-1': 'Elysium Fire / Alastair Reynolds / n: John Lee',
+    '// asin-2': { asin: 'B076HCJD56', minutes: 1068 },
+    '// meta-2': 'Elysium Fire / Alastair Reynolds / n: John Lee'
   },
   '/Volumes/Space/archive/media/audiobooks/Andrew Morton - 17 Carnations': {
     author: 'Andrew Morton', // unique
@@ -386,18 +430,40 @@ export const db = {
     '// meta-3': 'Excalibur / Bernard Cornwell / n: Tim Pigott-Smith'
   },
   '/Volumes/Space/archive/media/audiobooks/BillBryson-5Audiobooks': {
-    author: 'Bryson, Bill', // unique
-    title: '', // non-unique or falsy
-    '// Non-unique Title': [
-      'A Short History of Nearly Everything',
-      'Shakespeare - The World as Stage -- Disc 1 of 5',
-      'Shakespeare - The World as Stage -- Disc 2 of 5',
-      'Shakespeare - The World as Stage -- Disc 3 of 5',
-      'Shakespeare - The World as Stage -- Disc 4 of 5',
-      'Shakespeare - The World as Stage -- Disc 5 of 5'
-    ],
-    '// duration': { seconds: 85723, minutes: 1429 },
-    skip: 'multiple books in one directory'
+    '// No audio files': null
+  },
+  '/Volumes/Space/archive/media/audiobooks/BillBryson-5Audiobooks/A Short History of Nearly Everything': {
+    author: 'Bill Bryson', // hint
+    title: 'A Short History of Nearly Everything', // unique
+    '// duration': { seconds: 65967, minutes: 1099 },
+    '// asin-0': { asin: 'B002V0KFPW', minutes: 1093 },
+    '// meta-0':
+      'A Short History of Nearly Everything / Bill Bryson / n: Richard Matthews',
+    '// asin-1': { asin: 'B002UZLFOI', minutes: 1139 },
+    '// meta-1':
+      'A Short History of Nearly Everything / Bill Bryson / n: William Roberts',
+    '// asin-2': { asin: 'B002UZMS8U', minutes: 347 },
+    '// meta-2':
+      'A Short History of Nearly Everything / Bill Bryson / n: Bill Bryson',
+    '// asin-3': { asin: 'B003EGT8X2', minutes: 348 },
+    '// meta-3':
+      'A Short History of Nearly Everything / Bill Bryson / n: Bill Bryson',
+    '// asin-4': { asin: '0241473616', minutes: 342 },
+    '// meta-4':
+      'A Really Short History of Nearly Everything / Bill Bryson / n: Weruche Opia'
+  },
+  '/Volumes/Space/archive/media/audiobooks/BillBryson-5Audiobooks/Shakespeare - The World as Stage': {
+    author: 'Bill Bryson', // hint
+    title: 'Shakespeare', // hint
+    '// duration': { seconds: 19756, minutes: 329 },
+    '// asin-0': { asin: 'B0036GPQ5O', minutes: 329 },
+    '// meta-0': 'Shakespeare / Bill Bryson / n: Bill Bryson',
+    '// asin-1': { asin: 'B0036GMLGQ', minutes: 327 },
+    '// meta-1': 'Shakespeare / Bill Bryson / n: Bill Bryson',
+    '// asin-2': { asin: 'B002V01CM2', minutes: 328 },
+    '// meta-2': 'Shakespeare / Bill Bryson / n: Bill Bryson',
+    '// asin-3': { asin: 'B09HH3P1WC', minutes: 377 },
+    '// meta-3': 'Shakespeare / Bill Bryson / n: Alfonso Mendiguchía'
   },
   '/Volumes/Space/archive/media/audiobooks/Blake Crouch - Dark Matter': {
     author: 'Blake Crouch', // unique
