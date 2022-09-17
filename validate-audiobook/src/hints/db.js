@@ -2873,54 +2873,9 @@ export const db = {
     '// meta-0': 'A Man Without a Country / Kurt Vonnegut / n: Norman Dietz'
   },
   '/Volumes/Space/archive/media/audiobooks/LarryBossidy-Execution': {
-    '// No audio files': null
-  },
-  '/Volumes/Space/archive/media/audiobooks/LarryBossidy-Execution/Execution Disc 1': {
-    author: 'Bossidy & Charan', // unique
+    author: 'Larry Bossidy', // hint
     title: 'Execution', // unique
-    '// duration': { seconds: 2744, minutes: 46 },
-    '// asin-0': { asin: 'B002UUFTUO', minutes: 494 },
-    '// meta-0': 'Execution / Larry Bossidy,Ram Charan / n: John Bedford Lloyd'
-  },
-  '/Volumes/Space/archive/media/audiobooks/LarryBossidy-Execution/Execution Disc 2': {
-    author: 'Bossidy & Charan', // unique
-    title: 'Execution', // unique
-    '// duration': { seconds: 4331, minutes: 72 },
-    '// asin-0': { asin: 'B002UUFTUO', minutes: 494 },
-    '// meta-0': 'Execution / Larry Bossidy,Ram Charan / n: John Bedford Lloyd'
-  },
-  '/Volumes/Space/archive/media/audiobooks/LarryBossidy-Execution/Execution Disc 3': {
-    author: 'Bossidy & Charan', // unique
-    title: 'Execution', // unique
-    '// duration': { seconds: 4207, minutes: 70 },
-    '// asin-0': { asin: 'B002UUFTUO', minutes: 494 },
-    '// meta-0': 'Execution / Larry Bossidy,Ram Charan / n: John Bedford Lloyd'
-  },
-  '/Volumes/Space/archive/media/audiobooks/LarryBossidy-Execution/Execution Disc 4': {
-    author: 'Bossidy & Charan', // unique
-    title: 'Execution', // unique
-    '// duration': { seconds: 4268, minutes: 71 },
-    '// asin-0': { asin: 'B002UUFTUO', minutes: 494 },
-    '// meta-0': 'Execution / Larry Bossidy,Ram Charan / n: John Bedford Lloyd'
-  },
-  '/Volumes/Space/archive/media/audiobooks/LarryBossidy-Execution/Execution Disc 5': {
-    author: 'Bossidy & Charan', // unique
-    title: 'Execution', // unique
-    '// duration': { seconds: 4301, minutes: 72 },
-    '// asin-0': { asin: 'B002UUFTUO', minutes: 494 },
-    '// meta-0': 'Execution / Larry Bossidy,Ram Charan / n: John Bedford Lloyd'
-  },
-  '/Volumes/Space/archive/media/audiobooks/LarryBossidy-Execution/Execution Disc 6': {
-    author: 'Bossidy & Charan', // unique
-    title: 'Execution', // unique
-    '// duration': { seconds: 4036, minutes: 67 },
-    '// asin-0': { asin: 'B002UUFTUO', minutes: 494 },
-    '// meta-0': 'Execution / Larry Bossidy,Ram Charan / n: John Bedford Lloyd'
-  },
-  '/Volumes/Space/archive/media/audiobooks/LarryBossidy-Execution/Execution Disc 7': {
-    author: 'Bossidy & Charan', // unique
-    title: 'Execution', // unique
-    '// duration': { seconds: 4251, minutes: 71 },
+    '// duration': { seconds: 28138, minutes: 469 },
     '// asin-0': { asin: 'B002UUFTUO', minutes: 494 },
     '// meta-0': 'Execution / Larry Bossidy,Ram Charan / n: John Bedford Lloyd'
   },

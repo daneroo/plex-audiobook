@@ -13,12 +13,6 @@
 
 - QA with matching narrator (for asin lookup,..)
 - asin candidates (for known good Authors)
-- [ ] Merge LarryBossidy-Execution/Execution Disc 1-5
-- Split  skip: 'multiple books in one directory'
-  - [x] BillBryson-5Audiobooks
-  - [x] Alistair Reynolds - Revelation Space
-  - [x] Frank Herbert - Dune Collection/01 - Dune Saga
-  - [x] Frank Herbert - Dune Collection/02 - Prelude to Dune
 - [ ] Broken duration from meta for 12 directories
 - [ ] Check for multiple authors... array?
 - [ ] Rename in final step Monkey -> Journey to the west...
