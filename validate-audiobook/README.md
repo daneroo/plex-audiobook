@@ -17,8 +17,8 @@
 - Split  skip: 'multiple books in one directory'
   - [x] BillBryson-5Audiobooks
   - [x] Alistair Reynolds - Revelation Space
-  - Frank Herbert - Dune Collection/01 - Dune Saga
-  - Frank Herbert - Dune Collection/02 - Prelude to Dune
+  - [x] Frank Herbert - Dune Collection/01 - Dune Saga
+  - [x] Frank Herbert - Dune Collection/02 - Prelude to Dune
 - [ ] Broken duration from meta for 12 directories
 - [ ] Check for multiple authors... array?
 - [ ] Rename in final step Monkey -> Journey to the west...
@@ -67,9 +67,9 @@
 
 for i in *.m4b; do 
   echo  "$i"  TO "${i%.m4b}"; 
-  echo mkdir "${i%.m4b}";
-  echo mv "$i" "${i%.m4b}";
-  echo touch -r "${i%.m4b}/$i" "${i%.m4b}" 
+  mkdir "${i%.m4b}";
+  mv "$i" "${i%.m4b}";
+  touch -r "${i%.m4b}/$i" "${i%.m4b}" 
 done
 
 # 1. Alastair Reynolds - Revelation Space 01 Revelation Space.m4b

@@ -1406,30 +1406,141 @@ export const db = {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga': {
-    author: '', // non-unique or falsy
-    '// Non-unique Author': [
-      'Frank Herbert (audio)',
-      'Brian Herbert & Keven J. Anderson (audio)'
-    ],
-    title: '', // non-unique or falsy
-    '// Non-unique Title': [
-      'Dune',
-      'Dune Messiah',
-      'Children of Dune',
-      'God Emperor of Dune',
-      'Heretics of Dune',
-      'Chapterhouse: Dune',
-      'Hunters of Dune',
-      'Sandworms of Dune'
-    ],
-    '// duration': { seconds: 494617, minutes: 8244 },
-    skip: 'multiple books in one directory'
+    '// No audio files': null
+  },
+  '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/01. Dune': {
+    author: 'Frank Herbert', // hint
+    title: 'Dune', // unique
+    '// duration': { seconds: 75727, minutes: 1262 },
+    '// asin-0': { asin: 'B002V1OF70', minutes: 1262 },
+    '// meta-0':
+      'Dune / Frank Herbert / n: Scott Brick,Orlagh Cassidy,Euan Morton,Simon Vance,Ilyana Kadushin,Byron Jennings,David R. Gordon,Jason Culp,Kent Broadhurst,Oliver Wyman,Patricia Kilgarriff,Scott Sowers',
+    '// asin-1': { asin: 'B002V57VRC', minutes: 1011 },
+    '// meta-1':
+      'Children of Dune / Frank Herbert / n: Scott Brick,Simon Vance',
+    '// asin-2': { asin: 'B002V1CA2M', minutes: 1084 },
+    '// meta-2':
+      'Heretics of Dune / Frank Herbert / n: Simon Vance,Scott Brick',
+    '// asin-3': { asin: 'B002V0K6D8', minutes: 1002 },
+    '// meta-3':
+      'Chapterhouse Dune / Frank Herbert / n: Euan Morton,Katherine Kellgren,Scott Brick,Simon Vance',
+    '// asin-4': { asin: 'B002V8DH3Q', minutes: 880 },
+    '// meta-4':
+      'The Road to Dune / Frank Herbert,Brian Herbert,Kevin J. Anderson / n: Scott Brick',
+    '// asin-5': { asin: 'B002V8H660', minutes: 537 },
+    '// meta-5':
+      'Dune Messiah / Frank Herbert / n: Scott Brick,Katherine Kellgren,Euan Morton,Simon Vance',
+    '// asin-6': { asin: 'B002V5D08G', minutes: 948 },
+    '// meta-6': 'God Emperor of Dune / Frank Herbert / n: Simon Vance',
+    '// asin-7': { asin: '8417347798', minutes: 1540 },
+    '// meta-7': 'Dune (Spanish Edition) / Frank Herbert / n: Daniel García',
+    '// asin-8': { asin: 'B07Q376J4K', minutes: 1080 },
+    '// meta-8': 'Dune 1.1 / Frank Herbert / n: Benjamin Jungers',
+    '// asin-9': { asin: 'B09X25R55P', minutes: 1221 },
+    '// meta-9':
+      'Hijos de Dune [Children of Dune] / Frank Herbert,Pedro Domingo Mutiño / n: Daniel García'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/02. Dune Messiah': {
+    author: 'Frank Herbert', // hint
+    title: 'Dune Messiah', // unique
+    '// duration': { seconds: 32260, minutes: 538 },
+    '// asin-0': { asin: 'B002V8H660', minutes: 537 },
+    '// meta-0':
+      'Dune Messiah / Frank Herbert / n: Scott Brick,Katherine Kellgren,Euan Morton,Simon Vance',
+    '// asin-1': { asin: 'B09NRVWVZ1', minutes: 627 },
+    '// meta-1':
+      'El mesías de Dune [Dune Messiah] / Frank Herbert / n: Daniel García'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/03. Children of Dune': {
+    author: 'Frank Herbert', // hint
+    title: 'Children of Dune', // unique
+    '// duration': { seconds: 60677, minutes: 1011 },
+    '// asin-0': { asin: 'B002V57VRC', minutes: 1011 },
+    '// meta-0':
+      'Children of Dune / Frank Herbert / n: Scott Brick,Simon Vance',
+    '// asin-1': { asin: 'B09X25R55P', minutes: 1221 },
+    '// meta-1':
+      'Hijos de Dune [Children of Dune] / Frank Herbert,Pedro Domingo Mutiño / n: Daniel García'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/04. God Emperor of Dune': {
+    author: 'Frank Herbert', // hint
+    title: 'God Emperor of Dune', // unique
+    '// duration': { seconds: 56901, minutes: 948 },
+    '// asin-0': { asin: 'B002V5D08G', minutes: 948 },
+    '// meta-0': 'God Emperor of Dune / Frank Herbert / n: Simon Vance'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/05. Heretics of Dune': {
+    author: 'Frank Herbert', // hint
+    title: 'Heretics of Dune', // unique
+    '// duration': { seconds: 65051, minutes: 1084 },
+    '// asin-0': { asin: 'B002V1CA2M', minutes: 1084 },
+    '// meta-0': 'Heretics of Dune / Frank Herbert / n: Simon Vance,Scott Brick'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/06. Chapterhouse_ Dune': {
+    author: 'Frank Herbert', // hint
+    title: 'Chapterhouse: Dune', // unique
+    '// duration': { seconds: 60142, minutes: 1002 },
+    '// asin-0': { asin: 'B002V0K6D8', minutes: 1002 },
+    '// meta-0':
+      'Chapterhouse Dune / Frank Herbert / n: Euan Morton,Katherine Kellgren,Scott Brick,Simon Vance'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/07. Hunters of Dune': {
+    author: 'Brian Herbert', // hint
+    title: 'Hunters of Dune', // unique
+    '// duration': { seconds: 73325, minutes: 1222 },
+    '// asin-0': { asin: 'B002V01074', minutes: 1222 },
+    '// meta-0':
+      'Hunters of Dune / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
+    '// asin-1': { asin: 'B09PVM8H93', minutes: 1215 },
+    '// meta-1':
+      'Dune: Hunters of Dune / Kevin J Anderson,Brian Herbert / n: Scott Brick'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/08. Sandworms of Dune': {
+    author: 'Brian Herbert', // hint
+    title: 'Sandworms of Dune', // unique
+    '// duration': { seconds: 70535, minutes: 1176 },
+    '// asin-0': { asin: 'B002V1LUQE', minutes: 1178 },
+    '// meta-0':
+      'Sandworms of Dune / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
+    '// asin-1': { asin: 'B09MZJX5F2', minutes: 1171 },
+    '// meta-1':
+      'Sandworms of Dune / Kevin J Anderson,Brian Herbert / n: Scott Brick'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/02 - Prelude to Dune': {
-    author: 'Brian Herbert & Kevin J. Anderson', // unique
-    title: 'The New Dune Chronicles', // unique
-    '// duration': { seconds: 266845, minutes: 4447 },
-    skip: 'multiple books in one directory'
+    '// No audio files': null
+  },
+  '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/02 - Prelude to Dune/01. House Atreides': {
+    author: 'Brian Herbert', // hint
+    title: 'House Atreides', // hint
+    '// duration': { seconds: 91975, minutes: 1533 },
+    '// asin-0': { asin: 'B002V0Q8M6', minutes: 1586 },
+    '// meta-0':
+      'Dune: House Atreides: House Trilogy, Book 1 / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
+    '// asin-1': { asin: '1004027907', minutes: 1586 },
+    '// meta-1':
+      'Dune: House Atreides / Brian Herbert,Kevin J. Anderson / n: Scott Brick'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/02 - Prelude to Dune/02. House Harkonnen': {
+    author: 'Brian Herbert', // hint
+    title: 'House Harkonnen', // hint
+    '// duration': { seconds: 92992, minutes: 1550 },
+    '// asin-0': { asin: 'B0032YWKVS', minutes: 1592 },
+    '// meta-0':
+      'House Harkonnen: House Trilogy, Book 2 / Kevin J. Anderson,Brian Herbert / n: Scott Brick',
+    '// asin-1': { asin: '1004027915', minutes: 1592 },
+    '// meta-1':
+      'Dune: House Harkonnen / Brian Herbert,Kevin J. Anderson / n: Scott Brick'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/02 - Prelude to Dune/03. House Corrino': {
+    author: 'Brian Herbert', // hint
+    title: 'House Corrino', // hint
+    '// duration': { seconds: 81877, minutes: 1365 },
+    '// asin-0': { asin: 'B003ABUSI0', minutes: 1449 },
+    '// meta-0':
+      'Dune: House Corrino / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
+    '// asin-1': { asin: '1004027982', minutes: 1449 },
+    '// meta-1':
+      'Dune: House Corrino / Brian Herbert,Kevin J. Anderson / n: Scott Brick'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Wilczek - A Beautiful Question': {
     author: 'Frank Wilczek', // unique
