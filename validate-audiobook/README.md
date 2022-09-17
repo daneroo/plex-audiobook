@@ -11,6 +11,7 @@
 
 ## TODO
 
+- QA with matching narrator (for asin lookup,..)
 - asin candidates (for known good Authors)
 - [ ] Broken duration for 12 directories
 - [ ] fix title/author - '// asin lookup results': 'zero!' - 34 left
@@ -20,10 +21,10 @@
 - [ ] Merge and rename
   - [x] Rename directories Sean Caroll -> Sean Carroll
   - [x] Merge Brent Weeks Light Bringer
-  - [ ] Merge Sean Carroll - The Particle at the End of the Universe/Disc 1-9
-  - [ ] Merge Nemesis (Hary Hole 4) discs
-  - [ ] Merge StevenPinker-StuffOfThought part 1-2
-  - [ ] Merge OrsonScottCard-EndersGame/Disc 1-9
+  - [x] Delete Sean Carroll - The Particle at the End of the Universe/Disc 1-9
+  - [x] Merge Nemesis (Hary Hole 4) discs
+  - [x] Merge StevenPinker-StuffOfThought part 1-2
+  - [x] Merge OrsonScottCard-EndersGame/Disc 1-9
 - [ ] skip:
   - [ ] skip: "not on audible"  // when we know for sure (cory/Lessig,..)
     - [ ] Doris Lessing - Shikasta
@@ -64,6 +65,10 @@
 
 ## Merge workflow
 
+```bash
+mv Steven\ Pinker\ -\ The\ Stuff\ of\ Thought-\ Language\ as\ a\ Window\ into\ Human\ Nature\,\ Part\ */*mp3 .
+
+```
 
 ## References
 
