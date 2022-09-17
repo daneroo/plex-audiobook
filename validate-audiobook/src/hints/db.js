@@ -4574,14 +4574,14 @@ export const db = {
     '// asin-1': { asin: 'B00G4K7EUO', minutes: 1423 },
     '// meta-1': 'The Republic of Thieves / Scott Lynch / n: Michael Page'
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Big Picture': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Big Picture': {
     author: 'Sean Carroll', // unique
     title: 'The Big Picture', // hint
     '// duration': { seconds: 62289, minutes: 1038 },
     '// asin-0': { asin: 'B01ENXQUGM', minutes: 1042 },
     '// meta-0': 'The Big Picture / Sean Carroll / n: Sean Carroll'
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Higgs Boson and Beyond': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Higgs Boson and Beyond': {
     author: 'Sean Carroll', // hint
     title: 'The Higgs Boson and Beyond', // hint
     '// duration': { seconds: 22828, minutes: 380 },
@@ -4589,10 +4589,10 @@ export const db = {
     '// meta-0':
       'The Higgs Boson and Beyond / Sean Carroll,The Great Courses / n: Sean Carroll'
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Particle at the End of the Universe': {
     '// No audio files': null
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 1 - The Particle at the End of the Universe': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Particle at the End of the Universe/Disc 1 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
@@ -4603,7 +4603,7 @@ export const db = {
     '// meta-1':
       'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 2 - The Particle at the End of the Universe': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Particle at the End of the Universe/Disc 2 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
@@ -4614,7 +4614,7 @@ export const db = {
     '// meta-1':
       'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 3 - The Particle at the End of the Universe': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Particle at the End of the Universe/Disc 3 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
@@ -4625,7 +4625,7 @@ export const db = {
     '// meta-1':
       'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 4 - The Particle at the End of the Universe': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Particle at the End of the Universe/Disc 4 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 3684, minutes: 61 },
@@ -4636,7 +4636,7 @@ export const db = {
     '// meta-1':
       'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 5 - The Particle at the End of the Universe': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Particle at the End of the Universe/Disc 5 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
@@ -4647,7 +4647,7 @@ export const db = {
     '// meta-1':
       'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 6 - The Particle at the End of the Universe': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Particle at the End of the Universe/Disc 6 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
@@ -4658,7 +4658,7 @@ export const db = {
     '// meta-1':
       'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 7 - The Particle at the End of the Universe': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Particle at the End of the Universe/Disc 7 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
@@ -4669,7 +4669,7 @@ export const db = {
     '// meta-1':
       'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 8 - The Particle at the End of the Universe': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Particle at the End of the Universe/Disc 8 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 4793, minutes: 80 },
@@ -4680,7 +4680,7 @@ export const db = {
     '// meta-1':
       'The Particle at the End of the Universe / Sean Carroll / n: Jonathan Hogan'
   },
-  '/Volumes/Space/archive/media/audiobooks/Sean Caroll - The Particle at the End of the Universe/Disc 9 - The Particle at the End of the Universe': {
+  '/Volumes/Space/archive/media/audiobooks/Sean Carroll - The Particle at the End of the Universe/Disc 9 - The Particle at the End of the Universe': {
     author: 'Sean Carroll', // hint
     title: 'The Particle at the End of the Universe', // hint
     '// duration': { seconds: 1686, minutes: 28 },
