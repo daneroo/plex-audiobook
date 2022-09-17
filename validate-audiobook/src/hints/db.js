@@ -710,52 +710,10 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga': {
     '// No audio files': null
   },
-  '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [01] The Black Prism [01]': {
+  '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [01] The Black Prism': {
     author: 'Brent Weeks', // hint
     title: 'The Black Prism', // hint
     '// duration': { seconds: 24184, minutes: 403 },
-    '// asin-0': { asin: 'B01HZXFARW', minutes: 1286 },
-    '// meta-0': 'The Black Prism / Brent Weeks / n: Simon Vance',
-    '// asin-1': { asin: 'B005J68TIA', minutes: 1286 },
-    '// meta-1': 'The Black Prism / Brent Weeks / n: Simon Vance',
-    '// asin-2': { asin: 'B09FRBS927', minutes: 1173 },
-    '// meta-2':
-      'Black Prism [Dramatized Adaptation] / Brent Weeks / n: Andy Clemence,Christopher Scheeren,Colleen Delany,David Coyne,Drew Kopas,Dylan Lynch,Elizabeth Jernigan,Eric Messner,James Lewis,Jeff Allin,Joe Brack,Karen Novak,Ken Jackson,Kimberly Gilbert,Lilly David',
-    '// asin-3': { asin: '1648794386', minutes: 403 },
-    '// meta-3':
-      'Black Prism (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
-    '// asin-4': { asin: '1648794424', minutes: 376 },
-    '// meta-4':
-      'Black Prism (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
-    '// asin-5': { asin: '1648794408', minutes: 392 },
-    '// meta-5':
-      'Black Prism (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas'
-  },
-  '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [01] The Black Prism [02]': {
-    author: 'Brent Weeks', // hint
-    title: 'The Black Prism', // hint
-    '// duration': { seconds: 23578, minutes: 393 },
-    '// asin-0': { asin: 'B01HZXFARW', minutes: 1286 },
-    '// meta-0': 'The Black Prism / Brent Weeks / n: Simon Vance',
-    '// asin-1': { asin: 'B005J68TIA', minutes: 1286 },
-    '// meta-1': 'The Black Prism / Brent Weeks / n: Simon Vance',
-    '// asin-2': { asin: 'B09FRBS927', minutes: 1173 },
-    '// meta-2':
-      'Black Prism [Dramatized Adaptation] / Brent Weeks / n: Andy Clemence,Christopher Scheeren,Colleen Delany,David Coyne,Drew Kopas,Dylan Lynch,Elizabeth Jernigan,Eric Messner,James Lewis,Jeff Allin,Joe Brack,Karen Novak,Ken Jackson,Kimberly Gilbert,Lilly David',
-    '// asin-3': { asin: '1648794386', minutes: 403 },
-    '// meta-3':
-      'Black Prism (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
-    '// asin-4': { asin: '1648794424', minutes: 376 },
-    '// meta-4':
-      'Black Prism (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
-    '// asin-5': { asin: '1648794408', minutes: 392 },
-    '// meta-5':
-      'Black Prism (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas'
-  },
-  '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [01] The Black Prism [03]': {
-    author: 'Brent Weeks', // hint
-    title: 'The Black Prism', // hint
-    '// duration': { seconds: 22616, minutes: 377 },
     '// asin-0': { asin: 'B01HZXFARW', minutes: 1286 },
     '// meta-0': 'The Black Prism / Brent Weeks / n: Simon Vance',
     '// asin-1': { asin: 'B005J68TIA', minutes: 1286 },
