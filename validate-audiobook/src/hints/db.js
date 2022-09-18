@@ -2141,75 +2141,9 @@ export const db = {
     '// meta-2': 'Respirația [Breath] / James Nestor / n: Bogdan Șerban'
   },
   '/Volumes/Space/archive/media/audiobooks/JamesSurowiecki-TheWisdomofCrowds': {
-    '// No audio files': null
-  },
-  '/Volumes/Space/archive/media/audiobooks/JamesSurowiecki-TheWisdomofCrowds/cd1': {
     author: 'James Surowiecki', // unique
     title: 'Wisdom of Crowds', // unique
-    '// duration': { seconds: 4349, minutes: 72 },
-    '// asin-0': { asin: 'B002V8HM14', minutes: 569 },
-    '// meta-0': 'The Wisdom of Crowds / James Surowiecki / n: Grover Gardner',
-    '// asin-1': { asin: 'B002V0K5P2', minutes: 353 },
-    '// meta-1': 'The Wisdom of Crowds / James Surowiecki / n: Erik Singer'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JamesSurowiecki-TheWisdomofCrowds/cd2': {
-    author: 'James Surowiecki', // unique
-    title: 'Wisdom of Crowds', // unique
-    '// duration': { seconds: 4542, minutes: 76 },
-    '// asin-0': { asin: 'B002V8HM14', minutes: 569 },
-    '// meta-0': 'The Wisdom of Crowds / James Surowiecki / n: Grover Gardner',
-    '// asin-1': { asin: 'B002V0K5P2', minutes: 353 },
-    '// meta-1': 'The Wisdom of Crowds / James Surowiecki / n: Erik Singer'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JamesSurowiecki-TheWisdomofCrowds/cd3': {
-    author: 'James Surowiecki', // unique
-    title: 'Wisdom of Crowds', // unique
-    '// duration': { seconds: 4154, minutes: 69 },
-    '// asin-0': { asin: 'B002V8HM14', minutes: 569 },
-    '// meta-0': 'The Wisdom of Crowds / James Surowiecki / n: Grover Gardner',
-    '// asin-1': { asin: 'B002V0K5P2', minutes: 353 },
-    '// meta-1': 'The Wisdom of Crowds / James Surowiecki / n: Erik Singer'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JamesSurowiecki-TheWisdomofCrowds/cd4': {
-    author: 'James Surowiecki', // unique
-    title: 'Wisdom of Crowds', // unique
-    '// duration': { seconds: 4277, minutes: 71 },
-    '// asin-0': { asin: 'B002V8HM14', minutes: 569 },
-    '// meta-0': 'The Wisdom of Crowds / James Surowiecki / n: Grover Gardner',
-    '// asin-1': { asin: 'B002V0K5P2', minutes: 353 },
-    '// meta-1': 'The Wisdom of Crowds / James Surowiecki / n: Erik Singer'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JamesSurowiecki-TheWisdomofCrowds/cd5': {
-    author: 'James Surowiecki', // unique
-    title: 'Wisdom of Crowds', // unique
-    '// duration': { seconds: 4183, minutes: 70 },
-    '// asin-0': { asin: 'B002V8HM14', minutes: 569 },
-    '// meta-0': 'The Wisdom of Crowds / James Surowiecki / n: Grover Gardner',
-    '// asin-1': { asin: 'B002V0K5P2', minutes: 353 },
-    '// meta-1': 'The Wisdom of Crowds / James Surowiecki / n: Erik Singer'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JamesSurowiecki-TheWisdomofCrowds/cd6': {
-    author: 'James Surowiecki', // unique
-    title: 'Wisdom of Crowds', // unique
-    '// duration': { seconds: 4225, minutes: 70 },
-    '// asin-0': { asin: 'B002V8HM14', minutes: 569 },
-    '// meta-0': 'The Wisdom of Crowds / James Surowiecki / n: Grover Gardner',
-    '// asin-1': { asin: 'B002V0K5P2', minutes: 353 },
-    '// meta-1': 'The Wisdom of Crowds / James Surowiecki / n: Erik Singer'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JamesSurowiecki-TheWisdomofCrowds/cd7': {
-    author: 'James Surowiecki', // unique
-    title: 'Wisdom of Crowds', // unique
-    '// duration': { seconds: 4334, minutes: 72 },
-    '// asin-0': { asin: 'B002V8HM14', minutes: 569 },
-    '// meta-0': 'The Wisdom of Crowds / James Surowiecki / n: Grover Gardner',
-    '// asin-1': { asin: 'B002V0K5P2', minutes: 353 },
-    '// meta-1': 'The Wisdom of Crowds / James Surowiecki / n: Erik Singer'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JamesSurowiecki-TheWisdomofCrowds/cd8': {
-    author: 'James Surowiecki', // unique
-    title: 'Wisdom of Crowds', // unique
-    '// duration': { seconds: 4264, minutes: 71 },
+    '// duration': { seconds: 34327, minutes: 572 },
     '// asin-0': { asin: 'B002V8HM14', minutes: 569 },
     '// meta-0': 'The Wisdom of Crowds / James Surowiecki / n: Grover Gardner',
     '// asin-1': { asin: 'B002V0K5P2', minutes: 353 },
