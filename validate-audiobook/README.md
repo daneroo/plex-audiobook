@@ -18,6 +18,7 @@
   - [x] JamesSurowiecki-TheWisdomofCrowds/cdX
   - [x] JonKabatZinn/Jon Kabat-Zinn - Mindfulness For Beginners/Mindfulness For Beginners CD1-2
   - [x] JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living (Disc 1-5)
+  - [x] ArjunaArdagh-LeapBeforeYouLook
 - [ ] Broken duration from meta for 12 directories
 - [ ] Check for multiple authors... array?
 - [ ] Rename in final step Monkey -> Journey to the west...
@@ -64,10 +65,10 @@
 
 ```bash
 
-for i in $(seq 1 5); do 
+for i in $(seq 1 2); do 
   echo  "inside  Disc ${i}"
-  (cd Jon*Disc*${i}* && for m in *.mp3; do 
-    mv "$m" "../cd${i}-${m}"; 
+  (cd Leap*Disc*${i}* && for m in *.mp3; do 
+    mv "$m" "../CD${i}-${m}"; 
   done)
 done
 

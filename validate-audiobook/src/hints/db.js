@@ -160,30 +160,17 @@ export const db = {
     '// asin-0': { asin: '0241431069', minutes: 753 },
     '// meta-0': 'Cosmological Koans / Anthony Aguirre / n: Jonathan Todd Ross'
   },
-  '/Volumes/Space/archive/media/audiobooks/ArjunaArdagh-LeapBeforeYouLook': {
-    '// No audio files': null
-  },
-  '/Volumes/Space/archive/media/audiobooks/ArjunaArdagh-LeapBeforeYouLook/Leap Before You Look': {
-    '// No audio files': null
-  },
-  '/Volumes/Space/archive/media/audiobooks/ArjunaArdagh-LeapBeforeYouLook/Leap Before You Look/Leap Before You Look (Disc 1)': {
+  '/Volumes/Space/archive/media/audiobooks/Arjuna Ardagh - Leap Before You Look': {
     author: 'Arjuna Ardagh', // unique
     title: 'Leap Before You Look', // unique
-    '// duration': { seconds: 4497, minutes: 75 },
+    '// duration': { seconds: 9030, minutes: 151 },
     '// asin-0': { asin: 'B0054SFMY2', minutes: 150 },
     '// meta-0': 'Leap Before You Look / Arjuna Ardagh / n: Arjuna Ardagh'
   },
-  '/Volumes/Space/archive/media/audiobooks/ArjunaArdagh-LeapBeforeYouLook/Leap Before You Look/Leap Before You Look (Disc 2)': {
-    author: 'Arjuna Ardagh', // unique
-    title: 'Leap Before You Look', // unique
-    '// duration': { seconds: 4533, minutes: 76 },
-    '// asin-0': { asin: 'B0054SFMY2', minutes: 150 },
-    '// meta-0': 'Leap Before You Look / Arjuna Ardagh / n: Arjuna Ardagh'
-  },
-  '/Volumes/Space/archive/media/audiobooks/ArjunaArdagh-LeapBeforeYouLook/Leap Before You Look/pdf samples': {
+  '/Volumes/Space/archive/media/audiobooks/Arjuna Ardagh - Leap Before You Look/pdf samples': {
     '// No audio files': null
   },
-  '/Volumes/Space/archive/media/audiobooks/ArjunaArdagh-LeapBeforeYouLook/Leap Before You Look/pdf samples/intimacy': {
+  '/Volumes/Space/archive/media/audiobooks/Arjuna Ardagh - Leap Before You Look/pdf samples/intimacy': {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Arthur Conan Doyle - Sherlock Holmes The Definitive Audio Collection': {
