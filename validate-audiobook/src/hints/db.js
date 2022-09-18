@@ -2687,40 +2687,9 @@ export const db = {
       'Mindulfness para principantes (Narración en Castellano) [Mindfulness for Beginners (Castilian Narration)] / Jon Kabat-Zinn / n: Arturo López'
   },
   '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living': {
-    '// No audio files': null
-  },
-  '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living (Disc 1)': {
     author: 'Jon Kabat-Zinn', // unique
     title: 'Full Catastrophe Living', // unique
-    '// duration': { seconds: 4384, minutes: 73 },
-    '// asin-0': { asin: 'B002V0QUP6', minutes: 359 },
-    '// meta-0': 'Full Catastrophe Living / Jon Kabat-Zinn / n: Jon Kabat-Zinn'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living (Disc 2)': {
-    author: 'Jon Kabat-Zinn', // unique
-    title: 'Full Catastrophe Living', // unique
-    '// duration': { seconds: 4321, minutes: 72 },
-    '// asin-0': { asin: 'B002V0QUP6', minutes: 359 },
-    '// meta-0': 'Full Catastrophe Living / Jon Kabat-Zinn / n: Jon Kabat-Zinn'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living (Disc 3)': {
-    author: 'Jon Kabat-Zinn', // unique
-    title: 'Full Catastrophe Living', // unique
-    '// duration': { seconds: 4316, minutes: 72 },
-    '// asin-0': { asin: 'B002V0QUP6', minutes: 359 },
-    '// meta-0': 'Full Catastrophe Living / Jon Kabat-Zinn / n: Jon Kabat-Zinn'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living (Disc 4)': {
-    author: 'Jon Kabat-Zinn', // unique
-    title: 'Full Catastrophe Living', // unique
-    '// duration': { seconds: 4244, minutes: 71 },
-    '// asin-0': { asin: 'B002V0QUP6', minutes: 359 },
-    '// meta-0': 'Full Catastrophe Living / Jon Kabat-Zinn / n: Jon Kabat-Zinn'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living (Disc 5)': {
-    author: 'Jon Kabat-Zinn', // unique
-    title: 'Full Catastrophe Living', // unique
-    '// duration': { seconds: 4307, minutes: 72 },
+    '// duration': { seconds: 21572, minutes: 360 },
     '// asin-0': { asin: 'B002V0QUP6', minutes: 359 },
     '// meta-0': 'Full Catastrophe Living / Jon Kabat-Zinn / n: Jon Kabat-Zinn'
   },

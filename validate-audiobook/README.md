@@ -15,9 +15,9 @@
 - asin candidates (for known good Authors)
 - Merge
   - [x] Merge SedonaMethod
-  - [ ] JamesSurowiecki-TheWisdomofCrowds/cdX
-  - [ ] JonKabatZinn/Jon Kabat-Zinn - Mindfulness For Beginners/Mindfulness For Beginners CD1-2
-  - [ ] JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living (Disc 1-5)
+  - [x] JamesSurowiecki-TheWisdomofCrowds/cdX
+  - [x] JonKabatZinn/Jon Kabat-Zinn - Mindfulness For Beginners/Mindfulness For Beginners CD1-2
+  - [x] JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living (Disc 1-5)
 - [ ] Broken duration from meta for 12 directories
 - [ ] Check for multiple authors... array?
 - [ ] Rename in final step Monkey -> Journey to the west...
@@ -64,11 +64,11 @@
 
 ```bash
 
-for i in *.m4b; do 
-  echo  "$i"  TO "${i%.m4b}"; 
-  mkdir "${i%.m4b}";
-  mv "$i" "${i%.m4b}";
-  touch -r "${i%.m4b}/$i" "${i%.m4b}" 
+for i in $(seq 1 5); do 
+  echo  "inside  Disc ${i}"
+  (cd Jon*Disc*${i}* && for m in *.mp3; do 
+    mv "$m" "../cd${i}-${m}"; 
+  done)
 done
 
 # 1. Alastair Reynolds - Revelation Space 01 Revelation Space.m4b
