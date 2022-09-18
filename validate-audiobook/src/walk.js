@@ -37,11 +37,12 @@ async function main () {
   // const startMs = +new Date()
 
   // Global validation
-  if (false) {
+  if (true) {
     const allFiles = await getFiles(rootPath, { recurse: true })
     // console.error(`Got ${allFiles.length} files in`, formatElapsed(startMs))
     verifyExtensionsAllAccountedFor(allFiles)
   }
+  process.exit()
 
   const directories = await getDirectories(rootPath)
   // console.error(
@@ -59,7 +60,12 @@ async function main () {
   // console.error('Done in', formatElapsed(startMs))
 }
 
+// export a datastructure for the directory
 async function classifyDirectory (directoryPath) {
+  const bookData = {
+    audioFileCount: 0,
+    metadataCount: 0
+  } // this is what we return
   // console.error('=-=-:', directoryPath.substring(39))
   const filenames = await getFiles(directoryPath)
 
@@ -70,11 +76,15 @@ async function classifyDirectory (directoryPath) {
 
   const audioFiles = filenames.filter(filterAudioFileExtensions)
   rewriteHint(`"${directoryPath}": {`)
+
+  bookData.audioFileCount = audioFiles.length
+
   if (audioFiles.length == 0) {
     console.error('=-=-: No audio files', directoryPath.substring(39))
     rewriteHint('  "// No audio files": null,')
   } else {
     const metas = await getMetadataForMultipleFiles(audioFiles)
+    bookData.metadataCount = metas.length
     if (metas.length == 0) {
       console.error(
         '=-=-: no metadata for audio files',
@@ -158,6 +168,7 @@ async function classifyDirectory (directoryPath) {
     }
   }
   rewriteHint(`},`)
+  return bookData
 }
 
 function shortBook (book) {
