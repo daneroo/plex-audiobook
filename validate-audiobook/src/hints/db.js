@@ -1658,6 +1658,21 @@ export const db = {
     '// asin-0': { asin: '198009036X', minutes: 1491 },
     '// meta-0': 'Tigana / Guy Gavriel Kay / n: Simon Vance'
   },
+  '/Volumes/Space/archive/media/audiobooks/Hale Dwoskin': {
+    '// No audio files': null
+  },
+  '/Volumes/Space/archive/media/audiobooks/Hale Dwoskin/Hale Dwoskin - Anger Solution': {
+    author: 'Hale Dwoskin', // unique
+    title: 'The Anger Solution', // hint
+    '// duration': { seconds: 2768, minutes: 46 },
+    skip: 'not on audible'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Hale Dwoskin/Hale Dwoskin - The Sedona Method': {
+    author: 'Hale Dwoskin', // unique
+    title: 'The Sedona Method', // unique
+    '// duration': { seconds: 60565, minutes: 1009 },
+    skip: 'not on audible'
+  },
   '/Volumes/Space/archive/media/audiobooks/Hannu Rajaniemi-The CausalAngel': {
     author: 'Hannu Rajaniemi', // unique
     title: 'The Causal Angel', // unique
@@ -4172,51 +4187,6 @@ export const db = {
     '// duration': { seconds: 39829, minutes: 664 },
     '// asin-0': { asin: '1705265588', minutes: 663 },
     '// meta-0': 'The Light Ages / Seb Falk / n: Seb Falk'
-  },
-  '/Volumes/Space/archive/media/audiobooks/Sedona Method 20CDs': {
-    '// No audio files': null
-  },
-  '/Volumes/Space/archive/media/audiobooks/Sedona Method 20CDs/1. The Sedona Method - The NEW Basic Course': {
-    author: 'Hale Dwoskin', // unique
-    title: 'The Sedona Method', // unique
-    '// duration': { seconds: 20245, minutes: 337 },
-    '// asin-0': { asin: 'B09BNX8PMS', minutes: 742 },
-    '// meta-0': 'The Sedona Method / Hale Dwoskin / n: Trish Elliott'
-  },
-  '/Volumes/Space/archive/media/audiobooks/Sedona Method 20CDs/2. The Sedona Method - Effortless Wealth and Success': {
-    author: 'Hale Dwoskin', // unique
-    title: 'The Sedona Method', // unique
-    '// duration': { seconds: 14534, minutes: 242 },
-    '// asin-0': { asin: 'B09BNX8PMS', minutes: 742 },
-    '// meta-0': 'The Sedona Method / Hale Dwoskin / n: Trish Elliott'
-  },
-  '/Volumes/Space/archive/media/audiobooks/Sedona Method 20CDs/3. The Sedona Method - Effortless Relationships': {
-    author: 'Hale Dwoskin', // unique
-    title: 'The Sedona Method', // unique
-    '// duration': { seconds: 12165, minutes: 203 },
-    '// asin-0': { asin: 'B09BNX8PMS', minutes: 742 },
-    '// meta-0': 'The Sedona Method / Hale Dwoskin / n: Trish Elliott'
-  },
-  '/Volumes/Space/archive/media/audiobooks/Sedona Method 20CDs/4. The Sedona Method - Effortless Health and Well Being': {
-    author: 'Hale Dwoskin', // unique
-    title: 'The Sedona Method', // unique
-    '// duration': { seconds: 9993, minutes: 167 },
-    '// asin-0': { asin: 'B09BNX8PMS', minutes: 742 },
-    '// meta-0': 'The Sedona Method / Hale Dwoskin / n: Trish Elliott'
-  },
-  '/Volumes/Space/archive/media/audiobooks/Sedona Method 20CDs/5. The Sedona Method - Completion of Basic Course': {
-    author: 'Hale Dwoskin', // unique
-    title: 'The Sedona Method', // unique
-    '// duration': { seconds: 3627, minutes: 60 },
-    '// asin-0': { asin: 'B09BNX8PMS', minutes: 742 },
-    '// meta-0': 'The Sedona Method / Hale Dwoskin / n: Trish Elliott'
-  },
-  '/Volumes/Space/archive/media/audiobooks/Sedona Method 20CDs/Hale Dwoskin - Anger Solution': {
-    author: 'Hale Dwoskin', // unique
-    title: 'The Sedona Method', // unique
-    '// duration': { seconds: 2768, minutes: 46 },
-    '// asin-0': { asin: 'B09BNX8PMS', minutes: 742 },
-    '// meta-0': 'The Sedona Method / Hale Dwoskin / n: Trish Elliott'
   },
   '/Volumes/Space/archive/media/audiobooks/Stendhal - Le rouge et le noir': {
     author: 'Stendhal', // unique

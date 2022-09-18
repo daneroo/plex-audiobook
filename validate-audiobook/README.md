@@ -13,6 +13,11 @@
 
 - QA with matching narrator (for asin lookup,..)
 - asin candidates (for known good Authors)
+- Merge
+  - [x] Merge SedonaMethod
+  - [ ] JamesSurowiecki-TheWisdomofCrowds/cdX
+  - [ ] JonKabatZinn/Jon Kabat-Zinn - Mindfulness For Beginners/Mindfulness For Beginners CD1-2
+  - [ ] JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living (Disc 1-5)
 - [ ] Broken duration from meta for 12 directories
 - [ ] Check for multiple authors... array?
 - [ ] Rename in final step Monkey -> Journey to the west...
