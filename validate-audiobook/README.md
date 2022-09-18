@@ -2,23 +2,30 @@
 
 ## Plan
 
-- [ ] Walk `/archive/media/audiobooks`
+- [ ] Validate `/archive/media/audiobooks`
   - [x] extract metadata
-  - [ ] validate all author/titles: unique, override with hint
-  - [ ] lookup on audible -> asin
+  - [x] validate all author/titles: unique, override with hint
+  - [x] lookup on audible -> asin
   - compare total length and get chapters
   - rewrite `.m4b` with tags and chapters (ffmpeg directly)
+- Validation data structure
+  - [directoryPath]: // per directory
+    - verifyExtensionsAllAccountedFor
+    - no audio files
+    - no metadata for all/any?
+    - author/title - from metadata or hint
+      - if not unique or truthy, require hint
+    - total duration - or error (from metadata parser)
+    - skip reasons:  'multiple authors', 'not on audible'
+    - asin - with hint or lookup (author title) (possibly narrator)
 
 ## TODO
 
+- Validator: no unaccounted:
+  - [ ] finthe 7 habits `.aa` file
+  - Import Steven R. Covey - The 7 Habits of Highly Effective People
 - QA with matching narrator (for asin lookup,..)
 - asin candidates (for known good Authors)
-- Merge
-  - [x] Merge SedonaMethod
-  - [x] JamesSurowiecki-TheWisdomofCrowds/cdX
-  - [x] JonKabatZinn/Jon Kabat-Zinn - Mindfulness For Beginners/Mindfulness For Beginners CD1-2
-  - [x] JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living (Disc 1-5)
-  - [x] ArjunaArdagh-LeapBeforeYouLook
 - [ ] Broken duration from meta for 12 directories
 - [ ] Check for multiple authors... array?
 - [ ] Rename in final step Monkey -> Journey to the west...
@@ -37,8 +44,8 @@
     - Cosmere 4 - Mistborn 3.4 - The Eleventh Metal - Arcanum Unbounded - Chapter 23-24
     - Cosmere 5 - Mistborn 3.5 - Secret History - Arcanum Unbounded - Chapter 27-53
     - Cosmere 7 - Elantris 1.4 - The Emperor's Soul" - Arcanum Unbounded - Chapter 3-19
-    - Cosmere 8 - Elantris 1.5 - The Hope of Elantris - Arcanum Unbounded - Chapter 20-21
   - From Arcanum Unbounded, so we can skip Cosmere [X]
+    - Cosmere 8 - Elantris 1.5 - The Hope of Elantris - Arcanum Unbounded - Chapter 20-21
     - [--] Arcanum Unbounded - The Cosmere Collection 1 - Chapter 1 - Preface.mp3
     - [--] Arcanum Unbounded - The Cosmere Collection 2 - Chapter 2 - The Selish System.mp3
     - [C7] Arcanum Unbounded - The Cosmere Collection 3 - Chapter 3-19 - The Emperor's Soul.mp3
@@ -66,17 +73,11 @@
 ```bash
 
 for i in $(seq 1 2); do 
-  echo  "inside  Disc ${i}"
-  (cd Leap*Disc*${i}* && for m in *.mp3; do 
+  echo  "inside  Part ${i}"
+  (cd Part${i} && for m in *.mp3; do 
     mv "$m" "../CD${i}-${m}"; 
   done)
 done
-
-# 1. Alastair Reynolds - Revelation Space 01 Revelation Space.m4b
-# 2. Alastair Reynolds - Revelation Space 02 Chasm City.m4b
-# 3. Alastair Reynolds - Revelation Space 03 Redemption Ark.m4b
-# 4. Alastair Reynolds - Revelation Space 04 Absolution Gap.m4b
-# 5. Alastair Reynolds - Revelation Space 05 The Prefect.m4b
 
 ```
 

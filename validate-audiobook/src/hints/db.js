@@ -2747,19 +2747,9 @@ export const db = {
       "Slaughterhouse-Five or The Children's Crusade / Kurt Vonnegut / n: Ethan Hawke"
   },
   '/Volumes/Space/archive/media/audiobooks/KurtVonnegut-AManWithoutACountry-Unb': {
-    '// No audio files': null
-  },
-  '/Volumes/Space/archive/media/audiobooks/KurtVonnegut-AManWithoutACountry-Unb/KurtVonnegut-AManWithoutACountry-CD1': {
     author: 'Kurt Vonnegut', // unique
     title: 'A Man Without A Country', // unique
-    '// duration': { seconds: 4318, minutes: 72 },
-    '// asin-0': { asin: 'B002VA97LA', minutes: 142 },
-    '// meta-0': 'A Man Without a Country / Kurt Vonnegut / n: Norman Dietz'
-  },
-  '/Volumes/Space/archive/media/audiobooks/KurtVonnegut-AManWithoutACountry-Unb/KurtVonnegut-AManWithoutACountry-CD2': {
-    author: 'Kurt Vonnegut', // unique
-    title: 'A Man Without A Country', // unique
-    '// duration': { seconds: 4436, minutes: 74 },
+    '// duration': { seconds: 8754, minutes: 146 },
     '// asin-0': { asin: 'B002VA97LA', minutes: 142 },
     '// meta-0': 'A Man Without a Country / Kurt Vonnegut / n: Norman Dietz'
   },
@@ -3977,20 +3967,9 @@ export const db = {
     '// meta-1': 'The Satanic Verses / Salman Rushdie / n: Sagar Arya'
   },
   '/Volumes/Space/archive/media/audiobooks/SalmanRushdie-TheEnchantressofFlorence': {
-    '// No audio files': null
-  },
-  '/Volumes/Space/archive/media/audiobooks/SalmanRushdie-TheEnchantressofFlorence/Part1': {
     author: 'Salman Rushdie', // unique
     title: 'The Enchantress of Florence', // unique
-    '// duration': { seconds: 24037, minutes: 401 },
-    '// asin-0': { asin: 'B002V0QBW8', minutes: 795 },
-    '// meta-0':
-      'The Enchantress of Florence / Salman Rushdie / n: Firdous Bamji'
-  },
-  '/Volumes/Space/archive/media/audiobooks/SalmanRushdie-TheEnchantressofFlorence/Part2': {
-    author: 'Salman Rushdie', // unique
-    title: 'The Enchantress of Florence', // unique
-    '// duration': { seconds: 23788, minutes: 396 },
+    '// duration': { seconds: 47825, minutes: 797 },
     '// asin-0': { asin: 'B002V0QBW8', minutes: 795 },
     '// meta-0':
       'The Enchantress of Florence / Salman Rushdie / n: Firdous Bamji'
