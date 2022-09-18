@@ -2676,23 +2676,9 @@ export const db = {
       'Guided Mindfulness Meditation Series 3 / Jon Kabat-Zinn / n: Jon Kabat-Zinn'
   },
   '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn - Mindfulness For Beginners': {
-    '// No audio files': null
-  },
-  '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn - Mindfulness For Beginners/Mindfulness For Beginners CD1': {
     author: 'Jon Kabat-Zinn', // unique
     title: 'Mindfulness For Beginners', // unique
-    '// duration': { seconds: 4221, minutes: 70 },
-    '// asin-0': { asin: 'B002V0KO0S', minutes: 144 },
-    '// meta-0':
-      'Mindfulness for Beginners / Jon Kabat-Zinn / n: Jon Kabat-Zinn',
-    '// asin-1': { asin: 'B07L3C3RD5', minutes: 208 },
-    '// meta-1':
-      'Mindulfness para principantes (Narración en Castellano) [Mindfulness for Beginners (Castilian Narration)] / Jon Kabat-Zinn / n: Arturo López'
-  },
-  '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn - Mindfulness For Beginners/Mindfulness For Beginners CD2': {
-    author: 'Jon Kabat-Zinn', // unique
-    title: 'Mindfulness For Beginners', // unique
-    '// duration': { seconds: 4462, minutes: 74 },
+    '// duration': { seconds: 8683, minutes: 145 },
     '// asin-0': { asin: 'B002V0KO0S', minutes: 144 },
     '// meta-0':
       'Mindfulness for Beginners / Jon Kabat-Zinn / n: Jon Kabat-Zinn',
