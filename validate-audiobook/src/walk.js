@@ -32,9 +32,10 @@ async function main () {
     describe: 'Path of the root directory to search from'
   }).argv
   // destructure arguments
-  const { rootPath } = argv
-
-  // const startMs = +new Date()
+  const { rootPath: unverifiedRootPath } = argv
+  // clean the root path by removing trailing slash
+  const rootPath = unverifiedRootPath.replace(/\/$/, '')
+  // could check if path exists
 
   // Global validation
   if (false) {

@@ -24,6 +24,7 @@
 - Validator: no unaccounted:
   - [ ] find 7 habits `.aa` file
   - Import Steven R. Covey - The 7 Habits of Highly Effective People
+  - Import PKF A SCanner Darkly
 - QA with matching narrator (for asin lookup,..)
 - asin candidates (for known good Authors)
 - [ ] Broken duration from meta for 12 directories
