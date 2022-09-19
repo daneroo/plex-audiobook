@@ -53,11 +53,87 @@ async function main () {
   // per directory validation
   for (const directoryPath of directories) {
     const bookData = await classifyDirectory(directoryPath)
+    validateDirectory(directoryPath, bookData)
     rewriteDirectory(directoryPath, bookData)
   }
   rewriteHint('}')
 
   // console.error('Done in', formatElapsed(startMs))
+}
+
+async function validateDirectory (directoryPath, bookData) {
+  const validations = []
+  console.error('=-=-: Validate', directoryPath.substring(39))
+  if (bookData.audioFileCount == 0) {
+    console.error('=-=-: No audio files', directoryPath.substring(39))
+  } else {
+    if (bookData.meta.count == 0) {
+      console.error(
+        '=-=-: no metadata for audio files',
+        directoryPath.substring(39)
+      )
+    }
+
+    const okAuthor =
+      !!bookData.author || isUniqueAndTruthy(bookData.meta.authorDedup)
+    if (!okAuthor) {
+      console.error(
+        `Missing author and non-unique tags: ${JSON.stringify(
+          bookData.meta.authorDedup
+        )}`
+      )
+    }
+    const okTitle =
+      !!bookData.title || isUniqueAndTruthy(bookData.meta.titleDedup)
+    if (!okTitle) {
+      console.error(
+        `Missing title and non-unique tags: ${JSON.stringify(
+          bookData.meta.titleDedup
+        )}`
+      )
+    }
+
+    // total duration
+    const { seconds, minutes } = bookData.meta.duration
+    if (!seconds) {
+      console.error('Missing audio files duration =>', {
+        seconds,
+        minutes
+      })
+    }
+
+    const skipHint = bookData.skip
+    if (skipHint || !okAuthor || !okTitle) {
+      console.error(
+        `Skipping audible ${JSON.stringify({ skipHint, okAuthor, okTitle })} `
+      )
+    } else {
+      if (bookData.audible.length == 0) {
+        console.error({ skipHint })
+        console.error(`No audible results (${bookData.audible.length})`, {
+          author: bookData.author,
+          title: bookData.title
+        })
+      }
+      // find the closest match
+      const deltaMinutes = 1
+      bookData.audible.forEach((book, index) => {
+        const { asin, minutes, title, authors, narrators } = book
+        if (Math.abs(minutes - bookData.meta.duration.minutes) > deltaMinutes) {
+          // console.error(
+          //   `Audible book ${asin} is too far off in duration: ${minutes} vs ${bookData.meta.duration.minutes}`
+          // )
+          // console.error(
+          //   JSON.stringify({
+          //     index,
+          //     asin,
+          //     meta: `${title} / ${authors} / n: ${narrators}`
+          //   })
+          // )
+        }
+      })
+    }
+  }
 }
 
 async function rewriteDirectory (directoryPath, bookData) {
@@ -234,11 +310,8 @@ async function classifyDirectory (directoryPath) {
       bookData.skip = skipHint
     }
 
-    if (!okAuthorTitle || skipHint) {
-    } else {
-      // Now validate total duration against audible lookup runtime_length_min
-
-      console.error('=-=-: Lookup asin', directoryPath.substring(39))
+    if (okAuthorTitle && !skipHint) {
+      // console.error('.. Lookup asin', directoryPath.substring(39))
       // console.error('author,title =>', { author, title })
 
       // TODO(daneroo) and neither is falsy
