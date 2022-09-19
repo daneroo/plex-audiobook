@@ -22,7 +22,7 @@
 ## TODO
 
 - Validator: no unaccounted:
-  - [ ] finthe 7 habits `.aa` file
+  - [ ] find 7 habits `.aa` file
   - Import Steven R. Covey - The 7 Habits of Highly Effective People
 - QA with matching narrator (for asin lookup,..)
 - asin candidates (for known good Authors)
