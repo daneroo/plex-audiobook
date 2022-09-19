@@ -19,6 +19,7 @@ export async function searchAudible ({ author, title }) {
   }
   //  map params object to url's searchParams
   Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
+  // console.error('fetching (possibly cached)', url.href)
 
   const cacheDirectoryPath = join(process.cwd(), 'cache')
   await fs.mkdir(cacheDirectoryPath, { recursive: true })

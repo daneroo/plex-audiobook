@@ -1,5 +1,5 @@
 export const db = {
-  '/Volumes/Space/archive/media/audiobooks/': {
+  '/Volumes/Space/archive/media/audiobooks': {
     '// No audio files': null
   },
   '/Volumes/Space/archive/media/audiobooks/Adam Becker - What Is Real': {
