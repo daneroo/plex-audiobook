@@ -27,7 +27,7 @@ export const db = {
     '// meta-2': 'Children of Ruin / Adrian Tchaikovsky / n: Mel Hudson',
     '// asin-3': { asin: '1509865845', minutes: 925 },
     '// meta-3': 'Children of Ruin / Adrian Tchaikovsky / n: Mel Hudson',
-    '// asin-4': { asin: 'B0B4SXD7C2' },
+    '// asin-4': { asin: 'B0B4SXD7C2', minutes: null },
     '// meta-4': 'Children of Memory / Adrian Tchaikovsky / n: Mel Hudson',
     '// asin-5': { asin: '3748018118', minutes: 1183 },
     '// meta-5':
@@ -4541,7 +4541,7 @@ export const db = {
     '// asin-5': { asin: 'B002V1A9UW', minutes: 314 },
     '// meta-5':
       'Aeneid / Virgil / n: Paul Scofield,Jill Balcon,Toby Stephens,Geraldine Fitzgerald,John McAndrew,Stephen Thorne',
-    '// asin-6': { asin: 'B0B7CMPBXN' },
+    '// asin-6': { asin: 'B0B7CMPBXN', minutes: null },
     '// meta-6': 'The Aeneid - Virgil / Virgil / n: undefined',
     '// asin-7': { asin: 'B09W49FV8V', minutes: 24 },
     '// meta-7':

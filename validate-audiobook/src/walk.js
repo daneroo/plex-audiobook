@@ -10,11 +10,12 @@ import {
   filterAudioFileExtensions,
   filterNonAudioExtensionsOrNames
 } from './traverse/module.js'
-import { searchAudible } from './extApi/module.js'
+import { searchAudible, sortAudibleBooks } from './extApi/module.js'
 import { getAuthor, getTitle, getSkip } from './hints/authorTitle.js'
 
-const defaultRootPath = '/Volumes/Space/archive/media/audiobooks/'
+const defaultRootPath = '/Volumes/Space/archive/media/audiobooks'
 const _rewriteHintDB = true
+
 function rewriteHint (...args) {
   if (_rewriteHintDB) {
     console.log(...args)
@@ -32,6 +33,7 @@ async function main () {
     describe: 'Path of the root directory to search from'
   }).argv
   // destructure arguments
+  // @ts-ignore
   const { rootPath: unverifiedRootPath } = argv
   // clean the root path by removing trailing slash
   const rootPath = unverifiedRootPath.replace(/\/$/, '')
@@ -116,27 +118,45 @@ async function validateDirectory (directoryPath, bookData) {
           title: bookData.title
         })
       }
+      console.error(`- Audible (${bookData.audible.length})`)
       // find the closest match
-      const deltaMinutes = 1
-      bookData.audible.forEach((book, index) => {
-        const { asin, minutes, title, authors, narrators } = book
-        if (Math.abs(minutes - bookData.meta.duration.minutes) > deltaMinutes) {
-          // console.error(
-          //   `Audible book ${asin} is too far off in duration: ${minutes} vs ${bookData.meta.duration.minutes}`
-          // )
-          // console.error(
-          //   JSON.stringify({
-          //     index,
-          //     asin,
-          //     meta: `${title} / ${authors} / n: ${narrators}`
-          //   })
-          // )
-        }
+      const sortedAudible = sortAudibleBooks(bookData.audible, seconds)
+      const deltaThreshold = 3 * 60 // 3 minutes
+      const largeDuration = 1e7
+      sortedAudible.forEach((book, index) => {
+        const { asin, duration, title, authors, narrators } = book
+        const delta = duration ? Math.abs(duration - seconds) : largeDuration
+        const check = delta <= deltaThreshold ? '✓' : '✗'
+        console.error(
+          `${check} - ${index} ${asin} 'Δ':${durationToHMS(
+            delta
+          )} ${durationToHMS(
+            duration
+          )} - ${title} / ${authors} / n: ${narrators}`
+        )
       })
     }
   }
 }
 
+/**
+ *
+ * @param {number} [seconds=0] - assumed to be integer>0
+ * @returns {string} - formatted string e.e. 3m4s or 1h2m3s
+ */
+function durationToHMS (seconds = 0) {
+  // assume seconds is an integer > 0
+  const h = Math.floor(seconds / 3600)
+  const m = Math.floor((seconds % 3600) / 60)
+  const s = Math.floor(seconds % 60)
+  if (h > 0) {
+    return `${h}h${m}m${s}s`
+  }
+  if (m > 0) {
+    return `${m}m${s}s`
+  }
+  return `${s}s`
+}
 async function rewriteDirectory (directoryPath, bookData) {
   rewriteHint(`"${directoryPath}": {`)
 
@@ -233,10 +253,10 @@ async function rewriteDirectory (directoryPath, bookData) {
           rewriteHint('  "// asin lookup results": "zero!",')
         }
         bookData.audible.forEach((book, index) => {
-          const { asin, minutes, title, authors, narrators } = book
+          const { asin, duration, title, authors, narrators } = book
           rewriteHint(
             `  "// asin-${index}":`,
-            JSON.stringify({ asin, minutes }),
+            JSON.stringify({ asin, minutes: duration / 60 }),
             ','
           )
           rewriteHint(
@@ -319,36 +339,12 @@ async function classifyDirectory (directoryPath) {
       const doAudible = true
       if (doAudible) {
         if (okAuthorTitle) {
-          const results = await searchAudible({ author, title })
-          results.products.forEach((book, index) => {
-            bookData.audible.push(shortBook(book))
-          })
+          bookData.audible = await searchAudible({ author, title })
         }
       }
     }
   }
   return bookData
-}
-
-function shortBook (book) {
-  const {
-    asin,
-    authors,
-    title,
-    narrators,
-    series,
-    runtime_length_min: minutes
-  } = book
-
-  return {
-    asin,
-    authors: authors.map(author => author?.name),
-    title,
-    series: series?.[0].title,
-    seriesPosition: series?.[0].sequence,
-    narrators: narrators?.map(author => author?.name),
-    minutes
-  }
 }
 
 // returns {valid:,author:,title:,dedupAuthor:,dedupTitle:}

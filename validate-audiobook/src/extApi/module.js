@@ -1,1 +1,1 @@
-export { searchAudible } from './searchAudible.js'
+export { searchAudible, sortAudibleBooks } from './searchAudible.js'

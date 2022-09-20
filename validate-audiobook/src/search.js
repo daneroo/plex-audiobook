@@ -1,6 +1,7 @@
+// @ts-check
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
-import { searchAudible } from './extApi/module.js'
+import { searchAudible, sortAudibleBooks } from './extApi/module.js'
 
 main()
 
@@ -21,12 +22,12 @@ async function main () {
     .help().argv
 
   // destructure arguments
+  // @ts-ignore
   const { author, title } = argv
-  const results = await searchAudible({ author, title })
-  // console.log(JSON.stringify(data, null, 2))
-  console.log(`Got ${results.products.length} results`)
-  results.products.forEach(book => {
-    const { asin, authors, narrators, runtime_length_min, series } = book
-    console.log({ asin, title, authors, narrators, runtime_length_min, series })
+  const audibleBooks = await searchAudible({ author, title })
+  console.log(`Got ${audibleBooks.length} results from audible API`)
+  const sorted = sortAudibleBooks(audibleBooks)
+  sorted.forEach(book => {
+    console.log(JSON.stringify(book))
   })
 }
