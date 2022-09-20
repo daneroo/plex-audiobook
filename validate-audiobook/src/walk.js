@@ -2,8 +2,7 @@ import path from 'path'
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
 import { parseFile } from 'music-metadata'
-// import inspect from 'object-inspect'
-
+// Internal
 import {
   getDirectories,
   getFiles,
@@ -12,6 +11,7 @@ import {
 } from './traverse/module.js'
 import { searchAudible, sortAudibleBooks } from './extApi/module.js'
 import { getAuthor, getTitle, getSkip } from './hints/authorTitle.js'
+import { formatElapsed, durationToHMS } from './time/module.js'
 
 const defaultRootPath = '/Volumes/Space/archive/media/audiobooks'
 const _rewriteHintDB = true
@@ -46,11 +46,12 @@ async function main () {
     verifyExtensionsAllAccountedFor(allFiles)
   }
 
+  const startMs = +new Date()
   const directories = await getDirectories(rootPath)
-  // console.error(
-  //   `Got ${directories.length} directories in`,
-  //   formatElapsed(startMs)
-  // )
+  console.error(
+    `Got ${directories.length} directories in`,
+    formatElapsed(startMs)
+  )
 
   rewriteHint('export const db = {')
   // per directory validation
@@ -139,24 +140,6 @@ async function validateDirectory (directoryPath, bookData) {
   }
 }
 
-/**
- *
- * @param {number} [seconds=0] - assumed to be integer>0
- * @returns {string} - formatted string e.e. 3m4s or 1h2m3s
- */
-function durationToHMS (seconds = 0) {
-  // assume seconds is an integer > 0
-  const h = Math.floor(seconds / 3600)
-  const m = Math.floor((seconds % 3600) / 60)
-  const s = Math.floor(seconds % 60)
-  if (h > 0) {
-    return `${h}h${m}m${s}s`
-  }
-  if (m > 0) {
-    return `${m}m${s}s`
-  }
-  return `${s}s`
-}
 async function rewriteDirectory (directoryPath, bookData) {
   rewriteHint(`"${directoryPath}": {`)
 
@@ -229,7 +212,7 @@ async function rewriteDirectory (directoryPath, bookData) {
         minutes
       })
     }
-    rewriteHint('  "// duration":', JSON.stringify({ seconds, minutes }), ',')
+    rewriteHint('  "// duration":', JSON.stringify(durationToHMS(seconds)), ',')
 
     const skipHint = bookData.skip
     if (!okAuthorTitle || skipHint) {
@@ -256,7 +239,7 @@ async function rewriteDirectory (directoryPath, bookData) {
           const { asin, duration, title, authors, narrators } = book
           rewriteHint(
             `  "// asin-${index}":`,
-            JSON.stringify({ asin, minutes: duration / 60 }),
+            JSON.stringify({ asin, duration: durationToHMS(duration) }),
             ','
           )
           rewriteHint(
@@ -462,9 +445,4 @@ async function getMetadataForSingleFile (filePath, options) {
     )
   }
   return metadata
-}
-
-function formatElapsed (startMs) {
-  const elapsedSeconds = ((+new Date() - startMs) / 1000).toFixed(3)
-  return elapsedSeconds + 's'
 }
