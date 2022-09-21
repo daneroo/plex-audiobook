@@ -97,12 +97,10 @@ async function validateDirectory (directoryPath, bookData) {
       )
     }
 
-    // total duration
-    const { seconds, minutes } = bookData.meta.duration
-    if (!seconds) {
+    // total duration from metadata
+    if (!bookData.meta.duration) {
       console.error('Missing audio files duration =>', {
-        seconds,
-        minutes
+        duration: bookData.meta.duration
       })
     }
 
@@ -120,22 +118,27 @@ async function validateDirectory (directoryPath, bookData) {
         })
       }
       console.error(`- Audible (${bookData.audible.length})`)
-      // find the closest match
-      const sortedAudible = sortAudibleBooks(bookData.audible, seconds)
-      const deltaThreshold = 3 * 60 // 3 minutes
-      const largeDuration = 1e7
-      sortedAudible.forEach((book, index) => {
-        const { asin, duration, title, authors, narrators } = book
-        const delta = duration ? Math.abs(duration - seconds) : largeDuration
-        const check = delta <= deltaThreshold ? '✓' : '✗'
-        console.error(
-          `${check} - ${index} ${asin} 'Δ':${durationToHMS(
-            delta
-          )} ${durationToHMS(
-            duration
-          )} - ${title} / ${authors} / n: ${narrators}`
-        )
-      })
+      // find the closest match - and print the delta
+      {
+        const durationMeta = bookData.meta.duration // rename to avoid shadowing
+        const sortedAudible = sortAudibleBooks(bookData.audible, durationMeta)
+        const deltaThreshold = 3 * 60 // 3 minutes
+        const largeDuration = 1e7
+        sortedAudible.forEach((book, index) => {
+          const { asin, duration, title, authors, narrators } = book
+          const delta = duration
+            ? Math.abs(duration - durationMeta)
+            : largeDuration
+          const check = delta <= deltaThreshold ? '✓' : '✗'
+          console.error(
+            `${check} - ${index} ${asin} 'Δ':${durationToHMS(
+              delta
+            )} ${durationToHMS(
+              duration
+            )} - ${title} / ${authors} / n: ${narrators}`
+          )
+        })
+      }
     }
   }
 }
@@ -205,14 +208,16 @@ async function rewriteDirectory (directoryPath, bookData) {
     }
 
     // total duration
-    const { seconds, minutes } = bookData.meta.duration
-    if (!seconds) {
-      console.error('****:Missing audio files duration =>', {
-        seconds,
-        minutes
+    if (!bookData.meta.duration) {
+      console.error('Missing audio files duration =>', {
+        duration: bookData.meta.duration
       })
     }
-    rewriteHint('  "// duration":', JSON.stringify(durationToHMS(seconds)), ',')
+    rewriteHint(
+      '  "// duration":',
+      JSON.stringify(durationToHMS(bookData.meta.duration)),
+      ','
+    )
 
     const skipHint = bookData.skip
     if (!okAuthorTitle || skipHint) {
@@ -235,19 +240,34 @@ async function rewriteDirectory (directoryPath, bookData) {
           })
           rewriteHint('  "// asin lookup results": "zero!",')
         }
-        bookData.audible.forEach((book, index) => {
-          const { asin, duration, title, authors, narrators } = book
-          rewriteHint(
-            `  "// asin-${index}":`,
-            JSON.stringify({ asin, duration: durationToHMS(duration) }),
-            ','
-          )
-          rewriteHint(
-            `  "// meta-${index}":`,
-            JSON.stringify(`${title} / ${authors} / n: ${narrators}`),
-            ','
-          )
-        })
+        {
+          const durationMeta = bookData.meta.duration // rename to avoid shadowing
+          const sortedAudible = sortAudibleBooks(bookData.audible, durationMeta)
+          // const deltaThreshold = 3 * 60 // 3 minutes
+          const largeDuration = 1e7
+          sortedAudible.forEach((book, index) => {
+            const { asin, duration, title, authors, narrators } = book
+            // const delta = duration
+            //   ? Math.abs(duration - durationMeta)
+            //   : largeDuration
+            // const check = delta <= deltaThreshold ? '✓' : '✗'
+            rewriteHint(
+              `  "// asin-${index}":`,
+              JSON.stringify({
+                asin,
+                duration: durationToHMS(duration)
+                // delta: durationToHMS(delta)
+                // check
+              }),
+              ','
+            )
+            rewriteHint(
+              `  "// meta-${index}":`,
+              JSON.stringify(`${title} / ${authors} / n: ${narrators}`),
+              ','
+            )
+          })
+        }
       } else {
         console.error('skip audible')
       }
@@ -264,7 +284,7 @@ async function classifyDirectory (directoryPath) {
     title: '',
     meta: {
       count: 0,
-      duration: { seconds: 0, minutes: 0 }, // aggregated sum, both in seconds and minutes for convenience
+      duration: 0, // aggregated sum, 0 if sum is NaN
       authorDedup: [],
       titleDedup: []
     },
@@ -300,13 +320,14 @@ async function classifyDirectory (directoryPath) {
     bookData.meta.titleDedup = dedupTitle
 
     // total duration
-    const seconds = Math.round(
+    const duration = Math.round(
       metas
+        // .map(m => m.format.duration)
         .map(m => m.format.duration)
         .reduce((total, duration) => total + duration, 0)
     )
-    const minutes = Math.round(seconds / 60)
-    bookData.meta.duration = { seconds, minutes }
+    // set to 0 if NaN (NaN is Falsy, and so is 0, so should be safe)
+    bookData.meta.duration = duration ? duration : 0
 
     // copy skip content
     const skipHint = getSkip(directoryPath)
