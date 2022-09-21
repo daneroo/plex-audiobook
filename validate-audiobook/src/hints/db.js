@@ -646,7 +646,7 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 20 - The Stormlight Archive 3 - Oathbringer': {
     author: 'Brandon Sanderson', // unique
     title: 'Oathbringer', // hint
-    '// duration': '0s',
+    '// duration': '55h6m9s',
     '// asin-0': { asin: 'B0718Z5K4C', duration: '55h5m0s' },
     '// meta-0':
       'Oathbringer / Brandon Sanderson / n: Kate Reading,Michael Kramer',
@@ -660,7 +660,7 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 22 - The Stormlight Archive 4 - Rhythm of War': {
     author: 'Brandon Sanderson', // unique
     title: 'Rhythm of War: The Stormlight Archive, Book 4', // unique
-    '// duration': '0s',
+    '// duration': '57h26m57s',
     '// asin-0': { asin: '1250759781', duration: '57h26m0s' },
     '// meta-0':
       'Rhythm of War / Brandon Sanderson / n: Kate Reading,Michael Kramer',
@@ -1823,19 +1823,19 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/Herodotus - The Persian Wars': {
     author: 'Herodotus', // unique
     title: 'The Persian Wars', // hint
-    '// duration': '0s',
-    '// asin-0': { asin: 'B002UZMPP6', duration: '3h55m0s' },
-    '// meta-0':
-      'The Persian War from The Histories / Herodotus / n: Roy Marsden',
-    '// asin-1': { asin: 'B002UUKPRQ', duration: '14h24m0s' },
-    '// meta-1': 'The Persian Wars, Volume 2 / Herodotus / n: Charlton Griffin',
+    '// duration': '29h23m39s',
+    '// asin-0': { asin: 'B00HQ1T6AQ', duration: '29h23m0s' },
+    '// meta-0': 'The Persian Wars / Herodotus / n: Charlton Griffin',
+    '// asin-1': { asin: 'B06ZZ3LYWP', duration: '27h58m0s' },
+    '// meta-1':
+      'The Histories / Herodotus,A. D. Godley Translator / n: Charlton Griffin',
     '// asin-2': { asin: 'B002UUQU0C', duration: '14h58m0s' },
     '// meta-2': 'The Persian Wars, Volume 1 / Herodotus / n: Charlton Griffin',
-    '// asin-3': { asin: 'B06ZZ3LYWP', duration: '27h58m0s' },
-    '// meta-3':
-      'The Histories / Herodotus,A. D. Godley Translator / n: Charlton Griffin',
-    '// asin-4': { asin: 'B00HQ1T6AQ', duration: '29h23m0s' },
-    '// meta-4': 'The Persian Wars / Herodotus / n: Charlton Griffin'
+    '// asin-3': { asin: 'B002UUKPRQ', duration: '14h24m0s' },
+    '// meta-3': 'The Persian Wars, Volume 2 / Herodotus / n: Charlton Griffin',
+    '// asin-4': { asin: 'B002UZMPP6', duration: '3h55m0s' },
+    '// meta-4':
+      'The Persian War from The Histories / Herodotus / n: Roy Marsden'
   },
   '/Volumes/Space/archive/media/audiobooks/Homer - The Iliad': {
     author: 'Homer, Stephen Mitchell - translator', // unique
@@ -3462,37 +3462,37 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/Miguel de Cervantes - Don Quixote': {
     author: 'Miguel de Cervantes', // hint
     title: 'Don Quixote', // hint
-    '// duration': '0s',
-    '// asin-0': { asin: 'B0044V0KM4', duration: '4h39m0s' },
+    '// duration': '36h5m52s',
+    '// asin-0': { asin: 'B0052XV1SK', duration: '36h5m0s' },
     '// meta-0':
-      'Don Quixote (Adapted for Modern Listeners) / Miguel de Cervantes / n: Johnny Heller',
-    '// asin-1': { asin: 'B002V8NB50', duration: '5h24m0s' },
-    '// meta-1':
-      'Don Quijote de la Mancha [Don Quixote] / Miguel de Cervantes / n: full cast',
-    '// asin-2': { asin: 'B00E8JMNUO', duration: '20h0m0s' },
-    '// meta-2':
-      'Don Quixote / Miguel de Cervantes,Gerald J. Davis - translator / n: John Hanks',
-    '// asin-3': { asin: 'B002V8LKCQ', duration: '21h27m0s' },
-    '// meta-3':
-      'Don Quijote de la Mancha Tomo I [Don Quixote, Part I] / Miguel de Cervantes Saavedra / n: Alejandro Magnone',
-    '// asin-4': { asin: 'B0052XV1SK', duration: '36h5m0s' },
-    '// meta-4':
       'Don Quixote / John Ormsby - translator,Miguel de Cervantes / n: Roy McMillan',
-    '// asin-5': { asin: 'B002V8LDEQ', duration: '36h42m0s' },
-    '// meta-5':
+    '// asin-1': { asin: 'B002V8LDEQ', duration: '36h42m0s' },
+    '// meta-1':
       'Don Quixote / Tobias Smollett - translator,Miguel de Cervantes / n: Robert Whitfield',
-    '// asin-6': { asin: '0241429536', duration: '39h17m0s' },
-    '// meta-6':
+    '// asin-2': { asin: '0241429536', duration: '39h17m0s' },
+    '// meta-2':
       'Don Quixote / Miguel Cervantes,John Rutherford / n: Kayvan Novak,Josh Cohen,Alistair Petrie,Richard Hughes',
-    '// asin-7': { asin: 'B009XEJWP8', duration: '39h37m0s' },
-    '// meta-7':
+    '// asin-3': { asin: 'B009XEJWP8', duration: '39h37m0s' },
+    '// meta-3':
       'Don Quixote / Edith Grossman - translator,Miguel de Cervantes / n: George Guidall',
-    '// asin-8': { asin: '1799744701', duration: '41h40m0s' },
-    '// meta-8':
+    '// asin-4': { asin: '1799744701', duration: '41h40m0s' },
+    '// meta-4':
       'Don Quixote (AmazonClassics Edition) / Miguel de Cervantes,John Orsmby - translator / n: Michael Page',
-    '// asin-9': { asin: 'B07L15VXZW', duration: '45h41m0s' },
+    '// asin-5': { asin: 'B07L15VXZW', duration: '45h41m0s' },
+    '// meta-5':
+      'Dom Quixote de la Mancha [Don Quixote] / Miguel de Cervantes / n: Jaime Leibovich',
+    '// asin-6': { asin: 'B002V8LKCQ', duration: '21h27m0s' },
+    '// meta-6':
+      'Don Quijote de la Mancha Tomo I [Don Quixote, Part I] / Miguel de Cervantes Saavedra / n: Alejandro Magnone',
+    '// asin-7': { asin: 'B00E8JMNUO', duration: '20h0m0s' },
+    '// meta-7':
+      'Don Quixote / Miguel de Cervantes,Gerald J. Davis - translator / n: John Hanks',
+    '// asin-8': { asin: 'B002V8NB50', duration: '5h24m0s' },
+    '// meta-8':
+      'Don Quijote de la Mancha [Don Quixote] / Miguel de Cervantes / n: full cast',
+    '// asin-9': { asin: 'B0044V0KM4', duration: '4h39m0s' },
     '// meta-9':
-      'Dom Quixote de la Mancha [Don Quixote] / Miguel de Cervantes / n: Jaime Leibovich'
+      'Don Quixote (Adapted for Modern Listeners) / Miguel de Cervantes / n: Johnny Heller'
   },
   '/Volumes/Space/archive/media/audiobooks/MihalyCsikszentmihalyi-Flow': {
     author: 'Mihaly Csikszentmihalyi', // unique
@@ -3586,12 +3586,12 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - Termination Shock': {
     author: 'Neal Stephenson', // unique
     title: 'Termination Shock', // unique
-    '// duration': '0s',
-    '// asin-0': { asin: 'B09F3QVQ29', duration: '22h53m0s' },
+    '// duration': '22h53m56s',
+    '// asin-0': { asin: 'B09KYHBKCQ', duration: '22h54m0s' },
     '// meta-0': 'Termination Shock / Neal Stephenson / n: Edoardo Ballerini',
-    '// asin-1': { asin: 'B09KYHBKCQ', duration: '22h54m0s' },
+    '// asin-1': { asin: '0063028085', duration: '22h54m0s' },
     '// meta-1': 'Termination Shock / Neal Stephenson / n: Edoardo Ballerini',
-    '// asin-2': { asin: '0063028085', duration: '22h54m0s' },
+    '// asin-2': { asin: 'B09F3QVQ29', duration: '22h53m0s' },
     '// meta-2': 'Termination Shock / Neal Stephenson / n: Edoardo Ballerini'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle': {
@@ -3656,7 +3656,7 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/NealStephenson-Anathem': {
     author: 'Neal Stephenson', // unique
     title: 'Anathem', // unique
-    '// duration': '0s',
+    '// duration': '32h26m4s',
     '// asin-0': { asin: 'B086WNG3RK', duration: '32h25m0s' },
     '// meta-0':
       'Anathem / Neal Stephenson / n: Oliver Wyman,Tavia Gilbert,William Dufris,Neal Stephenson',
@@ -3864,7 +3864,7 @@ export const db = {
     author: 'Priyamvada Natarajan', // unique
     title:
       'Mapping the Heavens: The Radical Scientific Ideas That Reveal the Cosmos', // unique
-    '// duration': '0s',
+    '// duration': '8h27m41s',
     '// asin-0': { asin: 'B01E0JI5AS', duration: '8h27m0s' },
     '// meta-0':
       'Mapping the Heavens / Priyamvada Natarajan / n: Elisabeth Rodgers'
@@ -3961,7 +3961,7 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/Salman Rushdie - The Satanic Verses': {
     author: 'Salman Rushdie', // unique
     title: 'The Satanic Verses', // unique
-    '// duration': '0s',
+    '// duration': '21h36m14s',
     '// asin-0': { asin: 'B005FQWDYU', duration: '21h36m0s' },
     '// meta-0': 'The Satanic Verses / Salman Rushdie / n: Sam Dastor',
     '// asin-1': { asin: 'B086JFWLX8', duration: '23h27m0s' },
@@ -4389,10 +4389,10 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/TinaFey-Bossypants': {
     author: 'Tina Fey', // unique
     title: 'Bossypants', // unique
-    '// duration': '0s',
-    '// asin-0': { asin: 'B004WFWA8Y', duration: '5h30m0s' },
+    '// duration': '6h11m9s',
+    '// asin-0': { asin: 'B004RCBFII', duration: '5h32m0s' },
     '// meta-0': 'Bossypants / Tina Fey / n: Tina Fey',
-    '// asin-1': { asin: 'B004RCBFII', duration: '5h32m0s' },
+    '// asin-1': { asin: 'B004WFWA8Y', duration: '5h30m0s' },
     '// meta-1': 'Bossypants / Tina Fey / n: Tina Fey'
   },
   '/Volumes/Space/archive/media/audiobooks/Titania McGrath - Woke A Guide to Social Justice': {
@@ -4405,7 +4405,7 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/Tom Holland - Dominion': {
     author: 'Tom Holland', // unique
     title: 'Dominion: How the Christian Revolution Remade the World', // unique
-    '// duration': '0s',
+    '// duration': '22h18m10s',
     '// asin-0': { asin: '1549151533', duration: '22h18m0s' },
     '// meta-0': 'Dominion / Tom Holland / n: Tom Holland,Mark Meadows'
   },
@@ -4604,7 +4604,7 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/WillDurant-OurOrientalHeritage-TheStoryOfCivilization-Volume1': {
     author: 'Will Durant', // unique
     title: 'Our Oriental Heritage', // hint
-    '// duration': '0s',
+    '// duration': '50h17m44s',
     '// asin-0': { asin: 'B00FZYU6IC', duration: '50h17m0s' },
     '// meta-0': 'Our Oriental Heritage / Will Durant / n: Robin Field'
   },
@@ -4622,7 +4622,7 @@ export const db = {
   '/Volumes/Space/archive/media/audiobooks/William Gibson - Burning Chrome': {
     author: 'William Gibson', // unique
     title: 'Burning Chrome', // unique
-    '// duration': '0s',
+    '// duration': '7h20m29s',
     '// asin-0': { asin: 'B0036G94XY', duration: '7h7m0s' },
     '// meta-0':
       'Burning Chrome / William Gibson / n: Jonathan Davis,Dennis Holland,Kevin Pariseau,Victor Bevine,Jay Snyder,Brian Nishii,L. J. Ganser,Oliver Wyman,Eric Michael Summerer,Marc Vietor'

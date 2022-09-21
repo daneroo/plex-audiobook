@@ -9,7 +9,7 @@ import fetch from 'node-fetch'
 
 // Constants
 // where we store the cached responses
-const cacheDirectoryPath = join(process.cwd(), 'cache')
+const cacheDirectoryPath = join(process.cwd(), 'cache', 'audible')
 // don't overwhelm audible's api server (10/s seems reasonable)
 const delayForAudibleAPIms = 100
 

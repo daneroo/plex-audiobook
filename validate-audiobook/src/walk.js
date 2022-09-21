@@ -9,7 +9,7 @@ import {
   filterAudioFileExtensions,
   filterNonAudioExtensionsOrNames
 } from './traverse/module.js'
-import { searchAudible, sortAudibleBooks } from './extApi/module.js'
+import { searchAudible, sortAudibleBooks, ffprobe } from './extApi/module.js'
 import { getAuthor, getTitle, getSkip } from './hints/authorTitle.js'
 import { formatElapsed, durationToHMS } from './time/module.js'
 
@@ -25,6 +25,16 @@ function rewriteHint (...args) {
 await main()
 
 async function main () {
+  if (false) {
+    const filePaths = [
+      '/Volumes/Space/archive/media/audiobooks/NealStephenson-Anathem/Anathem - Unb-001.mp3',
+      '/Users/daniel/Library/OpenAudible/mp3/Accelerate Building and Scaling High Performing Technology Organizations.mp3',
+      '/Users/daniel/Library/OpenAudible/M4B/Accelerate Building and Scaling High Performing Technology Organizations.m4b'
+    ]
+    const results = await ffprobe(filePaths[1])
+    console.log(JSON.stringify(results, null, 2))
+    process.exit(0)
+  }
   const argv = yargs(hideBin(process.argv)).option('rootPath', {
     alias: 'r',
     type: 'string',
@@ -322,7 +332,6 @@ async function classifyDirectory (directoryPath) {
     // total duration
     const duration = Math.round(
       metas
-        // .map(m => m.format.duration)
         .map(m => m.format.duration)
         .reduce((total, duration) => total + duration, 0)
     )
@@ -438,10 +447,12 @@ async function getMetadataForMultipleFiles (
   for (const filename of audioFiles) {
     // console.error('  processing', filename)
     const metadata = await getMetadataForSingleFile(filename, options)
-    // console.log(inspect(metadata.common, { showHidden: true, depth: null }))
-    // const { codec, container } = metadata.format
-    // const { artist, artists, album } = metadata.common
-    // console.log('  - ', JSON.stringify({ artist, album }))
+    // ffprobe fallback for duration
+    if (!metadata.format.duration) {
+      const ffprobeMeta = await ffprobe(filename)
+      metadata.format.duration = Number(ffprobeMeta.format.duration)
+      console.error('ffprobe duration', ffprobeMeta.format.duration, filename)
+    }
     metas.push(metadata)
   }
   return metas

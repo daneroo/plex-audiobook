@@ -20,9 +20,9 @@
     - skip reasons:  'multiple authors', 'not on audible'
     - asin - with hint or lookup (author title) (possibly narrator)
 - [PocketCasts instead of BookCamp?](https://github.com/kentcdodds/podcastify-dir)
+
 ## TODO
 
-- [ ] Broken duration from meta for 12 directories - use ffprobe
 - [ ] compare tags with
   - [ ] ffprobe -of json -show_format -show_chapters Helgoland.mp3  2>/dev/null
   - `/Applications/OpenAudible.app/Contents/Resources/app/bin/mac/ffprobe`
@@ -90,7 +90,7 @@ docker run --rm -t --entrypoint '' -v $(pwd):/audio:ro jrottenberg/ffmpeg:4.4-ub
 # mount single file
 docker run --rm -t --entrypoint '' -v $(pwd)/mp3/Hero\ of\ Two\ Worlds.mp3:/audio/file:ro jrottenberg/ffmpeg:4.4-ubuntu bash -c 'ffprobe -of json -show_format -show_chapters /audio/file 2>/dev/null' | jq .format.duration
 
-for i in mp3/*.mp3; do echo $i; docker run --rm -t --entrypoint '' -v "$(pwd)/$i":/audio/file:ro jrottenberg/ffmpeg:4.4-ubuntu bash -c 'ffprobe -of json -show_format -show_chapters /audio/file 2>/dev/null' | jq .format.duration; done
+for i in mp3/*.mp3; do echo $i; docker run --rm --entrypoint '' -v "$(pwd)/$i":/audio/file:ro jrottenberg/ffmpeg:4.4-ubuntu bash -c 'ffprobe -of json -show_format -show_chapters /audio/file 2>/dev/null' | jq .format.duration; done
 
 ```
 
