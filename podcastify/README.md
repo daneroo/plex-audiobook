@@ -2,8 +2,9 @@
 
 ## TODO
 
+- Dockerize and get user auth from ENV/.gitignored file
 - decide if/where to deploy
-- rss feed and audifiles on different domains (tailscale?)
+- rss feed and audio files on different domains (tailscale?)
 
 ## Usage
 
