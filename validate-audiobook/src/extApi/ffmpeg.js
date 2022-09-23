@@ -34,10 +34,9 @@ export async function ffprobe (filePath) {
 
 async function fetchResult (filePath) {
   console.error('fetching (not cached)', filePath)
-  // const response = await fetch(filePath)
-  // const results = await response.json()
   try {
-    const jsonString = await execDocker(filePath)
+    // const jsonString = await execDocker(filePath)
+    const jsonString = await execNative(filePath)
     if (!jsonString) {
       return null // and skip caching results
     }
@@ -50,6 +49,24 @@ async function fetchResult (filePath) {
   } catch (error) {
     console.error('fetchResult caught error', error)
     // console.error('fetchResult error', error)
+  }
+}
+
+async function execNative (filePath) {
+  const ffprobeBin =
+    '/Applications/OpenAudible.app/Contents/Resources/app/bin/mac/ffprobe' // ffprobe version 4.3.1
+  const command = `${ffprobeBin} -of json -show_format -show_chapters "${filePath}"`
+
+  try {
+    const { stdout, stderr } = await execCommand(command)
+    if (stderr) {
+      // console.error('discarding execNative stderr')
+    }
+    return stdout
+  } catch (error) {
+    // console.error('exec', error)
+    console.error('dockerExec error', error)
+    return null
   }
 }
 
@@ -67,8 +84,7 @@ async function execDocker (filePath) {
   try {
     const { stdout, stderr } = await execCommand(command)
     if (stderr) {
-      console.error('discarding execDocker stderr')
-      // console.error('discarding execDocker stderr', stderr)
+      // console.error('discarding execDocker stderr')
     }
     return stdout
   } catch (error) {

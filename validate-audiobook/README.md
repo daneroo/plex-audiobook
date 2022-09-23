@@ -71,30 +71,32 @@
     - [C10] Arcanum Unbounded - The Cosmere Collection 14 - Chapter 64-66 - Sixth of the Dusk.mp3
     - [C19] Arcanum Unbounded - The Cosmere Collection 15 - Chapter 67 - The Rosharan System.mp3
     - [C19] Arcanum Unbounded - The Cosmere Collection 16 - Chapter 68-88 - Edgedancer.mp3
-
+- Sort order for multiple audio file concatenation - use [natural sort](https://github.com/snovakovic/fast-sort)
 - [ ] Lookup asin candidates > newdb.js, except 13 'FIX NOW!' entries
-- [ ] rewrite db.js - refactor into sepearate cli
+- [ ] rewrite db.js - refactor into separate cli
 - [ ] validate: output: info,warn,error - or reporting ov validator array
 - [ ] make top level index.js (cli.js) a yargs command thing
 
 ## ffmpeg docker timing
 
 ```bash
-$ time docker run --rm ubuntu uname -a
-1.309s
+# Native for comparison
+$ hyperfine "/Applications/OpenAudible.app/Contents/Resources/app/bin/mac/ffprobe -of json -show_format -show_chapters ./mp3/Helgoland.mp3"
+Benchmark 1: /Applications/OpenAudible.app/Contents/Resources/app/bin/mac/ffprobe -of json -show_format -show_chapters ./mp3/Helgoland.mp3
+  Time (mean ± σ):      69.2 ms ±  42.5 ms    [User: 50.8 ms, System: 10.1 ms]
+  Range (min … max):    58.3 ms … 328.7 ms    40 runs
 
-$ hyperfine 'docker run --rm ubuntu uname -a'
-Benchmark 1: docker run --rm ubuntu uname -a
-  Time (mean ± σ):      1.001 s ±  0.169 s    [User: 0.097 s, System: 0.050 s]
-  Range (min … max):    0.836 s …  1.391 s    10 runs
+$ hyperfine "docker run --rm -t --entrypoint '' -v $(pwd)/mp3/Helgoland.mp3:/audio/file:ro jrottenberg/ffmpeg:4.4-ubuntu bash -c 'ffprobe -of json -show_format -show_chapters /audio/file 2>/dev/null'"
+Benchmark 1: docker run --rm -t --entrypoint '' -v /Users/daniel/Library/OpenAudible/mp3/Helgoland.mp3:/audio/file:ro jrottenberg/ffmpeg:4.4-ubuntu bash -c 'ffprobe -of json -show_format -show_chapters /audio/file 2>/dev/null'
+  Time (mean ± σ):      1.344 s ±  0.218 s    [User: 0.090 s, System: 0.047 s]
+  Range (min … max):    0.918 s …  1.600 s    10 runs
 
-# docker exec version
-docker run -d --name ubu --rm ubuntu sleep 3600
-docker exec -it ubu uname -a
-$ hyperfine 'docker exec  ubu uname -a'
-Benchmark 1: docker exec  ubu uname -a
-  Time (mean ± σ):     251.9 ms ±  20.8 ms    [User: 87.6 ms, System: 43.7 ms]
-  Range (min … max):   219.5 ms … 287.2 ms    11 runs
+docker run --rm -t --name fff -d --entrypoint '' -v $(pwd)/mp3/Helgoland.mp3:/audio/file:ro jrottenberg/ffmpeg:4.4-ubuntu bash -c 'sleep 3600'
+$ hyperfine "docker exec fff ffprobe -of json -show_format -show_chapters /audio/file"
+Benchmark 1: docker exec fff ffprobe -of json -show_format -show_chapters /audio/file
+  Time (mean ± σ):     385.8 ms ±  53.8 ms    [User: 88.3 ms, System: 51.1 ms]
+  Range (min … max):   312.5 ms … 479.2 ms    10 runs
+
 ```
 
 ## ffprobe/mpeg in docker
@@ -166,4 +168,4 @@ outputFile.mp3
 - [ffmpeg chapters](https://ikyle.me/blog/2020/add-mp4-chapters-ffmpeg)
 - [ffmpeg concat](https://trac.ffmpeg.org/wiki/Concatenate)
   - [Example use](https://www.reddit.com/r/ffmpeg/comments/nyfx7a/is_there_a_correct_way_to_write_chapters_to_a_mp3/)
-  
+- [Natural Sort](https://github.com/snovakovic/fast-sort)
