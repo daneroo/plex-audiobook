@@ -1,0 +1,14 @@
+{
+  "name": "podcastify",
+  "version": "1.0.0",
+  "description": "rss feed and audiobook server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Daniel Lauzon",
+  "license": "ISC",
+  "dependencies": {
+    "@kentcdodds/podcastify-dir": "^1.7.1"
+  }
+}
