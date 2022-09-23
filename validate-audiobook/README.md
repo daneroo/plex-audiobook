@@ -77,6 +77,25 @@
 - [ ] validate: output: info,warn,error - or reporting ov validator array
 - [ ] make top level index.js (cli.js) a yargs command thing
 
+## ffmpeg docker timing
+
+```bash
+$ time docker run --rm ubuntu uname -a
+1.309s
+
+$ hyperfine 'docker run --rm ubuntu uname -a'
+Benchmark 1: docker run --rm ubuntu uname -a
+  Time (mean ± σ):      1.001 s ±  0.169 s    [User: 0.097 s, System: 0.050 s]
+  Range (min … max):    0.836 s …  1.391 s    10 runs
+
+# docker exec version
+docker run -d --name ubu --rm ubuntu sleep 3600
+docker exec -it ubu uname -a
+$ hyperfine 'docker exec  ubu uname -a'
+Benchmark 1: docker exec  ubu uname -a
+  Time (mean ± σ):     251.9 ms ±  20.8 ms    [User: 87.6 ms, System: 43.7 ms]
+  Range (min … max):   219.5 ms … 287.2 ms    11 runs
+```
 
 ## ffprobe/mpeg in docker
 
@@ -147,3 +166,4 @@ outputFile.mp3
 - [ffmpeg chapters](https://ikyle.me/blog/2020/add-mp4-chapters-ffmpeg)
 - [ffmpeg concat](https://trac.ffmpeg.org/wiki/Concatenate)
   - [Example use](https://www.reddit.com/r/ffmpeg/comments/nyfx7a/is_there_a_correct_way_to_write_chapters_to_a_mp3/)
+  

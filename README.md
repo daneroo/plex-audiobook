@@ -157,3 +157,4 @@ sudo chown -R plex: /opt/plexmedia
 - [BragiBooks](https://github.com/djdembeck/bragibooks)
 - [audio tagging in Go](https://github.com/dhowden/tag)
 - [m4b-tool](https://github.com/sandreas/m4b-tool)
+- [@kentcdodds/podcastify-dir](https://github.com/kentcdodds/podcastify-dir)
