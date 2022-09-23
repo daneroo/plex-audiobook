@@ -103,6 +103,16 @@ sudo apt install plexmediaserver
 sudo systemctl status plexmediaserver
 ```
 
+## for more local development
+
+```bash
+# install ffmpeg (and ffprobe)
+sudo apt install ffmpeg
+# install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+nvm install --lts
+```
+
 ### Remote (SMB) content
 
 This is how we mount some content with CIFS/SMB from synology
@@ -129,6 +139,14 @@ sudo nano /etc/fstab
 sudo mount -a
 
 # Draw the rest of the Owl: set paths inside plex...
+```
+
+### Also mounting /Archive (temporarily)
+
+```bash
+mkdir -p /Volumes/Space/archive
+# This will prompt for password
+sudo mount -t cifs -o ro,vers=3.0,user=daniel //syno.imetrical.com/Archive /Volumes/Space/archive
 ```
 
 ### Local content

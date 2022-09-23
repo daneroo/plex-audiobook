@@ -53,8 +53,9 @@ async function fetchResult (filePath) {
 }
 
 async function execNative (filePath) {
-  const ffprobeBin =
-    '/Applications/OpenAudible.app/Contents/Resources/app/bin/mac/ffprobe' // ffprobe version 4.3.1
+  // const ffprobeBin =
+  //   '/Applications/OpenAudible.app/Contents/Resources/app/bin/mac/ffprobe' // ffprobe version 4.3.1
+  const ffprobeBin = 'ffprobe'
   const command = `${ffprobeBin} -of json -show_format -show_chapters "${filePath}"`
 
   try {
