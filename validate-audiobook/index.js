@@ -3,7 +3,8 @@ import fetch from 'node-fetch'
 await main()
 
 async function main () {
-  const asin = 'B00G4K7EUO' // =23h  - '0593163400' == 26h
+  // const asin = 'B00G4K7EUO' // GB03 =23h  - '0593163400' == 26h
+  const asin = 'B078P2MS47' // Adam Becker - What Is Real?
   const url = `https://api.audnex.us/books/${asin}/chapters`
   console.error('fetching', { url })
   // curl --silent https://api.audnex.us/books/B014LL6R5U/chapters | jq

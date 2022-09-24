@@ -52,6 +52,7 @@ async function fetchResult (filePath) {
   }
 }
 
+// return JSON from stdout, eat stderr, and catch and log exceptions
 async function execNative (filePath) {
   // const ffprobeBin =
   //   '/Applications/OpenAudible.app/Contents/Resources/app/bin/mac/ffprobe' // ffprobe version 4.3.1
@@ -71,10 +72,10 @@ async function execNative (filePath) {
   }
 }
 
+// This works, but is slow.
 // docker run --rm --entrypoint '' -v "$(pwd)/$i":/audio/file:ro jrottenberg/ffmpeg:4.4-ubuntu bash -c 'ffprobe -of json -show_format -show_chapters /audio/file 2>/dev/null' | jq .format.duration; done
-
 // execute a command in an ffmpeg docker container
-// return JSON from stdout, console.error stderr, and catch and log exceptions
+// return JSON from stdout, eat stderr, and catch and log exceptions
 async function execDocker (filePath) {
   const image = 'jrottenberg/ffmpeg:4.4-ubuntu'
 
