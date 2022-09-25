@@ -16,6 +16,7 @@ Ee need to validate converting:
   - with external chapter metadata
   - possible, with no chapter marks
 
+  
 ## multiple mp3 files
 
 - Mimicking m4b-tool with help of -vvv trace:
@@ -27,10 +28,13 @@ alias m4b-tool='docker run --name m4b -it --rm -u $(id -u):$(id -g) -v /Volumes:
 docker exec -it m4b ash
 
 time m4b-tool merge -vvv --no-conversion --no-cleanup --use-filenames-as-chapters  --output-file /Volumes/Space/Beets/m4b-tool/Adam\ Becker\ -\ What\ Is\ Real.mp3 /Volumes/Space/Beets/m4b-tool/Adam\ Becker\ -\ What\ Is\ Real/*.mp3
+```
 
-## Analysis
+### Analysis
 
-# 1- makes a tmp .txt file with the list of files to merge
+#### 1- makes a tmp .txt file with the list of files to merge
+
+```bash
 ------ start ------
 file '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/01. The Measure of All Things.mp3'
 file '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/02. Something Rotten in the Eigenstate of Denmark.mp3'
@@ -45,7 +49,11 @@ file '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/10. Quantum Sprin
 file '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/11. Copenhagen Versus the Universe.mp3'
 file '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/12. Outrageous Fortune.mp3'
 ------ end ------
+```
 
+#### 2- merges the files into temp mp3 (with no metadata)
+
+```bash
 # merging 12 files into /tmp/m4b-tool/tmp_Adam Becker - What Is Real.mp3
 ffmpeg -nostats -loglevel panic -hide_banner -f concat -safe 0 -vn -i '/tmp/m4b-tool/tmp_Adam Becker - What Is Real.mp3.listing.txt' -max_muxing_queue_size 9999 -c copy -f mp3 '/tmp/m4b-tool/tmp_Adam Becker - What Is Real.mp3'
 
@@ -86,23 +94,55 @@ ffmpeg -nostats -loglevel panic -hide_banner -f concat -safe 0 -vn -i '/tmp/m4b-
 # cover            : /Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/Adam Becker - What Is Real.jpg, 510x680
 # encoder          : m4b-tool
 # Empty tag fields : album, albumartist, artist, comment, copyright, description, disk, disks, encoded-by, genre, grouping, language, longdesc, lyrics, name, performer, publisher, purchaseDate, sortAlbumArtist, sortWriter, sortalbum, sortartist, sortname, track, tracks, writer, year
+```
 
+#### 3- extract the metadata
+
+```bash
 ffmpeg -hide_banner -i '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/01. The Measure of All Things.mp3' -f ffmetadata -
 
 # tagFile - filename: /tmp/m4b-tool/tmp_Adam Becker - What Is Real.mp3
 # full tag: {"album":"What Is Real? - The Unfinished Quest for the Meaning of Quantum Physics","artist":"Adam Becker","copyright":"Blackstone Publishing","cover":"\/Volumes\/Space\/Beets\/m4b-tool\/Adam Becker - What Is Real\/Adam Becker - What Is Real.jpg","encodedBy":"OverDrive, Inc.","encoder":"m4b-tool","genre":"History\/Nonfiction\/Science","title":"01. The Measure of All Things","track":1,"type":2,"year":"2018","publisher":"Blackstone Audio, Inc."}
+```
 
+#### 4- Re-combine the metadata, cover and temp mp3 streams
+
+```bash
 'ffmpeg' '-nostats' '-loglevel' 'panic' '-hide_banner' '-i' '/tmp/m4b-tool/tmp_Adam Becker - What Is Real.mp3' '-i' '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/Adam Becker - What Is Real.jpg' '-i' '/tmp/cEpPCj.txt' '-map_metadata' '2' '-map' '0:0' '-map' '1:0' '-c' 'copy' '/tmp/m4b-tool/tmp_Adam Becker - What Is Real.mp3-632f501576eea4.49547032.mp3'
 
 # tagged file tmp_Adam Becker - What Is Real.mp3 (artist: Adam Becker, name: 01. The Measure of All Things, chapters: 18)
 # moved temporary tmp_Adam Becker - What Is Real.mp3 to /Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real.mp3
 # successfully merged 12 files to /Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real.mp3
+```
+
+### Reproduce
+
+
+```bash
+#  1- & 2- Combine all mp3 files into one. result has no metadata (except encoder)
+# -vn (no video)
+# -safe 0 (allow unsafe filenames); 
+# -max_muxing_queue_size 9999 (prevent "too many packets buffered for output stream 0:1" error)
+time ffmpeg -v quiet -f concat -safe 0 -vn -i <(for f in /Volumes/Space/Beets/m4b-tool/Adam\ Becker\ -\ What\ Is\ Real/*.mp3; do echo "file '$f'"; done) -c copy step-1.mp3
+
+# 3- extract the metadata
+# -f fmt (input/output) Force input or output file format
+# -loglevel [flags+]loglevel | -v [flags+]loglevel ; 
+#   ‘quiet, -8’ Show nothing at all; be silent.
+#    ‘panic, 0’ Only show fatal errors ... This is not currently used for anything.
+ffmpeg -v quiet -i '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/01. The Measure of All Things.mp3' -f ffmetadata metadata_track1.txt
+
+# 4- Recombine the metadata, cover and temp mp3 streams
+# TODO: where to get cover.jpg, make a single metadata file with tags and chapters (see ffmeta module)
+# TODO: should not include metadata_track1.txt, but should include my own metadata.txt
+ffmpeg -nostats -loglevel panic -hide_banner -i step-1.mp3 -i /Volumes/Space/Beets/m4b-tool/Adam\ Becker\ -\ What\ Is\ Real/Adam\ Becker\ -\ What\ Is\ Real.jpg -i metadata_track1.txt -map_metadata 2 -map 0:0 -map 1:0 -c copy step-2.mp3
+```
 
 ```
 
 <hr>
 
-## Manulal Experimentation
+## Manual Experimentation
 
 ### ffmpeg Args Questions:
 
@@ -218,3 +258,9 @@ ffmpeg -nostats -loglevel panic -hide_banner -f concat -safe 0 -vn -i /tmp/m4b-t
 
 ffmpeg -nostats -loglevel panic -hide_banner -i /tmp/m4b-tool/tmp_Adam Becker - What Is Real.mp3 -i /Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/Adam Becker - What Is Real.jpg -i /tmp/NgkdgC.txt -map_metadata 2 -map 0:0 -map 1:0 -c copy /tmp/m4b-tool/tmp_Ad
 ```
+
+## References
+
+- [ffmpeg docs](https://www.ffmpeg.org/ffmpeg.html)
+- [ffmpeg metadata format explanation](http://underpop.online.fr/f/ffmpeg/help/metadata.htm.gz)
+- [ffmeta - ffmpeg metadata serialization](https://github.com/FedericoCarboni/ffmeta)
