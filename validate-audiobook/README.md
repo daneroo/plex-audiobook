@@ -169,3 +169,4 @@ outputFile.mp3
 - [ffmpeg concat](https://trac.ffmpeg.org/wiki/Concatenate)
   - [Example use](https://www.reddit.com/r/ffmpeg/comments/nyfx7a/is_there_a_correct_way_to_write_chapters_to_a_mp3/)
 - [Natural Sort](https://github.com/snovakovic/fast-sort)
+- [ffmeta - ffmpeg metadata serialization](https://github.com/FedericoCarboni/ffmeta)

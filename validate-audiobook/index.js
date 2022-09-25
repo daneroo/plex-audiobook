@@ -1,4 +1,5 @@
 import fetch from 'node-fetch'
+// import { string } from 'yargs'
 
 await main()
 
