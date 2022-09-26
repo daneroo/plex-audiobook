@@ -16,7 +16,6 @@ Ee need to validate converting:
   - with external chapter metadata
   - possible, with no chapter marks
 
-  
 ## multiple mp3 files
 
 - Mimicking m4b-tool with help of -vvv trace:
@@ -117,34 +116,36 @@ ffmpeg -hide_banner -i '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real
 
 ### Reproduce
 
-
 ```bash
-#  1- & 2- Combine all mp3 files into one. result has no metadata (except encoder)
+#  1- Combine all mp3 files into one. result has no metadata (except encoder)
 # -vn (no video)
 # -safe 0 (allow unsafe filenames); 
 # -max_muxing_queue_size 9999 (prevent "too many packets buffered for output stream 0:1" error)
 time ffmpeg -v quiet -f concat -safe 0 -vn -i <(for f in /Volumes/Space/Beets/m4b-tool/Adam\ Becker\ -\ What\ Is\ Real/*.mp3; do echo "file '$f'"; done) -c copy step-1.mp3
 
-# 3- extract the metadata
+# 2- extract the metadata (from track 1)
 # -f fmt (input/output) Force input or output file format
-# -loglevel [flags+]loglevel | -v [flags+]loglevel ; 
-#   ‘quiet, -8’ Show nothing at all; be silent.
-#    ‘panic, 0’ Only show fatal errors ... This is not currently used for anything.
-ffmpeg -v quiet -i '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/01. The Measure of All Things.mp3' -f ffmetadata metadata_track1.txt
+time ffmpeg -v quiet -i '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/01. The Measure of All Things.mp3' -f ffmetadata metadata_track1.txt
+
+# 3- Extract cover art (from track 1)
+# This is for mp3
+time ffmpeg -v quiet -i '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/01. The Measure of All Things.mp3' -f image2 -vframes 1 -q:v 2 'cover.jpg'
+# Alternative
+time ffmpeg -v quiet -i '/Volumes/Space/Beets/m4b-tool/Adam Becker - What Is Real/01. The Measure of All Things.mp3' 'cover.jpg'
+
 
 # 4- Recombine the metadata, cover and temp mp3 streams
 # TODO: where to get cover.jpg, make a single metadata file with tags and chapters (see ffmeta module)
-# TODO: should not include metadata_track1.txt, but should include my own metadata.txt
-ffmpeg -nostats -loglevel panic -hide_banner -i step-1.mp3 -i /Volumes/Space/Beets/m4b-tool/Adam\ Becker\ -\ What\ Is\ Real/Adam\ Becker\ -\ What\ Is\ Real.jpg -i metadata_track1.txt -map_metadata 2 -map 0:0 -map 1:0 -c copy step-2.mp3
-```
+ffmpeg -v quiet -i step-1.mp3 -i cover.jpg -i metadata_track1.txt -map_metadata 2 -map 0:0 -map 1:0 -c copy step-2.mp3
 
+# TODO: should not include metadata_track1.txt, but should include my own metadata.txt
 ```
 
 <hr>
 
 ## Manual Experimentation
 
-### ffmpeg Args Questions:
+### ffmpeg Args Questions
 
 - what is `-safe 0`
 
