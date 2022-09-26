@@ -21,6 +21,7 @@ import { formatElapsed, durationToHMS } from './time/module.js'
 const defaultRootPath =
   '/Volumes/Space/archive/media/audiobooks/Adam Becker - What Is Real'
 const TMPDIR = 'convert/tmpdir'
+const OUTPUT_DIR = 'convert/converted'
 
 await main()
 
@@ -65,11 +66,12 @@ async function convertDirectory (directoryPath) {
     console.error('no audio files')
     return
   }
-  // copy skip content
+
+  // just show for now - do not actually skip
   const skipHint = getSkip(directoryPath)
   if (skipHint) {
     console.error(`skipHint: ${skipHint}`)
-    return
+    // return
   }
 
   console.error(`converting ${audioFiles.length} audio files`)
@@ -78,7 +80,10 @@ async function convertDirectory (directoryPath) {
   await fs.writeFile(
     path.join(TMPDIR, 'listing.txt'),
     audioFiles.map(f => {
-      return `file '${f}'\n`
+      // https://ffmpeg.org/ffmpeg-utils.html#Examples
+      // to escape a single quote: ' => '\''
+      const escaped = f.replace(/'/g, "'\\''")
+      return `file '${escaped}'\n`
     })
   )
 
@@ -131,8 +136,21 @@ async function convertDirectory (directoryPath) {
   const startMs = +new Date()
   await convert()
   console.error('Converted in', formatElapsed(startMs))
+  await move()
 }
 
+async function move () {
+  // move the file to the output directory
+  await fs.mkdir(OUTPUT_DIR, { recursive: true })
+
+  const from = path.join(TMPDIR, 'output.mp3')
+  const meta = await getMetadataForSingleFile(from, {})
+  const author = meta.common.artist
+  const title = meta.common.title
+  const to = path.join(OUTPUT_DIR, `${author} - ${title}.mp3`)
+  console.error(`Renaming to ${to}.mp3`)
+  await fs.rename(from, to)
+}
 // All in one step!
 // time ffmpeg -v quiet -f concat -safe 0 -i listing.txt -i cover.jpg -i ffmetadata.txt -map_metadata 2 -map 0:0 -map 1:0 -c copy output.mp3
 // re-extract metadata from produced file
