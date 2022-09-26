@@ -1,2 +1,2 @@
 export { searchAudible, sortAudibleBooks } from './searchAudible.js'
-export { ffprobe } from './ffmpeg.js'
+export { ffprobe, execCommand } from './ffmpeg.js'

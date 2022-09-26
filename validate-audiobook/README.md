@@ -23,6 +23,8 @@
 
 ## TODO
 
+- [x] Quick and dirty convert
+  - multiple mp3 files, chapters from files
 - [ ] compare tags with
   - [ ] ffprobe -of json -show_format -show_chapters Helgoland.mp3  2>/dev/null
   - `/Applications/OpenAudible.app/Contents/Resources/app/bin/mac/ffprobe`

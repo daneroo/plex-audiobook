@@ -1,4 +1,6 @@
 import path from 'path'
+import crypto from 'node:crypto'
+
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
 import { parseFile } from 'music-metadata'
@@ -25,16 +27,6 @@ function rewriteHint (...args) {
 await main()
 
 async function main () {
-  if (false) {
-    const filePaths = [
-      '/Volumes/Space/archive/media/audiobooks/NealStephenson-Anathem/Anathem - Unb-001.mp3',
-      '/Users/daniel/Library/OpenAudible/mp3/Accelerate Building and Scaling High Performing Technology Organizations.mp3',
-      '/Users/daniel/Library/OpenAudible/M4B/Accelerate Building and Scaling High Performing Technology Organizations.m4b'
-    ]
-    const results = await ffprobe(filePaths[1])
-    console.log(JSON.stringify(results, null, 2))
-    process.exit(0)
-  }
   const argv = yargs(hideBin(process.argv)).option('rootPath', {
     alias: 'r',
     type: 'string',
@@ -328,6 +320,46 @@ async function classifyDirectory (directoryPath) {
     } = validateUniqueAuthorTitle(metas, directoryPath)
     bookData.meta.authorDedup = dedupAuthor
     bookData.meta.titleDedup = dedupTitle
+
+    if (false) {
+      console.error(
+        '******',
+        JSON.stringify(
+          metas[0],
+          (key, value) => {
+            if (key === 'data' && Array.isArray(value)) return '[removed]'
+            if (key === 'warnings' && Array.isArray(value)) return '[removed]'
+            return value
+          },
+          2
+        )
+      )
+    }
+    const dedupFormat = dedupArray(
+      metas.map(m => {
+        const { container, codec, codecProfile, bitrate } = m.format
+        return JSON.stringify({ container, codec, codecProfile, bitrate })
+      })
+    )
+    bookData.meta.formatDedup = dedupFormat
+
+    // m.common.picture {format,data,type?,description?}
+    const dedupCover = dedupArray(
+      metas.map(m => {
+        // careful picture is an array
+        const { format, data, type, description } = m.common.picture?.[0] || {}
+        // data is a Buffer
+        const sha256 = data
+          ? crypto
+              .createHash('sha256')
+              .update(data)
+              .digest('hex')
+          : 'missing'
+
+        return JSON.stringify({ format, sha256, type, description })
+      })
+    )
+    bookData.meta.coverDedup = dedupCover
 
     // total duration
     const duration = Math.round(

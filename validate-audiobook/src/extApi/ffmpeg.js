@@ -66,8 +66,7 @@ async function execNative (filePath) {
     }
     return stdout
   } catch (error) {
-    // console.error('exec', error)
-    console.error('dockerExec error', error)
+    console.error('execNative error', error)
     return null
   }
 }
@@ -106,7 +105,7 @@ async function execDocker (filePath) {
 // const results = {
 //   example: await execCommand('docker run --rm ubuntu uname -a')
 // }
-async function execCommand (command) {
+export async function execCommand (command) {
   const { exec: execWithCallback } = await import('node:child_process')
   const { promisify } = await import('node:util')
   // The promisified version of exec
