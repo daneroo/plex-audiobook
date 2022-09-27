@@ -23,7 +23,7 @@ Plex server is running in the plex-audio vm in proxmox@hibert.
 - install docker and plex
 - see section below for setting up plexmedia on ubuntu instance
 - see my plex token : yM_Bj1FZVLpHt-xs1whp
-  - https://plex.tv/api/resources?yM_Bj1FZVLpHt-xs1whp
+  - <https://plex.tv/api/resources?yM_Bj1FZVLpHt-xs1whp>
 
 Adjust Account Setting: Network: Advanced: Custom server access URLs
 
