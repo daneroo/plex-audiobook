@@ -6,23 +6,25 @@ import { searchAudible, sortAudibleBooks } from './extApi/module.js'
 main()
 
 async function main () {
-  const argv = yargs(hideBin(process.argv))
+  const argv = await yargs(hideBin(process.argv))
     .option('author', {
       alias: 'a',
+      type: 'string',
       describe: 'specify author for search'
     })
     .option('title', {
       alias: 't',
+      type: 'string',
       describe: 'specify author for search'
     })
     .demandOption(
       ['author', 'title'],
       'Please provide both author and title arguments to work with this tool'
     )
-    .help().argv
+    .help()
+    .parseAsync()
 
   // destructure arguments
-  // @ts-ignore
   const { author, title } = argv
   const audibleBooks = await searchAudible({ author, title })
   console.log(`Got ${audibleBooks.length} results from audible API`)

@@ -48,7 +48,7 @@ export function sortAudibleBooks (books, duration = 0) {
 
 /**
  *
- * @param {{ author: string, title: number }} opts - the parameters, required
+ * @param {{ author: string, title: string }} opts - the parameters, required
  * @returns {Promise<AudibleBook[]>}
  */
 export async function searchAudible ({ author, title }) {

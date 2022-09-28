@@ -23,6 +23,7 @@
 
 ## TODO
 
+- [ ] move to nx-audiobook
 - [x] Quick and dirty convert
   - multiple mp3 files, chapters from files
 - [ ] compare tags with

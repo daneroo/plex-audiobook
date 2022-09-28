@@ -26,15 +26,16 @@ const OUTPUT_DIR = 'convert/converted'
 await main()
 
 async function main () {
-  const argv = yargs(hideBin(process.argv)).option('rootPath', {
-    alias: 'r',
-    type: 'string',
-    demandOption: true,
-    default: defaultRootPath,
-    describe: 'Path of the root directory to search from'
-  }).argv
+  const argv = await yargs(hideBin(process.argv))
+    .option('rootPath', {
+      alias: 'r',
+      type: 'string',
+      demandOption: true,
+      default: defaultRootPath,
+      describe: 'Path of the root directory to search from'
+    })
+    .parseAsync()
   // destructure arguments
-  // @ts-ignore
   const { rootPath: unverifiedRootPath } = argv
   // clean the root path by removing trailing slash
   const rootPath = unverifiedRootPath.replace(/\/$/, '')
