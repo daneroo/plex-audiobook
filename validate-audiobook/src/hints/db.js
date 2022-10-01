@@ -45,6 +45,25 @@ export const db = {
     '// asin-1': { asin: '1509865845', duration: '15h25m0s' },
     '// meta-1': 'Children of Ruin / Adrian Tchaikovsky / n: Mel Hudson'
   },
+  '/Volumes/Space/archive/media/audiobooks/Agatha Christie - And Then There Were None': {
+    author: 'Agatha Christie', // unique
+    title: 'And Then There Were None', // unique
+    '// duration': '6h1m53s',
+    '// asin-0': { asin: 'B00ENI4SS0', duration: '6h1m0s' },
+    '// meta-0': 'And Then There Were None / Agatha Christie / n: Dan Stevens',
+    '// asin-1': { asin: 'B00JJY5EJA', duration: '6h1m0s' },
+    '// meta-1': 'And Then There Were None / Agatha Christie / n: Dan Stevens',
+    '// asin-2': { asin: 'B0036GRNIM', duration: '5h36m0s' },
+    '// meta-2': 'And Then There Were None / Agatha Christie / n: Hugh Fraser',
+    '// asin-3': { asin: '0008450366', duration: '3h50m0s' },
+    '// meta-3': 'And Then There Were None / Agatha Christie / n: Roger May',
+    '// asin-4': { asin: 'B004IVOIYQ', duration: '1h26m0s' },
+    '// meta-4':
+      'And Then There Were None (Dramatised) / Agatha Christie / n: Lyndsey Marshal,John Rowe,Geoffrey Whitehead',
+    '// asin-5': { asin: '0063026651', duration: '13h40m0s' },
+    '// meta-5':
+      'The Secret Adversary & And Then There Were None / Agatha Christie / n: Hugh Fraser,Dan Stevens'
+  },
   '/Volumes/Space/archive/media/audiobooks/Agatha Christie - Hercules Poirot': {
     '// No audio files': null
   },
@@ -82,6 +101,55 @@ export const db = {
     '// asin-9': { asin: 'B09RS6JBFC', duration: '30h19m0s' },
     '// meta-9':
       'Agatha Christie Collection: Hercule Poirot Anthology / Agatha Christie / n: Peter Coates'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Agatha Christie - Hercules Poirot/Agatha Christie -09 -Murder_on_the_Orient_Express': {
+    author: 'Agatha Christie', // unique
+    title: 'Murder on the Orient Express', // hint
+    '// duration': '6h52m35s',
+    '// asin-0': { asin: 'B0036GTIHG', duration: '6h49m0s' },
+    '// meta-0':
+      'Murder on the Orient Express / Agatha Christie / n: David Suchet',
+    '// asin-1': { asin: 'B00ENJ4J1K', duration: '6h37m0s' },
+    '// meta-1':
+      'Murder on the Orient Express / Agatha Christie / n: Dan Stevens',
+    '// asin-2': { asin: 'B00J3G44KY', duration: '6h37m0s' },
+    '// meta-2':
+      'Murder on the Orient Express / Agatha Christie / n: Dan Stevens',
+    '// asin-3': { asin: 'B07664YTBY', duration: '6h13m0s' },
+    '// meta-3':
+      'Murder on the Orient Express [Movie Tie-in] / Agatha Christie / n: Kenneth Branagh',
+    '// asin-4': { asin: 'B075RKB2BC', duration: '6h13m0s' },
+    '// meta-4':
+      'Murder on the Orient Express / Agatha Christie / n: Kenneth Branagh',
+    '// asin-5': { asin: 'B07645ZXBV', duration: '5h47m0s' },
+    '// meta-5':
+      'Murder on the Orient Express / Agatha Christie / n: Tom Conti,Jane Asher,Ruta Gedmintas,Paterson Joseph,Rula Lenska,Art Malik,Eddie Marsan,Sophie Okonedo,Walles Hamonde',
+    '// asin-6': { asin: 'B075TM4HXQ', duration: '3h9m0s' },
+    '// meta-6':
+      'Murder on the Orient Express / Agatha Christie / n: Roger May',
+    '// asin-7': { asin: 'B0042GI7CG', duration: '2h18m0s' },
+    '// meta-7':
+      'Murder on the Orient Express (Dramatised) / Agatha Christie / n: John Moffatt',
+    '// asin-8': { asin: '0063023423', duration: '12h37m0s' },
+    '// meta-8':
+      'The Murder on the Links & Murder on the Orient Express / Agatha Christie / n: Hugh Fraser,Dan Stevens'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Agatha Christie - Hercules Poirot/Agatha Christie -15- Death_on_the_Nile': {
+    author: 'Agatha Christie', // unique
+    title: 'Death on the Nile', // hint
+    '// duration': '8h41m1s',
+    '// asin-0': { asin: '0063033313', duration: '8h14m0s' },
+    '// meta-0': 'Death on the Nile / Agatha Christie / n: Kenneth Branagh',
+    '// asin-1': { asin: '0008386838', duration: '8h13m0s' },
+    '// meta-1': 'Death on the Nile / Agatha Christie / n: Kenneth Branagh',
+    '// asin-2': { asin: 'B008ELXJD2', duration: '7h59m0s' },
+    '// meta-2': 'Death on the Nile / Agatha Christie / n: David Suchet',
+    '// asin-3': { asin: 'B0036GRNCI', duration: '7h59m0s' },
+    '// meta-3': 'Death on the Nile / Agatha Christie / n: David Suchet',
+    '// asin-4': { asin: 'B075TKCHYM', duration: '3h5m0s' },
+    '// meta-4': 'Death on the Nile / Agatha Christie / n: Roger May',
+    '// asin-5': { asin: 'B0042AJ8UW', duration: '2h14m0s' },
+    '// meta-5': 'Death on the Nile / Agatha Christie / n: John Moffatt'
   },
   '/Volumes/Space/archive/media/audiobooks/Alastair Reynolds - House of Suns': {
     author: 'Alastair Reynolds', // unique
