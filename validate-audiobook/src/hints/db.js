@@ -3238,6 +3238,13 @@ export const db = {
     '// asin-1': { asin: 'B01786RSAI', duration: '13h25m0s' },
     '// meta-1': 'Dark Matter and the Dinosaurs / Lisa Randall / n: Adam Sims'
   },
+  '/Volumes/Space/archive/media/audiobooks/Lucy Worsley - Agatha Christie A Very Elusive Woman': {
+    author: 'Lucy Worsley', // unique
+    title: 'Agatha Christie: A Very Elusive Woman', // unique
+    '// duration': '13h47m1s',
+    '// asin-0': { asin: 'B09PNSM79B', duration: '13h46m0s' },
+    '// meta-0': 'Agatha Christie / Lucy Worsley / n: Lucy Worsley'
+  },
   '/Volumes/Space/archive/media/audiobooks/Malcolm Gladwell - David and Goliath': {
     author: 'Malcolm Gladwell', // unique
     title: 'David and Goliath', // hint
@@ -3898,6 +3905,15 @@ export const db = {
     '// asin-1': { asin: 'B0036N83F2', duration: '21h52m0s' },
     '// meta-1': 'The Dreaming Void / Peter F. Hamilton / n: Toby Longworth'
   },
+  '/Volumes/Space/archive/media/audiobooks/Philip K. Dick - A Scanner Darkly': {
+    author: 'Philip K. Dick', // unique
+    title: 'A Scanner Darkly', // unique
+    '// duration': '9h13m2s',
+    '// asin-0': { asin: 'B002V5D2KW', duration: '9h12m0s' },
+    '// meta-0': 'A Scanner Darkly / Philip K. Dick / n: Paul Giamatti',
+    '// asin-1': { asin: 'B00CP5C6NC', duration: '9h15m0s' },
+    '// meta-1': 'A Scanner Darkly / Philip K. Dick / n: Paul Giamatti'
+  },
   '/Volumes/Space/archive/media/audiobooks/Priyamvada Natarajan - Mapping the Heavens': {
     author: 'Priyamvada Natarajan', // unique
     title:
@@ -4335,7 +4351,39 @@ export const db = {
     '// meta-1': 'The Sense of Style / Steven Pinker / n: Arthur Morey'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven R. Covey - The 7 Habits of Highly Effective People': {
-    '// No audio files': null
+    author: 'Stephen R. Covey', // unique
+    title: 'The 7 Habits of Highly Effective People', // unique
+    '// duration': '13h4m47s',
+    '// asin-0': { asin: 'B002V5HAL4', duration: '13h4m0s' },
+    '// meta-0':
+      'The 7 Habits of Highly Effective People / Stephen R. Covey / n: Stephen R. Covey',
+    '// asin-1': { asin: '1797115073', duration: '15h7m0s' },
+    '// meta-1':
+      'The 7 Habits of Highly Effective People / Sean Covey,Jim Collins - foreword,Stephen R. Covey / n: Stephen R. Covey,Sean Covey',
+    '// asin-2': { asin: 'B002V9ZF8U', duration: '5h52m0s' },
+    '// meta-2':
+      'The 7 Habits of Highly Effective People & The 8th Habit (Special 6-Hour Abridgement) / Stephen R. Covey / n: Stephen R. Covey',
+    '// asin-3': { asin: 'B002UZZ7FG', duration: '3h32m0s' },
+    '// meta-3':
+      'Los 7 Habitos de la Gente Altamente Efectiva [The 7 Habits of Highly Effective People] / Stephen R. Covey / n: Alejo Felipe',
+    '// asin-4': { asin: 'B002UZL9EO', duration: '3h22m0s' },
+    '// meta-4':
+      'The 7 Habits of Highly Effective People / Stephen R. Covey / n: Stephen R. Covey',
+    '// asin-5': { asin: 'B002V1NKLW', duration: '2h25m0s' },
+    '// meta-5':
+      'The 7 Habits of Highly Effective People & The 8th Habit (Special 3-Hour Abridgement) / Stephen R. Covey / n: Stephen R. Covey',
+    '// asin-6': { asin: 'B09H17FX8Z', duration: '1h42m0s' },
+    '// meta-6':
+      'Los 7 Hábitos de la Gente Altamente Efectiva [The 7 Habits of Highly Effective People] / Jose Gabriel Miralles - introduction,Stephen R. Covey / n: Alejo Felipe',
+    '// asin-7': { asin: 'B01MQ24W2P', duration: '1h23m0s' },
+    '// meta-7':
+      'Los Siete Habitos de las Personas Altamente Eficaces [The Seven Habits of Highly Effective People] / Stephen R. Covey / n: Peter Gil,Maria Siccardi',
+    '// asin-8': { asin: 'B002VA9DMI', duration: '1h15m0s' },
+    '// meta-8':
+      'Begin With the End in Mind / Stephen R. Covey / n: Stephen R. Covey',
+    '// asin-9': { asin: '1442304928', duration: '1h14m0s' },
+    '// meta-9':
+      'The 7 Habits of Highly Effective People / Stephen R. Covey / n: Stephen R. Covey'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Weinberg - Dreams of a Final Theory': {
     author: 'Steven Weinberg', // unique
