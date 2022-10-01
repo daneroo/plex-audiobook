@@ -45,6 +45,44 @@ export const db = {
     '// asin-1': { asin: '1509865845', duration: '15h25m0s' },
     '// meta-1': 'Children of Ruin / Adrian Tchaikovsky / n: Mel Hudson'
   },
+  '/Volumes/Space/archive/media/audiobooks/Agatha Christie - Hercules Poirot': {
+    '// No audio files': null
+  },
+  '/Volumes/Space/archive/media/audiobooks/Agatha Christie - Hercules Poirot/Agatha Christie -04- The Murder of Roger Ackroyd': {
+    author: 'Agatha Christie', // hint
+    title: 'The Murder of Roger Ackroyd', // hint
+    '// duration': '6h54m25s',
+    '// asin-0': { asin: 'B008DF9K32', duration: '6h54m0s' },
+    '// meta-0':
+      'The Murder of Roger Ackroyd / Agatha Christie / n: Hugh Fraser',
+    '// asin-1': { asin: 'B09YVQ9RTF', duration: '6h55m0s' },
+    '// meta-1':
+      'The Murder of Roger Ackroyd / Agatha Christie / n: Chirag Patel',
+    '// asin-2': { asin: 'B0036GRNDW', duration: '7h15m0s' },
+    '// meta-2':
+      'The Murder of Roger Ackroyd / Agatha Christie / n: Hugh Fraser',
+    '// asin-3': { asin: 'B09R5P82VS', duration: '6h25m0s' },
+    '// meta-3':
+      'The Murder of Roger Ackroyd / Dame Agatha Christie / n: Flo Gibson',
+    '// asin-4': { asin: 'B09SQYDLGY', duration: '7h30m0s' },
+    '// meta-4':
+      'The Murder of Roger Ackroyd / Agatha Christie / n: Richard Armitage',
+    '// asin-5': { asin: 'B09PF9CGF7', duration: '7h43m0s' },
+    '// meta-5':
+      'The Murder of Roger Ackroyd (AmazonClassics Edition) / Agatha Christie / n: Tim Bruce',
+    '// asin-6': { asin: 'B0042GI79E', duration: '1h27m0s' },
+    '// meta-6':
+      'The Murder of Roger Ackroyd (Dramatised) / Agatha Christie / n: John Moffatt',
+    '// asin-7': { asin: '0063222884', duration: '14h5m0s' },
+    '// meta-7':
+      'The Murder of Roger Ackroyd & The Hollow / Agatha Christie / n: Hugh Fraser',
+    '// asin-8': { asin: 'B09Q7CCNMW', duration: '18h0m0s' },
+    '// meta-8':
+      'Agatha Christie: Hercule Poirot Ultimate Collection / Agatha Christie / n: Peter Coates',
+    '// asin-9': { asin: 'B09RS6JBFC', duration: '30h19m0s' },
+    '// meta-9':
+      'Agatha Christie Collection: Hercule Poirot Anthology / Agatha Christie / n: Peter Coates'
+  },
   '/Volumes/Space/archive/media/audiobooks/Alastair Reynolds - House of Suns': {
     author: 'Alastair Reynolds', // unique
     title: 'House of Suns', // unique
