@@ -4,8 +4,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Adam Becker - What Is Real': {
     author: 'Adam Becker', // unique
-    title:
-      'What Is Real? - The Unfinished Quest for the Meaning of Quantum Physics', // unique
+    title: 'What Is Real? - The Unfinished Quest for the Meaning of Quantum Physics', // unique
     '// duration': '11h45m0s',
     '// asin-0': { asin: 'B078P2MS47', duration: '11h45m0s' },
     '// meta-0': 'What Is Real? / Adam Becker / n: Greg Tremblay',
@@ -26,11 +25,9 @@ export const db = {
     '// asin-2': { asin: '1509865845', duration: '15h25m0s' },
     '// meta-2': 'Children of Ruin / Adrian Tchaikovsky / n: Mel Hudson',
     '// asin-3': { asin: '3748018118', duration: '19h43m0s' },
-    '// meta-3':
-      'I figli del tempo / Adrian Tchaikovsky / n: Riccardo Lombardo',
+    '// meta-3': 'I figli del tempo / Adrian Tchaikovsky / n: Riccardo Lombardo',
     '// asin-4': { asin: '3748029446', duration: '19h48m0s' },
-    '// meta-4':
-      'Figli della Caduta / Adrian Tchaikovsky / n: Riccardo Lombardo',
+    '// meta-4': 'Figli della Caduta / Adrian Tchaikovsky / n: Riccardo Lombardo',
     '// asin-5': { asin: 'B0B8446C65', duration: '21h0m0s' },
     '// meta-5': 'Children of Memory / Adrian Tchaikovsky / n: undefined',
     '// asin-6': { asin: 'B0B4SXD7C2', duration: '0s' },
@@ -58,11 +55,9 @@ export const db = {
     '// asin-3': { asin: '0008450366', duration: '3h50m0s' },
     '// meta-3': 'And Then There Were None / Agatha Christie / n: Roger May',
     '// asin-4': { asin: 'B004IVOIYQ', duration: '1h26m0s' },
-    '// meta-4':
-      'And Then There Were None (Dramatised) / Agatha Christie / n: Lyndsey Marshal,John Rowe,Geoffrey Whitehead',
+    '// meta-4': 'And Then There Were None (Dramatised) / Agatha Christie / n: Lyndsey Marshal,John Rowe,Geoffrey Whitehead',
     '// asin-5': { asin: '0063026651', duration: '13h40m0s' },
-    '// meta-5':
-      'The Secret Adversary & And Then There Were None / Agatha Christie / n: Hugh Fraser,Dan Stevens'
+    '// meta-5': 'The Secret Adversary & And Then There Were None / Agatha Christie / n: Hugh Fraser,Dan Stevens'
   },
   '/Volumes/Space/archive/media/audiobooks/Agatha Christie - Hercules Poirot': {
     '// No audio files': null
@@ -72,67 +67,48 @@ export const db = {
     title: 'The Murder of Roger Ackroyd', // hint
     '// duration': '6h54m25s',
     '// asin-0': { asin: 'B008DF9K32', duration: '6h54m0s' },
-    '// meta-0':
-      'The Murder of Roger Ackroyd / Agatha Christie / n: Hugh Fraser',
+    '// meta-0': 'The Murder of Roger Ackroyd / Agatha Christie / n: Hugh Fraser',
     '// asin-1': { asin: 'B09YVQ9RTF', duration: '6h55m0s' },
-    '// meta-1':
-      'The Murder of Roger Ackroyd / Agatha Christie / n: Chirag Patel',
+    '// meta-1': 'The Murder of Roger Ackroyd / Agatha Christie / n: Chirag Patel',
     '// asin-2': { asin: 'B0036GRNDW', duration: '7h15m0s' },
-    '// meta-2':
-      'The Murder of Roger Ackroyd / Agatha Christie / n: Hugh Fraser',
+    '// meta-2': 'The Murder of Roger Ackroyd / Agatha Christie / n: Hugh Fraser',
     '// asin-3': { asin: 'B09R5P82VS', duration: '6h25m0s' },
-    '// meta-3':
-      'The Murder of Roger Ackroyd / Dame Agatha Christie / n: Flo Gibson',
+    '// meta-3': 'The Murder of Roger Ackroyd / Dame Agatha Christie / n: Flo Gibson',
     '// asin-4': { asin: 'B09SQYDLGY', duration: '7h30m0s' },
-    '// meta-4':
-      'The Murder of Roger Ackroyd / Agatha Christie / n: Richard Armitage',
+    '// meta-4': 'The Murder of Roger Ackroyd / Agatha Christie / n: Richard Armitage',
     '// asin-5': { asin: 'B09PF9CGF7', duration: '7h43m0s' },
-    '// meta-5':
-      'The Murder of Roger Ackroyd (AmazonClassics Edition) / Agatha Christie / n: Tim Bruce',
+    '// meta-5': 'The Murder of Roger Ackroyd (AmazonClassics Edition) / Agatha Christie / n: Tim Bruce',
     '// asin-6': { asin: 'B0042GI79E', duration: '1h27m0s' },
-    '// meta-6':
-      'The Murder of Roger Ackroyd (Dramatised) / Agatha Christie / n: John Moffatt',
+    '// meta-6': 'The Murder of Roger Ackroyd (Dramatised) / Agatha Christie / n: John Moffatt',
     '// asin-7': { asin: '0063222884', duration: '14h5m0s' },
-    '// meta-7':
-      'The Murder of Roger Ackroyd & The Hollow / Agatha Christie / n: Hugh Fraser',
+    '// meta-7': 'The Murder of Roger Ackroyd & The Hollow / Agatha Christie / n: Hugh Fraser',
     '// asin-8': { asin: 'B09Q7CCNMW', duration: '18h0m0s' },
-    '// meta-8':
-      'Agatha Christie: Hercule Poirot Ultimate Collection / Agatha Christie / n: Peter Coates',
+    '// meta-8': 'Agatha Christie: Hercule Poirot Ultimate Collection / Agatha Christie / n: Peter Coates',
     '// asin-9': { asin: 'B09RS6JBFC', duration: '30h19m0s' },
-    '// meta-9':
-      'Agatha Christie Collection: Hercule Poirot Anthology / Agatha Christie / n: Peter Coates'
+    '// meta-9': 'Agatha Christie Collection: Hercule Poirot Anthology / Agatha Christie / n: Peter Coates'
   },
   '/Volumes/Space/archive/media/audiobooks/Agatha Christie - Hercules Poirot/Agatha Christie -09 -Murder_on_the_Orient_Express': {
     author: 'Agatha Christie', // unique
     title: 'Murder on the Orient Express', // hint
     '// duration': '6h52m35s',
     '// asin-0': { asin: 'B0036GTIHG', duration: '6h49m0s' },
-    '// meta-0':
-      'Murder on the Orient Express / Agatha Christie / n: David Suchet',
+    '// meta-0': 'Murder on the Orient Express / Agatha Christie / n: David Suchet',
     '// asin-1': { asin: 'B00ENJ4J1K', duration: '6h37m0s' },
-    '// meta-1':
-      'Murder on the Orient Express / Agatha Christie / n: Dan Stevens',
+    '// meta-1': 'Murder on the Orient Express / Agatha Christie / n: Dan Stevens',
     '// asin-2': { asin: 'B00J3G44KY', duration: '6h37m0s' },
-    '// meta-2':
-      'Murder on the Orient Express / Agatha Christie / n: Dan Stevens',
+    '// meta-2': 'Murder on the Orient Express / Agatha Christie / n: Dan Stevens',
     '// asin-3': { asin: 'B07664YTBY', duration: '6h13m0s' },
-    '// meta-3':
-      'Murder on the Orient Express [Movie Tie-in] / Agatha Christie / n: Kenneth Branagh',
+    '// meta-3': 'Murder on the Orient Express [Movie Tie-in] / Agatha Christie / n: Kenneth Branagh',
     '// asin-4': { asin: 'B075RKB2BC', duration: '6h13m0s' },
-    '// meta-4':
-      'Murder on the Orient Express / Agatha Christie / n: Kenneth Branagh',
+    '// meta-4': 'Murder on the Orient Express / Agatha Christie / n: Kenneth Branagh',
     '// asin-5': { asin: 'B07645ZXBV', duration: '5h47m0s' },
-    '// meta-5':
-      'Murder on the Orient Express / Agatha Christie / n: Tom Conti,Jane Asher,Ruta Gedmintas,Paterson Joseph,Rula Lenska,Art Malik,Eddie Marsan,Sophie Okonedo,Walles Hamonde',
+    '// meta-5': 'Murder on the Orient Express / Agatha Christie / n: Tom Conti,Jane Asher,Ruta Gedmintas,Paterson Joseph,Rula Lenska,Art Malik,Eddie Marsan,Sophie Okonedo,Walles Hamonde',
     '// asin-6': { asin: 'B075TM4HXQ', duration: '3h9m0s' },
-    '// meta-6':
-      'Murder on the Orient Express / Agatha Christie / n: Roger May',
+    '// meta-6': 'Murder on the Orient Express / Agatha Christie / n: Roger May',
     '// asin-7': { asin: 'B0042GI7CG', duration: '2h18m0s' },
-    '// meta-7':
-      'Murder on the Orient Express (Dramatised) / Agatha Christie / n: John Moffatt',
+    '// meta-7': 'Murder on the Orient Express (Dramatised) / Agatha Christie / n: John Moffatt',
     '// asin-8': { asin: '0063023423', duration: '12h37m0s' },
-    '// meta-8':
-      'The Murder on the Links & Murder on the Orient Express / Agatha Christie / n: Hugh Fraser,Dan Stevens'
+    '// meta-8': 'The Murder on the Links & Murder on the Orient Express / Agatha Christie / n: Hugh Fraser,Dan Stevens'
   },
   '/Volumes/Space/archive/media/audiobooks/Agatha Christie - Hercules Poirot/Agatha Christie -15- Death_on_the_Nile': {
     author: 'Agatha Christie', // unique
@@ -163,8 +139,7 @@ export const db = {
     title: 'The Formula: The Universal Laws of Success', // unique
     '// duration': '7h55m1s',
     '// asin-0': { asin: '1478917768', duration: '7h54m0s' },
-    '// meta-0':
-      'The Formula / Albert-László Barabási / n: Ryan Vincent Anderson'
+    '// meta-0': 'The Formula / Albert-László Barabási / n: Ryan Vincent Anderson'
   },
   '/Volumes/Space/archive/media/audiobooks/Alfred Bester - The Stars My Destination': {
     author: 'Alfred Bester', // unique
@@ -195,8 +170,7 @@ export const db = {
     '// asin-6': { asin: 'B002V8MRS2', duration: '12h55m0s' },
     '// meta-6': 'Galactic North / Alastair Reynolds / n: John Lee',
     '// asin-7': { asin: 'B0128481DI', duration: '6h58m0s' },
-    '// meta-7':
-      'Diamond Dogs, Turquoise Days / Alastair Reynolds / n: John Lee'
+    '// meta-7': 'Diamond Dogs, Turquoise Days / Alastair Reynolds / n: John Lee'
   },
   '/Volumes/Space/archive/media/audiobooks/Alistair Reynolds - Revelation Space/2. Alastair Reynolds - Revelation Space 02 Chasm City': {
     author: 'Alastair Reynolds', // unique
@@ -232,8 +206,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Andrew Morton - 17 Carnations': {
     author: 'Andrew Morton', // unique
-    title:
-      '17 Carnations - The Royals, the Nazis, and the Biggest Cover-Up in History', // unique
+    title: '17 Carnations - The Royals, the Nazis, and the Biggest Cover-Up in History', // unique
     '// duration': '11h7m50s',
     '// asin-0': { asin: 'B00U1S19RO', duration: '11h6m0s' },
     '// meta-0': '17 Carnations / Andrew Morton / n: James Langton'
@@ -253,8 +226,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Annie Duke - Thinking in Bets': {
     author: 'Annie Duke', // unique
-    title:
-      "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts", // unique
+    title: "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts", // unique
     '// duration': '6h51m6s',
     '// asin-0': { asin: 'B078SDRSGX', duration: '6h50m0s' },
     '// meta-0': 'Thinking in Bets / Annie Duke / n: Annie Duke'
@@ -284,8 +256,7 @@ export const db = {
     title: 'Sherlock Holmes: The Definitive Collection', // hint
     '// duration': '71h57m25s',
     '// asin-0': { asin: 'B06X93XQRZ', duration: '71h57m0s' },
-    '// meta-0':
-      'Sherlock Holmes: The Definitive Collection / Stephen Fry - introductions,Arthur Conan Doyle / n: Stephen Fry'
+    '// meta-0': 'Sherlock Holmes: The Definitive Collection / Stephen Fry - introductions,Arthur Conan Doyle / n: Stephen Fry'
   },
   '/Volumes/Space/archive/media/audiobooks/ArthurCClarke-2001-ASpaceOdyssey': {
     author: 'Arthur C. Clarke', // hint
@@ -299,11 +270,9 @@ export const db = {
     title: 'Rendezvous With Rama', // hint
     '// duration': '9h1m56s',
     '// asin-0': { asin: 'B002UZLF2U', duration: '9h4m0s' },
-    '// meta-0':
-      'Rendezvous with Rama / Arthur C. Clarke / n: Peter Ganim,Robert J. Sawyer - introduction',
+    '// meta-0': 'Rendezvous with Rama / Arthur C. Clarke / n: Peter Ganim,Robert J. Sawyer - introduction',
     '// asin-1': { asin: 'B079Q5P62Z', duration: '8h58m0s' },
-    '// meta-1':
-      'Rendez-vous avec Rama / Arthur C. Clarke / n: Pascal Casanova',
+    '// meta-1': 'Rendez-vous avec Rama / Arthur C. Clarke / n: Pascal Casanova',
     '// asin-2': { asin: 'B00H2VQXN8', duration: '7h21m0s' },
     '// meta-2': 'Rendezvous with Rama / Arthur C. Clarke / n: Toby Longworth'
   },
@@ -330,11 +299,9 @@ export const db = {
     title: 'The Last Kingdom', // hint
     '// duration': '12h53m28s',
     '// asin-0': { asin: 'B00JQEK2G8', duration: '12h44m0s' },
-    '// meta-0':
-      'The Lords of the North / Bernard Cornwell / n: Jonathan Keeble',
+    '// meta-0': 'The Lords of the North / Bernard Cornwell / n: Jonathan Keeble',
     '// asin-1': { asin: '0062956523', duration: '13h18m0s' },
-    '// meta-1':
-      'Sword of Kings: A Novel / Bernard Cornwell / n: Matt Bates,Bernard Cornwell',
+    '// meta-1': 'Sword of Kings: A Novel / Bernard Cornwell / n: Matt Bates,Bernard Cornwell',
     '// asin-2': { asin: '0062865781', duration: '13h22m0s' },
     '// meta-2': 'War of the Wolf / Bernard Cornwell / n: Matt Bates',
     '// asin-3': { asin: 'B00PRAGG2Y', duration: '13h28m0s' },
@@ -370,8 +337,7 @@ export const db = {
     title: 'The Lords of the North', // hint
     '// duration': '11h58m53s',
     '// asin-0': { asin: 'B00JQEK2G8', duration: '12h44m0s' },
-    '// meta-0':
-      'The Lords of the North / Bernard Cornwell / n: Jonathan Keeble',
+    '// meta-0': 'The Lords of the North / Bernard Cornwell / n: Jonathan Keeble',
     '// asin-1': { asin: 'B002V5GS2Q', duration: '13h7m0s' },
     '// meta-1': 'Lords of the North / Bernard Cornwell / n: Tom Sellwood',
     '// asin-2': { asin: 'B002V1NL0M', duration: '5h44m0s' },
@@ -476,8 +442,7 @@ export const db = {
     title: 'Sword of Kings', // hint
     '// duration': '13h18m27s',
     '// asin-0': { asin: '0062956523', duration: '13h18m0s' },
-    '// meta-0':
-      'Sword of Kings: A Novel / Bernard Cornwell / n: Matt Bates,Bernard Cornwell',
+    '// meta-0': 'Sword of Kings: A Novel / Bernard Cornwell / n: Matt Bates,Bernard Cornwell',
     '// asin-1': { asin: '0008183945', duration: '13h18m0s' },
     '// meta-1': 'Sword of Kings / Bernard Cornwell / n: Matt Bates'
   },
@@ -531,20 +496,15 @@ export const db = {
     title: 'A Short History of Nearly Everything', // unique
     '// duration': '18h19m27s',
     '// asin-0': { asin: 'B002V0KFPW', duration: '18h13m0s' },
-    '// meta-0':
-      'A Short History of Nearly Everything / Bill Bryson / n: Richard Matthews',
+    '// meta-0': 'A Short History of Nearly Everything / Bill Bryson / n: Richard Matthews',
     '// asin-1': { asin: 'B002UZLFOI', duration: '18h59m0s' },
-    '// meta-1':
-      'A Short History of Nearly Everything / Bill Bryson / n: William Roberts',
+    '// meta-1': 'A Short History of Nearly Everything / Bill Bryson / n: William Roberts',
     '// asin-2': { asin: 'B003EGT8X2', duration: '5h48m0s' },
-    '// meta-2':
-      'A Short History of Nearly Everything / Bill Bryson / n: Bill Bryson',
+    '// meta-2': 'A Short History of Nearly Everything / Bill Bryson / n: Bill Bryson',
     '// asin-3': { asin: 'B002UZMS8U', duration: '5h47m0s' },
-    '// meta-3':
-      'A Short History of Nearly Everything / Bill Bryson / n: Bill Bryson',
+    '// meta-3': 'A Short History of Nearly Everything / Bill Bryson / n: Bill Bryson',
     '// asin-4': { asin: '0241473616', duration: '5h42m0s' },
-    '// meta-4':
-      'A Really Short History of Nearly Everything / Bill Bryson / n: Weruche Opia'
+    '// meta-4': 'A Really Short History of Nearly Everything / Bill Bryson / n: Weruche Opia'
   },
   '/Volumes/Space/archive/media/audiobooks/BillBryson-5Audiobooks/Shakespeare - The World as Stage': {
     author: 'Bill Bryson', // hint
@@ -568,16 +528,13 @@ export const db = {
     '// asin-1': { asin: 'B01HH0IQ3S', duration: '10h8m0s' },
     '// meta-1': 'Dark Matter / Blake Crouch / n: Jon Lindstrom',
     '// asin-2': { asin: 'B01N187QYH', duration: '10h0m0s' },
-    '// meta-2':
-      'Dark Matter: Der Zeitenläufer / Blake Crouch / n: Florian Lukas,Karoline Schuch',
+    '// meta-2': 'Dark Matter: Der Zeitenläufer / Blake Crouch / n: Florian Lukas,Karoline Schuch',
     '// asin-3': { asin: 'B075MGFSMF', duration: '11h9m0s' },
     '// meta-3': 'Dark Matter / Blake Crouch / n: Janek Lesniak',
     '// asin-4': { asin: 'B07NDLML7T', duration: '9h3m0s' },
-    '// meta-4':
-      'Dark Matter [French Version] / Blake Crouch / n: François Hatt',
+    '// meta-4': 'Dark Matter [French Version] / Blake Crouch / n: François Hatt',
     '// asin-5': { asin: 'B01N7UDZZJ', duration: '6h50m0s' },
-    '// meta-5':
-      'Dark Matter: Der Zeitenläufer / Blake Crouch / n: Florian Lukas,Karoline Schuch'
+    '// meta-5': 'Dark Matter: Der Zeitenläufer / Blake Crouch / n: Florian Lukas,Karoline Schuch'
   },
   '/Volumes/Space/archive/media/audiobooks/Blake Crouch - Recursion': {
     author: 'Blake Crouch', // hint
@@ -616,14 +573,11 @@ export const db = {
     title: 'Arcanum Unbounded', // hint
     '// duration': '22h31m39s',
     '// asin-0': { asin: 'B01K5Q6VWO', duration: '22h31m0s' },
-    '// meta-0':
-      'Arcanum Unbounded: The Cosmere Collection / Brandon Sanderson / n: Michael Kramer,Kate Reading',
+    '// meta-0': 'Arcanum Unbounded: The Cosmere Collection / Brandon Sanderson / n: Michael Kramer,Kate Reading',
     '// asin-1': { asin: 'B01LX6S0XM', duration: '21h51m0s' },
-    '// meta-1':
-      'Arcanum Unbounded / Brandon Sanderson / n: Michael Kramer,Kate Reading',
+    '// meta-1': 'Arcanum Unbounded / Brandon Sanderson / n: Michael Kramer,Kate Reading',
     '// asin-2': { asin: 'B09XPGQJ9Q', duration: '24h18m0s' },
-    '// meta-2':
-      'Arcanum Ilimitado [Arcanum Unbounded] / Brandon Sanderson / n: Francesc Belda,Esther Solans'
+    '// meta-2': 'Arcanum Ilimitado [Arcanum Unbounded] / Brandon Sanderson / n: Francesc Belda,Esther Solans'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 1 - Mistborn 1 - The Final Empire': {
     author: 'Brandon Sanderson', // unique
@@ -632,8 +586,7 @@ export const db = {
     '// asin-0': { asin: 'B002V0QCYU', duration: '24h39m0s' },
     '// meta-0': 'The Final Empire / Brandon Sanderson / n: Michael Kramer',
     '// asin-1': { asin: '8417347631', duration: '24h20m0s' },
-    '// meta-1':
-      'El imperio final (Nacidos de la bruma 1) [The Final Empire (Mistborn 1)] / Brandon Sanderson / n: Francesc Belda',
+    '// meta-1': 'El imperio final (Nacidos de la bruma 1) [The Final Empire (Mistborn 1)] / Brandon Sanderson / n: Francesc Belda',
     '// asin-2': { asin: 'B004SOK2SE', duration: '24h59m0s' },
     '// meta-2': 'The Final Empire / Brandon Sanderson / n: Michael Kramer'
   },
@@ -676,8 +629,7 @@ export const db = {
     title: 'The Bands of Mourning', // unique
     '// duration': '14h41m24s',
     '// asin-0': { asin: 'B0189QQXRA', duration: '14h41m0s' },
-    '// meta-0':
-      'The Bands of Mourning / Brandon Sanderson / n: Michael Kramer',
+    '// meta-0': 'The Bands of Mourning / Brandon Sanderson / n: Michael Kramer',
     '// asin-1': { asin: 'B016V95ZUI', duration: '15h1m0s' },
     '// meta-1': 'The Bands of Mourning / Brandon Sanderson / n: Michael Kramer'
   },
@@ -690,42 +642,33 @@ export const db = {
     '// asin-1': { asin: 'B077YXZM2N', duration: '24h56m0s' },
     '// meta-1': 'Warbreaker / Brandon Sanderson / n: Alyssa Bresnahan',
     '// asin-2': { asin: '1685081851', duration: '17h50m0s' },
-    '// meta-2':
-      'Warbreaker (Dramatized Adaptation) / Brandon Sanderson / n: Christopher Graybill,Colleen Delany,David Coyne,Dylan Lynch,Elizabeth Jernigan,James Konicek,Karen Carbone,Ken Jackson,Scott McCormick,Steven Carpenter,Tim Getman',
+    '// meta-2': 'Warbreaker (Dramatized Adaptation) / Brandon Sanderson / n: Christopher Graybill,Colleen Delany,David Coyne,Dylan Lynch,Elizabeth Jernigan,James Konicek,Karen Carbone,Ken Jackson,Scott McCormick,Steven Carpenter,Tim Getman',
     '// asin-3': { asin: '1645417956', duration: '6h20m0s' },
-    '// meta-3':
-      'Warbreaker (3 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: Dylan Lynch,Elizabeth Jernigan,Colleen Delany,James Konicek,Tim Getman,Steven Carpenter,Ren Casey,David Coyne,Richard Rohan,Ken Jackson,Amanda Thickpenny',
+    '// meta-3': 'Warbreaker (3 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: Dylan Lynch,Elizabeth Jernigan,Colleen Delany,James Konicek,Tim Getman,Steven Carpenter,Ren Casey,David Coyne,Richard Rohan,Ken Jackson,Amanda Thickpenny',
     '// asin-4': { asin: '1645417913', duration: '6h15m0s' },
-    '// meta-4':
-      'Warbreaker (1 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: Dylan Lynch,James Konicek,Ken Jackson,Karen Carbone,Elizabeth Jernigan,Colleen Delany,Tim Getman,Steven Carpenter,David Coyne,Scott McCormick,Christopher Graybill',
+    '// meta-4': 'Warbreaker (1 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: Dylan Lynch,James Konicek,Ken Jackson,Karen Carbone,Elizabeth Jernigan,Colleen Delany,Tim Getman,Steven Carpenter,David Coyne,Scott McCormick,Christopher Graybill',
     '// asin-5': { asin: '164541793X', duration: '5h14m0s' },
-    '// meta-5':
-      'Warbreaker (2 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: David Coyne,James Konicek,Tim Getman,Ren Casey,Elizabeth Jernigan,Colleen Delany,Scott McCormick,Christopher Graybill,Richard Rohan,Mort Shelby,Terence Aselford'
+    '// meta-5': 'Warbreaker (2 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: David Coyne,James Konicek,Tim Getman,Ren Casey,Elizabeth Jernigan,Colleen Delany,Scott McCormick,Christopher Graybill,Richard Rohan,Mort Shelby,Terence Aselford'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 17 - The Stormlight Archive 1 - The Way of Kings': {
     author: 'Brandon Sanderson', // unique
     title: 'The Way of Kings', // unique
     '// duration': '45h33m6s',
     '// asin-0': { asin: 'B003ZWFO7E', duration: '45h30m0s' },
-    '// meta-0':
-      'The Way of Kings / Brandon Sanderson / n: Kate Reading,Michael Kramer',
+    '// meta-0': 'The Way of Kings / Brandon Sanderson / n: Kate Reading,Michael Kramer',
     '// asin-1': { asin: 'B0052EFJLE', duration: '45h29m0s' },
-    '// meta-1':
-      'The Way of Kings / Brandon Sanderson / n: Michael Kramer,Kate Reading',
+    '// meta-1': 'The Way of Kings / Brandon Sanderson / n: Michael Kramer,Kate Reading',
     '// asin-2': { asin: '8417347895', duration: '45h43m0s' },
-    '// meta-2':
-      'El camino de los reyes [The Way of Kings] / Brandon Sanderson / n: Esther Solans,Francesc Belda'
+    '// meta-2': 'El camino de los reyes [The Way of Kings] / Brandon Sanderson / n: Esther Solans,Francesc Belda'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 18 - The Stormlight Archive 2 - Words of Radiance': {
     author: 'Brandon Sanderson', // unique
     title: 'Words of Radiance', // unique
     '// duration': '48h12m59s',
     '// asin-0': { asin: 'B00HWF0MHW', duration: '48h13m0s' },
-    '// meta-0':
-      'Words of Radiance / Brandon Sanderson / n: Michael Kramer,Kate Reading',
+    '// meta-0': 'Words of Radiance / Brandon Sanderson / n: Michael Kramer,Kate Reading',
     '// asin-1': { asin: 'B00IN5XE7K', duration: '48h13m0s' },
-    '// meta-1':
-      'Words of Radiance / Brandon Sanderson / n: Michael Kramer,Kate Reading'
+    '// meta-1': 'Words of Radiance / Brandon Sanderson / n: Michael Kramer,Kate Reading'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 19 - The Stormlight Archive 2.5 - Edgedancer': {
     author: '', // non-unique or falsy
@@ -740,39 +683,31 @@ export const db = {
     title: 'The Well of Ascension', // hint
     '// duration': '28h57m38s',
     '// asin-0': { asin: 'B002V5GLQ4', duration: '28h56m0s' },
-    '// meta-0':
-      'The Well of Ascension / Brandon Sanderson / n: Michael Kramer',
+    '// meta-0': 'The Well of Ascension / Brandon Sanderson / n: Michael Kramer',
     '// asin-1': { asin: 'B004SOK48C', duration: '29h17m0s' },
-    '// meta-1':
-      'The Well of Ascension / Brandon Sanderson / n: Michael Kramer',
+    '// meta-1': 'The Well of Ascension / Brandon Sanderson / n: Michael Kramer',
     '// asin-2': { asin: '841734764X', duration: '28h26m0s' },
-    '// meta-2':
-      'El Pozo de la Ascensión [The Well of Ascension] / Brandon Sanderson / n: Francesc Belda'
+    '// meta-2': 'El Pozo de la Ascensión [The Well of Ascension] / Brandon Sanderson / n: Francesc Belda'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 20 - The Stormlight Archive 3 - Oathbringer': {
     author: 'Brandon Sanderson', // unique
     title: 'Oathbringer', // hint
     '// duration': '55h6m9s',
     '// asin-0': { asin: 'B0718Z5K4C', duration: '55h5m0s' },
-    '// meta-0':
-      'Oathbringer / Brandon Sanderson / n: Kate Reading,Michael Kramer',
+    '// meta-0': 'Oathbringer / Brandon Sanderson / n: Kate Reading,Michael Kramer',
     '// asin-1': { asin: 'B01N4VBIPG', duration: '55h24m0s' },
-    '// meta-1':
-      'Oathbringer / Brandon Sanderson / n: Michael Kramer,Kate Reading',
+    '// meta-1': 'Oathbringer / Brandon Sanderson / n: Michael Kramer,Kate Reading',
     '// asin-2': { asin: 'B09GX6H7J8', duration: '57h38m0s' },
-    '// meta-2':
-      'Juramentada [Oathbringer] / Brandon Sanderson,Manuel Viciano Delibano - translator / n: Esther Solans,Francesc Belda'
+    '// meta-2': 'Juramentada [Oathbringer] / Brandon Sanderson,Manuel Viciano Delibano - translator / n: Esther Solans,Francesc Belda'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 22 - The Stormlight Archive 4 - Rhythm of War': {
     author: 'Brandon Sanderson', // unique
     title: 'Rhythm of War: The Stormlight Archive, Book 4', // unique
     '// duration': '57h26m57s',
     '// asin-0': { asin: '1250759781', duration: '57h26m0s' },
-    '// meta-0':
-      'Rhythm of War / Brandon Sanderson / n: Kate Reading,Michael Kramer',
+    '// meta-0': 'Rhythm of War / Brandon Sanderson / n: Kate Reading,Michael Kramer',
     '// asin-1': { asin: '1473231051', duration: '57h26m0s' },
-    '// meta-1':
-      'Rhythm of War / Brandon Sanderson / n: Michael Kramer,Kate Reading'
+    '// meta-1': 'Rhythm of War / Brandon Sanderson / n: Michael Kramer,Kate Reading'
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 23-25 - White Sand 1-3 - Volume 1-3': {
     author: '', // non-unique or falsy
@@ -789,8 +724,7 @@ export const db = {
     '// asin-0': { asin: 'B002VA9IKK', duration: '27h25m0s' },
     '// meta-0': 'The Hero of Ages / Brandon Sanderson / n: Michael Kramer',
     '// asin-1': { asin: '8417347658', duration: '27h40m0s' },
-    '// meta-1':
-      'El Héroe de las Eras (Nacidos de la bruma, Mistborn 3) [The Hero of Ages (Mistborn 3)] / Brandon Sanderson / n: Francesc Belda',
+    '// meta-1': 'El Héroe de las Eras (Nacidos de la bruma, Mistborn 3) [The Hero of Ages (Mistborn 3)] / Brandon Sanderson / n: Francesc Belda',
     '// asin-2': { asin: 'B004SOG1N4', duration: '27h45m0s' },
     '// meta-2': 'The Hero of Ages / Brandon Sanderson / n: Michael Kramer'
   },
@@ -823,22 +757,17 @@ export const db = {
     '// asin-3': { asin: 'B002V5CMZ8', duration: '27h30m0s' },
     '// meta-3': 'Elantris / Brandon Sanderson / n: Jack Garrett',
     '// asin-4': { asin: '1685081843', duration: '18h35m0s' },
-    '// meta-4':
-      'Elantris (Dramatized Adaptation) / Brandon Sanderson / n: Christopher Graybill,Colleen Delany,David Coyne,Dylan Lynch,Elizabeth Jernigan,James Konicek,Karen Carbone,Ken Jackson,Scott McCormick,Steven Carpenter,Tim Getman',
+    '// meta-4': 'Elantris (Dramatized Adaptation) / Brandon Sanderson / n: Christopher Graybill,Colleen Delany,David Coyne,Dylan Lynch,Elizabeth Jernigan,James Konicek,Karen Carbone,Ken Jackson,Scott McCormick,Steven Carpenter,Tim Getman',
     '// asin-5': { asin: '1648816843', duration: '6h27m0s' },
-    '// meta-5':
-      'Elantris (2 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: full cast,James Konicek,Danny Gavigan,Lily Beacon,Richard Rohan,David Coyne,Thomas Penny,Jason Stiles,Thomas Simpson,Tony Nam,Elizabeth Jernigan,Kate Foster',
+    '// meta-5': 'Elantris (2 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: full cast,James Konicek,Danny Gavigan,Lily Beacon,Richard Rohan,David Coyne,Thomas Penny,Jason Stiles,Thomas Simpson,Tony Nam,Elizabeth Jernigan,Kate Foster',
     '// asin-6': { asin: 'B08KRXQWFN', duration: '6h11m0s' },
-    '// meta-6':
-      'Elantris (1 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: James Konicek,Danny Gavigan,Lily Beacon,Richard Rohan,David Coyne,Thomas Penny,Jason Stiles,Thomas Simpson,Tony Nam,Elizabeth Jernigan,Kate Foster',
+    '// meta-6': 'Elantris (1 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: James Konicek,Danny Gavigan,Lily Beacon,Richard Rohan,David Coyne,Thomas Penny,Jason Stiles,Thomas Simpson,Tony Nam,Elizabeth Jernigan,Kate Foster',
     '// asin-7': { asin: '1648816851', duration: '5h56m0s' },
-    '// meta-7':
-      'Elantris (3 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: full cast,James Konicek,Danny Gavigan,Richard Rohan,Lily Beacon,Colleen Delany,Thomas Penny,James Lewis,Terence Aselford,Dylan Lynch,Michael Glenn,Jason Stiles',
+    '// meta-7': 'Elantris (3 of 3) [Dramatized Adaptation] / Brandon Sanderson / n: full cast,James Konicek,Danny Gavigan,Richard Rohan,Lily Beacon,Colleen Delany,Thomas Penny,James Lewis,Terence Aselford,Dylan Lynch,Michael Glenn,Jason Stiles',
     '// asin-8': { asin: 'B009XEKR3O', duration: '3h55m0s' },
     '// meta-8': "The Emperor's Soul / Brandon Sanderson / n: Angela Lin",
     '// asin-9': { asin: '1645419134', duration: '3h31m0s' },
-    '// meta-9':
-      "The Emperor's Soul [Dramatized Adaptation] / Brandon Sanderson / n: full cast,Kimberly Gilbert,Mort Shelby,Nora Achrati,Thomas Keegan,Chris Genebach,Jacob Yeh,Bradley Smith,Lise Bruneau,Henry Kramer,Scott McCormick,Nanette Savard,Terence Aselford,Ken Jackson,Michael John Casey"
+    '// meta-9': "The Emperor's Soul [Dramatized Adaptation] / Brandon Sanderson / n: full cast,Kimberly Gilbert,Mort Shelby,Nora Achrati,Thomas Keegan,Chris Genebach,Jacob Yeh,Bradley Smith,Lise Bruneau,Henry Kramer,Scott McCormick,Nanette Savard,Terence Aselford,Ken Jackson,Michael John Casey"
   },
   "/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 7 - Elantris 1.4 - The Emperor's Soul": {
     author: '', // non-unique or falsy
@@ -861,11 +790,9 @@ export const db = {
     title: 'Shadows for Silence in the Forests of Hell', // hint
     '// duration': '2h13m7s',
     '// asin-0': { asin: 'B012EHVBGS', duration: '2h7m0s' },
-    '// meta-0':
-      'Shadows for Silence in the Forests of Hell / Brandon Sanderson / n: Kate Reading',
+    '// meta-0': 'Shadows for Silence in the Forests of Hell / Brandon Sanderson / n: Kate Reading',
     '// asin-1': { asin: 'B016DW5IVO', duration: '4h11m0s' },
-    '// meta-1':
-      'Shadows for Silence in the Forests of Hell & Perfect State / Brandon Sanderson / n: Christian Rummel,Kate Reading'
+    '// meta-1': 'Shadows for Silence in the Forests of Hell & Perfect State / Brandon Sanderson / n: Christian Rummel,Kate Reading'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga': {
     '// No audio files': null
@@ -875,29 +802,24 @@ export const db = {
     title: 'The Black Prism', // hint
     '// duration': '19h32m58s',
     '// asin-0': { asin: 'B09FRBS927', duration: '19h33m0s' },
-    '// meta-0':
-      'Black Prism [Dramatized Adaptation] / Brent Weeks / n: Andy Clemence,Christopher Scheeren,Colleen Delany,David Coyne,Drew Kopas,Dylan Lynch,Elizabeth Jernigan,Eric Messner,James Lewis,Jeff Allin,Joe Brack,Karen Novak,Ken Jackson,Kimberly Gilbert,Lilly David',
+    '// meta-0': 'Black Prism [Dramatized Adaptation] / Brent Weeks / n: Andy Clemence,Christopher Scheeren,Colleen Delany,David Coyne,Drew Kopas,Dylan Lynch,Elizabeth Jernigan,Eric Messner,James Lewis,Jeff Allin,Joe Brack,Karen Novak,Ken Jackson,Kimberly Gilbert,Lilly David',
     '// asin-1': { asin: 'B01HZXFARW', duration: '21h26m0s' },
     '// meta-1': 'The Black Prism / Brent Weeks / n: Simon Vance',
     '// asin-2': { asin: 'B005J68TIA', duration: '21h26m0s' },
     '// meta-2': 'The Black Prism / Brent Weeks / n: Simon Vance',
     '// asin-3': { asin: '1648794386', duration: '6h43m0s' },
-    '// meta-3':
-      'Black Prism (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
+    '// meta-3': 'Black Prism (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
     '// asin-4': { asin: '1648794408', duration: '6h32m0s' },
-    '// meta-4':
-      'Black Prism (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
+    '// meta-4': 'Black Prism (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas',
     '// asin-5': { asin: '1648794424', duration: '6h16m0s' },
-    '// meta-5':
-      'Black Prism (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas'
+    '// meta-5': 'Black Prism (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Kimberly Gilbert,Karen Novak,Lilly David,Lily Beacon,Andy Clemence,David Coyne,Steven Carpenter,Drew Kopas'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [02] The Blinding Knife': {
     author: 'Brent Weeks', // hint
     title: 'The Blinding Knife', // hint
     '// duration': '21h6m44s',
     '// asin-0': { asin: 'B09FTNQYN8', duration: '21h6m0s' },
-    '// meta-0':
-      'The Blinding Knife (Dramatized Adaptation) / Brent Weeks / n: Alyssa Wilmoth,Anastasia Wilson,Barbara Pinolini,Bradley Smith,Casie Platt,Christopher Graybill,Christopher Scheeren,Colleen Delany,Daniel Sontagg,David Coyne,David Harris,Delores King Williams,Drew Kopas,Dylan Lynch,full cast',
+    '// meta-0': 'The Blinding Knife (Dramatized Adaptation) / Brent Weeks / n: Alyssa Wilmoth,Anastasia Wilson,Barbara Pinolini,Bradley Smith,Casie Platt,Christopher Graybill,Christopher Scheeren,Colleen Delany,Daniel Sontagg,David Coyne,David Harris,Delores King Williams,Drew Kopas,Dylan Lynch,full cast',
     '// asin-1': { asin: 'B00AOAL1NQ', duration: '24h9m0s' },
     '// meta-1': 'The Blinding Knife / Brent Weeks / n: Simon Vance',
     '// asin-2': { asin: 'B0096GJ7G2', duration: '24h14m0s' },
@@ -905,103 +827,84 @@ export const db = {
     '// asin-3': { asin: '1549102818', duration: '24h14m0s' },
     '// meta-3': 'The Blinding Knife / Brent Weeks / n: Simon Vance',
     '// asin-4': { asin: '1648794440', duration: '7h9m0s' },
-    '// meta-4':
-      'The Blinding Knife (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne',
+    '// meta-4': 'The Blinding Knife (1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne',
     '// asin-5': { asin: '1648794483', duration: '7h1m0s' },
-    '// meta-5':
-      'The Blinding Knife (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne',
+    '// meta-5': 'The Blinding Knife (3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne',
     '// asin-6': { asin: '1648794467', duration: '6h56m0s' },
-    '// meta-6':
-      'The Blinding Knife (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne'
+    '// meta-6': 'The Blinding Knife (2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Joe Brack,Karen Novak,Steven Carpenter,Kimberly Gilbert,Elliot Dash,Tracy Olivera,Michael John Casey,Laura Reichert,David Coyne'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [03] The Broken Eye': {
     author: 'Brent Weeks', // hint
     title: 'The Broken Eye', // hint
     '// duration': '21h53m29s',
     '// asin-0': { asin: 'B09GKZP46H', duration: '21h53m0s' },
-    '// meta-0':
-      'The Broken Eye [Dramatized Adaptation] / Brent Weeks / n: Alyssa Wilmoth,Barbara Pinolini,Bradley Smith,Christopher Scheeren,Colleen Delany,David Coyne,David Harris,Drew Kopas,Dylan Lynch,Elliot Dash,Evan Casey,James Lewis,Joe Brack,Johann Dettweiler,Ken Jackson',
+    '// meta-0': 'The Broken Eye [Dramatized Adaptation] / Brent Weeks / n: Alyssa Wilmoth,Barbara Pinolini,Bradley Smith,Christopher Scheeren,Colleen Delany,David Coyne,David Harris,Drew Kopas,Dylan Lynch,Elliot Dash,Evan Casey,James Lewis,Joe Brack,Johann Dettweiler,Ken Jackson',
     '// asin-1': { asin: 'B00MJDZYLQ', duration: '29h33m0s' },
     '// meta-1': 'The Broken Eye / Brent Weeks / n: Simon Vance',
     '// asin-2': { asin: 'B00M0OYLW2', duration: '29h33m0s' },
     '// meta-2': 'The Broken Eye / Brent Weeks / n: Simon Vance',
     '// asin-3': { asin: '1648794521', duration: '7h44m0s' },
-    '// meta-3':
-      'The Broken Eye ( 2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Karen Novak,Barbara Pinolini,Johann Dettweiler,Bradley Smith,David Coyne,Tracy Olivera,Thomas Penny',
+    '// meta-3': 'The Broken Eye ( 2 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Karen Novak,Barbara Pinolini,Johann Dettweiler,Bradley Smith,David Coyne,Tracy Olivera,Thomas Penny',
     '// asin-4': { asin: '1648794505', duration: '7h32m0s' },
-    '// meta-4':
-      'The Broken Eye ( 1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Karen Novak,Barbara Pinolini,Johann Dettweiler,Bradley Smith,David Coyne,Tracy Olivera,Thomas Penny',
+    '// meta-4': 'The Broken Eye ( 1 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Karen Novak,Barbara Pinolini,Johann Dettweiler,Bradley Smith,David Coyne,Tracy Olivera,Thomas Penny',
     '// asin-5': { asin: '1648794548', duration: '6h36m0s' },
-    '// meta-5':
-      'The Broken Eye ( 3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Alyssa Wilmoth,Thomas Penny,Christopher Scheeren,Elliot Dash,Nick DePinto,Ren Kasey,Michael John Casey,Barbara Pinolini'
+    '// meta-5': 'The Broken Eye ( 3 of 3) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Alyssa Wilmoth,Thomas Penny,Christopher Scheeren,Elliot Dash,Nick DePinto,Ren Kasey,Michael John Casey,Barbara Pinolini'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [04] The Blood Mirror': {
     author: 'Brent Weeks', // hint
     title: 'The Blood Mirror', // hint
     '// duration': '17h52m43s',
     '// asin-0': { asin: 'B09G7MDXSQ', duration: '17h53m0s' },
-    '// meta-0':
-      'The Blood Mirror [Dramatized Adaptation] / Brent Weeks / n: full cast',
+    '// meta-0': 'The Blood Mirror [Dramatized Adaptation] / Brent Weeks / n: full cast',
     '// asin-1': { asin: 'B01K8S3XDE', duration: '20h30m0s' },
     '// meta-1': 'The Blood Mirror / Brent Weeks / n: Simon Vance',
     '// asin-2': { asin: 'B01LW9CX13', duration: '20h30m0s' },
     '// meta-2': 'The Blood Mirror / Brent Weeks / n: Simon Vance',
     '// asin-3': { asin: '1648794564', duration: '9h28m0s' },
-    '// meta-3':
-      'The Blood Mirror (1 of 2) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Ren Casey,Alyssa Wilmoth,Elliot Dash,Johann Dettweiler,David Coyne,Scott McCormick,Michael Glenn',
+    '// meta-3': 'The Blood Mirror (1 of 2) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Yasmin Tuazon,Christopher Scheeren,Ren Casey,Alyssa Wilmoth,Elliot Dash,Johann Dettweiler,David Coyne,Scott McCormick,Michael Glenn',
     '// asin-4': { asin: '1648794580', duration: '8h24m0s' },
-    '// meta-4':
-      'The Blood Mirror (2 of 2) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Yasmin Tuazon,Alyssa Wilmoth,Ren Casey,Michael Glenn,Elliot Dash,Colleen Delany,Thomas Keegan,Barbara Pinolini'
+    '// meta-4': 'The Blood Mirror (2 of 2) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Joe Brack,Christopher Scheeren,Yasmin Tuazon,Alyssa Wilmoth,Ren Casey,Michael Glenn,Elliot Dash,Colleen Delany,Thomas Keegan,Barbara Pinolini'
   },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [05] The Burning White': {
     author: 'Brent Weeks', // hint
     title: 'The Burning White', // hint
     '// duration': '37h43m25s',
     '// asin-0': { asin: 'B09H3L2XQF', duration: '37h43m0s' },
-    '// meta-0':
-      'The Burning White [Dramatized Adaptation] / Brent Weeks / n: Andy Brownstein,Audrey Bertaux,Bradley Smith,Chris Davenport,Chris Stinson,Christopher Scheeren,Colleen Delany,Delores King Williams,Elliot Dash,Evan Casey,Jeff Allin,Joe Mallon,Johann Dettweiler,Jonathan Feuer,full cast',
+    '// meta-0': 'The Burning White [Dramatized Adaptation] / Brent Weeks / n: Andy Brownstein,Audrey Bertaux,Bradley Smith,Chris Davenport,Chris Stinson,Christopher Scheeren,Colleen Delany,Delores King Williams,Elliot Dash,Evan Casey,Jeff Allin,Joe Mallon,Johann Dettweiler,Jonathan Feuer,full cast',
     '// asin-1': { asin: '1405537345', duration: '39h3m0s' },
     '// meta-1': 'The Burning White / Brent Weeks / n: Simon Vance',
     '// asin-2': { asin: '147897835X', duration: '39h4m0s' },
     '// meta-2': 'The Burning White / Brent Weeks / n: Simon Vance',
     '// asin-3': { asin: '1648814794', duration: '8h3m0s' },
-    '// meta-3':
-      'The Burning White (4 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Bradley Smith,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Zeke Alton,Richard Rohan,Karen Novack,Elliot Dash,Michael John Casey,Alejandro Ruiz,Nick DePinto',
+    '// meta-3': 'The Burning White (4 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Bradley Smith,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Zeke Alton,Richard Rohan,Karen Novack,Elliot Dash,Michael John Casey,Alejandro Ruiz,Nick DePinto',
     '// asin-4': { asin: '1648810381', duration: '7h40m0s' },
-    '// meta-4':
-      'The Burning White (2 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Karen Novack,Yasmin Tuazon,Bradley Smith,Mort Shelby,Ren Casey,Christopher Scheeren,Elliot Dash,Johann Dettweiler,Nick DePinto',
+    '// meta-4': 'The Burning White (2 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Karen Novack,Yasmin Tuazon,Bradley Smith,Mort Shelby,Ren Casey,Christopher Scheeren,Elliot Dash,Johann Dettweiler,Nick DePinto',
     '// asin-5': { asin: '164881560X', duration: '7h35m0s' },
-    '// meta-5':
-      'The Burning White (5 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Chris Stinson,Karen Novack,Thomas Penny,Bradley Smith,Yasmin Tuazon,Michael Glenn,Michael John Casey,Kimberly Gilbert,Nick DePinto',
+    '// meta-5': 'The Burning White (5 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Christopher Scheeren,Chris Stinson,Karen Novack,Thomas Penny,Bradley Smith,Yasmin Tuazon,Michael Glenn,Michael John Casey,Kimberly Gilbert,Nick DePinto',
     '// asin-6': { asin: '1648801544', duration: '7h25m0s' },
-    '// meta-6':
-      'The Burning White (1 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Christopher Scheeren,Johann Dettweiler,Yasmin Tuazon,Kimberly Gilbert,Bradley Smith,Steven Carpenter,Karen Novack,Jonathan Feuer,Elliot Dash',
+    '// meta-6': 'The Burning White (1 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Christopher Scheeren,Johann Dettweiler,Yasmin Tuazon,Kimberly Gilbert,Bradley Smith,Steven Carpenter,Karen Novack,Jonathan Feuer,Elliot Dash',
     '// asin-7': { asin: '1648810527', duration: '6h58m0s' },
-    '// meta-7':
-      'The Burning White (3 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Colleen Delany,Chris Genebach,Karen Novack,Nick DePinto,Bradley Smith,Elliot Dash,Ren Kasey'
+    '// meta-7': 'The Burning White (3 of 5) [Dramatized Adaptation] / Brent Weeks / n: full cast,Richard Rohan,Chris Stinson,Yasmin Tuazon,Christopher Scheeren,Colleen Delany,Chris Genebach,Karen Novack,Nick DePinto,Bradley Smith,Elliot Dash,Ren Kasey'
   },
   '/Volumes/Space/archive/media/audiobooks/Brian Greene - Light Falls': {
     author: 'Brian Greene', // hint
     title: 'Light Falls', // hint
     '// duration': '2h24m50s',
     '// asin-0': { asin: 'B01GQPFIB8', duration: '2h24m0s' },
-    '// meta-0':
-      'Light Falls / Brian Greene / n: Brian Greene,Paul Rudd,Peter Ganim,Suzanne Toren,Edoardo Ballerini,Julian Elfer,Kevin Pariseau,Jonathan Davis'
+    '// meta-0': 'Light Falls / Brian Greene / n: Brian Greene,Paul Rudd,Peter Ganim,Suzanne Toren,Edoardo Ballerini,Julian Elfer,Kevin Pariseau,Jonathan Davis'
   },
   '/Volumes/Space/archive/media/audiobooks/Brian Greene - The Fabric of the Cosmos Space, Time, and the Texture of Reality': {
     author: 'Brian Greene', // unique
     title: 'The Fabric of the Cosmos', // hint
     '// duration': '22h36m18s',
     '// asin-0': { asin: 'B002V1K1IM', duration: '22h36m0s' },
-    '// meta-0':
-      'The Fabric of the Cosmos / Brian Greene / n: Michael Prichard',
+    '// meta-0': 'The Fabric of the Cosmos / Brian Greene / n: Michael Prichard',
     '// asin-1': { asin: 'B002V1OP9S', duration: '6h18m0s' },
     '// meta-1': 'The Fabric of the Cosmos / Brian Greene / n: Erik Davies'
   },
   '/Volumes/Space/archive/media/audiobooks/Brian Greene - Until the End of Time': {
     author: 'Brian Greene', // unique
-    title:
-      'Until the End of Time - Mind, Matter, and Our Search for Meaning in an Evolving Universe', // unique
+    title: 'Until the End of Time - Mind, Matter, and Our Search for Meaning in an Evolving Universe', // unique
     '// duration': '14h36m46s',
     '// asin-0': { asin: '1524734284', duration: '14h36m0s' },
     '// meta-0': 'Until the End of Time / Brian Greene / n: Brian Greene',
@@ -1029,22 +932,18 @@ export const db = {
     title: 'Reality Is Not What It Seems: The Journey to Quantum Gravity', // unique
     '// duration': '6h11m27s',
     '// asin-0': { asin: 'B01LYC1GK9', duration: '6h11m0s' },
-    '// meta-0':
-      'Reality Is Not What It Seems / Carlo Rovelli / n: Roy McMillan',
+    '// meta-0': 'Reality Is Not What It Seems / Carlo Rovelli / n: Roy McMillan',
     '// asin-1': { asin: 'B01MRSZ413', duration: '6h7m0s' },
-    '// meta-1':
-      'Reality Is Not What It Seems / Carlo Rovelli,Simon Carnell - translator,Erica Segre - translator / n: Roy McMillan'
+    '// meta-1': 'Reality Is Not What It Seems / Carlo Rovelli,Simon Carnell - translator,Erica Segre - translator / n: Roy McMillan'
   },
   '/Volumes/Space/archive/media/audiobooks/Carlo Rovelli - Seven Brief Lessons on Physics': {
     author: 'Carlo Rovelli', // unique
     title: 'Seven Brief Lessons on Physics', // hint
     '// duration': '1h45m34s',
     '// asin-0': { asin: 'B01AAYSNFE', duration: '1h45m0s' },
-    '// meta-0':
-      'Seven Brief Lessons on Physics / Carlo Rovelli / n: Carlo Rovelli',
+    '// meta-0': 'Seven Brief Lessons on Physics / Carlo Rovelli / n: Carlo Rovelli',
     '// asin-1': { asin: 'B013TJF774', duration: '1h45m0s' },
-    '// meta-1':
-      'Seven Brief Lessons on Physics / Carlo Rovelli / n: Carlo Rovelli'
+    '// meta-1': 'Seven Brief Lessons on Physics / Carlo Rovelli / n: Carlo Rovelli'
   },
   '/Volumes/Space/archive/media/audiobooks/Carlo Rovelli - The Order of Time': {
     author: 'Carlo Rovelli', // unique
@@ -1060,43 +959,37 @@ export const db = {
     title: 'All the Birds in the Sky', // hint
     '// duration': '12h40m7s',
     '// asin-0': { asin: 'B01A5QB4NK', duration: '12h36m0s' },
-    '// meta-0':
-      'All the Birds in the Sky / Charlie Jane Anders / n: Alyssa Bresnahan',
+    '// meta-0': 'All the Birds in the Sky / Charlie Jane Anders / n: Alyssa Bresnahan',
     '// asin-1': { asin: '1705014534', duration: '12h36m0s' },
-    '// meta-1':
-      'All the Birds in the Sky: International Edition / Charlie Jane Anders / n: Alyssa Bresnahan'
+    '// meta-1': 'All the Birds in the Sky: International Edition / Charlie Jane Anders / n: Alyssa Bresnahan'
   },
   '/Volumes/Space/archive/media/audiobooks/Chogyam Trungpa - The Myth of Freedom and the Way of Meditation': {
     author: 'Chögyam Trungpa', // hint
     title: 'The Myth of Freedom and the Way of Meditation', // unique
     '// duration': '5h11m21s',
     '// asin-0': { asin: 'B00O4DBGMU', duration: '5h11m0s' },
-    '// meta-0':
-      'The Myth of Freedom and the Way of Meditation / Chögyam Trungpa,Marvin Casper,John Baker - editor,Pema Chödrön - foreword / n: Roger Clark'
+    '// meta-0': 'The Myth of Freedom and the Way of Meditation / Chögyam Trungpa,Marvin Casper,John Baker - editor,Pema Chödrön - foreword / n: Roger Clark'
   },
   '/Volumes/Space/archive/media/audiobooks/Chogyam Trungpa- Cutting Through Spiritual Materialism': {
     author: 'Chögyam Trungpa', // hint
     title: 'Cutting Through Spiritual Materialism', // hint
     '// duration': '8h51m3s',
     '// asin-0': { asin: 'B00YAVP7TY', duration: '8h50m0s' },
-    '// meta-0':
-      'Cutting Through Spiritual Materialism / Marvin Casper - editor,John Baker - editor,Chögyam Trungpa,Sakyong Mipham - foreword / n: Jim Gimian'
+    '// meta-0': 'Cutting Through Spiritual Materialism / Marvin Casper - editor,John Baker - editor,Chögyam Trungpa,Sakyong Mipham - foreword / n: Jim Gimian'
   },
   '/Volumes/Space/archive/media/audiobooks/ChristopherHitchens-GodIsNotGreat': {
     author: 'Christopher Hitchens', // unique
     title: 'god is not Great _ How Religion Poisons Everything', // unique
     '// duration': '8h47m0s',
     '// asin-0': { asin: 'B002V8KU2W', duration: '8h45m0s' },
-    '// meta-0':
-      'God Is Not Great / Christopher Hitchens / n: Christopher Hitchens'
+    '// meta-0': 'God Is Not Great / Christopher Hitchens / n: Christopher Hitchens'
   },
   '/Volumes/Space/archive/media/audiobooks/CixinLiu-DeathsEnd': {
     author: 'Cixin Liu', // unique
     title: "Death's End", // unique
     '// duration': '28h51m52s',
     '// asin-0': { asin: 'B01LW7OXWP', duration: '28h51m0s' },
-    '// meta-0':
-      "Death's End / Cixin Liu,Ken Liu - translator / n: P. J. Ochlan",
+    '// meta-0': "Death's End / Cixin Liu,Ken Liu - translator / n: P. J. Ochlan",
     '// asin-1': { asin: '1528848330', duration: '29h11m0s' },
     '// meta-1': "Death's End / Cixin Liu / n: Bruno Roubicek"
   },
@@ -1105,11 +998,9 @@ export const db = {
     title: 'The Dark Forest', // hint
     '// duration': '22h37m14s',
     '// asin-0': { asin: 'B010PKSKBA', duration: '22h36m0s' },
-    '// meta-0':
-      'The Dark Forest / Cixin Liu,Joel Martinsen - translator / n: P. J. Ochlan',
+    '// meta-0': 'The Dark Forest / Cixin Liu,Joel Martinsen - translator / n: P. J. Ochlan',
     '// asin-1': { asin: '8417347534', duration: '22h39m0s' },
-    '// meta-1':
-      'El bosque oscuro [The Dark Forest] / Cixin Liu / n: Francesc Belda',
+    '// meta-1': 'El bosque oscuro [The Dark Forest] / Cixin Liu / n: Francesc Belda',
     '// asin-2': { asin: 'B01LWV2PWR', duration: '23h4m0s' },
     '// meta-2': 'The Dark Forest / Cixin Liu / n: Bruno Roubicek'
   },
@@ -1120,25 +1011,21 @@ export const db = {
     '// asin-0': { asin: 'B01577B2Z2', duration: '14h37m0s' },
     '// meta-0': 'The Three-Body Problem / Cixin Liu / n: Bruno Roubicek',
     '// asin-1': { asin: '8417347526', duration: '14h37m0s' },
-    '// meta-1':
-      'El problema de los tres cuerpos [The Three-Body Problem] / Cixin Liu / n: Francesc Belda',
+    '// meta-1': 'El problema de los tres cuerpos [The Three-Body Problem] / Cixin Liu / n: Francesc Belda',
     '// asin-2': { asin: 'B00P0277C2', duration: '13h26m0s' },
     '// meta-2': 'The Three-Body Problem / Cixin Liu / n: Luke Daniels',
     '// asin-3': { asin: 'B07BWM5YXL', duration: '12h51m0s' },
     '// meta-3': 'Ball Lightning / Cixin Liu / n: Bruno Roubicek',
     '// asin-4': { asin: 'B07F9ZD3W8', duration: '12h12m0s' },
-    '// meta-4':
-      'Ball Lightning / Cixin Liu,Joel Martinsen - translator / n: Feodor Chin',
+    '// meta-4': 'Ball Lightning / Cixin Liu,Joel Martinsen - translator / n: Feodor Chin',
     '// asin-5': { asin: 'B010PKSKBA', duration: '22h36m0s' },
-    '// meta-5':
-      'The Dark Forest / Cixin Liu,Joel Martinsen - translator / n: P. J. Ochlan',
+    '// meta-5': 'The Dark Forest / Cixin Liu,Joel Martinsen - translator / n: P. J. Ochlan',
     '// asin-6': { asin: 'B01LWV2PWR', duration: '23h4m0s' },
     '// meta-6': 'The Dark Forest / Cixin Liu / n: Bruno Roubicek',
     '// asin-7': { asin: '8417347542', duration: '27h3m0s' },
     '// meta-7': 'El fin de la muerte / Cixin Liu / n: Francesc Belda',
     '// asin-8': { asin: 'B01LW7OXWP', duration: '28h51m0s' },
-    '// meta-8':
-      "Death's End / Cixin Liu,Ken Liu - translator / n: P. J. Ochlan",
+    '// meta-8': "Death's End / Cixin Liu,Ken Liu - translator / n: P. J. Ochlan",
     '// asin-9': { asin: '1528848330', duration: '29h11m0s' },
     '// meta-9': "Death's End / Cixin Liu / n: Bruno Roubicek"
   },
@@ -1203,8 +1090,7 @@ export const db = {
     title: 'Hyperion', // hint
     '// duration': '20h50m25s',
     '// asin-0': { asin: 'B002V5BLIW', duration: '20h44m0s' },
-    '// meta-0':
-      'Hyperion / Dan Simmons / n: Marc Vietor,Allyson Johnson,Kevin Pariseau,Jay Snyder,Victor Bevine',
+    '// meta-0': 'Hyperion / Dan Simmons / n: Marc Vietor,Allyson Johnson,Kevin Pariseau,Jay Snyder,Victor Bevine',
     '// asin-1': { asin: 'B076BRG27W', duration: '21h21m0s' },
     '// meta-1': 'Hypérion / Dan Simmons / n: Matthieu Dahan',
     '// asin-2': { asin: 'B002V5D34W', duration: '21h45m0s' },
@@ -1226,8 +1112,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/DanCarlin-TheEndIsAlwaysNear': {
     author: 'Dan Carlin', // unique
-    title:
-      'The End Is Always Near: Apocalyptic Moments, from the Bronze Age Collapse to Nuclear Near Misses', // unique
+    title: 'The End Is Always Near: Apocalyptic Moments, from the Bronze Age Collapse to Nuclear Near Misses', // unique
     '// duration': '7h55m28s',
     '// asin-0': { asin: '0062868071', duration: '7h55m0s' },
     '// meta-0': 'The End Is Always Near / Dan Carlin / n: Dan Carlin',
@@ -1239,16 +1124,14 @@ export const db = {
     title: 'From Bacteria to Bach and Back: The Evolution of Minds', // unique
     '// duration': '15h44m42s',
     '// asin-0': { asin: 'B01MYBBU13', duration: '15h44m0s' },
-    '// meta-0':
-      'From Bacteria to Bach and Back / Daniel C. Dennett / n: Tom Perkins'
+    '// meta-0': 'From Bacteria to Bach and Back / Daniel C. Dennett / n: Tom Perkins'
   },
   '/Volumes/Space/archive/media/audiobooks/Daniel C. Dennett - Intuition Pumps and Other Tools for Thinking': {
     author: 'Daniel C. Dennett', // unique
     title: 'Intuition Pumps and Other Tools for Thinking', // unique
     '// duration': '13h26m26s',
     '// asin-0': { asin: 'B00CLG9B5G', duration: '13h22m0s' },
-    '// meta-0':
-      'Intuition Pumps and Other Tools for Thinking / Daniel C. Dennett / n: Jeff Crawford'
+    '// meta-0': 'Intuition Pumps and Other Tools for Thinking / Daniel C. Dennett / n: Jeff Crawford'
   },
   '/Volumes/Space/archive/media/audiobooks/Daniel C. Dennett - Kinds Of Minds - Toward An Understanding Of Consciousness': {
     author: 'Daniel C. Dennett', // hint
@@ -1292,14 +1175,11 @@ export const db = {
     title: 'Thousand Autumns of Jacob de Zoet, The', // unique
     '// duration': '18h56m0s',
     '// asin-0': { asin: 'B003SPZOZA', duration: '18h53m0s' },
-    '// meta-0':
-      'The Thousand Autumns of Jacob de Zoet / David Mitchell / n: Jonathan Aris,Paula Wilcox',
+    '// meta-0': 'The Thousand Autumns of Jacob de Zoet / David Mitchell / n: Jonathan Aris,Paula Wilcox',
     '// asin-1': { asin: '1529340659', duration: '22h39m0s' },
-    '// meta-1':
-      'The Thousand Autumns of Jacob de Zoet / David Mitchell / n: Jemma Redgrave,Andrew Wincott',
+    '// meta-1': 'The Thousand Autumns of Jacob de Zoet / David Mitchell / n: Jemma Redgrave,Andrew Wincott',
     '// asin-2': { asin: 'B003LRGTQ8', duration: '6h58m0s' },
-    '// meta-2':
-      'The Thousand Autumns of Jacob de Zoet / David Mitchell / n: Tim Pigott-Smith,Paula Wilcox'
+    '// meta-2': 'The Thousand Autumns of Jacob de Zoet / David Mitchell / n: Tim Pigott-Smith,Paula Wilcox'
   },
   '/Volumes/Space/archive/media/audiobooks/DavidESanger-TheInheritance': {
     author: 'David Sanger', // hint
@@ -1310,12 +1190,10 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/DavidThomas-ThePragmaticProgrammer': {
     author: 'David Thomas, Andrew Hunt', // unique
-    title:
-      'The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition: Your Journey to Mastery', // unique
+    title: 'The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition: Your Journey to Mastery', // unique
     '// duration': '9h55m40s',
     '// asin-0': { asin: 'B0833FMYH9', duration: '9h55m0s' },
-    '// meta-0':
-      'The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition / David Thomas,Andrew Hunt / n: Anna Katarina'
+    '// meta-0': 'The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition / David Thomas,Andrew Hunt / n: Anna Katarina'
   },
   '/Volumes/Space/archive/media/audiobooks/Doris Lessing - Shikasta': {
     author: 'Doris Lessing', // hint
@@ -1328,8 +1206,7 @@ export const db = {
     title: 'Team Of Rivals', // unique
     '// duration': '9h29m22s',
     '// asin-0': { asin: 'B002V8MOTE', duration: '9h28m0s' },
-    '// meta-0':
-      'Team of Rivals / Doris Kearns Goodwin / n: Doris Kearns Goodwin (introduction),Richard Thomas',
+    '// meta-0': 'Team of Rivals / Doris Kearns Goodwin / n: Doris Kearns Goodwin (introduction),Richard Thomas',
     '// asin-1': { asin: '0241994217', duration: '41h30m0s' },
     '// meta-1': 'Team of Rivals / Doris Kearns Goodwin / n: Suzanne Toren',
     '// asin-2': { asin: 'B00518NLX4', duration: '41h32m0s' },
@@ -1343,62 +1220,47 @@ export const db = {
     title: "The Hitchhiker's Guide to the Galaxy", // hint
     '// duration': '5h51m32s',
     '// asin-0': { asin: 'B002VA9SWS', duration: '5h51m0s' },
-    '// meta-0':
-      "The Hitchhiker's Guide to the Galaxy / Douglas Adams / n: Stephen Fry",
+    '// meta-0': "The Hitchhiker's Guide to the Galaxy / Douglas Adams / n: Stephen Fry",
     '// asin-1': { asin: 'B0093PY9KK', duration: '5h51m0s' },
-    '// meta-1':
-      "Hitchhiker's Guide to the Galaxy / Douglas Adams / n: Stephen Fry",
+    '// meta-1': "Hitchhiker's Guide to the Galaxy / Douglas Adams / n: Stephen Fry",
     '// asin-2': { asin: 'B002V02SHK', duration: '5h48m0s' },
-    '// meta-2':
-      'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
+    '// meta-2': 'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
     '// asin-3': { asin: 'B002V5D5ZE', duration: '5h47m0s' },
-    '// meta-3':
-      'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman',
+    '// meta-3': 'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman',
     '// asin-4': { asin: 'B00AAZDJG2', duration: '5h47m0s' },
-    '// meta-4':
-      'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman',
+    '// meta-4': 'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman',
     '// asin-5': { asin: 'B00AAZE0LA', duration: '5h44m0s' },
-    '// meta-5':
-      'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
+    '// meta-5': 'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
     '// asin-6': { asin: 'B00AN7O78Q', duration: '6h32m0s' },
     '// meta-6': 'Mostly Harmless / Douglas Adams / n: Martin Freeman',
     '// asin-7': { asin: 'B002V5IWMU', duration: '3h56m0s' },
-    '// meta-7':
-      "The Hitchhiker's Guide to the Galaxy: The Primary Phase (Dramatized) / Douglas Adams / n: Peter Jones,Simon Jones,Geoffrey McGivern,Mark Wing-Davey,Susan Sheridan,Stephen Moore,full cast",
+    '// meta-7': "The Hitchhiker's Guide to the Galaxy: The Primary Phase (Dramatized) / Douglas Adams / n: Peter Jones,Simon Jones,Geoffrey McGivern,Mark Wing-Davey,Susan Sheridan,Stephen Moore,full cast",
     '// asin-8': { asin: 'B002V0KBTW', duration: '3h50m0s' },
-    '// meta-8':
-      "The Hitchhiker's Guide to the Galaxy: The Secondary Phase (Dramatized) / Douglas Adams / n: Peter Jones,Simon Jones,Geoffrey McGivern,Mark Wing-Davey,Susan Sheridan,Stephen Moore",
+    '// meta-8': "The Hitchhiker's Guide to the Galaxy: The Secondary Phase (Dramatized) / Douglas Adams / n: Peter Jones,Simon Jones,Geoffrey McGivern,Mark Wing-Davey,Susan Sheridan,Stephen Moore",
     '// asin-9': { asin: 'B002V8MJWQ', duration: '2h25m0s' },
-    '// meta-9':
-      "The Hitchhiker's Guide to the Galaxy, The Quintessential Phase (Dramatized) / Douglas Adams / n: Simon Jones,Geoffrey McGivern,Full Cast"
+    '// meta-9': "The Hitchhiker's Guide to the Galaxy, The Quintessential Phase (Dramatized) / Douglas Adams / n: Simon Jones,Geoffrey McGivern,Full Cast"
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 02 - The Restaurant at the End of the Universe": {
     author: 'Douglas Adams', // unique
     title: 'The Restaurant at the End of the Universe', // hint
     '// duration': '5h47m14s',
     '// asin-0': { asin: 'B002V5D5ZE', duration: '5h47m0s' },
-    '// meta-0':
-      'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman',
+    '// meta-0': 'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman',
     '// asin-1': { asin: 'B00AAZDJG2', duration: '5h47m0s' },
-    '// meta-1':
-      'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman',
+    '// meta-1': 'The Restaurant at the End of the Universe / Douglas Adams / n: Martin Freeman',
     '// asin-2': { asin: 'B09YFBXDBZ', duration: '6h28m0s' },
-    '// meta-2':
-      'O restaurante no fim do universo [The Restaurant at the End of the Universe] / Douglas Adams / n: Adriano Pellegrini'
+    '// meta-2': 'O restaurante no fim do universo [The Restaurant at the End of the Universe] / Douglas Adams / n: Adriano Pellegrini'
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 03 - Life, the Universe, and Everything": {
     author: 'Douglas Adams', // unique
     title: 'Life, the Universe, and Everything', // hint
     '// duration': '5h48m49s',
     '// asin-0': { asin: 'B002V02SHK', duration: '5h48m0s' },
-    '// meta-0':
-      'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
+    '// meta-0': 'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
     '// asin-1': { asin: 'B00AAZE0LA', duration: '5h44m0s' },
-    '// meta-1':
-      'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
+    '// meta-1': 'Life, the Universe, and Everything / Douglas Adams / n: Martin Freeman',
     '// asin-2': { asin: 'B0B57QCMZL', duration: '6h24m0s' },
-    '// meta-2':
-      'A vida, o universo e tudo mais [Life, the Universe and Everything] / Douglas Adams / n: Adriano Pellegrini'
+    '// meta-2': 'A vida, o universo e tudo mais [Life, the Universe and Everything] / Douglas Adams / n: Adriano Pellegrini'
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 04 - Mostly Harmless": {
     author: 'Douglas Adams', // unique
@@ -1414,22 +1276,18 @@ export const db = {
     title: 'So Long, and Thanks for All the Fish', // hint
     '// duration': '4h39m14s',
     '// asin-0': { asin: 'B00AAZEQK0', duration: '4h39m0s' },
-    '// meta-0':
-      'So Long and Thanks for All the Fish / Douglas Adams / n: Martin Freeman',
+    '// meta-0': 'So Long and Thanks for All the Fish / Douglas Adams / n: Martin Freeman',
     '// asin-1': { asin: 'B002V1AGC8', duration: '4h39m0s' },
-    '// meta-1':
-      'So Long, and Thanks for All the Fish / Douglas Adams / n: Martin Freeman',
+    '// meta-1': 'So Long, and Thanks for All the Fish / Douglas Adams / n: Martin Freeman',
     '// asin-2': { asin: 'B0BBPJCZN8', duration: '5h14m0s' },
-    '// meta-2':
-      'Até mais, e obrigado pelos peixes! [So Long, and Thanks for All the Fish] / Douglas Adams / n: Adriano Pellegrini'
+    '// meta-2': 'Até mais, e obrigado pelos peixes! [So Long, and Thanks for All the Fish] / Douglas Adams / n: Adriano Pellegrini'
   },
   '/Volumes/Space/archive/media/audiobooks/Edward Chancellor - Devil Take the Hindmost': {
     author: 'Edward Chancellor', // unique
     title: 'Devil Take the Hindmost', // unique
     '// duration': '13h30m0s',
     '// asin-0': { asin: '197733105X', duration: '13h29m0s' },
-    '// meta-0':
-      'Devil Take the Hindmost / Edward Chancellor / n: Nigel Patterson'
+    '// meta-0': 'Devil Take the Hindmost / Edward Chancellor / n: Nigel Patterson'
   },
   '/Volumes/Space/archive/media/audiobooks/Edward Snowden - Permanent Record': {
     author: 'Edward Snowden', // unique
@@ -1442,49 +1300,39 @@ export const db = {
     '// asin-2': { asin: '3732417700', duration: '13h12m0s' },
     '// meta-2': 'Permanent Record (German edition) / Edward Snowden / n: N.N.',
     '// asin-3': { asin: '1250778646', duration: '5h55m0s' },
-    '// meta-3':
-      'Permanent Record (Young Readers Edition) / Edward Snowden / n: Vikas Adam'
+    '// meta-3': 'Permanent Record (Young Readers Edition) / Edward Snowden / n: Vikas Adam'
   },
   '/Volumes/Space/archive/media/audiobooks/Elliot Ackerman - 2034 -  A Novel of the Next World War': {
     author: 'Elliot Ackerman', // unique
     title: '2034 - A Novel of the Next World War', // unique
     '// duration': '10h49m45s',
     '// asin-0': { asin: '0593394747', duration: '10h49m0s' },
-    '// meta-0':
-      '2034 / Elliot Ackerman,Admiral James Stavridis / n: Emily Woo Zeller,P.J. Ochlan,Vikas Adam,Dion Graham,Feodor Chin'
+    '// meta-0': '2034 / Elliot Ackerman,Admiral James Stavridis / n: Emily Woo Zeller,P.J. Ochlan,Vikas Adam,Dion Graham,Feodor Chin'
   },
   '/Volumes/Space/archive/media/audiobooks/Ernest Hemingway - The Old Man And The Sea': {
     author: 'Ernest Hemingway', // unique
     title: 'The Old Man and the Sea', // unique
     '// duration': '2h28m38s',
     '// asin-0': { asin: 'B002V8KXHO', duration: '2h28m0s' },
-    '// meta-0':
-      'The Old Man and the Sea / Ernest Hemingway / n: Donald Sutherland',
+    '// meta-0': 'The Old Man and the Sea / Ernest Hemingway / n: Donald Sutherland',
     '// asin-1': { asin: 'B07B5J4W5S', duration: '2h40m0s' },
-    '// meta-1':
-      'Den gamle mannen og havet [The Old Man and the Sea] / Ernest Hemingway / n: Anderz Eide',
+    '// meta-1': 'Den gamle mannen og havet [The Old Man and the Sea] / Ernest Hemingway / n: Anderz Eide',
     '// asin-2': { asin: 'B078879S4G', duration: '2h43m0s' },
-    '// meta-2':
-      'El viejo y el mar [The Old Man and the Sea] / Ernest Hemingway / n: Pablo Lopez',
+    '// meta-2': 'El viejo y el mar [The Old Man and the Sea] / Ernest Hemingway / n: Pablo Lopez',
     '// asin-3': { asin: 'B01LXIJA41', duration: '2h48m0s' },
-    '// meta-3':
-      'Den gamle och havet [The Old Man and the Sea] / Ernest Hemingway / n: Martin Halland',
+    '// meta-3': 'Den gamle och havet [The Old Man and the Sea] / Ernest Hemingway / n: Martin Halland',
     '// asin-4': { asin: '1662180403', duration: '2h50m0s' },
     '// meta-4': 'The Old Man and the Sea / Ernest Hemingway / n: John Roberts',
     '// asin-5': { asin: '1662184387', duration: '2h54m0s' },
     '// meta-5': 'The Old Man and the Sea / Ernest Hemingway / n: Rob Rathburn',
     '// asin-6': { asin: 'B076DJK8G1', duration: '2h59m0s' },
-    '// meta-6':
-      '老人与海 - 老人與海 [The Old Man and the Sea] / Ernest Miller Hemingway / n: 孙国琦 - 孫國琦 - Sun Guoqi',
+    '// meta-6': '老人与海 - 老人與海 [The Old Man and the Sea] / Ernest Miller Hemingway / n: 孙国琦 - 孫國琦 - Sun Guoqi',
     '// asin-7': { asin: 'B003ALN2II', duration: '3h1m0s' },
-    '// meta-7':
-      'Den gamle mand og havet [The Old Man and the Sea] / Ernest Hemingway / n: Dan Schlosser',
+    '// meta-7': 'Den gamle mand og havet [The Old Man and the Sea] / Ernest Hemingway / n: Dan Schlosser',
     '// asin-8': { asin: 'B09RGLVPS8', duration: '12h38m0s' },
-    '// meta-8':
-      'The Ernest Hemingway Collection (15+) / Ernest Hemingway / n: Peter Coates,Mark Bowen',
+    '// meta-8': 'The Ernest Hemingway Collection (15+) / Ernest Hemingway / n: Peter Coates,Mark Bowen',
     '// asin-9': { asin: 'B09KNTX1ZT', duration: '68h23m0s' },
-    '// meta-9':
-      '15+ Masterpieces You Have to Read Before You Die / John Steinbeck,Ernest Hemingway,C.S. Lewis,George Orwell,F. Scott Fitzgerald,Osamu Dazai,Aldous Huxley / n: Peter Coates,Mark Bowen,Angela S. Clark,Joe Phoenix,Carl Hughes,Simon Jackson'
+    '// meta-9': '15+ Masterpieces You Have to Read Before You Die / John Steinbeck,Ernest Hemingway,C.S. Lewis,George Orwell,F. Scott Fitzgerald,Osamu Dazai,Aldous Huxley / n: Peter Coates,Mark Bowen,Angela S. Clark,Joe Phoenix,Carl Hughes,Simon Jackson'
   },
   '/Volumes/Space/archive/media/audiobooks/FareedZakaria-PostAmericanWorld': {
     author: 'Fareed Zakaria', // unique
@@ -1493,8 +1341,7 @@ export const db = {
     '// asin-0': { asin: 'B002UZMLD2', duration: '8h28m0s' },
     '// meta-0': 'The Post-American World / Fareed Zakaria / n: Fareed Zakaria',
     '// asin-1': { asin: 'B0051VVXMM', duration: '9h29m0s' },
-    '// meta-1':
-      'The Post-American World 2.0 / Fareed Zakaria / n: Fareed Zakaria'
+    '// meta-1': 'The Post-American World 2.0 / Fareed Zakaria / n: Fareed Zakaria'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection': {
     '// No audio files': null
@@ -1507,54 +1354,43 @@ export const db = {
     title: 'Dune', // unique
     '// duration': '21h2m7s',
     '// asin-0': { asin: 'B002V1OF70', duration: '21h2m0s' },
-    '// meta-0':
-      'Dune / Frank Herbert / n: Scott Brick,Orlagh Cassidy,Euan Morton,Simon Vance,Ilyana Kadushin,Byron Jennings,David R. Gordon,Jason Culp,Kent Broadhurst,Oliver Wyman,Patricia Kilgarriff,Scott Sowers',
+    '// meta-0': 'Dune / Frank Herbert / n: Scott Brick,Orlagh Cassidy,Euan Morton,Simon Vance,Ilyana Kadushin,Byron Jennings,David R. Gordon,Jason Culp,Kent Broadhurst,Oliver Wyman,Patricia Kilgarriff,Scott Sowers',
     '// asin-1': { asin: 'B09X25R55P', duration: '20h21m0s' },
-    '// meta-1':
-      'Hijos de Dune [Children of Dune] / Frank Herbert,Pedro Domingo Mutiño / n: Daniel García',
+    '// meta-1': 'Hijos de Dune [Children of Dune] / Frank Herbert,Pedro Domingo Mutiño / n: Daniel García',
     '// asin-2': { asin: 'B002V1CA2M', duration: '18h4m0s' },
-    '// meta-2':
-      'Heretics of Dune / Frank Herbert / n: Simon Vance,Scott Brick',
+    '// meta-2': 'Heretics of Dune / Frank Herbert / n: Simon Vance,Scott Brick',
     '// asin-3': { asin: 'B07Q376J4K', duration: '18h0m0s' },
     '// meta-3': 'Dune 1.1 / Frank Herbert / n: Benjamin Jungers',
     '// asin-4': { asin: 'B002V57VRC', duration: '16h51m0s' },
-    '// meta-4':
-      'Children of Dune / Frank Herbert / n: Scott Brick,Simon Vance',
+    '// meta-4': 'Children of Dune / Frank Herbert / n: Scott Brick,Simon Vance',
     '// asin-5': { asin: 'B002V0K6D8', duration: '16h42m0s' },
-    '// meta-5':
-      'Chapterhouse Dune / Frank Herbert / n: Euan Morton,Katherine Kellgren,Scott Brick,Simon Vance',
+    '// meta-5': 'Chapterhouse Dune / Frank Herbert / n: Euan Morton,Katherine Kellgren,Scott Brick,Simon Vance',
     '// asin-6': { asin: '8417347798', duration: '25h40m0s' },
     '// meta-6': 'Dune (Spanish Edition) / Frank Herbert / n: Daniel García',
     '// asin-7': { asin: 'B002V5D08G', duration: '15h48m0s' },
     '// meta-7': 'God Emperor of Dune / Frank Herbert / n: Simon Vance',
     '// asin-8': { asin: 'B002V8DH3Q', duration: '14h40m0s' },
-    '// meta-8':
-      'The Road to Dune / Frank Herbert,Brian Herbert,Kevin J. Anderson / n: Scott Brick',
+    '// meta-8': 'The Road to Dune / Frank Herbert,Brian Herbert,Kevin J. Anderson / n: Scott Brick',
     '// asin-9': { asin: 'B002V8H660', duration: '8h57m0s' },
-    '// meta-9':
-      'Dune Messiah / Frank Herbert / n: Scott Brick,Katherine Kellgren,Euan Morton,Simon Vance'
+    '// meta-9': 'Dune Messiah / Frank Herbert / n: Scott Brick,Katherine Kellgren,Euan Morton,Simon Vance'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/02. Dune Messiah': {
     author: 'Frank Herbert', // hint
     title: 'Dune Messiah', // unique
     '// duration': '8h57m40s',
     '// asin-0': { asin: 'B002V8H660', duration: '8h57m0s' },
-    '// meta-0':
-      'Dune Messiah / Frank Herbert / n: Scott Brick,Katherine Kellgren,Euan Morton,Simon Vance',
+    '// meta-0': 'Dune Messiah / Frank Herbert / n: Scott Brick,Katherine Kellgren,Euan Morton,Simon Vance',
     '// asin-1': { asin: 'B09NRVWVZ1', duration: '10h27m0s' },
-    '// meta-1':
-      'El mesías de Dune [Dune Messiah] / Frank Herbert / n: Daniel García'
+    '// meta-1': 'El mesías de Dune [Dune Messiah] / Frank Herbert / n: Daniel García'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/03. Children of Dune': {
     author: 'Frank Herbert', // hint
     title: 'Children of Dune', // unique
     '// duration': '16h51m17s',
     '// asin-0': { asin: 'B002V57VRC', duration: '16h51m0s' },
-    '// meta-0':
-      'Children of Dune / Frank Herbert / n: Scott Brick,Simon Vance',
+    '// meta-0': 'Children of Dune / Frank Herbert / n: Scott Brick,Simon Vance',
     '// asin-1': { asin: 'B09X25R55P', duration: '20h21m0s' },
-    '// meta-1':
-      'Hijos de Dune [Children of Dune] / Frank Herbert,Pedro Domingo Mutiño / n: Daniel García'
+    '// meta-1': 'Hijos de Dune [Children of Dune] / Frank Herbert,Pedro Domingo Mutiño / n: Daniel García'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/04. God Emperor of Dune': {
     author: 'Frank Herbert', // hint
@@ -1575,30 +1411,25 @@ export const db = {
     title: 'Chapterhouse: Dune', // unique
     '// duration': '16h42m22s',
     '// asin-0': { asin: 'B002V0K6D8', duration: '16h42m0s' },
-    '// meta-0':
-      'Chapterhouse Dune / Frank Herbert / n: Euan Morton,Katherine Kellgren,Scott Brick,Simon Vance'
+    '// meta-0': 'Chapterhouse Dune / Frank Herbert / n: Euan Morton,Katherine Kellgren,Scott Brick,Simon Vance'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/07. Hunters of Dune': {
     author: 'Brian Herbert', // hint
     title: 'Hunters of Dune', // unique
     '// duration': '20h22m5s',
     '// asin-0': { asin: 'B002V01074', duration: '20h22m0s' },
-    '// meta-0':
-      'Hunters of Dune / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
+    '// meta-0': 'Hunters of Dune / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
     '// asin-1': { asin: 'B09PVM8H93', duration: '20h15m0s' },
-    '// meta-1':
-      'Dune: Hunters of Dune / Kevin J Anderson,Brian Herbert / n: Scott Brick'
+    '// meta-1': 'Dune: Hunters of Dune / Kevin J Anderson,Brian Herbert / n: Scott Brick'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/08. Sandworms of Dune': {
     author: 'Brian Herbert', // hint
     title: 'Sandworms of Dune', // unique
     '// duration': '19h35m35s',
     '// asin-0': { asin: 'B002V1LUQE', duration: '19h38m0s' },
-    '// meta-0':
-      'Sandworms of Dune / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
+    '// meta-0': 'Sandworms of Dune / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
     '// asin-1': { asin: 'B09MZJX5F2', duration: '19h31m0s' },
-    '// meta-1':
-      'Sandworms of Dune / Kevin J Anderson,Brian Herbert / n: Scott Brick'
+    '// meta-1': 'Sandworms of Dune / Kevin J Anderson,Brian Herbert / n: Scott Brick'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/02 - Prelude to Dune': {
     '// No audio files': null
@@ -1608,33 +1439,27 @@ export const db = {
     title: 'House Atreides', // hint
     '// duration': '25h32m55s',
     '// asin-0': { asin: 'B002V0Q8M6', duration: '26h26m0s' },
-    '// meta-0':
-      'Dune: House Atreides: House Trilogy, Book 1 / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
+    '// meta-0': 'Dune: House Atreides: House Trilogy, Book 1 / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
     '// asin-1': { asin: '1004027907', duration: '26h26m0s' },
-    '// meta-1':
-      'Dune: House Atreides / Brian Herbert,Kevin J. Anderson / n: Scott Brick'
+    '// meta-1': 'Dune: House Atreides / Brian Herbert,Kevin J. Anderson / n: Scott Brick'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/02 - Prelude to Dune/02. House Harkonnen': {
     author: 'Brian Herbert', // hint
     title: 'House Harkonnen', // hint
     '// duration': '25h49m52s',
     '// asin-0': { asin: 'B0032YWKVS', duration: '26h32m0s' },
-    '// meta-0':
-      'House Harkonnen: House Trilogy, Book 2 / Kevin J. Anderson,Brian Herbert / n: Scott Brick',
+    '// meta-0': 'House Harkonnen: House Trilogy, Book 2 / Kevin J. Anderson,Brian Herbert / n: Scott Brick',
     '// asin-1': { asin: '1004027915', duration: '26h32m0s' },
-    '// meta-1':
-      'Dune: House Harkonnen / Brian Herbert,Kevin J. Anderson / n: Scott Brick'
+    '// meta-1': 'Dune: House Harkonnen / Brian Herbert,Kevin J. Anderson / n: Scott Brick'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/02 - Prelude to Dune/03. House Corrino': {
     author: 'Brian Herbert', // hint
     title: 'House Corrino', // hint
     '// duration': '22h44m37s',
     '// asin-0': { asin: 'B003ABUSI0', duration: '24h9m0s' },
-    '// meta-0':
-      'Dune: House Corrino / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
+    '// meta-0': 'Dune: House Corrino / Brian Herbert,Kevin J. Anderson / n: Scott Brick',
     '// asin-1': { asin: '1004027982', duration: '24h9m0s' },
-    '// meta-1':
-      'Dune: House Corrino / Brian Herbert,Kevin J. Anderson / n: Scott Brick'
+    '// meta-1': 'Dune: House Corrino / Brian Herbert,Kevin J. Anderson / n: Scott Brick'
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Wilczek - A Beautiful Question': {
     author: 'Frank Wilczek', // unique
@@ -1648,25 +1473,20 @@ export const db = {
     title: 'Love in the Time of Cholera', // hint
     '// duration': '15h41m1s',
     '// asin-0': { asin: 'B00EFB9FQK', duration: '15h41m0s' },
-    '// meta-0':
-      'Love in the Time of Cholera / Gabriel García Márquez / n: Armando Durán',
+    '// meta-0': 'Love in the Time of Cholera / Gabriel García Márquez / n: Armando Durán',
     '// asin-1': { asin: 'B00SX7KDRC', duration: '15h29m0s' },
-    '// meta-1':
-      'El Amor en los Tiempos del Cólera [Love in the Time of Cholera] / Gabriel García Márquez / n: Hector Almenara',
+    '// meta-1': 'El Amor en los Tiempos del Cólera [Love in the Time of Cholera] / Gabriel García Márquez / n: Hector Almenara',
     '// asin-2': { asin: '8439737912', duration: '14h50m0s' },
-    '// meta-2':
-      'El amor en los tiempos del cólera [Love in the Time of Cholera] / Gabriel García Márquez / n: Diego Trujillo'
+    '// meta-2': 'El amor en los tiempos del cólera [Love in the Time of Cholera] / Gabriel García Márquez / n: Diego Trujillo'
   },
   '/Volumes/Space/archive/media/audiobooks/Gabriel Garcia Marquez - One Hundred Years of Solitude': {
     author: 'Gabriel García Márquez', // hint
     title: 'One Hundred Years of Solitude', // hint
     '// duration': '14h4m18s',
     '// asin-0': { asin: 'B00EF8DG68', duration: '14h4m0s' },
-    '// meta-0':
-      'One Hundred Years of Solitude / Gabriel García Márquez,Gregory Rabassa - translator / n: John Lee',
+    '// meta-0': 'One Hundred Years of Solitude / Gabriel García Márquez,Gregory Rabassa - translator / n: John Lee',
     '// asin-1': { asin: '8439735995', duration: '13h17m0s' },
-    '// meta-1':
-      'Cien años de soledad [One Hundred Years of Solitude] / Gabriel García Márquez / n: Juan Pablo Raba'
+    '// meta-1': 'Cien años de soledad [One Hundred Years of Solitude] / Gabriel García Márquez / n: Juan Pablo Raba'
   },
   '/Volumes/Space/archive/media/audiobooks/GaryTaubes-WhyWeGetFat': {
     author: 'Gary Taubes', // unique
@@ -1675,8 +1495,7 @@ export const db = {
     '// asin-0': { asin: 'B004D5K512', duration: '7h58m0s' },
     '// meta-0': 'Why We Get Fat / Gary Taubes / n: Mike Chamberlain',
     '// asin-1': { asin: 'B07PZXZQBN', duration: '4h19m0s' },
-    '// meta-1':
-      'Paleo Diet for Beginners for Weight Loss: Why We Get Fat and How the Paleo Will Help You Lose Weight Fast, and Why You Need to Start Doing It Now / Lady Pannana,Gary Durant,John Taubes / n: Abby Hergert'
+    '// meta-1': 'Paleo Diet for Beginners for Weight Loss: Why We Get Fat and How the Paleo Will Help You Lose Weight Fast, and Why You Need to Start Doing It Now / Lady Pannana,Gary Durant,John Taubes / n: Abby Hergert'
   },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series': {
     '// No audio files': null
@@ -1738,6 +1557,135 @@ export const db = {
     '// asin-4': { asin: '1473233097', duration: '10h52m0s' },
     '// meta-4': 'The Sword of the Lictor / Gene Wolfe / n: James Lailey'
   },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers': {
+    '// No audio files': null
+  },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 01 - Flashman': {
+    author: 'George MacDonald Fraser', // unique
+    title: 'Flashman', // unique
+    '// duration': '9h58m15s',
+    '// asin-0': { asin: 'B009R6RBEG', duration: '9h54m0s' },
+    '// meta-0': 'Royal Flash / George MacDonald Fraser / n: David Case',
+    '// asin-1': { asin: 'B00A27W39W', duration: '9h29m0s' },
+    '// meta-1': 'Flashman / George MacDonald Fraser / n: David Case',
+    '// asin-2': { asin: 'B00VVVL9IE', duration: '10h43m0s' },
+    '// meta-2': 'Flashman at the Charge / George MacDonald Fraser / n: Colin Mace',
+    '// asin-3': { asin: 'B00A28TDYO', duration: '10h54m0s' },
+    '// meta-3': 'Flashman at the Charge / George MacDonald Fraser / n: David Case',
+    '// asin-4': { asin: 'B00UKG2W0A', duration: '12h2m0s' },
+    '// meta-4': "Flashman's Lady / George MacDonald Fraser / n: Colin Mace",
+    '// asin-5': { asin: 'B002V5J6K2', duration: '12h10m0s' },
+    '// meta-5': 'Flashman and the Tiger / George MacDonald Fraser / n: David Case',
+    '// asin-6': { asin: 'B009R7FEUS', duration: '12h22m0s' },
+    '// meta-6': 'Flashman and the Dragon / George MacDonald Fraser / n: David Case',
+    '// asin-7': { asin: 'B0031TLXDK', duration: '13h18m0s' },
+    '// meta-7': 'Flashman and the Mountain of Light / George MacDonald Fraser / n: David Case',
+    '// asin-8': { asin: 'B0031TQO0C', duration: '13h39m0s' },
+    '// meta-8': 'Flashman and the Angel of the Lord / George MacDonald Fraser / n: David Case',
+    '// asin-9': { asin: 'B00A28TJOI', duration: '17h22m0s' },
+    '// meta-9': 'Flashman and the Redskins / George MacDonald Fraser / n: David Case'
+  },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 02 - Royal Flash': {
+    author: 'George MacDonald Fraser', // unique
+    title: 'Royal Flash', // unique
+    '// duration': '9h17m54s',
+    '// asin-0': { asin: 'B00TJ1NE7C', duration: '9h33m0s' },
+    '// meta-0': 'Royal Flash / George MacDonald Fraser / n: Colin Mace',
+    '// asin-1': { asin: 'B009R6RBEG', duration: '9h54m0s' },
+    '// meta-1': 'Royal Flash / George MacDonald Fraser / n: David Case',
+    '// asin-2': { asin: 'B009F1E8R6', duration: '5h36m0s' },
+    '// meta-2': 'Royal Flash / George MacDonald Fraser,Kati Nicholl (abridgement) / n: Rupert Penry-Jones'
+  },
+  "/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 03 - Flashman's Lady": {
+    author: 'George MacDonald Fraser', // unique
+    title: "Flashman's Lady", // unique
+    '// duration': '11h47m49s',
+    '// asin-0': { asin: 'B00UKG2W0A', duration: '12h2m0s' },
+    '// meta-0': "Flashman's Lady / George MacDonald Fraser / n: Colin Mace"
+  },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 04 - Flashman and the Mountain of Light': {
+    author: 'George MacDonald Fraser', // unique
+    title: 'Flashman and the Mountain of Light', // unique
+    '// duration': '11h13m17s',
+    '// asin-0': { asin: 'B00UKCYKOU', duration: '11h31m0s' },
+    '// meta-0': 'Flashman and the Mountain of Light / George MacDonald Fraser / n: Colin Mace',
+    '// asin-1': { asin: 'B0031TLXDK', duration: '13h18m0s' },
+    '// meta-1': 'Flashman and the Mountain of Light / George MacDonald Fraser / n: David Case'
+  },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 05 - Flash for Freedom': {
+    author: 'George MacDonald Fraser', // unique
+    title: 'Flash for Freedom', // unique
+    '// duration': '9h53m37s',
+    '// asin-0': { asin: 'B00VUS2G7Q', duration: '10h8m0s' },
+    '// meta-0': 'Flash for Freedom! / George MacDonald Fraser / n: Colin Mace',
+    '// asin-1': { asin: 'B00A28T0K6', duration: '11h28m0s' },
+    '// meta-1': 'Flash for Freedom / George MacDonald Fraser / n: David Case',
+    '// asin-2': { asin: 'B0099VHHFM', duration: '5h50m0s' },
+    '// meta-2': 'Flash for Freedom! / George MacDonald Fraser / n: Rupert Penry-Jones'
+  },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 06 - Flashman and the Redskins': {
+    author: 'George MacDonald Fraser', // unique
+    title: 'Flashman and the Redskins', // unique
+    '// duration': '14h21m35s',
+    '// asin-0': { asin: 'B00VUS2310', duration: '15h11m0s' },
+    '// meta-0': 'Flashman and the Redskins / George MacDonald Fraser / n: Colin Mace',
+    '// asin-1': { asin: 'B00A28TJOI', duration: '17h22m0s' },
+    '// meta-1': 'Flashman and the Redskins / George MacDonald Fraser / n: David Case'
+  },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 07 - Flashman at the Charge': {
+    author: 'George MacDonald Fraser', // unique
+    title: 'Flashman at the Charge', // unique
+    '// duration': '10h28m1s',
+    '// asin-0': { asin: 'B00VVVL9IE', duration: '10h43m0s' },
+    '// meta-0': 'Flashman at the Charge / George MacDonald Fraser / n: Colin Mace',
+    '// asin-1': { asin: 'B00A28TDYO', duration: '10h54m0s' },
+    '// meta-1': 'Flashman at the Charge / George MacDonald Fraser / n: David Case'
+  },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 08 - Flashman in the Great Game': {
+    author: 'George MacDonald Fraser', // unique
+    title: 'Flashman in the Great Game', // unique
+    '// duration': '12h20m3s',
+    '// asin-0': { asin: 'B00VVVMX4I', duration: '12h20m0s' },
+    '// meta-0': 'Flashman in the Great Game / George MacDonald Fraser / n: Colin Mace'
+  },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 09 - Flashman and the Angel of the Lord': {
+    author: 'George MacDonald Fraser', // unique
+    title: 'Flashman and the Angel of the Lord', // unique
+    '// duration': '12h33m47s',
+    '// asin-0': { asin: 'B00VVVGXTY', duration: '12h48m0s' },
+    '// meta-0': 'Flashman and the Angel of the Lord / George MacDonald Fraser / n: Colin Mace',
+    '// asin-1': { asin: 'B0031TQO0C', duration: '13h39m0s' },
+    '// meta-1': 'Flashman and the Angel of the Lord / George MacDonald Fraser / n: David Case'
+  },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 10 - Flashman and the Dragon': {
+    author: 'George MacDonald Fraser', // unique
+    title: 'Flashman and the Dragon', // unique
+    '// duration': '11h3m33s',
+    '// asin-0': { asin: 'B00VVVHT74', duration: '11h18m0s' },
+    '// meta-0': 'Flashman and the Dragon / George MacDonald Fraser / n: Colin Mace',
+    '// asin-1': { asin: 'B009R7FEUS', duration: '12h22m0s' },
+    '// meta-1': 'Flashman and the Dragon / George MacDonald Fraser / n: David Case',
+    '// asin-2': { asin: 'B0099TY0X6', duration: '5h59m0s' },
+    '// meta-2': 'Flashman and the Dragon / George MacDonald Fraser,Kati Nicholl (abridged by) / n: Toby Stephens'
+  },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 11 - Flashman on the March': {
+    author: 'George MacDonald Fraser', // unique
+    title: 'Flashman on the March', // unique
+    '// duration': '10h25m27s',
+    '// asin-0': { asin: 'B00VW3ED70', duration: '10h40m0s' },
+    '// meta-0': 'Flashman on the March / George MacDonald Fraser / n: Colin Mace',
+    '// asin-1': { asin: 'B0036GROK4', duration: '5h58m0s' },
+    '// meta-1': 'Flashman on the March / George MacDonald Fraser / n: Toby Stephens'
+  },
+  '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 12 - Flashman and the Tiger': {
+    author: 'George MacDonald Fraser', // unique
+    title: 'Flashman and the Tiger', // unique
+    '// duration': '11h25m36s',
+    '// asin-0': { asin: 'B00VVVKVJW', duration: '11h25m0s' },
+    '// meta-0': 'Flashman and the Tiger / George MacDonald Fraser / n: Colin Mace',
+    '// asin-1': { asin: 'B002V5J6K2', duration: '12h10m0s' },
+    '// meta-1': 'Flashman and the Tiger / George MacDonald Fraser / n: David Case'
+  },
   '/Volumes/Space/archive/media/audiobooks/Guy Gavriel Kay - The Lions of al-Rassan': {
     author: 'Guy Gavriel Kay', // unique
     title: 'The Lions of al-Rassan ', // unique
@@ -1798,48 +1746,38 @@ export const db = {
     title: '1Q84', // unique
     '// duration': '15h19m57s',
     '// asin-0': { asin: 'B00TKGK28K', duration: '14h14m0s' },
-    '// meta-0':
-      '1Q84 - Livre 2, Juillet-Septembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
+    '// meta-0': '1Q84 - Livre 2, Juillet-Septembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
     '// asin-1': { asin: 'B00U6GQ3IG', duration: '16h43m0s' },
-    '// meta-1':
-      '1Q84 - Livre 1, Avril-Juin / Haruki Murakami / n: Emmanuel Dekoninck,Maia Baran',
+    '// meta-1': '1Q84 - Livre 1, Avril-Juin / Haruki Murakami / n: Emmanuel Dekoninck,Maia Baran',
     '// asin-2': { asin: 'B00TLDITZ0', duration: '17h16m0s' },
     '// meta-2': '1Q84, Buch 3 / Haruki Murakami / n: David Nathan',
     '// asin-3': { asin: 'B00TKID5Q4', duration: '17h48m0s' },
-    '// meta-3':
-      '1Q84 - Livre 3, Octobre-Décembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
+    '// meta-3': '1Q84 - Livre 3, Octobre-Décembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
     '// asin-4': { asin: 'B00TOAS3OC', duration: '30h52m0s' },
     '// meta-4': '1Q84, Buch 1 & 2 / Haruki Murakami / n: David Nathan',
     '// asin-5': { asin: 'B005XZM7R6', duration: '46h45m0s' },
-    '// meta-5':
-      '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett',
+    '// meta-5': '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett',
     '// asin-6': { asin: 'B00607GOC0', duration: '46h45m0s' },
-    '// meta-6':
-      '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett'
+    '// meta-6': '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett'
   },
   '/Volumes/Space/archive/media/audiobooks/Haruki Murakami - 1Q84/Haruki Murakami - 1Q84 - Book2': {
     author: 'Haruki Murakami', // unique
     title: '1Q84', // unique
     '// duration': '14h6m44s',
     '// asin-0': { asin: 'B00TKGK28K', duration: '14h14m0s' },
-    '// meta-0':
-      '1Q84 - Livre 2, Juillet-Septembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
+    '// meta-0': '1Q84 - Livre 2, Juillet-Septembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
     '// asin-1': { asin: 'B00U6GQ3IG', duration: '16h43m0s' },
-    '// meta-1':
-      '1Q84 - Livre 1, Avril-Juin / Haruki Murakami / n: Emmanuel Dekoninck,Maia Baran',
+    '// meta-1': '1Q84 - Livre 1, Avril-Juin / Haruki Murakami / n: Emmanuel Dekoninck,Maia Baran',
     '// asin-2': { asin: 'B00TLDITZ0', duration: '17h16m0s' },
     '// meta-2': '1Q84, Buch 3 / Haruki Murakami / n: David Nathan',
     '// asin-3': { asin: 'B00TKID5Q4', duration: '17h48m0s' },
-    '// meta-3':
-      '1Q84 - Livre 3, Octobre-Décembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
+    '// meta-3': '1Q84 - Livre 3, Octobre-Décembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
     '// asin-4': { asin: 'B00TOAS3OC', duration: '30h52m0s' },
     '// meta-4': '1Q84, Buch 1 & 2 / Haruki Murakami / n: David Nathan',
     '// asin-5': { asin: 'B005XZM7R6', duration: '46h45m0s' },
-    '// meta-5':
-      '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett',
+    '// meta-5': '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett',
     '// asin-6': { asin: 'B00607GOC0', duration: '46h45m0s' },
-    '// meta-6':
-      '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett'
+    '// meta-6': '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett'
   },
   '/Volumes/Space/archive/media/audiobooks/Haruki Murakami - 1Q84/Haruki Murakami - 1Q84 - Book3': {
     author: 'Haruki Murakami', // unique
@@ -1848,54 +1786,42 @@ export const db = {
     '// asin-0': { asin: 'B00TLDITZ0', duration: '17h16m0s' },
     '// meta-0': '1Q84, Buch 3 / Haruki Murakami / n: David Nathan',
     '// asin-1': { asin: 'B00TKID5Q4', duration: '17h48m0s' },
-    '// meta-1':
-      '1Q84 - Livre 3, Octobre-Décembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
+    '// meta-1': '1Q84 - Livre 3, Octobre-Décembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
     '// asin-2': { asin: 'B00U6GQ3IG', duration: '16h43m0s' },
-    '// meta-2':
-      '1Q84 - Livre 1, Avril-Juin / Haruki Murakami / n: Emmanuel Dekoninck,Maia Baran',
+    '// meta-2': '1Q84 - Livre 1, Avril-Juin / Haruki Murakami / n: Emmanuel Dekoninck,Maia Baran',
     '// asin-3': { asin: 'B00TKGK28K', duration: '14h14m0s' },
-    '// meta-3':
-      '1Q84 - Livre 2, Juillet-Septembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
+    '// meta-3': '1Q84 - Livre 2, Juillet-Septembre / Haruki Murakami / n: Maia Baran,Emmanuel Dekoninck',
     '// asin-4': { asin: 'B00TOAS3OC', duration: '30h52m0s' },
     '// meta-4': '1Q84, Buch 1 & 2 / Haruki Murakami / n: David Nathan',
     '// asin-5': { asin: 'B005XZM7R6', duration: '46h45m0s' },
-    '// meta-5':
-      '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett',
+    '// meta-5': '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett',
     '// asin-6': { asin: 'B00607GOC0', duration: '46h45m0s' },
-    '// meta-6':
-      '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett'
+    '// meta-6': '1Q84 / Haruki Murakami,Jay Rubin - translator,Philip Gabriel - translator / n: Allison Hiroto,Marc Vietor,Mark Boyett'
   },
   '/Volumes/Space/archive/media/audiobooks/HenryDavidThoreau-Walden': {
     author: 'thoreau_henry_david', // unique
     title: 'Walden', // unique
     '// duration': '14h18m4s',
     '// asin-0': { asin: 'B002V0LSG2', duration: '13h50m0s' },
-    '// meta-0':
-      'Walden and On the Duty of Civil Disobedience / Henry David Thoreau / n: Robin Field',
+    '// meta-0': 'Walden and On the Duty of Civil Disobedience / Henry David Thoreau / n: Robin Field',
     '// asin-1': { asin: 'B07NGX3BPD', duration: '13h32m0s' },
     '// meta-1': 'Walden / Henry David Thoreau / n: Jack Shelly',
     '// asin-2': { asin: 'B07WW2SN51', duration: '12h34m0s' },
-    '// meta-2':
-      'Henry David Thoreau Bundle / Henry David Thoreau / n: Jonathan Waters',
+    '// meta-2': 'Henry David Thoreau Bundle / Henry David Thoreau / n: Jonathan Waters',
     '// asin-3': { asin: 'B09LBFCHXY', duration: '12h33m0s' },
-    '// meta-3':
-      'Walden, or Life in the Woods / Henry David Thoreau / n: Linda Jones',
+    '// meta-3': 'Walden, or Life in the Woods / Henry David Thoreau / n: Linda Jones',
     '// asin-4': { asin: 'B0042LFSAK', duration: '11h43m0s' },
-    '// meta-4':
-      'Thoreau: Walden / Civil Disobedience / Henry David Thoreau / n: Rupert Degas',
+    '// meta-4': 'Thoreau: Walden / Civil Disobedience / Henry David Thoreau / n: Rupert Degas',
     '// asin-5': { asin: 'B002VA3RFC', duration: '11h33m0s' },
     '// meta-5': 'Walden / Henry David Thoreau / n: Mel Foster',
     '// asin-6': { asin: 'B07CJMDY2W', duration: '11h33m0s' },
-    '// meta-6':
-      'Walden (AmazonClassics Edition) / Henry David Thoreau / n: Pete Simonelli',
+    '// meta-6': 'Walden (AmazonClassics Edition) / Henry David Thoreau / n: Pete Simonelli',
     '// asin-7': { asin: 'B074WBSHHT', duration: '11h27m0s' },
-    '// meta-7':
-      'Walden, or Life in the Woods / Henry David Thoreau / n: Robert Bethune',
+    '// meta-7': 'Walden, or Life in the Woods / Henry David Thoreau / n: Robert Bethune',
     '// asin-8': { asin: 'B002V59WIS', duration: '10h5m0s' },
     '// meta-8': 'Walden / Henry David Thoreau / n: Alec Sand',
     '// asin-9': { asin: 'B08ZQL25SL', duration: '45h35m0s' },
-    '// meta-9':
-      'The Ultimate Henry David Thoreau Collection / Henry David Thoreau / n: Lee Winfield'
+    '// meta-9': 'The Ultimate Henry David Thoreau Collection / Henry David Thoreau / n: Lee Winfield'
   },
   '/Volumes/Space/archive/media/audiobooks/Herodotus - Histories': {
     author: 'Herodotus', // hint
@@ -1904,27 +1830,21 @@ export const db = {
     '// asin-0': { asin: 'B01FKX2766', duration: '27h28m0s' },
     '// meta-0': 'Histories / Herodotus / n: David Timson',
     '// asin-1': { asin: '0241527538', duration: '27h8m0s' },
-    '// meta-1':
-      'The Histories / Herodotus,Tom Holland - translator / n: Frank Laverty',
+    '// meta-1': 'The Histories / Herodotus,Tom Holland - translator / n: Frank Laverty',
     '// asin-2': { asin: 'B002V5BVD2', duration: '27h49m0s' },
     '// meta-2': 'The Histories / Herodotus / n: Bernard Mayes',
     '// asin-3': { asin: 'B06ZZ3LYWP', duration: '27h58m0s' },
-    '// meta-3':
-      'The Histories / Herodotus,A. D. Godley Translator / n: Charlton Griffin',
+    '// meta-3': 'The Histories / Herodotus,A. D. Godley Translator / n: Charlton Griffin',
     '// asin-4': { asin: 'B078C82XDV', duration: '18h50m0s' },
     '// meta-4': 'Histories / Herodotus / n: Alastair Cameron',
     '// asin-5': { asin: 'B0B9HDD18L', duration: '4h4m0s' },
-    '// meta-5':
-      'Book 7 - Polymnia / Herodotus,George Rawlinson / n: Bryan Godwin',
+    '// meta-5': 'Book 7 - Polymnia / Herodotus,George Rawlinson / n: Bryan Godwin',
     '// asin-6': { asin: 'B002UZMPP6', duration: '3h55m0s' },
-    '// meta-6':
-      'The Persian War from The Histories / Herodotus / n: Roy Marsden',
+    '// meta-6': 'The Persian War from The Histories / Herodotus / n: Roy Marsden',
     '// asin-7': { asin: 'B0B9HHPWFG', duration: '2h27m0s' },
-    '// meta-7':
-      'Book 6 - Erato / Herodotus,George Rawlinson / n: Bryan Godwin',
+    '// meta-7': 'Book 6 - Erato / Herodotus,George Rawlinson / n: Bryan Godwin',
     '// asin-8': { asin: 'B0B9HGCT3Z', duration: '2h27m0s' },
-    '// meta-8':
-      'Book 8 - Urania / Herodotus,George Rawlinson / n: Bryan Godwin'
+    '// meta-8': 'Book 8 - Urania / Herodotus,George Rawlinson / n: Bryan Godwin'
   },
   '/Volumes/Space/archive/media/audiobooks/Herodotus - The Persian Wars': {
     author: 'Herodotus', // unique
@@ -1933,29 +1853,24 @@ export const db = {
     '// asin-0': { asin: 'B00HQ1T6AQ', duration: '29h23m0s' },
     '// meta-0': 'The Persian Wars / Herodotus / n: Charlton Griffin',
     '// asin-1': { asin: 'B06ZZ3LYWP', duration: '27h58m0s' },
-    '// meta-1':
-      'The Histories / Herodotus,A. D. Godley Translator / n: Charlton Griffin',
+    '// meta-1': 'The Histories / Herodotus,A. D. Godley Translator / n: Charlton Griffin',
     '// asin-2': { asin: 'B002UUQU0C', duration: '14h58m0s' },
     '// meta-2': 'The Persian Wars, Volume 1 / Herodotus / n: Charlton Griffin',
     '// asin-3': { asin: 'B002UUKPRQ', duration: '14h24m0s' },
     '// meta-3': 'The Persian Wars, Volume 2 / Herodotus / n: Charlton Griffin',
     '// asin-4': { asin: 'B002UZMPP6', duration: '3h55m0s' },
-    '// meta-4':
-      'The Persian War from The Histories / Herodotus / n: Roy Marsden'
+    '// meta-4': 'The Persian War from The Histories / Herodotus / n: Roy Marsden'
   },
   '/Volumes/Space/archive/media/audiobooks/Homer - The Iliad': {
     author: 'Homer, Stephen Mitchell - translator', // unique
     title: 'The Iliad', // hint
     '// duration': '16h4m15s',
     '// asin-0': { asin: 'B005TJS450', duration: '16h4m0s' },
-    '// meta-0':
-      'The Iliad / Homer,Stephen Mitchell - translator / n: Alfred Molina',
+    '// meta-0': 'The Iliad / Homer,Stephen Mitchell - translator / n: Alfred Molina',
     '// asin-1': { asin: 'B07FSX5119', duration: '16h3m0s' },
-    '// meta-1':
-      'The Iliad / Homer,Stephen Mitchell - translator / n: Alfred Molina',
+    '// meta-1': 'The Iliad / Homer,Stephen Mitchell - translator / n: Alfred Molina',
     '// asin-2': { asin: 'B006G0AUXK', duration: '16h2m0s' },
-    '// meta-2':
-      'The Iliad / Homer,Stephen Mitchell - translator / n: Alfred Molina'
+    '// meta-2': 'The Iliad / Homer,Stephen Mitchell - translator / n: Alfred Molina'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels': {
     '// No audio files': null
@@ -1969,8 +1884,7 @@ export const db = {
     '// asin-1': { asin: 'B004ASGI7C', duration: '16h25m0s' },
     '// meta-1': 'Consider Phlebas / Iain M. Banks / n: Peter Kenny',
     '// asin-2': { asin: '1549102893', duration: '16h25m0s' },
-    '// meta-2':
-      'Consider Phlebas (Booktrack Edition) / Iain M. Banks / n: Peter Kenny'
+    '// meta-2': 'Consider Phlebas (Booktrack Edition) / Iain M. Banks / n: Peter Kenny'
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 02 - The Player of Games': {
     author: 'Iain M. Banks', // unique
@@ -2070,27 +1984,21 @@ export const db = {
     title: 'The Critique of Pure Reason', // hint
     '// duration': '26h49m15s',
     '// asin-0': { asin: 'B0195HTWXE', duration: '26h49m0s' },
-    '// meta-0':
-      'The Critique of Pure Reason by Immanuel Kant / Immanuel Kant,Israel Bouseman / n: Marlain Angelides',
+    '// meta-0': 'The Critique of Pure Reason by Immanuel Kant / Immanuel Kant,Israel Bouseman / n: Marlain Angelides',
     '// asin-1': { asin: 'B08X1B151N', duration: '27h38m0s' },
     '// meta-1': 'Critique of Pure Reason / Immanuel Kant / n: Michael Lunts',
     '// asin-2': { asin: 'B09X1Z4FHR', duration: '25h9m0s' },
     '// meta-2': 'Critique of Pure Reason / Immanuel Kant / n: Peter Wickham',
     '// asin-3': { asin: 'B08ML4XR2R', duration: '24h53m0s' },
-    '// meta-3':
-      'The Immanuel Kant Collection / Immanuel Kant / n: Johann Zeiger',
+    '// meta-3': 'The Immanuel Kant Collection / Immanuel Kant / n: Johann Zeiger',
     '// asin-4': { asin: 'B08MTLB3Y4', duration: '30h2m0s' },
-    '// meta-4':
-      'Immanuel Kant Collection / Immanuel Kant / n: Gregory T. Luzitano',
+    '// meta-4': 'Immanuel Kant Collection / Immanuel Kant / n: Gregory T. Luzitano',
     '// asin-5': { asin: 'B073XTSBHX', duration: '22h39m0s' },
-    '// meta-5':
-      'The Critique of Pure Reason / Immanuel Kant / n: Martin Wilson',
+    '// meta-5': 'The Critique of Pure Reason / Immanuel Kant / n: Martin Wilson',
     '// asin-6': { asin: 'B07NRR2ZK6', duration: '21h39m0s' },
-    '// meta-6':
-      'The Critique of Pure Reason / Immanuel Kant / n: Johann Zeiger',
+    '// meta-6': 'The Critique of Pure Reason / Immanuel Kant / n: Johann Zeiger',
     '// asin-7': { asin: 'B094XJNTNN', duration: '45h13m0s' },
-    '// meta-7':
-      'The Titans of Philosophy Collection: Confucius, Plato, Aristotle, Marcus Aurelius, Kant, Kierkegaard / Confucius,Plato,Aristotle,Marcus Aurelius,Immanuel Kant,Soren Kierkegaard / n: Museum Audiobooks Cast'
+    '// meta-7': 'The Titans of Philosophy Collection: Confucius, Plato, Aristotle, Marcus Aurelius, Kant, Kierkegaard / Confucius,Plato,Aristotle,Marcus Aurelius,Immanuel Kant,Soren Kierkegaard / n: Museum Audiobooks Cast'
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-FoundationSeries': {
     '// No audio files': null
@@ -2100,13 +2008,11 @@ export const db = {
     title: 'Foundation', // unique
     '// duration': '8h38m1s',
     '// asin-0': { asin: 'B003D8W5VS', duration: '8h37m0s' },
-    '// meta-0':
-      'Foundation (Apple Series Tie-in Edition) / Isaac Asimov / n: Scott Brick',
+    '// meta-0': 'Foundation (Apple Series Tie-in Edition) / Isaac Asimov / n: Scott Brick',
     '// asin-1': { asin: 'B003D8S2ME', duration: '9h21m0s' },
     '// meta-1': 'Second Foundation / Isaac Asimov / n: Scott Brick',
     '// asin-2': { asin: 'B004NTZ1A8', duration: '7h49m0s' },
-    '// meta-2':
-      'The Foundation Trilogy (Dramatized) / Isaac Asimov,Patrick Tull - adaptation,Mike Stott - adaptation / n: Geoffrey Beevers,Lee Montague,Julian Glover,Dinsdale Landon,Maurice Denham,Angela Pleasence,Prunella Scales',
+    '// meta-2': 'The Foundation Trilogy (Dramatized) / Isaac Asimov,Patrick Tull - adaptation,Mike Stott - adaptation / n: Geoffrey Beevers,Lee Montague,Julian Glover,Dinsdale Landon,Maurice Denham,Angela Pleasence,Prunella Scales',
     '// asin-3': { asin: 'B003FCV4O6', duration: '9h33m0s' },
     '// meta-3': 'Foundation and Empire / Isaac Asimov / n: Scott Brick',
     '// asin-4': { asin: '0008305943', duration: '9h33m0s' },
@@ -2120,8 +2026,7 @@ export const db = {
     '// asin-8': { asin: 'B005WWT7TQ', duration: '18h44m0s' },
     '// meta-8': 'Foundation and Earth / Isaac Asimov / n: Larry McKeever',
     '// asin-9': { asin: '8466355189', duration: '26h10m0s' },
-    '// meta-9':
-      'Trilogía de la Fundación [Foundation Trilogy] / Isaac Asimov / n: Raúl Llorens'
+    '// meta-9': 'Trilogía de la Fundación [Foundation Trilogy] / Isaac Asimov / n: Raúl Llorens'
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-FoundationSeries/1952 - Foundation & Empire (Brick) 64k 09.34.38 {268mb}': {
     author: 'Isaac Asimov', // unique
@@ -2160,8 +2065,7 @@ export const db = {
     '// asin-0': { asin: 'B00KY3AP30', duration: '7h43m0s' },
     '// meta-0': 'The Caves of Steel / Isaac Asimov / n: William Dufris',
     '// asin-1': { asin: 'B0B3YW3SSZ', duration: '8h40m0s' },
-    '// meta-1':
-      'Bóvedas de acero [The Caves of Steel] / Isaac Asimov,Luis García Prado / n: Guillermo Romero'
+    '// meta-1': 'Bóvedas de acero [The Caves of Steel] / Isaac Asimov,Luis García Prado / n: Guillermo Romero'
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-RobotSeries/1957 - The Naked Sun (Dufris) 192k 07.38.08 {630mb}': {
     author: 'Isaac Asimov', // unique
@@ -2196,8 +2100,7 @@ export const db = {
     '// asin-0': { asin: 'B00NYCMZQS', duration: '14h34m0s' },
     '// meta-0': 'Robot Dreams / Isaac Asimov / n: George Guidall',
     '// asin-1': { asin: 'B09YJW1JZZ', duration: '16h1m0s' },
-    '// meta-1':
-      'Sueños de robot [Robot Dreams] / Isaac Asimov / n: Guillermo Romero'
+    '// meta-1': 'Sueños de robot [Robot Dreams] / Isaac Asimov / n: Guillermo Romero'
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-RobotSeries/1990 - Robot Visions (Hauenstein) 64k 15.08.29 {422mb}': {
     author: 'Isaac Asimov', // unique
@@ -2206,8 +2109,7 @@ export const db = {
     '// asin-0': { asin: 'B01578WXQS', duration: '16h48m0s' },
     '// meta-0': 'Robot Visions / Isaac Asimov / n: Graham Winton',
     '// asin-1': { asin: 'B09N9Y5VYX', duration: '18h4m0s' },
-    '// meta-1':
-      'Visiones de robot [Robot Visions] / Isaac Asimov / n: Raúl Llorens'
+    '// meta-1': 'Visiones de robot [Robot Visions] / Isaac Asimov / n: Raúl Llorens'
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-RobotSeries/1992 - The Positronic Man (Batho) 56k 08.26.15 {205mb}': {
     author: 'Isaac Asimov', // hint
@@ -2220,8 +2122,7 @@ export const db = {
     title: 'The Inner Art of Meditation', // unique
     '// duration': '9h9m34s',
     '// asin-0': { asin: 'B002UZDRU8', duration: '7h52m0s' },
-    '// meta-0':
-      'The Inner Art of Meditation / Jack Kornfield / n: Jack Kornfield'
+    '// meta-0': 'The Inner Art of Meditation / Jack Kornfield / n: Jack Kornfield'
   },
   '/Volumes/Space/archive/media/audiobooks/JamesNestor-BreathTheNewScienceOfALostArt': {
     author: 'James Nestor', // unique
@@ -2250,8 +2151,7 @@ export const db = {
     '// asin-0': { asin: 'B004G7VN04', duration: '16h20m0s' },
     '// meta-0': 'Guns, Germs and Steel / Jared Diamond / n: Doug Ordunio',
     '// asin-1': { asin: '8418006161', duration: '23h36m0s' },
-    '// meta-1':
-      'Armas, gérmenes y acero [Guns, Germs and Steel] / Jared Diamond / n: John Alex Toro',
+    '// meta-1': 'Armas, gérmenes y acero [Guns, Germs and Steel] / Jared Diamond / n: John Alex Toro',
     '// asin-2': { asin: 'B002UZMKC4', duration: '5h58m0s' },
     '// meta-2': 'Guns, Germs, and Steel / Jared Diamond / n: Grover Gardner'
   },
@@ -2269,8 +2169,7 @@ export const db = {
     '// asin-2': { asin: 'B07CG9WXBF', duration: '6h0m0s' },
     '// meta-2': 'Annihilation / Jeff VanderMeer / n: Carolyn McCormick',
     '// asin-3': { asin: 'B00Q78O86G', duration: '26h14m0s' },
-    '// meta-3':
-      'Area X / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands'
+    '// meta-3': 'Area X / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands'
   },
   '/Volumes/Space/archive/media/audiobooks/Jeff VanderMeer - Southern Reach Trilogy/Jeff VanderMeer - Book 2 - Authority': {
     author: 'Jeff Vandermeer', // unique
@@ -2283,25 +2182,20 @@ export const db = {
     '// asin-2': { asin: 'B00K6N487W', duration: '10h34m0s' },
     '// meta-2': 'Authority / Jeff VanderMeer / n: Bronson Pinchot',
     '// asin-3': { asin: 'B00Q78O86G', duration: '26h14m0s' },
-    '// meta-3':
-      'Area X / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands'
+    '// meta-3': 'Area X / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands'
   },
   '/Volumes/Space/archive/media/audiobooks/Jeff VanderMeer - Southern Reach Trilogy/Jeff VanderMeer - Book 3 - Acceptance': {
     author: 'Jeff VanderMeer', // unique
     title: 'Acceptance', // hint
     '// duration': '9h37m33s',
     '// asin-0': { asin: 'B00MX3Q2BS', duration: '9h38m0s' },
-    '// meta-0':
-      'Acceptance / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands',
+    '// meta-0': 'Acceptance / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands',
     '// asin-1': { asin: 'B07CMDSQ2J', duration: '9h38m0s' },
-    '// meta-1':
-      'Acceptance / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands',
+    '// meta-1': 'Acceptance / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands',
     '// asin-2': { asin: 'B00MWFPUNS', duration: '9h37m0s' },
-    '// meta-2':
-      'Acceptance / Jeff VanderMeer / n: Bronson Pinchot,Xe Sands,Carolyn McCormick',
+    '// meta-2': 'Acceptance / Jeff VanderMeer / n: Bronson Pinchot,Xe Sands,Carolyn McCormick',
     '// asin-3': { asin: 'B00Q78O86G', duration: '26h14m0s' },
-    '// meta-3':
-      'Area X / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands'
+    '// meta-3': 'Area X / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files': {
     '// No audio files': null
@@ -2478,8 +2372,7 @@ export const db = {
     title: 'Changes', // hint
     '// duration': '15h24m36s',
     '// asin-0': { asin: 'B003DORDUU', duration: '15h26m0s' },
-    '// meta-0':
-      'Changes: The Dresden Files, Book 12 / Jim Butcher / n: James Marsters'
+    '// meta-0': 'Changes: The Dresden Files, Book 12 / Jim Butcher / n: James Marsters'
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 12.1 - Aftermath': {
     author: 'Jim Butcher', // unique
@@ -2570,8 +2463,7 @@ export const db = {
     '// asin-1': { asin: 'B00HUAR1NM', duration: '9h47m0s' },
     '// meta-1': 'Cockroaches / Jo Nesbø / n: John Lee',
     '// asin-2': { asin: '8417511334', duration: '11h45m0s' },
-    '// meta-2':
-      'Cucarachas (Harry Hole 2) [Cockroaches] / Bente Teigen Gundersen - translator,Mariano González Campo - translator,Jo Nesbø / n: Alfons Vallés'
+    '// meta-2': 'Cucarachas (Harry Hole 2) [Cockroaches] / Bente Teigen Gundersen - translator,Mariano González Campo - translator,Jo Nesbø / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/03. The Redbreast (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbo', // unique
@@ -2580,24 +2472,20 @@ export const db = {
     '// asin-0': { asin: 'B004XDO31C', duration: '16h40m0s' },
     '// meta-0': 'The Redbreast / Jo Nesbø / n: Robin Sachs',
     '// asin-1': { asin: '0735278059', duration: '16h40m0s' },
-    '// meta-1':
-      'The Redbreast: A Harry Hole Novel / Don Bartlett - translator,Jo Nesbø / n: Robin Sachs',
+    '// meta-1': 'The Redbreast: A Harry Hole Novel / Don Bartlett - translator,Jo Nesbø / n: Robin Sachs',
     '// asin-2': { asin: 'B07BTDTVGG', duration: '16h7m0s' },
     '// meta-2': 'Petirrojo [The Redbreast] / Jo Nesbø / n: Alfons Vallés',
     '// asin-3': { asin: 'B005BHBTWU', duration: '14h37m0s' },
-    '// meta-3':
-      'The Redbreast: A Harry Hole Thriller, Book 3 / Jo Nesbø / n: Sean Barrett'
+    '// meta-3': 'The Redbreast: A Harry Hole Thriller, Book 3 / Jo Nesbø / n: Sean Barrett'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/04. Nemesis (Hary Hole) - Jo Nesbo (2002)': {
     author: 'Jo Nesbo', // hint
     title: 'Nemesis', // hint
     '// duration': '14h55m45s',
     '// asin-0': { asin: 'B005D9I44C', duration: '14h53m0s' },
-    '// meta-0':
-      'Nemesis: A Harry Hole Thriller, Book 4 / Jo Nesbo / n: Sean Barrett',
+    '// meta-0': 'Nemesis: A Harry Hole Thriller, Book 4 / Jo Nesbo / n: Sean Barrett',
     '// asin-1': { asin: '8417511342', duration: '16h4m0s' },
-    '// meta-1':
-      'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés',
+    '// meta-1': 'Némesis [Nemesis] / Carmen Montes - translator,Ada Berntsen - translator,Jo Nesbø / n: Alfons Vallés',
     '// asin-2': { asin: 'B003IVZF3A', duration: '13h37m0s' },
     '// meta-2': 'Nemesis / Jo Nesbø / n: Thor Knai'
   },
@@ -2608,25 +2496,20 @@ export const db = {
     '// asin-0': { asin: 'B004XDW9EA', duration: '14h18m0s' },
     '// meta-0': "The Devil's Star / Jo Nesbø / n: Robin Sachs",
     '// asin-1': { asin: '0735278032', duration: '14h18m0s' },
-    '// meta-1':
-      "The Devil's Star: A Harry Hole Novel / Don Bartlett - translator,Jo Nesbø / n: Robin Sachs",
+    '// meta-1': "The Devil's Star: A Harry Hole Novel / Don Bartlett - translator,Jo Nesbø / n: Robin Sachs",
     '// asin-2': { asin: 'B005PQGWH4', duration: '14h6m0s' },
-    '// meta-2':
-      'The Devil’s Star: A Harry Hole Thriller, Book 5 / Jo Nesbø / n: Sean Barrett',
+    '// meta-2': 'The Devil’s Star: A Harry Hole Thriller, Book 5 / Jo Nesbø / n: Sean Barrett',
     '// asin-3': { asin: '841751130X', duration: '14h0m0s' },
-    '// meta-3':
-      "La estrella del diablo [The Devil's Star: A Novel] / Jo Nesbø / n: Alfons Vallés"
+    '// meta-3': "La estrella del diablo [The Devil's Star: A Novel] / Jo Nesbø / n: Alfons Vallés"
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/06. The Redeemer (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbø', // unique
     title: 'The Redeemer', // hint
     '// duration': '14h54m10s',
     '// asin-0': { asin: 'B00434VDN2', duration: '14h51m0s' },
-    '// meta-0':
-      'The Redeemer: A Harry Hole Thriller, Book 6 / Jo Nesbø / n: Sean Barrett',
+    '// meta-0': 'The Redeemer: A Harry Hole Thriller, Book 6 / Jo Nesbø / n: Sean Barrett',
     '// asin-1': { asin: 'B00CH8ZMHE', duration: '13h51m0s' },
-    '// meta-1':
-      'The Redeemer / Jo Nesbø,Don Bartlett - translator / n: John Lee',
+    '// meta-1': 'The Redeemer / Jo Nesbø,Don Bartlett - translator / n: John Lee',
     '// asin-2': { asin: '8417511601', duration: '16h2m0s' },
     '// meta-2': 'El redentor [The Redeemer] / Jo Nesbø / n: Alfons Vallés'
   },
@@ -2635,8 +2518,7 @@ export const db = {
     title: ' The Snowman', // hint
     '// duration': '14h38m48s',
     '// asin-0': { asin: 'B0042LLAFW', duration: '14h36m0s' },
-    '// meta-0':
-      'The Snowman: A Harry Hole Thriller, Book 7 / Jo Nesbø / n: Sean Barrett',
+    '// meta-0': 'The Snowman: A Harry Hole Thriller, Book 7 / Jo Nesbø / n: Sean Barrett',
     '// asin-1': { asin: 'B004VFMU26', duration: '15h38m0s' },
     '// meta-1': 'The Snowman / Jo Nesbø,Don Bartlett / n: Robin Sachs'
   },
@@ -2645,20 +2527,17 @@ export const db = {
     title: 'The Leopard', // hint
     '// duration': '19h23m50s',
     '// asin-0': { asin: 'B004N1Q9HK', duration: '19h26m0s' },
-    '// meta-0':
-      'The Leopard: A Harry Hole Thriller, Book 8 / Jo Nesbø / n: Sean Barrett',
+    '// meta-0': 'The Leopard: A Harry Hole Thriller, Book 8 / Jo Nesbø / n: Sean Barrett',
     '// asin-1': { asin: 'B07D81SMMM', duration: '19h49m0s' },
     '// meta-1': 'O leopardo [The Leopard] / Jo Nesbø / n: Raul Rosa',
     '// asin-2': { asin: '8417511067', duration: '20h24m0s' },
     '// meta-2': 'El leopardo [The Leopard] / Jo Nesbø / n: Alfons Vallés',
     '// asin-3': { asin: 'B00686TD9O', duration: '21h20m0s' },
-    '// meta-3':
-      'The Leopard / Jo Nesbø,Don Bartlett - translator / n: Robin Sachs',
+    '// meta-3': 'The Leopard / Jo Nesbø,Don Bartlett - translator / n: Robin Sachs',
     '// asin-4': { asin: 'B01ALUBG9M', duration: '21h25m0s' },
     '// meta-4': 'Leopard / Jo Nesbø / n: Uve Teschner',
     '// asin-5': { asin: 'B0B25LSGZM', duration: '22h3m0s' },
-    '// meta-5':
-      'Le léopard / Jo Nesbø,Alex Fouillet - traducteur / n: Olivier Martinaud',
+    '// meta-5': 'Le léopard / Jo Nesbø,Alex Fouillet - traducteur / n: Olivier Martinaud',
     '// asin-6': { asin: 'B00TVNY89Q', duration: '7h26m0s' },
     '// meta-6': 'Leopard / Jo Nesbø / n: Burghart Klaußner'
   },
@@ -2667,11 +2546,9 @@ export const db = {
     title: 'Phantom', // hint
     '// duration': '14h55m56s',
     '// asin-0': { asin: 'B0079Q8A82', duration: '14h53m0s' },
-    '// meta-0':
-      'Phantom: A Harry Hole Thriller, Book 9 / Jo Nesbø / n: Sean Barrett',
+    '// meta-0': 'Phantom: A Harry Hole Thriller, Book 9 / Jo Nesbø / n: Sean Barrett',
     '// asin-1': { asin: 'B09NCN88L2', duration: '16h4m0s' },
-    '// meta-1':
-      'Fantasma [Phantom] / Jo Nesbo,Carmen Montes Cano,Ana Berntsen / n: Alfons Vallés',
+    '// meta-1': 'Fantasma [Phantom] / Jo Nesbo,Carmen Montes Cano,Ana Berntsen / n: Alfons Vallés',
     '// asin-2': { asin: 'B0095WKIW4', duration: '16h18m0s' },
     '// meta-2': 'Phantom / Jo Nesbø / n: Robin Sachs'
   },
@@ -2686,8 +2563,7 @@ export const db = {
     '// asin-2': { asin: 'B00XY0ISUW', duration: '18h38m0s' },
     '// meta-2': 'Police [French Version] / Jo Nesbø / n: Frédéric Dimnet',
     '// asin-3': { asin: 'B09RTHZHD8', duration: '18h43m0s' },
-    '// meta-3':
-      'Policía [Police] / Jo Nesbo,Carmen Montes Cano - translator / n: Alfons Vallés'
+    '// meta-3': 'Policía [Police] / Jo Nesbo,Carmen Montes Cano - translator / n: Alfons Vallés'
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/11. The Thirst (Hary Hole) - Jo Nesbo': {
     author: 'Jo Nesbo', // unique
@@ -2696,8 +2572,7 @@ export const db = {
     '// asin-0': { asin: 'B01MQKQJHY', duration: '17h43m0s' },
     '// meta-0': 'The Thirst / Jo Nesbø / n: Sean Barrett',
     '// asin-1': { asin: 'B09V3CJKPG', duration: '18h16m0s' },
-    '// meta-1':
-      'La sed [Thirst] / Jo Nesbo,Lotte Katrine Tollefsen - translator / n: Alfons Vallés',
+    '// meta-1': 'La sed [Thirst] / Jo Nesbo,Lotte Katrine Tollefsen - translator / n: Alfons Vallés',
     '// asin-2': { asin: 'B06XDSVMFR', duration: '17h8m0s' },
     '// meta-2': 'The Thirst / Neil Smith - translator,Jo Nesbø / n: John Lee'
   },
@@ -2747,16 +2622,14 @@ export const db = {
     title: 'Stand on Zanzibar', // unique
     '// duration': '21h16m8s',
     '// asin-0': { asin: 'B005F5Y6GO', duration: '21h16m0s' },
-    '// meta-0':
-      'Stand on Zanzibar / John Brunner,Bruce Sterling - foreword / n: Erik Bergmann'
+    '// meta-0': 'Stand on Zanzibar / John Brunner,Bruce Sterling - foreword / n: Erik Bergmann'
   },
   '/Volumes/Space/archive/media/audiobooks/John Steinbeck - The Acts of King Arthur and His Noble Knights': {
     author: 'John Steinbeck', // unique
     title: 'The Acts of King Arthur', // unique
     '// duration': '13h58m18s',
     '// asin-0': { asin: '0241509912', duration: '11h18m0s' },
-    '// meta-0':
-      'The Acts of King Arthur and His Noble Knights / John Steinbeck / n: Nezar Alderazi'
+    '// meta-0': 'The Acts of King Arthur and His Noble Knights / John Steinbeck / n: Nezar Alderazi'
   },
   '/Volumes/Space/archive/media/audiobooks/JonKabatZinn': {
     '// No audio files': null
@@ -2766,19 +2639,16 @@ export const db = {
     title: 'Guided Mindfulness Meditation Series 3', // unique
     '// duration': '4h1m18s',
     '// asin-0': { asin: '1615445277', duration: '4h2m0s' },
-    '// meta-0':
-      'Guided Mindfulness Meditation Series 3 / Jon Kabat-Zinn / n: Jon Kabat-Zinn'
+    '// meta-0': 'Guided Mindfulness Meditation Series 3 / Jon Kabat-Zinn / n: Jon Kabat-Zinn'
   },
   '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn - Mindfulness For Beginners': {
     author: 'Jon Kabat-Zinn', // unique
     title: 'Mindfulness For Beginners', // unique
     '// duration': '2h24m43s',
     '// asin-0': { asin: 'B002V0KO0S', duration: '2h24m0s' },
-    '// meta-0':
-      'Mindfulness for Beginners / Jon Kabat-Zinn / n: Jon Kabat-Zinn',
+    '// meta-0': 'Mindfulness for Beginners / Jon Kabat-Zinn / n: Jon Kabat-Zinn',
     '// asin-1': { asin: 'B07L3C3RD5', duration: '3h28m0s' },
-    '// meta-1':
-      'Mindulfness para principantes (Narración en Castellano) [Mindfulness for Beginners (Castilian Narration)] / Jon Kabat-Zinn / n: Arturo López'
+    '// meta-1': 'Mindulfness para principantes (Narración en Castellano) [Mindfulness for Beginners (Castilian Narration)] / Jon Kabat-Zinn / n: Arturo López'
   },
   '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Jon Kabat-Zinn, Ph.D. - Full Catastrophe Living': {
     author: 'Jon Kabat-Zinn', // unique
@@ -2822,19 +2692,16 @@ export const db = {
     '// asin-3': { asin: 'B09ZQ3J38M', duration: '8h26m0s' },
     '// meta-3': 'The Grief of Stones / Katherine Addison / n: Liam Gerrard',
     '// asin-4': { asin: '1250807891', duration: '8h12m0s' },
-    '// meta-4':
-      'The Witness for the Dead / Katherine Addison / n: Liam Gerrard',
+    '// meta-4': 'The Witness for the Dead / Katherine Addison / n: Liam Gerrard',
     '// asin-5': { asin: '1786185032', duration: '8h12m0s' },
-    '// meta-5':
-      'The Witness for the Dead / Katherine Addison / n: Liam Gerrard'
+    '// meta-5': 'The Witness for the Dead / Katherine Addison / n: Liam Gerrard'
   },
   '/Volumes/Space/archive/media/audiobooks/Kim Stanley Robinson - The Ministry for the Future': {
     author: 'Kim Stanley Robinson', // unique
     title: 'The Ministry for the Future: A Novel', // unique
     '// duration': '20h41m55s',
     '// asin-0': { asin: '1549186434', duration: '20h42m0s' },
-    '// meta-0':
-      'The Ministry for the Future / Kim Stanley Robinson / n: Jennifer Fitzgerald,Fajer Al-Kaisi,Ramon de Ocampo,Gary Bennett,Raphael Corkhill,Barrie Kreinik,Natasha Soudek,Nikki Massoud,Joniece Abbott Pratt,Inés del Castillo,Vikas Adam'
+    '// meta-0': 'The Ministry for the Future / Kim Stanley Robinson / n: Jennifer Fitzgerald,Fajer Al-Kaisi,Ramon de Ocampo,Gary Bennett,Raphael Corkhill,Barrie Kreinik,Natasha Soudek,Nikki Massoud,Joniece Abbott Pratt,Inés del Castillo,Vikas Adam'
   },
   '/Volumes/Space/archive/media/audiobooks/KimMacQuarrie-TheLastDaysOfTheIncas': {
     author: 'Kim MacQuarrie', // unique
@@ -2850,8 +2717,7 @@ export const db = {
     '// asin-0': { asin: 'B015ELUYL4', duration: '5h13m0s' },
     '// meta-0': 'Slaughterhouse-Five / Kurt Vonnegut / n: James Franco',
     '// asin-1': { asin: 'B002UUN20I', duration: '6h4m0s' },
-    '// meta-1':
-      "Slaughterhouse-Five or The Children's Crusade / Kurt Vonnegut / n: Ethan Hawke"
+    '// meta-1': "Slaughterhouse-Five or The Children's Crusade / Kurt Vonnegut / n: Ethan Hawke"
   },
   '/Volumes/Space/archive/media/audiobooks/KurtVonnegut-AManWithoutACountry-Unb': {
     author: 'Kurt Vonnegut', // unique
@@ -2872,11 +2738,9 @@ export const db = {
     title: "The Mote In God's Eye", // unique
     '// duration': '23h7m6s',
     '// asin-0': { asin: 'B002V5GWHM', duration: '20h28m0s' },
-    '// meta-0':
-      "The Mote in God's Eye / Larry Niven,Jerry Pournelle / n: L J Ganser",
+    '// meta-0': "The Mote in God's Eye / Larry Niven,Jerry Pournelle / n: L J Ganser",
     '// asin-1': { asin: 'B00A9W1VF2', duration: '15h11m0s' },
-    '// meta-1':
-      'The Gripping Hand / Jerry Pournelle,Larry Niven / n: L. J. Ganser'
+    '// meta-1': 'The Gripping Hand / Jerry Pournelle,Larry Niven / n: L. J. Ganser'
   },
   '/Volumes/Space/archive/media/audiobooks/LarryNiven-Ringworld': {
     author: 'Larry Niven', // hint
@@ -2885,20 +2749,15 @@ export const db = {
     '// asin-0': { asin: 'B002V5D7KC', duration: '11h15m0s' },
     '// meta-0': 'Ringworld / Larry Niven / n: Tom Parker',
     '// asin-1': { asin: 'B0036K2HLG', duration: '10h59m0s' },
-    '// meta-1':
-      'Destroyer of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
+    '// meta-1': 'Destroyer of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
     '// asin-2': { asin: 'B008XKUSL0', duration: '9h54m0s' },
-    '// meta-2':
-      'Fate of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
+    '// meta-2': 'Fate of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
     '// asin-3': { asin: 'B002V8KLD0', duration: '12h54m0s' },
-    '// meta-3':
-      'Juggler of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
+    '// meta-3': 'Juggler of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
     '// asin-4': { asin: 'B002V1NLMA', duration: '9h34m0s' },
-    '// meta-4':
-      'Fleet of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
+    '// meta-4': 'Fleet of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
     '// asin-5': { asin: 'B0044ZWHM6', duration: '9h34m0s' },
-    '// meta-5':
-      'Betrayer of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
+    '// meta-5': 'Betrayer of Worlds / Larry Niven,Edward M. Lerner / n: Tom Weiner',
     '// asin-6': { asin: 'B005VH39B4', duration: '13h10m0s' },
     '// meta-6': 'The Ringworld Engineers / Larry Niven / n: Richard Powers',
     '// asin-7': { asin: 'B002V0JSXM', duration: '9h19m0s' },
@@ -3042,8 +2901,7 @@ export const db = {
     title: 'James Penney’s New Identity - Guy Walks into a Bar', // hint
     '// duration': '1h24m47s',
     '// asin-0': { asin: 'B00A7FQ1NI', duration: '1h24m0s' },
-    '// meta-0':
-      'James Penney’s New Identity - Guy Walks into a Bar / Lee Child / n: Kerry Shale'
+    '// meta-0': 'James Penney’s New Identity - Guy Walks into a Bar / Lee Child / n: Kerry Shale'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/13 Gone Tomorrow': {
     author: 'Lee Child', // unique
@@ -3091,8 +2949,7 @@ export const db = {
     '// asin-0': { asin: 'B005GWANOA', duration: '1h14m0s' },
     '// meta-0': 'Second Son / Lee Child / n: Kerry Shale',
     '// asin-1': { asin: 'B00JOPT6BG', duration: '7h9m0s' },
-    '// meta-1':
-      "Three Jack Reacher Novellas (with Bonus Jack Reacher's Rules) / Lee Child / n: Dick Hill,Lee Child"
+    '// meta-1': "Three Jack Reacher Novellas (with Bonus Jack Reacher's Rules) / Lee Child / n: Dick Hill,Lee Child"
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/16 The Affair': {
     author: 'Lee Child', // unique
@@ -3114,8 +2971,7 @@ export const db = {
     '// asin-0': { asin: 'B008MM6G1K', duration: '1h19m0s' },
     '// meta-0': 'Deep Down / Lee Child / n: Kerry Shale',
     '// asin-1': { asin: 'B00JOPT6BG', duration: '7h9m0s' },
-    '// meta-1':
-      "Three Jack Reacher Novellas (with Bonus Jack Reacher's Rules) / Lee Child / n: Dick Hill,Lee Child"
+    '// meta-1': "Three Jack Reacher Novellas (with Bonus Jack Reacher's Rules) / Lee Child / n: Dick Hill,Lee Child"
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/17 A Wanted Man': {
     author: 'Lee Child', // unique
@@ -3137,8 +2993,7 @@ export const db = {
     '// asin-0': { asin: 'B00F4582YM', duration: '1h59m0s' },
     '// meta-0': 'High Heat / Lee Child / n: Kerry Shale',
     '// asin-1': { asin: 'B00JOPT6BG', duration: '7h9m0s' },
-    '// meta-1':
-      "Three Jack Reacher Novellas (with Bonus Jack Reacher's Rules) / Lee Child / n: Dick Hill,Lee Child"
+    '// meta-1': "Three Jack Reacher Novellas (with Bonus Jack Reacher's Rules) / Lee Child / n: Dick Hill,Lee Child"
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/18 Never Go Back': {
     author: 'Lee Child', // unique
@@ -3260,14 +3115,11 @@ export const db = {
     title: ' Cleaning the Gold', // hint
     '// duration': '2h15m53s',
     '// asin-0': { asin: '1460780787', duration: '2h15m0s' },
-    '// meta-0':
-      'Cleaning the Gold / Lee Child,Karin Slaughter / n: Eric Jason Martin,Jeff Harding',
+    '// meta-0': 'Cleaning the Gold / Lee Child,Karin Slaughter / n: Eric Jason Martin,Jeff Harding',
     '// asin-1': { asin: '0008358958', duration: '2h15m0s' },
-    '// meta-1':
-      'Cleaning the Gold / Karin Slaughter,Lee Child / n: Eric Jason Martin,Jeff Harding',
+    '// meta-1': 'Cleaning the Gold / Karin Slaughter,Lee Child / n: Eric Jason Martin,Jeff Harding',
     '// asin-2': { asin: '0062970232', duration: '2h4m0s' },
-    '// meta-2':
-      'Cleaning the Gold / Karin Slaughter,Lee Child / n: Eric Jason Martin,Jeff Harding'
+    '// meta-2': 'Cleaning the Gold / Karin Slaughter,Lee Child / n: Eric Jason Martin,Jeff Harding'
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/24 Blue Moon': {
     author: 'Lee Child', // unique
@@ -3285,24 +3137,21 @@ export const db = {
     title: 'How to Talk to a Science Denier', // hint
     '// duration': '8h31m34s',
     '// asin-0': { asin: 'B09FM6W1WT', duration: '8h32m0s' },
-    '// meta-0':
-      'How to Talk to a Science Denier / Lee McIntyre / n: Eric Michael Summerer'
+    '// meta-0': 'How to Talk to a Science Denier / Lee McIntyre / n: Eric Michael Summerer'
   },
   "/Volumes/Space/archive/media/audiobooks/Lee Smolin - Einstein's Unfinished Revolution": {
     author: 'Lee Smolin', // unique
     title: "Einstein's Unfinished Revolution", // hint
     '// duration': '10h18m21s',
     '// asin-0': { asin: '198483889X', duration: '10h18m0s' },
-    '// meta-0':
-      "Einstein's Unfinished Revolution / Lee Smolin / n: Katharine Lee McEwan"
+    '// meta-0': "Einstein's Unfinished Revolution / Lee Smolin / n: Katharine Lee McEwan"
   },
   '/Volumes/Space/archive/media/audiobooks/LisaRandall-DarkMatterAndTheDinosaurs': {
     author: 'Lisa Randall', // unique
     title: 'Dark Matter and the Dinosaurs', // hint
     '// duration': '12h32m24s',
     '// asin-0': { asin: 'B00YI0C1VE', duration: '12h32m0s' },
-    '// meta-0':
-      'Dark Matter and the Dinosaurs / Lisa Randall / n: Carrington MacDuffie',
+    '// meta-0': 'Dark Matter and the Dinosaurs / Lisa Randall / n: Carrington MacDuffie',
     '// asin-1': { asin: 'B01786RSAI', duration: '13h25m0s' },
     '// meta-1': 'Dark Matter and the Dinosaurs / Lisa Randall / n: Adam Sims'
   },
@@ -3322,11 +3171,9 @@ export const db = {
     '// asin-1': { asin: 'B00FA48ZPS', duration: '7h0m0s' },
     '// meta-1': 'David and Goliath / Malcolm Gladwell / n: Malcolm Gladwell',
     '// asin-2': { asin: 'B09RQ3Z263', duration: '8h1m0s' },
-    '// meta-2':
-      'David y Goliat [David and Goliath] / Malcolm Gladwell,Ezequiel Martinez Llorente / n: Javier Portugués (Portu)',
+    '// meta-2': 'David y Goliat [David and Goliath] / Malcolm Gladwell,Ezequiel Martinez Llorente / n: Javier Portugués (Portu)',
     '// asin-3': { asin: 'B01E7MUQU0', duration: '8h49m0s' },
-    '// meta-3':
-      'David and Goliath (Russian Edition) / Malcolm Gladwell / n: Maxim Kireev'
+    '// meta-3': 'David and Goliath (Russian Edition) / Malcolm Gladwell / n: Maxim Kireev'
   },
   '/Volumes/Space/archive/media/audiobooks/Malcolm Gladwell-TippingPoint': {
     author: 'Malcolm Gladwell', // unique
@@ -3337,19 +3184,15 @@ export const db = {
     '// asin-1': { asin: 'B002V8H7B4', duration: '3h4m0s' },
     '// meta-1': 'The Tipping Point / Malcolm Gladwell / n: Malcolm Gladwell',
     '// asin-2': { asin: 'B01E7MC7XY', duration: '8h3m0s' },
-    '// meta-2':
-      "Perelomnyj moment Kak neznachitel'nye izmeneniya privodyat k global'nym peremenam [The Tipping Point: How Little Things Can Make a Big Difference] / Malcolm Gladwell / n: Aleksej Muzhickij",
+    '// meta-2': "Perelomnyj moment Kak neznachitel'nye izmeneniya privodyat k global'nym peremenam [The Tipping Point: How Little Things Can Make a Big Difference] / Malcolm Gladwell / n: Aleksej Muzhickij",
     '// asin-3': { asin: 'B002V0A7U0', duration: '8h34m0s' },
     '// meta-3': 'The Tipping Point / Malcolm Gladwell / n: Malcolm Gladwell',
     '// asin-4': { asin: 'B08C7XGVQL', duration: '8h49m0s' },
-    '// meta-4':
-      'Tipping Point (Hindi Edition) / Malcolm Gladwell / n: Neeraj Yadav',
+    '// meta-4': 'Tipping Point (Hindi Edition) / Malcolm Gladwell / n: Neeraj Yadav',
     '// asin-5': { asin: 'B078CQ9VZT', duration: '9h6m0s' },
-    '// meta-5':
-      'El punto clave [The Tipping Point] / Malcolm Gladwell / n: Edson Matus',
+    '// meta-5': 'El punto clave [The Tipping Point] / Malcolm Gladwell / n: Edson Matus',
     '// asin-6': { asin: 'B09Y6BFSZ9', duration: '10h59m0s' },
-    '// meta-6':
-      'O ponto da virada [The Tipping Point] / Malcolm Gladwell / n: Matias Correa'
+    '// meta-6': 'O ponto da virada [The Tipping Point] / Malcolm Gladwell / n: Matias Correa'
   },
   '/Volumes/Space/archive/media/audiobooks/MalcolmGladwell-Blink': {
     author: 'Malcolm Gladwell', // unique
@@ -3360,8 +3203,7 @@ export const db = {
     '// asin-1': { asin: 'B0032N4Y18', duration: '7h43m0s' },
     '// meta-1': 'Blink / Malcolm Gladwell / n: Malcolm Gladwell',
     '// asin-2': { asin: 'B09LP1D5RL', duration: '7h59m0s' },
-    '// meta-2':
-      'Inteligencia intuitiva (en castellano) [Blink. The Power of Thinking Without Thinking] / Malcolm Gladwell / n: Javier Portugués',
+    '// meta-2': 'Inteligencia intuitiva (en castellano) [Blink. The Power of Thinking Without Thinking] / Malcolm Gladwell / n: Javier Portugués',
     '// asin-3': { asin: 'B09NMFG863', duration: '8h0m0s' },
     '// meta-3': 'Blink! / Malcolm Gladwell / n: Alexander Bolte',
     '// asin-4': { asin: 'B08D6XSGFH', duration: '9h8m0s' },
@@ -3372,19 +3214,15 @@ export const db = {
     title: 'Talking to Strangers', // hint
     '// duration': '8h42m8s',
     '// asin-0': { asin: '1549150340', duration: '8h42m0s' },
-    '// meta-0':
-      'Talking to Strangers / Malcolm Gladwell / n: Malcolm Gladwell',
+    '// meta-0': 'Talking to Strangers / Malcolm Gladwell / n: Malcolm Gladwell',
     '// asin-1': { asin: '024140827X', duration: '8h42m0s' },
-    '// meta-1':
-      'Talking to Strangers / Malcolm Gladwell / n: Malcolm Gladwell',
+    '// meta-1': 'Talking to Strangers / Malcolm Gladwell / n: Malcolm Gladwell',
     '// asin-2': { asin: '8430623418', duration: '9h21m0s' },
-    '// meta-2':
-      'Hablar con extraños [Talking to Strangers] / Malcolm Gladwell / n: Edson Matus',
+    '// meta-2': 'Hablar con extraños [Talking to Strangers] / Malcolm Gladwell / n: Edson Matus',
     '// asin-3': { asin: 'B08FRL6GRZ', duration: '9h45m0s' },
     '// meta-3': 'Quiproquos / Malcolm Gladwell / n: François Montagut',
     '// asin-4': { asin: 'B09W9V4Z5W', duration: '10h56m0s' },
-    '// meta-4':
-      'Falando com estranhos [Talking to Strangers] / Malcolm Gladwell / n: Marcos Breda'
+    '// meta-4': 'Falando com estranhos [Talking to Strangers] / Malcolm Gladwell / n: Marcos Breda'
   },
   '/Volumes/Space/archive/media/audiobooks/Margaret Atwood - Maddadam': {
     author: 'Margaret Atwood', // unique
@@ -3393,14 +3231,11 @@ export const db = {
     '// asin-0': { asin: 'B08CF27SZK', duration: '13h28m0s' },
     '// meta-0': 'MaddAddam / Margaret Atwood / n: Bertrand Pazos',
     '// asin-1': { asin: 'B00E7Z9N6G', duration: '13h24m0s' },
-    '// meta-1':
-      'MaddAddam / Margaret Atwood / n: Bernadette Dunne,Bob Walter,Robbie Daymond',
+    '// meta-1': 'MaddAddam / Margaret Atwood / n: Bernadette Dunne,Bob Walter,Robbie Daymond',
     '// asin-2': { asin: 'B00JV4FP1A', duration: '13h21m0s' },
-    '// meta-2':
-      'MaddAddam / Margaret Atwood / n: Bernadette Dunne,Bob Walter,Robbie Daymond',
+    '// meta-2': 'MaddAddam / Margaret Atwood / n: Bernadette Dunne,Bob Walter,Robbie Daymond',
     '// asin-3': { asin: 'B002V1CIII', duration: '14h4m0s' },
-    '// meta-3':
-      'The Year of the Flood / Margaret Atwood / n: Bernadette Dunne,Katie MacNichol,Mark Bramhall',
+    '// meta-3': 'The Year of the Flood / Margaret Atwood / n: Bernadette Dunne,Katie MacNichol,Mark Bramhall',
     '// asin-4': { asin: 'B002V5H20I', duration: '12h46m0s' },
     '// meta-4': 'The Year of the Flood / Margaret Atwood / n: Lorelei King',
     '// asin-5': { asin: 'B002V9Z3JG', duration: '12h22m0s' },
@@ -3419,8 +3254,7 @@ export const db = {
     title: 'The Year of the Flood', // hint
     '// duration': '14h4m50s',
     '// asin-0': { asin: 'B002V1CIII', duration: '14h4m0s' },
-    '// meta-0':
-      'The Year of the Flood / Margaret Atwood / n: Bernadette Dunne,Katie MacNichol,Mark Bramhall',
+    '// meta-0': 'The Year of the Flood / Margaret Atwood / n: Bernadette Dunne,Katie MacNichol,Mark Bramhall',
     '// asin-1': { asin: 'B002V5H20I', duration: '12h46m0s' },
     '// meta-1': 'The Year of the Flood / Margaret Atwood / n: Lorelei King'
   },
@@ -3460,8 +3294,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Mary Beard - Twelve Caesars': {
     author: 'Mary Beard', // unique
-    title:
-      'Twelve Caesars - Images of Power from the Ancient World to the Modern', // unique
+    title: 'Twelve Caesars - Images of Power from the Ancient World to the Modern', // unique
     '// duration': '10h11m38s',
     '// asin-0': { asin: '0691231826', duration: '10h11m0s' },
     '// meta-0': 'Twelve Caesars / Mary Beard / n: Mary Beard'
@@ -3476,8 +3309,7 @@ export const db = {
     '// asin-0': { asin: 'B00B89HF5K', duration: '11h2m0s' },
     '// meta-0': 'The Iron King / Maurice Druon / n: Peter Joyce',
     '// asin-1': { asin: '8490707545', duration: '9h42m0s' },
-    '// meta-1':
-      'El rey de hierro [The Iron King] / Maurice Druon / n: Luis Grau'
+    '// meta-1': 'El rey de hierro [The Iron King] / Maurice Druon / n: Luis Grau'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/02-The Strangled Queen': {
     author: 'Maurice Druon', // unique
@@ -3486,8 +3318,7 @@ export const db = {
     '// asin-0': { asin: 'B00C6CT326', duration: '8h26m0s' },
     '// meta-0': 'The Strangled Queen / Maurice Druon / n: Peter Joyce',
     '// asin-1': { asin: '8413141400', duration: '8h20m0s' },
-    '// meta-1':
-      'La reina estrangulada [The Strangled Queen] / Maurice Druon / n: Luis Grau'
+    '// meta-1': 'La reina estrangulada [The Strangled Queen] / Maurice Druon / n: Luis Grau'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/03-The Poisoned Crown': {
     author: 'Maurice Druon', // unique
@@ -3522,8 +3353,7 @@ export const db = {
     title: 'The King Without a Kingdom', // hint
     '// duration': '11h43m26s',
     '// asin-0': { asin: 'B00R59NIE4', duration: '11h43m0s' },
-    '// meta-0':
-      'The King Without a Kingdom (The Accursed Kings, Book 7) / Maurice Druon / n: Peter Joyce'
+    '// meta-0': 'The King Without a Kingdom (The Accursed Kings, Book 7) / Maurice Druon / n: Peter Joyce'
   },
   '/Volumes/Space/archive/media/audiobooks/Max Tegmark - Life 3.0': {
     author: 'Max Tegmark', // unique
@@ -3536,8 +3366,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Max Tegmark - Our Mathematical Universe': {
     author: 'Max Tegmark', // unique
-    title:
-      'Our Mathematical Universe - My Quest for the Ultimate Nature of Reality', // unique
+    title: 'Our Mathematical Universe - My Quest for the Ultimate Nature of Reality', // unique
     '// duration': '15h22m22s',
     '// asin-0': { asin: 'B00HJX0952', duration: '15h22m0s' },
     '// meta-0': 'Our Mathematical Universe / Max Tegmark / n: Rob Shapiro'
@@ -3569,73 +3398,56 @@ export const db = {
     '// asin-1': { asin: 'B01MTOIOQQ', duration: '10h17m0s' },
     '// meta-1': 'The Undoing Project / Michael Lewis / n: Dennis Boutsikaris',
     '// asin-2': { asin: 'B09N9VCGHX', duration: '12h26m0s' },
-    '// meta-2':
-      'Deshaciendo errores [The Undoing Project] / Michael Lewis,Juan Manuel Ibeas Delgado - translator,Roberto Falcó Miramontes - translator / n: Mario de Candia'
+    '// meta-2': 'Deshaciendo errores [The Undoing Project] / Michael Lewis,Juan Manuel Ibeas Delgado - translator,Roberto Falcó Miramontes - translator / n: Mario de Candia'
   },
   '/Volumes/Space/archive/media/audiobooks/Miguel de Cervantes - Don Quixote': {
     author: 'Miguel de Cervantes', // hint
     title: 'Don Quixote', // hint
     '// duration': '36h5m52s',
     '// asin-0': { asin: 'B0052XV1SK', duration: '36h5m0s' },
-    '// meta-0':
-      'Don Quixote / John Ormsby - translator,Miguel de Cervantes / n: Roy McMillan',
+    '// meta-0': 'Don Quixote / John Ormsby - translator,Miguel de Cervantes / n: Roy McMillan',
     '// asin-1': { asin: 'B002V8LDEQ', duration: '36h42m0s' },
-    '// meta-1':
-      'Don Quixote / Tobias Smollett - translator,Miguel de Cervantes / n: Robert Whitfield',
+    '// meta-1': 'Don Quixote / Tobias Smollett - translator,Miguel de Cervantes / n: Robert Whitfield',
     '// asin-2': { asin: '0241429536', duration: '39h17m0s' },
-    '// meta-2':
-      'Don Quixote / Miguel Cervantes,John Rutherford / n: Kayvan Novak,Josh Cohen,Alistair Petrie,Richard Hughes',
+    '// meta-2': 'Don Quixote / Miguel Cervantes,John Rutherford / n: Kayvan Novak,Josh Cohen,Alistair Petrie,Richard Hughes',
     '// asin-3': { asin: 'B009XEJWP8', duration: '39h37m0s' },
-    '// meta-3':
-      'Don Quixote / Edith Grossman - translator,Miguel de Cervantes / n: George Guidall',
+    '// meta-3': 'Don Quixote / Edith Grossman - translator,Miguel de Cervantes / n: George Guidall',
     '// asin-4': { asin: '1799744701', duration: '41h40m0s' },
-    '// meta-4':
-      'Don Quixote (AmazonClassics Edition) / Miguel de Cervantes,John Orsmby - translator / n: Michael Page',
+    '// meta-4': 'Don Quixote (AmazonClassics Edition) / Miguel de Cervantes,John Orsmby - translator / n: Michael Page',
     '// asin-5': { asin: 'B07L15VXZW', duration: '45h41m0s' },
-    '// meta-5':
-      'Dom Quixote de la Mancha [Don Quixote] / Miguel de Cervantes / n: Jaime Leibovich',
+    '// meta-5': 'Dom Quixote de la Mancha [Don Quixote] / Miguel de Cervantes / n: Jaime Leibovich',
     '// asin-6': { asin: 'B002V8LKCQ', duration: '21h27m0s' },
-    '// meta-6':
-      'Don Quijote de la Mancha Tomo I [Don Quixote, Part I] / Miguel de Cervantes Saavedra / n: Alejandro Magnone',
+    '// meta-6': 'Don Quijote de la Mancha Tomo I [Don Quixote, Part I] / Miguel de Cervantes Saavedra / n: Alejandro Magnone',
     '// asin-7': { asin: 'B00E8JMNUO', duration: '20h0m0s' },
-    '// meta-7':
-      'Don Quixote / Miguel de Cervantes,Gerald J. Davis - translator / n: John Hanks',
+    '// meta-7': 'Don Quixote / Miguel de Cervantes,Gerald J. Davis - translator / n: John Hanks',
     '// asin-8': { asin: 'B002V8NB50', duration: '5h24m0s' },
-    '// meta-8':
-      'Don Quijote de la Mancha [Don Quixote] / Miguel de Cervantes / n: full cast',
+    '// meta-8': 'Don Quijote de la Mancha [Don Quixote] / Miguel de Cervantes / n: full cast',
     '// asin-9': { asin: 'B0044V0KM4', duration: '4h39m0s' },
-    '// meta-9':
-      'Don Quixote (Adapted for Modern Listeners) / Miguel de Cervantes / n: Johnny Heller'
+    '// meta-9': 'Don Quixote (Adapted for Modern Listeners) / Miguel de Cervantes / n: Johnny Heller'
   },
   '/Volumes/Space/archive/media/audiobooks/MihalyCsikszentmihalyi-Flow': {
     author: 'Mihaly Csikszentmihalyi', // unique
     title: 'Flow', // unique
     '// duration': '1h48m27s',
     '// asin-0': { asin: 'B002UZKX1Y', duration: '4h10m0s' },
-    '// meta-0':
-      'Good Business / Mihaly Csikszentmihalyi / n: Truitt Blassingham',
+    '// meta-0': 'Good Business / Mihaly Csikszentmihalyi / n: Truitt Blassingham',
     '// asin-1': { asin: 'B018Y8KDYW', duration: '5h6m0s' },
     '// meta-1': 'Finding Flow / Mihaly Csikszentmihalyi / n: Sean Pratt',
     '// asin-2': { asin: '3956167228', duration: '5h6m0s' },
-    '// meta-2':
-      'Flow - der Weg zum Glück / Mihaly Csikszentmihalyi / n: Claus Vester,Julia Fischer',
+    '// meta-2': 'Flow - der Weg zum Glück / Mihaly Csikszentmihalyi / n: Claus Vester,Julia Fischer',
     '// asin-3': { asin: 'B00QU99KN8', duration: '5h31m0s' },
-    '// meta-3':
-      'Flow / Mihaly Csikszentmihalyi Ph.D. / n: Mihaly Csikszentmihalyi Ph.D.',
+    '// meta-3': 'Flow / Mihaly Csikszentmihalyi Ph.D. / n: Mihaly Csikszentmihalyi Ph.D.',
     '// asin-4': { asin: '1628613572', duration: '12h15m0s' },
-    '// meta-4':
-      'Flow (German edition) / Mihaly Csikszentmihalyi / n: Dominic Kolb'
+    '// meta-4': 'Flow (German edition) / Mihaly Csikszentmihalyi / n: Dominic Kolb'
   },
   '/Volumes/Space/archive/media/audiobooks/Milan Kundera - The Unbearable Lightness of Being': {
     author: 'Milan Kundera', // hint
     title: 'The Unbearable Lightness of Being', // unique
     '// duration': '9h37m28s',
     '// asin-0': { asin: 'B0081IIOP6', duration: '9h37m0s' },
-    '// meta-0':
-      'The Unbearable Lightness of Being / Milan Kundera,Michael Henry Heim - translator / n: Richmond Hoxie',
+    '// meta-0': 'The Unbearable Lightness of Being / Milan Kundera,Michael Henry Heim - translator / n: Richmond Hoxie',
     '// asin-1': { asin: 'B008PTRAWY', duration: '9h36m0s' },
-    '// meta-1':
-      'The Unbearable Lightness of Being / Milan Kundera / n: Richmond Hoxie'
+    '// meta-1': 'The Unbearable Lightness of Being / Milan Kundera / n: Richmond Hoxie'
   },
   '/Volumes/Space/archive/media/audiobooks/N.K. Jemison - The Broken earth Series': {
     '// No audio files': null
@@ -3660,16 +3472,14 @@ export const db = {
     '// asin-1': { asin: 'B01LBGCRPW', duration: '13h19m0s' },
     '// meta-1': 'The Obelisk Gate / N. K. Jemisin / n: Robin Miles',
     '// asin-2': { asin: 'B09JFTZKMF', duration: '13h19m0s' },
-    '// meta-2':
-      'The Obelisk Gate: Booktrack Edition / N. K. Jemisin / n: Robin Miles'
+    '// meta-2': 'The Obelisk Gate: Booktrack Edition / N. K. Jemisin / n: Robin Miles'
   },
   '/Volumes/Space/archive/media/audiobooks/N.K. Jemison - The Broken earth Series/N.K. Jemisin - 03 - The Stone Sky3': {
     author: 'N. K. Jemisin', // unique
     title: 'The Stone Sky', // hint
     '// duration': '14h16m51s',
     '// asin-0': { asin: '1549128310', duration: '14h17m0s' },
-    '// meta-0':
-      'The Stone Sky (Booktrack Edition) / N. K. Jemisin / n: Robin Miles',
+    '// meta-0': 'The Stone Sky (Booktrack Edition) / N. K. Jemisin / n: Robin Miles',
     '// asin-1': { asin: 'B07288JYYG', duration: '14h16m0s' },
     '// meta-1': 'The Stone Sky / N. K. Jemisin / n: Robin Miles',
     '// asin-2': { asin: 'B06XRM24H2', duration: '14h16m0s' },
@@ -3693,8 +3503,7 @@ export const db = {
     '// asin-0': { asin: 'B002V5BGUA', duration: '14h20m0s' },
     '// meta-0': 'The Black Swan / Nassim Nicholas Taleb / n: David Chandler',
     '// asin-1': { asin: 'B07KRNNLFF', duration: '15h48m0s' },
-    '// meta-1':
-      'The Black Swan, Second Edition: The Impact of the Highly Improbable: With a new section: "On Robustness and Fragility" / Nassim Nicholas Taleb / n: Joe Ochman'
+    '// meta-1': 'The Black Swan, Second Edition: The Impact of the Highly Improbable: With a new section: "On Robustness and Fragility" / Nassim Nicholas Taleb / n: Joe Ochman'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - Termination Shock': {
     author: 'Neal Stephenson', // unique
@@ -3715,67 +3524,58 @@ export const db = {
     title: 'Quicksilver', // hint
     '// duration': '14h26m47s',
     '// asin-0': { asin: 'B003VKG69K', duration: '14h43m0s' },
-    '// meta-0':
-      'Quicksilver / Neal Stephenson / n: Neal Stephenson (introduction),Kevin Pariseau,Simon Prebble'
+    '// meta-0': 'Quicksilver / Neal Stephenson / n: Neal Stephenson (introduction),Kevin Pariseau,Simon Prebble'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 02 - King of the Vagabonds': {
     author: 'Neal Stephenson', // unique
     title: 'King of the Vagabonds', // hint
     '// duration': '11h11m10s',
     '// asin-0': { asin: 'B003TTMSNQ', duration: '11h11m0s' },
-    '// meta-0':
-      'King of the Vagabonds / Neal Stephenson / n: Neal Stephenson (introduction),Simon Prebble,Kevin Pariseau'
+    '// meta-0': 'King of the Vagabonds / Neal Stephenson / n: Neal Stephenson (introduction),Simon Prebble,Kevin Pariseau'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 03 - Odalisque': {
     author: 'Neal Stephenson', // unique
     title: 'Odalisque', // hint
     '// duration': '13h22m52s',
     '// asin-0': { asin: 'B003TTJ00K', duration: '13h21m0s' },
-    '// meta-0':
-      'Odalisque / Neal Stephenson / n: Simon Prebble,Katherine Kellgren,Kevin Pariseau,Neal Stephenson (introduction)'
+    '// meta-0': 'Odalisque / Neal Stephenson / n: Simon Prebble,Katherine Kellgren,Kevin Pariseau,Neal Stephenson (introduction)'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 04 and 05 - The Confusion': {
     author: 'Neal Stephenson', // unique
     title: 'The Confusion', // hint
     '// duration': '34h30m31s',
     '// asin-0': { asin: 'B003TTX844', duration: '34h25m0s' },
-    '// meta-0':
-      'The Confusion / Neal Stephenson / n: Simon Prebble,Katherine Kellgren,Kevin Pariseau,Neal Stephenson (introduction)'
+    '// meta-0': 'The Confusion / Neal Stephenson / n: Simon Prebble,Katherine Kellgren,Kevin Pariseau,Neal Stephenson (introduction)'
   },
   "/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 06 - Solomon's Gold": {
     author: 'Neal Stephenson', // unique
     title: "Solomon's Gold", // hint
     '// duration': '14h10m49s',
     '// asin-0': { asin: 'B003UNS5NS', duration: '14h9m0s' },
-    '// meta-0':
-      'Solomon’s Gold / Neal Stephenson / n: Simon Prebble,Kevin Pariseau,Neal Stephenson (introduction)'
+    '// meta-0': 'Solomon’s Gold / Neal Stephenson / n: Simon Prebble,Kevin Pariseau,Neal Stephenson (introduction)'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 07 - Currency': {
     author: 'Neal Stephenson', // unique
     title: 'Currency', // hint
     '// duration': '14h15m30s',
     '// asin-0': { asin: 'B003XS7P4K', duration: '14h15m0s' },
-    '// meta-0':
-      'Currency / Neal Stephenson / n: Simon Prebble,Neal Stephenson (introduction),Kevin Pariseau'
+    '// meta-0': 'Currency / Neal Stephenson / n: Simon Prebble,Neal Stephenson (introduction),Kevin Pariseau'
   },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 08 - The System of the World': {
     author: 'Neal Stephenson', // unique
     title: 'The System of the World', // hint
     '// duration': '11h36m59s',
     '// asin-0': { asin: 'B003XS3N6Y', duration: '11h37m0s' },
-    '// meta-0':
-      'The System of the World / Neal Stephenson / n: Neal Stephenson (introduction),Kevin Pariseau,Simon Prebble'
+    '// meta-0': 'The System of the World / Neal Stephenson / n: Neal Stephenson (introduction),Kevin Pariseau,Simon Prebble'
   },
   '/Volumes/Space/archive/media/audiobooks/NealStephenson-Anathem': {
     author: 'Neal Stephenson', // unique
     title: 'Anathem', // unique
     '// duration': '32h26m4s',
     '// asin-0': { asin: 'B086WNG3RK', duration: '32h25m0s' },
-    '// meta-0':
-      'Anathem / Neal Stephenson / n: Oliver Wyman,Tavia Gilbert,William Dufris,Neal Stephenson',
+    '// meta-0': 'Anathem / Neal Stephenson / n: Oliver Wyman,Tavia Gilbert,William Dufris,Neal Stephenson',
     '// asin-1': { asin: 'B00TWI3WC4', duration: '38h16m0s' },
-    '// meta-1':
-      'Anathem [German Edition] / Neal Stephenson / n: Detlef Bierstedt'
+    '// meta-1': 'Anathem [German Edition] / Neal Stephenson / n: Detlef Bierstedt'
   },
   '/Volumes/Space/archive/media/audiobooks/NealStephenson-Reamde': {
     author: 'Neal Stephenson', // unique
@@ -3812,11 +3612,9 @@ export const db = {
     title: 'This Is How They Tell Me the World Ends', // unique
     '// duration': '18h31m40s',
     '// asin-0': { asin: '1526633485', duration: '18h32m0s' },
-    '// meta-0':
-      'This Is How They Tell Me the World Ends / Nicole Perlroth / n: Allyson Ryan',
+    '// meta-0': 'This Is How They Tell Me the World Ends / Nicole Perlroth / n: Allyson Ryan',
     '// asin-1': { asin: '1635577179', duration: '18h32m0s' },
-    '// meta-1':
-      'This Is How They Tell Me the World Ends / Nicole Perlroth / n: Allyson Ryan'
+    '// meta-1': 'This Is How They Tell Me the World Ends / Nicole Perlroth / n: Allyson Ryan'
   },
   '/Volumes/Space/archive/media/audiobooks/Oliver Burkeman - Four Thousand Weeks': {
     author: 'Oliver Burkeman', // hint
@@ -3834,37 +3632,28 @@ export const db = {
     title: "Ender's Game", // unique
     '// duration': '11h11m47s',
     '// asin-0': { asin: '841314177X', duration: '11h23m0s' },
-    '// meta-0':
-      "El juego de Ender [Ender's Game] / Orson Scott Card / n: Luis Torrelles",
+    '// meta-0': "El juego de Ender [Ender's Game] / Orson Scott Card / n: Luis Torrelles",
     '// asin-1': { asin: 'B01CF3FZAE', duration: '10h57m0s' },
-    '// meta-1':
-      "Enders strategi [Ender's Game] / Orson Scott Card / n: Dan Schlosser",
+    '// meta-1': "Enders strategi [Ender's Game] / Orson Scott Card / n: Dan Schlosser",
     '// asin-2': { asin: 'B002V5A12Y', duration: '11h57m0s' },
-    '// meta-2':
-      "Ender's Game / Orson Scott Card / n: Stefan Rudnicki,Harlan Ellison,Gabrielle de Cuir",
+    '// meta-2': "Ender's Game / Orson Scott Card / n: Stefan Rudnicki,Harlan Ellison,Gabrielle de Cuir",
     '// asin-3': { asin: 'B00TVNYOX6', duration: '8h1m0s' },
-    '// meta-3':
-      "Ender's Game - Das große Spiel / Orson Scott Card / n: Arne Kapfer,Udo Schenk,Vera Teltz",
+    '// meta-3': "Ender's Game - Das große Spiel / Orson Scott Card / n: Arne Kapfer,Udo Schenk,Vera Teltz",
     '// asin-4': { asin: 'B009RT5K2S', duration: '7h46m0s' },
-    '// meta-4':
-      'Ender’s World / Orson Scott Card - editor / n: Gabrielle de Cuir,Janis Ian,Arthur Morey,Stefan Rudnicki,Orson Scott Card',
+    '// meta-4': 'Ender’s World / Orson Scott Card - editor / n: Gabrielle de Cuir,Janis Ian,Arthur Morey,Stefan Rudnicki,Orson Scott Card',
     '// asin-5': { asin: 'B00E3U3IB6', duration: '7h24m0s' },
-    '// meta-5':
-      "Ender's Game Alive: The Full Cast Audioplay / Orson Scott Card / n: Full Cast Recording"
+    '// meta-5': "Ender's Game Alive: The Full Cast Audioplay / Orson Scott Card / n: Full Cast Recording"
   },
   '/Volumes/Space/archive/media/audiobooks/Oscar Wilde - The Importance of Being Earnest': {
     author: 'Oscar Wilde', // unique
     title: 'The Importance of Being Earnest  (Dramatized)', // unique
     '// duration': '1h58m15s',
     '// asin-0': { asin: 'B0036I8XE8', duration: '1h58m0s' },
-    '// meta-0':
-      'The Importance of Being Earnest (Dramatized) / Oscar Wilde / n: James Marsters,Charles Busch,Emily Bergl,Neil Dickson,Jill Gascoine,Christopher Neame,Matthew Wolf',
+    '// meta-0': 'The Importance of Being Earnest (Dramatized) / Oscar Wilde / n: James Marsters,Charles Busch,Emily Bergl,Neil Dickson,Jill Gascoine,Christopher Neame,Matthew Wolf',
     '// asin-1': { asin: 'B002VAA82C', duration: '1h54m0s' },
-    '// meta-1':
-      'The Importance of Being Earnest (Dramatized) / Oscar Wilde / n: full cast,Greg Wise,Miriam Margolyes',
+    '// meta-1': 'The Importance of Being Earnest (Dramatized) / Oscar Wilde / n: full cast,Greg Wise,Miriam Margolyes',
     '// asin-2': { asin: 'B002V8M9R6', duration: '1h49m0s' },
-    '// meta-2':
-      'The Importance of Being Earnest (dramatized) / Oscar Wilde / n: John Gielgud,Edith Evans'
+    '// meta-2': 'The Importance of Being Earnest (dramatized) / Oscar Wilde / n: John Gielgud,Edith Evans'
   },
   '/Volumes/Space/archive/media/audiobooks/Oscar Wilde - The Picture of Dorian Gray': {
     author: 'Oscar Wilde', // unique
@@ -3875,11 +3664,9 @@ export const db = {
     '// asin-1': { asin: 'B09VYHQ17T', duration: '8h8m0s' },
     '// meta-1': 'The Picture of Dorian Gray / Oscar Wilde / n: Tony Walker',
     '// asin-2': { asin: 'B071JCHBY4', duration: '7h57m0s' },
-    '// meta-2':
-      'The Picture of Dorian Gray (AmazonClassics Edition) / Oscar Wilde / n: Michael Page',
+    '// meta-2': 'The Picture of Dorian Gray (AmazonClassics Edition) / Oscar Wilde / n: Michael Page',
     '// asin-3': { asin: 'B01ESJS5RI', duration: '7h48m0s' },
-    '// meta-3':
-      'The Picture of Dorian Gray / Oscar Wilde / n: Peter Batchelor',
+    '// meta-3': 'The Picture of Dorian Gray / Oscar Wilde / n: Peter Batchelor',
     '// asin-4': { asin: '0241423244', duration: '8h25m0s' },
     '// meta-4': 'The Picture of Dorian Gray / Oscar Wilde / n: Ben Barnes',
     '// asin-5': { asin: 'B002VAEOY0', duration: '7h44m0s' },
@@ -3889,8 +3676,7 @@ export const db = {
     '// asin-7': { asin: 'B075VF1R27', duration: '8h35m0s' },
     '// meta-7': 'The Picture of Dorian Gray / Oscar Wilde / n: Russell Tovey',
     '// asin-8': { asin: '1666126063', duration: '7h10m0s' },
-    '// meta-8':
-      'The Uncensored Picture of Dorian Gray / Oscar Wilde,Nicholas Frankel - editor / n: Edoardo Ballerini',
+    '// meta-8': 'The Uncensored Picture of Dorian Gray / Oscar Wilde,Nicholas Frankel - editor / n: Edoardo Ballerini',
     '// asin-9': { asin: 'B074ZSTCTK', duration: '5h16m0s' },
     '// meta-9': 'The Picture of Dorian Gray / Oscar Wilde / n: Stephen Fry'
   },
@@ -3899,14 +3685,11 @@ export const db = {
     title: 'The Slow Regard of Silent Things', // hint
     '// duration': '3h39m18s',
     '// asin-0': { asin: 'B00MOXI512', duration: '3h39m0s' },
-    '// meta-0':
-      'The Slow Regard of Silent Things / Patrick Rothfuss / n: Patrick Rothfuss',
+    '// meta-0': 'The Slow Regard of Silent Things / Patrick Rothfuss / n: Patrick Rothfuss',
     '// asin-1': { asin: 'B00MNQLH0Q', duration: '3h39m0s' },
-    '// meta-1':
-      'The Slow Regard of Silent Things / Patrick Rothfuss / n: Patrick Rothfuss',
+    '// meta-1': 'The Slow Regard of Silent Things / Patrick Rothfuss / n: Patrick Rothfuss',
     '// asin-2': { asin: 'B09NCMZ7XC', duration: '4h0m0s' },
-    '// meta-2':
-      'La música del silencio [The Slow Regard of Silent Things] / Patrick Rothfuss,Gemma Rovira Ortega / n: Raúl Llorens'
+    '// meta-2': 'La música del silencio [The Slow Regard of Silent Things] / Patrick Rothfuss,Gemma Rovira Ortega / n: Raúl Llorens'
   },
   '/Volumes/Space/archive/media/audiobooks/PatrickRothfuss-TheNameOfTheWind': {
     author: 'Patrick Rothfuss', // unique
@@ -3917,8 +3700,7 @@ export const db = {
     '// asin-1': { asin: 'B007FGEACG', duration: '28h3m0s' },
     '// meta-1': 'The Name of the Wind / Patrick Rothfuss / n: Rupert Degas',
     '// asin-2': { asin: 'B01CYLNWYS', duration: '27h21m0s' },
-    '// meta-2':
-      'El nombre del viento [The Name of the Wind] / Patrick Rothfuss / n: Raúl Llorens'
+    '// meta-2': 'El nombre del viento [The Name of the Wind] / Patrick Rothfuss / n: Raúl Llorens'
   },
   '/Volumes/Space/archive/media/audiobooks/PatrickRothfuss-TheWiseMansFear': {
     author: 'Patrick Rothfuss', // unique
@@ -3929,17 +3711,14 @@ export const db = {
     '// asin-1': { asin: 'B007Q37QD8', duration: '42h49m0s' },
     '// meta-1': "The Wise Man's Fear / Patrick Rothfuss / n: Rupert Degas",
     '// asin-2': { asin: 'B01DL93RXI', duration: '45h1m0s' },
-    '// meta-2':
-      "El temor de un hombre sabio: Crónica del asesino de reyes 2 [The Wise Man's Fear: The Kingkiller Chronicles 2] / Patrick Rothfuss / n: Raúl Llorens"
+    '// meta-2': "El temor de un hombre sabio: Crónica del asesino de reyes 2 [The Wise Man's Fear: The Kingkiller Chronicles 2] / Patrick Rothfuss / n: Raúl Llorens"
   },
   "/Volumes/Space/archive/media/audiobooks/Paul Halpern - Einstein's Dice and Schrodinger's Cat": {
     author: 'Paul Halpern', // unique
-    title:
-      "Einstein's Dice and Schrödinger's Cat: How Two Great Minds Battled Quantum Randomness to Create a Unified Theory of Physics", // unique
+    title: "Einstein's Dice and Schrödinger's Cat: How Two Great Minds Battled Quantum Randomness to Create a Unified Theory of Physics", // unique
     '// duration': '10h18m50s',
     '// asin-0': { asin: 'B00VAW9TEA', duration: '10h18m0s' },
-    '// meta-0':
-      'Einstein’s Dice and Schrödinger’s Cat / Paul Halpern / n: Sean Runnette'
+    '// meta-0': 'Einstein’s Dice and Schrödinger’s Cat / Paul Halpern / n: Sean Runnette'
   },
   '/Volumes/Space/archive/media/audiobooks/Paul Hapern - The Quantum Labyrinth': {
     author: 'Paul Halpern', // unique
@@ -3953,16 +3732,14 @@ export const db = {
     title: 'The Second Kind of Impossible', // unique
     '// duration': '11h22m7s',
     '// asin-0': { asin: 'B07Q2GQMWT', duration: '11h21m0s' },
-    '// meta-0':
-      'The Second Kind of Impossible / Paul J. Steinhardt / n: Peter Larkin'
+    '// meta-0': 'The Second Kind of Impossible / Paul J. Steinhardt / n: Peter Larkin'
   },
   '/Volumes/Space/archive/media/audiobooks/Peter Singer - The Life You Can Save': {
     author: 'Peter Singer', // unique
     title: 'The Life You Can Save', // hint
     '// duration': '7h19m46s',
     '// asin-0': { asin: '1549182811', duration: '7h19m0s' },
-    '// meta-0':
-      'The Life You Can Save / Peter Singer / n: Kristen Bell,full cast'
+    '// meta-0': 'The Life You Can Save / Peter Singer / n: Kristen Bell,full cast'
   },
   '/Volumes/Space/archive/media/audiobooks/PeterHamilton-TheDreamingVoid': {
     author: 'Peter F. Hamilton', // unique
@@ -3984,12 +3761,10 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Priyamvada Natarajan - Mapping the Heavens': {
     author: 'Priyamvada Natarajan', // unique
-    title:
-      'Mapping the Heavens: The Radical Scientific Ideas That Reveal the Cosmos', // unique
+    title: 'Mapping the Heavens: The Radical Scientific Ideas That Reveal the Cosmos', // unique
     '// duration': '8h27m41s',
     '// asin-0': { asin: 'B01E0JI5AS', duration: '8h27m0s' },
-    '// meta-0':
-      'Mapping the Heavens / Priyamvada Natarajan / n: Elisabeth Rodgers'
+    '// meta-0': 'Mapping the Heavens / Priyamvada Natarajan / n: Elisabeth Rodgers'
   },
   '/Volumes/Space/archive/media/audiobooks/R.F. Kuang - The Poppy War': {
     author: 'R. F. Kuang', // unique
@@ -4039,16 +3814,13 @@ export const db = {
     '// asin-1': { asin: '1782835563', duration: '16h9m0s' },
     '// meta-1': 'Mastery / Robert Greene / n: Fred Sanders',
     '// asin-2': { asin: '0593452127', duration: '12h58m0s' },
-    '// meta-2':
-      'The Daily Laws / Robert Greene / n: Fred Sanders,Robert Greene',
+    '// meta-2': 'The Daily Laws / Robert Greene / n: Fred Sanders,Robert Greene',
     '// asin-3': { asin: '1782839267', duration: '12h58m0s' },
-    '// meta-3':
-      'The Daily Laws / Robert Greene / n: Fred Sanders,Robert Greene'
+    '// meta-3': 'The Daily Laws / Robert Greene / n: Fred Sanders,Robert Greene'
   },
   '/Volumes/Space/archive/media/audiobooks/Roger Penrose - The Emperors New Mind': {
     author: 'Roger Penrose', // unique
-    title:
-      "The Emperor's New Mind - Concerning Computers, Minds, and the Laws of Physics", // unique
+    title: "The Emperor's New Mind - Concerning Computers, Minds, and the Laws of Physics", // unique
     '// duration': '18h26m58s',
     '// asin-0': { asin: '1515943836', duration: '18h27m0s' },
     '// meta-0': "The Emperor's New Mind / Roger Penrose / n: Julian Elfer"
@@ -4058,8 +3830,7 @@ export const db = {
     title: 'How Everything Became War and the Military Became Everything', // unique
     '// duration': '13h4m43s',
     '// asin-0': { asin: 'B01J1XLHNA', duration: '13h4m0s' },
-    '// meta-0':
-      'How Everything Became War and the Military Became Everything / Rosa Brooks / n: Gabra Zackman,Rosa Brooks - introduction'
+    '// meta-0': 'How Everything Became War and the Military Became Everything / Rosa Brooks / n: Gabra Zackman,Rosa Brooks - introduction'
   },
   '/Volumes/Space/archive/media/audiobooks/Ryan Holiday - Ego Is the Enemy (Unabridged)': {
     author: 'Ryan Holiday', // unique
@@ -4077,8 +3848,7 @@ export const db = {
     '// asin-1': { asin: 'B07FSV39LK', duration: '25h39m0s' },
     '// meta-1': "Midnight's Children / Salman Rushdie / n: Homer Todiwala",
     '// asin-2': { asin: 'B07575LRMD', duration: '4h54m0s' },
-    '// meta-2':
-      "Midnight's Children / Salman Rushdie / n: Nikesh Patel,Meera Syal,Anneika Rose,Preeya Kalidas,Aysha Kala,full cast"
+    '// meta-2': "Midnight's Children / Salman Rushdie / n: Nikesh Patel,Meera Syal,Anneika Rose,Preeya Kalidas,Aysha Kala,full cast"
   },
   '/Volumes/Space/archive/media/audiobooks/Salman Rushdie - The Satanic Verses': {
     author: 'Salman Rushdie', // unique
@@ -4094,8 +3864,7 @@ export const db = {
     title: 'The Enchantress of Florence', // unique
     '// duration': '13h17m5s',
     '// asin-0': { asin: 'B002V0QBW8', duration: '13h15m0s' },
-    '// meta-0':
-      'The Enchantress of Florence / Salman Rushdie / n: Firdous Bamji'
+    '// meta-0': 'The Enchantress of Florence / Salman Rushdie / n: Firdous Bamji'
   },
   '/Volumes/Space/archive/media/audiobooks/Sam Harris - Waking Up': {
     author: 'Sam Harris', // unique
@@ -4148,13 +3917,11 @@ export const db = {
     title: 'The Higgs Boson and Beyond', // hint
     '// duration': '6h20m28s',
     '// asin-0': { asin: 'B00SJIXBP6', duration: '6h20m0s' },
-    '// meta-0':
-      'The Higgs Boson and Beyond / Sean Carroll,The Great Courses / n: Sean Carroll'
+    '// meta-0': 'The Higgs Boson and Beyond / Sean Carroll,The Great Courses / n: Sean Carroll'
   },
   '/Volumes/Space/archive/media/audiobooks/SeanCarroll-SomethingDeeplyHidden': {
     author: 'Sean Carroll', // unique
-    title:
-      'Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime', // unique
+    title: 'Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime', // unique
     '// duration': '10h9m56s',
     '// asin-0': { asin: '0525592474', duration: '10h9m0s' },
     '// meta-0': 'Something Deeply Hidden / Sean Carroll / n: Sean Carroll'
@@ -4180,8 +3947,7 @@ export const db = {
     title: 'Buddhism Without Beliefs', // unique
     '// duration': '4h44m37s',
     '// asin-0': { asin: 'B00AMPJKGI', duration: '4h52m0s' },
-    '// meta-0':
-      'Buddhism Without Beliefs / Stephen Batchelor / n: Stephen Batchelor'
+    '// meta-0': 'Buddhism Without Beliefs / Stephen Batchelor / n: Stephen Batchelor'
   },
   '/Volumes/Space/archive/media/audiobooks/StephenFry-Heroes': {
     author: 'Stephen Fry', // unique
@@ -4205,8 +3971,7 @@ export const db = {
     '// asin-4': { asin: '3961050198', duration: '13h46m0s' },
     '// meta-4': 'Mythos / Stephen Fry / n: Hans Jürgen Stockerl',
     '// asin-5': { asin: 'B09S16TFF5', duration: '13h20m0s' },
-    '// meta-5':
-      'Mythos (French edition) / Stephen Fry / n: Frédéric Souterelle',
+    '// meta-5': 'Mythos (French edition) / Stephen Fry / n: Frédéric Souterelle',
     '// asin-6': { asin: '1797213024', duration: '11h1m0s' },
     '// meta-6': 'Troy / Stephen Fry / n: Stephen Fry',
     '// asin-7': { asin: '1405944730', duration: '10h59m0s' },
@@ -4384,8 +4149,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Pinker - Enlightenment Now': {
     author: 'Steven Pinker', // unique
-    title:
-      'Enlightenment Now: The Case for Reason, Science, Humanism, and Progress', // unique
+    title: 'Enlightenment Now: The Case for Reason, Science, Humanism, and Progress', // unique
     '// duration': '19h49m51s',
     '// asin-0': { asin: 'B075FBZBLT', duration: '19h49m0s' },
     '// meta-0': 'Enlightenment Now / Steven Pinker / n: Arthur Morey',
@@ -4410,8 +4174,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Pinker - The Sense of Style': {
     author: 'Steven Pinker', // unique
-    title:
-      "The Sense of Style - The Thinking Person's Guide to Writing in the 21st Century", // unique
+    title: "The Sense of Style - The Thinking Person's Guide to Writing in the 21st Century", // unique
     '// duration': '12h26m26s',
     '// asin-0': { asin: 'B00M8U0CJ4', duration: '12h26m0s' },
     '// meta-0': 'The Sense of Style / Steven Pinker / n: Arthur Morey',
@@ -4423,48 +4186,36 @@ export const db = {
     title: 'The 7 Habits of Highly Effective People', // unique
     '// duration': '13h4m47s',
     '// asin-0': { asin: 'B002V5HAL4', duration: '13h4m0s' },
-    '// meta-0':
-      'The 7 Habits of Highly Effective People / Stephen R. Covey / n: Stephen R. Covey',
+    '// meta-0': 'The 7 Habits of Highly Effective People / Stephen R. Covey / n: Stephen R. Covey',
     '// asin-1': { asin: '1797115073', duration: '15h7m0s' },
-    '// meta-1':
-      'The 7 Habits of Highly Effective People / Sean Covey,Jim Collins - foreword,Stephen R. Covey / n: Stephen R. Covey,Sean Covey',
+    '// meta-1': 'The 7 Habits of Highly Effective People / Sean Covey,Jim Collins - foreword,Stephen R. Covey / n: Stephen R. Covey,Sean Covey',
     '// asin-2': { asin: 'B002V9ZF8U', duration: '5h52m0s' },
-    '// meta-2':
-      'The 7 Habits of Highly Effective People & The 8th Habit (Special 6-Hour Abridgement) / Stephen R. Covey / n: Stephen R. Covey',
+    '// meta-2': 'The 7 Habits of Highly Effective People & The 8th Habit (Special 6-Hour Abridgement) / Stephen R. Covey / n: Stephen R. Covey',
     '// asin-3': { asin: 'B002UZZ7FG', duration: '3h32m0s' },
-    '// meta-3':
-      'Los 7 Habitos de la Gente Altamente Efectiva [The 7 Habits of Highly Effective People] / Stephen R. Covey / n: Alejo Felipe',
+    '// meta-3': 'Los 7 Habitos de la Gente Altamente Efectiva [The 7 Habits of Highly Effective People] / Stephen R. Covey / n: Alejo Felipe',
     '// asin-4': { asin: 'B002UZL9EO', duration: '3h22m0s' },
-    '// meta-4':
-      'The 7 Habits of Highly Effective People / Stephen R. Covey / n: Stephen R. Covey',
+    '// meta-4': 'The 7 Habits of Highly Effective People / Stephen R. Covey / n: Stephen R. Covey',
     '// asin-5': { asin: 'B002V1NKLW', duration: '2h25m0s' },
-    '// meta-5':
-      'The 7 Habits of Highly Effective People & The 8th Habit (Special 3-Hour Abridgement) / Stephen R. Covey / n: Stephen R. Covey',
+    '// meta-5': 'The 7 Habits of Highly Effective People & The 8th Habit (Special 3-Hour Abridgement) / Stephen R. Covey / n: Stephen R. Covey',
     '// asin-6': { asin: 'B09H17FX8Z', duration: '1h42m0s' },
-    '// meta-6':
-      'Los 7 Hábitos de la Gente Altamente Efectiva [The 7 Habits of Highly Effective People] / Jose Gabriel Miralles - introduction,Stephen R. Covey / n: Alejo Felipe',
+    '// meta-6': 'Los 7 Hábitos de la Gente Altamente Efectiva [The 7 Habits of Highly Effective People] / Jose Gabriel Miralles - introduction,Stephen R. Covey / n: Alejo Felipe',
     '// asin-7': { asin: 'B01MQ24W2P', duration: '1h23m0s' },
-    '// meta-7':
-      'Los Siete Habitos de las Personas Altamente Eficaces [The Seven Habits of Highly Effective People] / Stephen R. Covey / n: Peter Gil,Maria Siccardi',
+    '// meta-7': 'Los Siete Habitos de las Personas Altamente Eficaces [The Seven Habits of Highly Effective People] / Stephen R. Covey / n: Peter Gil,Maria Siccardi',
     '// asin-8': { asin: 'B002VA9DMI', duration: '1h15m0s' },
-    '// meta-8':
-      'Begin With the End in Mind / Stephen R. Covey / n: Stephen R. Covey',
+    '// meta-8': 'Begin With the End in Mind / Stephen R. Covey / n: Stephen R. Covey',
     '// asin-9': { asin: '1442304928', duration: '1h14m0s' },
-    '// meta-9':
-      'The 7 Habits of Highly Effective People / Stephen R. Covey / n: Stephen R. Covey'
+    '// meta-9': 'The 7 Habits of Highly Effective People / Stephen R. Covey / n: Stephen R. Covey'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Weinberg - Dreams of a Final Theory': {
     author: 'Steven Weinberg', // unique
     title: 'Dreams of a Final Theory', // unique
     '// duration': '3h19m38s',
     '// asin-0': { asin: 'B002VA9FH6', duration: '9h28m0s' },
-    '// meta-0':
-      'Dreams of a Final Theory / Steven Weinberg / n: Stuart Langton'
+    '// meta-0': 'Dreams of a Final Theory / Steven Weinberg / n: Stuart Langton'
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Weinberg - The First Three Minutes': {
     author: 'Steven Weinberg', // unique
-    title:
-      'The First Three Minutes: A Modern View Of The Origin Of The Universe', // unique
+    title: 'The First Three Minutes: A Modern View Of The Origin Of The Universe', // unique
     '// duration': '5h32m44s',
     '// asin-0': { asin: 'B002V9ZB1Q', duration: '5h30m0s' },
     '// meta-0': 'The First Three Minutes / Steven Weinberg / n: Raymond Todd'
@@ -4487,55 +4238,37 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Susan Wise Bauer - The History of the Ancient World': {
     author: 'Susan Wise Bauer', // unique
-    title:
-      'The History of the Ancient World: From the Earliest Accounts to the Fall of Rome', // unique
+    title: 'The History of the Ancient World: From the Earliest Accounts to the Fall of Rome', // unique
     '// duration': '26h21m3s',
     '// asin-0': { asin: 'B00CYNMAIG', duration: '26h20m0s' },
-    '// meta-0':
-      'The History of the Ancient World / Susan Wise Bauer / n: John Lee'
+    '// meta-0': 'The History of the Ancient World / Susan Wise Bauer / n: John Lee'
   },
   '/Volumes/Space/archive/media/audiobooks/Ted Chiang - Exhalation': {
     author: 'Ted Chiang', // unique
     title: 'Exhalation', // hint
     '// duration': '11h22m8s',
     '// asin-0': { asin: '1984844458', duration: '11h22m0s' },
-    '// meta-0':
-      'Exhalation / Ted Chiang / n: Edoardo Ballerini,Dominic Hoffman,Amy Landon,Ted Chiang',
+    '// meta-0': 'Exhalation / Ted Chiang / n: Edoardo Ballerini,Dominic Hoffman,Amy Landon,Ted Chiang',
     '// asin-1': { asin: '1529014522', duration: '11h22m0s' },
-    '// meta-1':
-      'Exhalation / Ted Chiang / n: Ted Chiang,Edoardo Ballerini,Amy Landon,Dominic Hoffman'
+    '// meta-1': 'Exhalation / Ted Chiang / n: Ted Chiang,Edoardo Ballerini,Amy Landon,Dominic Hoffman'
   },
   '/Volumes/Space/archive/media/audiobooks/Ted Chiang - Stories of Your Life and Others': {
     author: 'Ted Chiang', // unique
     title: 'Stories of Your Life and Others', // unique
     '// duration': '10h23m20s',
     '// asin-0': { asin: 'B00I5S2PI4', duration: '10h23m0s' },
-    '// meta-0':
-      'Stories of Your Life and Others / Ted Chiang / n: Abby Craden,Todd McLaren'
+    '// meta-0': 'Stories of Your Life and Others / Ted Chiang / n: Abby Craden,Todd McLaren'
   },
   '/Volumes/Space/archive/media/audiobooks/TheDailyStoic': {
     author: 'Ryan Holiday', // hint
     title: 'The Daily Stoic', // hint
     '// duration': '10h6m31s',
     '// asin-0': { asin: 'B01M4IDLAG', duration: '10h6m0s' },
-    '// meta-0':
-      'The Daily Stoic / Ryan Holiday,Stephen Hanselman / n: Brian Holsopple'
+    '// meta-0': 'The Daily Stoic / Ryan Holiday,Stephen Hanselman / n: Brian Holsopple'
   },
   '/Volumes/Space/archive/media/audiobooks/TheGreatestScienceFictionStoriesOfThe20thCentury': {
     author: '', // non-unique or falsy
-    '// Non-unique Author': [
-      'Harlan Ellison',
-      'Richard McGonagle',
-      'Nana Visitor',
-      'Arte Johnson',
-      'Alexander Siddig',
-      'Terry Farrell',
-      'James A. Watson',
-      'Melissa Manchester',
-      'David Ackroyd',
-      'Wil Wheaton',
-      'Denise Crosby'
-    ],
+    '// Non-unique Author': ['Harlan Ellison', 'Richard McGonagle', 'Nana Visitor', 'Arte Johnson', 'Alexander Siddig', 'Terry Farrell', 'James A. Watson', 'Melissa Manchester', 'David Ackroyd', 'Wil Wheaton', 'Denise Crosby'],
     title: 'The Greatest Science Fiction Stories of the 20th Century', // unique
     '// duration': '6h34m4s',
     skip: 'multiple authors'
@@ -4588,11 +4321,9 @@ export const db = {
     title: 'A Wizard of Earthsea', // hint
     '// duration': '1h59m8s',
     '// asin-0': { asin: 'B002V0M76W', duration: '6h3m0s' },
-    '// meta-0':
-      'A Wizard of Earthsea / Ursula K. Le Guin / n: Harlan Ellison and Ursula K. Le Guin',
+    '// meta-0': 'A Wizard of Earthsea / Ursula K. Le Guin / n: Harlan Ellison and Ursula K. Le Guin',
     '// asin-1': { asin: 'B07KRJXQ8G', duration: '7h0m0s' },
-    '// meta-1':
-      'A Wizard of Earthsea / Ursula K. Le Guin / n: Kobna Holdbrook-Smith',
+    '// meta-1': 'A Wizard of Earthsea / Ursula K. Le Guin / n: Kobna Holdbrook-Smith',
     '// asin-2': { asin: 'B002VA3CDO', duration: '7h17m0s' },
     '// meta-2': 'A Wizard of Earthsea / Ursula K. Le Guin / n: Rob Inglis'
   },
@@ -4601,11 +4332,9 @@ export const db = {
     title: 'The Left Hand Of Darkness', // hint
     '// duration': '9h40m5s',
     '// asin-0': { asin: 'B01NH0D987', duration: '9h39m0s' },
-    '// meta-0':
-      'The Left Hand of Darkness / Ursula K. Le Guin / n: George Guidall',
+    '// meta-0': 'The Left Hand of Darkness / Ursula K. Le Guin / n: George Guidall',
     '// asin-1': { asin: 'B09G7B8XXY', duration: '7h50m0s' },
-    '// meta-1':
-      'The Complete Earthsea Series & The Left Hand of Darkness / Ursula K. Le Guin / n: full cast,Toby Jones,Kobna Holdbrook-Smith,Lesley Sharp,Adjoa Andoh,Noma Dumezweni,Robert Glenister,James McArdle,Sam Dale'
+    '// meta-1': 'The Complete Earthsea Series & The Left Hand of Darkness / Ursula K. Le Guin / n: full cast,Toby Jones,Kobna Holdbrook-Smith,Lesley Sharp,Adjoa Andoh,Noma Dumezweni,Robert Glenister,James McArdle,Sam Dale'
   },
   '/Volumes/Space/archive/media/audiobooks/Vernor Vinge - Zones of Thought Trilogy': {
     '// No audio files': null
@@ -4643,39 +4372,31 @@ export const db = {
     '// asin-1': { asin: '1004007310', duration: '11h34m0s' },
     '// meta-1': 'A Darker Shade of Magic / V. E. Schwab / n: Steven Crossley',
     '// asin-2': { asin: '1004015704', duration: '16h8m0s' },
-    '// meta-2':
-      'A Gathering of Shadows / V. E. Schwab / n: Kate Reading,Michael Kramer',
+    '// meta-2': 'A Gathering of Shadows / V. E. Schwab / n: Kate Reading,Michael Kramer',
     '// asin-3': { asin: 'B01BKXMZ8K', duration: '16h9m0s' },
-    '// meta-3':
-      'A Gathering of Shadows / V. E. Schwab / n: Michael Kramer,Kate Reading',
+    '// meta-3': 'A Gathering of Shadows / V. E. Schwab / n: Michael Kramer,Kate Reading',
     '// asin-4': { asin: 'B01N9V499O', duration: '19h3m0s' },
-    '// meta-4':
-      'A Conjuring of Light / V. E. Schwab / n: Kate Reading,Michael Kramer',
+    '// meta-4': 'A Conjuring of Light / V. E. Schwab / n: Kate Reading,Michael Kramer',
     '// asin-5': { asin: '1004015674', duration: '19h3m0s' },
-    '// meta-5':
-      'A Conjuring of Light / V.E. Schwab / n: Kate Reading,Michael Kramer'
+    '// meta-5': 'A Conjuring of Light / V.E. Schwab / n: Kate Reading,Michael Kramer'
   },
   '/Volumes/Space/archive/media/audiobooks/Victoria Schwab - A Darker Shade of Magic Series/Victoria Schwab - SoM02 - A Gathering of Shadows': {
     author: 'V.E. Schwab', // unique
     title: 'A Gathering of Shadows', // hint
     '// duration': '16h9m14s',
     '// asin-0': { asin: 'B01BKXMZ8K', duration: '16h9m0s' },
-    '// meta-0':
-      'A Gathering of Shadows / V. E. Schwab / n: Michael Kramer,Kate Reading',
+    '// meta-0': 'A Gathering of Shadows / V. E. Schwab / n: Michael Kramer,Kate Reading',
     '// asin-1': { asin: '1004015704', duration: '16h8m0s' },
-    '// meta-1':
-      'A Gathering of Shadows / V. E. Schwab / n: Kate Reading,Michael Kramer'
+    '// meta-1': 'A Gathering of Shadows / V. E. Schwab / n: Kate Reading,Michael Kramer'
   },
   '/Volumes/Space/archive/media/audiobooks/Victoria Schwab - A Darker Shade of Magic Series/Victoria Schwab - SoM03 - A Conjuring of Light': {
     author: 'V. E. Schwab', // hint
     title: 'A Conjuring of Light', // hint
     '// duration': '19h3m49s',
     '// asin-0': { asin: 'B01N9V499O', duration: '19h3m0s' },
-    '// meta-0':
-      'A Conjuring of Light / V. E. Schwab / n: Kate Reading,Michael Kramer',
+    '// meta-0': 'A Conjuring of Light / V. E. Schwab / n: Kate Reading,Michael Kramer',
     '// asin-1': { asin: '1004015674', duration: '19h3m0s' },
-    '// meta-1':
-      'A Conjuring of Light / V.E. Schwab / n: Kate Reading,Michael Kramer'
+    '// meta-1': 'A Conjuring of Light / V.E. Schwab / n: Kate Reading,Michael Kramer'
   },
   '/Volumes/Space/archive/media/audiobooks/Virgil - The Aeneid': {
     author: 'Virgil', // hint
@@ -4686,23 +4407,19 @@ export const db = {
     '// asin-1': { asin: 'B00U6DBTYM', duration: '13h1m0s' },
     '// meta-1': 'The Aeneid / Virgil / n: David Collins',
     '// asin-2': { asin: 'B003IRZM0U', duration: '13h20m0s' },
-    '// meta-2':
-      'The Aeneid / Virgil,John Dryden - translator / n: Michael Page',
+    '// meta-2': 'The Aeneid / Virgil,John Dryden - translator / n: Michael Page',
     '// asin-3': { asin: 'B002V1JT8U', duration: '13h59m0s' },
     '// meta-3': 'The Aeneid / Virgil / n: Frederick Davidson',
     '// asin-4': { asin: 'B002UZL76E', duration: '15h36m0s' },
     '// meta-4': 'The Aeneid / Virgil / n: Charlton Griffin',
     '// asin-5': { asin: 'B0030313BO', duration: '8h40m0s' },
-    '// meta-5':
-      'The Aeneid / Virgil,Robert Fitzgerald - translator / n: Christopher Ravenscroft',
+    '// meta-5': 'The Aeneid / Virgil,Robert Fitzgerald - translator / n: Christopher Ravenscroft',
     '// asin-6': { asin: 'B002V1A9UW', duration: '5h14m0s' },
-    '// meta-6':
-      'Aeneid / Virgil / n: Paul Scofield,Jill Balcon,Toby Stephens,Geraldine Fitzgerald,John McAndrew,Stephen Thorne',
+    '// meta-6': 'Aeneid / Virgil / n: Paul Scofield,Jill Balcon,Toby Stephens,Geraldine Fitzgerald,John McAndrew,Stephen Thorne',
     '// asin-7': { asin: 'B007X6E1X6', duration: '1h54m0s' },
     '// meta-7': 'The Aeneid / Virgil / n: Eleanor Bron',
     '// asin-8': { asin: 'B09W49FV8V', duration: '24m0s' },
-    '// meta-8':
-      'The Descent to Hell / James Elroy Flecker - translator,Virgil / n: Denis Daly',
+    '// meta-8': 'The Descent to Hell / James Elroy Flecker - translator,Virgil / n: Denis Daly',
     '// asin-9': { asin: 'B0B7CMPBXN', duration: '0s' },
     '// meta-9': 'The Aeneid - Virgil / Virgil / n: undefined'
   },
@@ -4711,27 +4428,22 @@ export const db = {
     title: 'The Code Breaker', // unique
     '// duration': '16h5m0s',
     '// asin-0': { asin: '179711705X', duration: '16h4m0s' },
-    '// meta-0':
-      'The Code Breaker / Walter Isaacson / n: Kathe Mazur,Walter Isaacson',
+    '// meta-0': 'The Code Breaker / Walter Isaacson / n: Kathe Mazur,Walter Isaacson',
     '// asin-1': { asin: '1398502332', duration: '16h4m0s' },
-    '// meta-1':
-      'The Code Breaker / Walter Isaacson / n: Kathe Mazur,Walter Isaacson - introduction and epilogue',
+    '// meta-1': 'The Code Breaker / Walter Isaacson / n: Kathe Mazur,Walter Isaacson - introduction and epilogue',
     '// asin-2': { asin: '1760859915', duration: '16h4m0s' },
     '// meta-2': 'The Code Breaker / Walter Isaacson / n: Kathe Mazur',
     '// asin-3': { asin: '8418056797', duration: '19h51m0s' },
-    '// meta-3':
-      'El código de la vida [The Code Breaker] / Walter Isaacson,Luis Jesús Negro García,Inga Pellisa Díaz / n: Yareli Arizmendi,Luis Solís',
+    '// meta-3': 'El código de la vida [The Code Breaker] / Walter Isaacson,Luis Jesús Negro García,Inga Pellisa Díaz / n: Yareli Arizmendi,Luis Solís',
     '// asin-4': { asin: 'B09SK1HD6B', duration: '7h38m0s' },
-    '// meta-4':
-      'The Code Breaker—Young Readers Edition / Walter Isaacson / n: Kathe Mazur'
+    '// meta-4': 'The Code Breaker—Young Readers Edition / Walter Isaacson / n: Kathe Mazur'
   },
   '/Volumes/Space/archive/media/audiobooks/WalterIsaacson-SteveJobs': {
     author: 'Walter Isaacson', // unique
     title: 'Steve Jobs', // unique
     '// duration': '25h5m12s',
     '// asin-0': { asin: 'B005XP2NTS', duration: '25h3m0s' },
-    '// meta-0':
-      'Steve Jobs / Walter Isaacson / n: Dylan Baker,Walter Isaacson (introduction)',
+    '// meta-0': 'Steve Jobs / Walter Isaacson / n: Dylan Baker,Walter Isaacson (introduction)',
     '// asin-1': { asin: 'B005V0QI82', duration: '25h18m0s' },
     '// meta-1': 'Steve Jobs / Walter Isaacson / n: Dylan Baker',
     '// asin-2': { asin: 'B00TKMMEU8', duration: '26h1m0s' },
@@ -4739,21 +4451,17 @@ export const db = {
     '// asin-3': { asin: 'B07BQW4HGM', duration: '23h19m0s' },
     '// meta-3': 'The Innovators / Walter Isaacson / n: Frank Arnold',
     '// asin-4': { asin: 'B00L3W8ZGA', duration: '27h2m0s' },
-    '// meta-4':
-      'Steve Jobs. La biografía / Walter Isaacson / n: Roberto Medina',
+    '// meta-4': 'Steve Jobs. La biografía / Walter Isaacson / n: Roberto Medina',
     '// asin-5': { asin: 'B00TDZPPY4', duration: '22h32m0s' },
-    '// meta-5':
-      'Steve Jobs [French Version] / Walter Isaacson / n: Lemmy Constantine',
+    '// meta-5': 'Steve Jobs [French Version] / Walter Isaacson / n: Lemmy Constantine',
     '// asin-6': { asin: 'B00TVNY0CQ', duration: '9h39m0s' },
     '// meta-6': 'Steve Jobs / Walter Isaacson / n: Frank Arnold',
     '// asin-7': { asin: 'B005VH38JC', duration: '9h18m0s' },
     '// meta-7': 'Steve Jobs / Walter Isaacson / n: Dylan Baker',
     '// asin-8': { asin: '8418056878', duration: '51m0s' },
-    '// meta-8':
-      'Steve Jobs. Lecciones de liderazgo [The Real Leadership Lessons Of Steve Jobs] / Walter Isaacson / n: Roberto Medina',
+    '// meta-8': 'Steve Jobs. Lecciones de liderazgo [The Real Leadership Lessons Of Steve Jobs] / Walter Isaacson / n: Roberto Medina',
     '// asin-9': { asin: 'B01CO3ZBPY', duration: '2m0s' },
-    '// meta-9':
-      "Walter Isaacson on Steve Jobs' Success / Walter Isaacson,Kristina Loring / n: undefined"
+    '// meta-9': "Walter Isaacson on Steve Jobs' Success / Walter Isaacson,Kristina Loring / n: undefined"
   },
   '/Volumes/Space/archive/media/audiobooks/WillDurant-OurOrientalHeritage-TheStoryOfCivilization-Volume1': {
     author: 'Will Durant', // unique
@@ -4767,19 +4475,16 @@ export const db = {
     title: 'The Difference Engine', // unique
     '// duration': '15h54m0s',
     '// asin-0': { asin: '1004042825', duration: '16h1m0s' },
-    '// meta-0':
-      'The Difference Engine / Bruce Sterling,William Gibson / n: Andrew Cullum',
+    '// meta-0': 'The Difference Engine / Bruce Sterling,William Gibson / n: Andrew Cullum',
     '// asin-1': { asin: 'B004DG7ORO', duration: '14h19m0s' },
-    '// meta-1':
-      'The Difference Engine / William Gibson,Bruce Sterling / n: Simon Vance'
+    '// meta-1': 'The Difference Engine / William Gibson,Bruce Sterling / n: Simon Vance'
   },
   '/Volumes/Space/archive/media/audiobooks/William Gibson - Burning Chrome': {
     author: 'William Gibson', // unique
     title: 'Burning Chrome', // unique
     '// duration': '7h20m29s',
     '// asin-0': { asin: 'B0036G94XY', duration: '7h7m0s' },
-    '// meta-0':
-      'Burning Chrome / William Gibson / n: Jonathan Davis,Dennis Holland,Kevin Pariseau,Victor Bevine,Jay Snyder,Brian Nishii,L. J. Ganser,Oliver Wyman,Eric Michael Summerer,Marc Vietor'
+    '// meta-0': 'Burning Chrome / William Gibson / n: Jonathan Davis,Dennis Holland,Kevin Pariseau,Victor Bevine,Jay Snyder,Brian Nishii,L. J. Ganser,Oliver Wyman,Eric Michael Summerer,Marc Vietor'
   },
   '/Volumes/Space/archive/media/audiobooks/William Gibson - Count Zero': {
     author: 'William Gibson', // unique
@@ -4788,8 +4493,7 @@ export const db = {
     '// asin-0': { asin: 'B0036JSWXY', duration: '11h28m0s' },
     '// meta-0': 'Count Zero / William Gibson / n: Jonathan Davis',
     '// asin-1': { asin: 'B09KCCD9T1', duration: '10h1m0s' },
-    '// meta-1':
-      'Count Zero (German edition) / William Gibson,Reinhard Heinz - Übersetzer,Peter Robert - Übersetzer / n: Mark Bremer'
+    '// meta-1': 'Count Zero (German edition) / William Gibson,Reinhard Heinz - Übersetzer,Peter Robert - Übersetzer / n: Mark Bremer'
   },
   '/Volumes/Space/archive/media/audiobooks/William Gibson - Mona Lisa Overdrive': {
     author: 'William Gibson', // unique
@@ -4798,8 +4502,7 @@ export const db = {
     '// asin-0': { asin: 'B0036JPYD0', duration: '10h50m0s' },
     '// meta-0': 'Mona Lisa Overdrive / William Gibson / n: Jonathan Davis',
     '// asin-1': { asin: 'B09NRD9MLL', duration: '9h57m0s' },
-    '// meta-1':
-      'Mona Lisa Overdrive (German edition) / William Gibson / n: Mark Bremer'
+    '// meta-1': 'Mona Lisa Overdrive (German edition) / William Gibson / n: Mark Bremer'
   },
   '/Volumes/Space/archive/media/audiobooks/William Gibson - Neuromancer': {
     author: 'William Gibson', // unique
@@ -4808,14 +4511,11 @@ export const db = {
     '// asin-0': { asin: 'B0057HR4E6', duration: '10h31m0s' },
     '// meta-0': 'Neuromancer / William Gibson / n: Robertson Dean',
     '// asin-1': { asin: 'B09KCCD9T1', duration: '10h1m0s' },
-    '// meta-1':
-      'Count Zero (German edition) / William Gibson,Reinhard Heinz - Übersetzer,Peter Robert - Übersetzer / n: Mark Bremer',
+    '// meta-1': 'Count Zero (German edition) / William Gibson,Reinhard Heinz - Übersetzer,Peter Robert - Übersetzer / n: Mark Bremer',
     '// asin-2': { asin: 'B09KH3YHS3', duration: '9h59m0s' },
-    '// meta-2':
-      'Neuromancer (German edition) / William Gibson,Reinhard Heinz - Übersetzer,Peter Robert - Übersetzer / n: Mark Bremer',
+    '// meta-2': 'Neuromancer (German edition) / William Gibson,Reinhard Heinz - Übersetzer,Peter Robert - Übersetzer / n: Mark Bremer',
     '// asin-3': { asin: 'B09NRD9MLL', duration: '9h57m0s' },
-    '// meta-3':
-      'Mona Lisa Overdrive (German edition) / William Gibson / n: Mark Bremer',
+    '// meta-3': 'Mona Lisa Overdrive (German edition) / William Gibson / n: Mark Bremer',
     '// asin-4': { asin: '1004055064', duration: '8h32m0s' },
     '// meta-4': 'Neuromancer / William Gibson / n: Jason Flemyng'
   },
@@ -4824,10 +4524,8 @@ export const db = {
     title: 'Monkey', // hint
     '// duration': '13h40m58s',
     '// asin-0': { asin: 'B015WVALV4', duration: '13h39m0s' },
-    '// meta-0':
-      'Monkey / Wu Ch’êng-ên,Arthur Waley - translator / n: Kenneth Williams',
+    '// meta-0': 'Monkey / Wu Ch’êng-ên,Arthur Waley - translator / n: Kenneth Williams',
     '// asin-1': { asin: '0141997818', duration: '12h0m0s' },
-    '// meta-1':
-      "Monkey King: Journey to the West / Wu Ch'eng-en,Julia Lovell / n: Kevin Shen"
+    '// meta-1': "Monkey King: Journey to the West / Wu Ch'eng-en,Julia Lovell / n: Kevin Shen"
   }
 }
