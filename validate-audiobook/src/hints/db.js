@@ -1231,7 +1231,7 @@ export const db = {
     skip: 'not on audible'
   },
   '/Volumes/Space/archive/media/audiobooks/CoryDoctorow-ChokepointCapitalism': {
-    author: 'Rebecca Giblin and Cory Doctorow', // unique
+    author: 'Cory Doctorow', // hint
     title: 'Chokepoint Capitalism', // unique
     '// duration': '11h56m4s',
     skip: 'not on audible'
