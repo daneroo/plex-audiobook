@@ -1692,6 +1692,15 @@ export const db = {
     '// asin-1': { asin: 'B002V5J6K2', duration: '12h10m0s' },
     '// meta-1': 'Flashman and the Tiger / George MacDonald Fraser / n: David Case'
   },
+  '/Volumes/Space/archive/media/audiobooks/Guy Gavriel Kay - All the Seas of the World': {
+    author: 'Guy Gavriel Kay', // unique
+    title: 'All the Seas of the World', // unique
+    '// duration': '18h4m56s',
+    '// asin-0': { asin: 'B09FWP41GZ', duration: '18h4m0s' },
+    '// meta-0': 'All the Seas of the World / Guy Gavriel Kay / n: Simon Vance',
+    '// asin-1': { asin: 'B09X229M9S', duration: '18h4m0s' },
+    '// meta-1': 'All the Seas of the World / Guy Gavriel Kay / n: Simon Vance'
+  },
   '/Volumes/Space/archive/media/audiobooks/Guy Gavriel Kay - The Lions of al-Rassan': {
     author: 'Guy Gavriel Kay', // unique
     title: 'The Lions of al-Rassan ', // unique
@@ -2593,10 +2602,40 @@ export const db = {
     '// asin-2': { asin: '8417910093', duration: '17h33m0s' },
     '// meta-2': 'Cuchillo [Knife] / Jo Nesbø / n: Alfons Vallés'
   },
-  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law Trilogy': {
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The Age of Madness': {
     '// No audio files': null
   },
-  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law Trilogy/Joe Abercrombie - The First Law 01 The Blade Itself': {
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The Age of Madness/Joe Abercrombie - The Age of Madness 01 - A Little Hatred': {
+    author: 'Joe Abercrombie', // unique
+    title: 'A Little Hatred', // unique
+    '// duration': '1s',
+    '// asin-0': { asin: '1409166279', duration: '20h19m0s' },
+    '// meta-0': 'A Little Hatred / Joe Abercrombie / n: Steven Pacey',
+    '// asin-1': { asin: '1478916591', duration: '20h20m0s' },
+    '// meta-1': 'A Little Hatred / Joe Abercrombie / n: Steven Pacey'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The Age of Madness/Joe Abercrombie - The Age of Madness 02 - The Trouble with Peace': {
+    author: 'Joe Abercrombie', // unique
+    title: 'The Trouble with Peace', // hint
+    '// duration': '21h56m15s',
+    '// asin-0': { asin: '1473228522', duration: '21h56m0s' },
+    '// meta-0': 'The Trouble with Peace / Joe Abercrombie / n: Steven Pacey',
+    '// asin-1': { asin: '1478916605', duration: '21h57m0s' },
+    '// meta-1': 'The Trouble with Peace / Joe Abercrombie / n: Steven Pacey'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The Age of Madness/Joe Abercrombie - The Age of Madness 03 - The Wisdom of Crowds': {
+    author: 'Joe Abercrombie', // unique
+    title: 'The Wisdom of Crowds', // hint
+    '// duration': '23h36m51s',
+    '// asin-0': { asin: '1478916613', duration: '23h37m0s' },
+    '// meta-0': 'The Wisdom of Crowds / Joe Abercrombie / n: Steven Pacey',
+    '// asin-1': { asin: '1473228530', duration: '23h36m0s' },
+    '// meta-1': 'The Wisdom of Crowds / Joe Abercrombie / n: Steven Pacey'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law': {
+    '// No audio files': null
+  },
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law/Joe Abercrombie - The First Law 01 The Blade Itself': {
     author: 'Joe Abercrombie', // unique
     title: 'The Blade Itself', // hint
     '// duration': '22h14m33s',
@@ -2605,7 +2644,7 @@ export const db = {
     '// asin-1': { asin: 'B003LZ8PMG', duration: '22h15m0s' },
     '// meta-1': 'The Blade Itself / Joe Abercrombie / n: Steven Pacey'
   },
-  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law Trilogy/Joe Abercrombie - The First Law 02 Before They Are Hanged': {
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law/Joe Abercrombie - The First Law 02 Before They Are Hanged': {
     author: 'Joe Abercrombie', // unique
     title: 'Before They Are Hanged', // hint
     '// duration': '22h37m53s',
@@ -2614,7 +2653,7 @@ export const db = {
     '// asin-1': { asin: 'B014LL69TO', duration: '22h39m0s' },
     '// meta-1': 'Before They Are Hanged / Joe Abercrombie / n: Steven Pacey'
   },
-  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law Trilogy/Joe Abercrombie - The First Law 03 Last Argument Of Kings': {
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law/Joe Abercrombie - The First Law 03 Last Argument Of Kings': {
     author: 'Joe Abercrombie', // unique
     title: 'Last Argument Of Kings', // hint
     '// duration': '27h2m28s',
@@ -2622,6 +2661,44 @@ export const db = {
     '// meta-0': 'Last Argument of Kings / Joe Abercrombie / n: Steven Pacey',
     '// asin-1': { asin: 'B014LL6Y4O', duration: '27h4m0s' },
     '// meta-1': 'Last Argument of Kings / Joe Abercrombie / n: Steven Pacey'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law/Joe Abercrombie - The First Law 04 Best Served Cold': {
+    author: 'Joe Abercrombie', // unique
+    title: 'Best Served Cold', // hint
+    '// duration': '26h29m2s',
+    '// asin-0': { asin: 'B016N7P4OU', duration: '26h29m0s' },
+    '// meta-0': 'Best Served Cold / Joe Abercrombie / n: Steven Pacey',
+    '// asin-1': { asin: 'B003ZFR776', duration: '26h28m0s' },
+    '// meta-1': 'Best Served Cold / Joe Abercrombie / n: Steven Pacey'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law/Joe Abercrombie - The First Law 05 The Heroes': {
+    author: 'Joe Abercrombie', // unique
+    title: 'The Heroes', // hint
+    '// duration': '23h5m23s',
+    '// asin-0': { asin: 'B01A60YYKK', duration: '23h5m0s' },
+    '// meta-0': 'The Heroes / Joe Abercrombie / n: Steven Pacey',
+    '// asin-1': { asin: 'B004N1OHD8', duration: '23h5m0s' },
+    '// meta-1': 'The Heroes / Joe Abercrombie / n: Steven Pacey'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law/Joe Abercrombie - The First Law 06 Red Country': {
+    author: 'Joe Abercrombie', // unique
+    title: 'Red Country', // hint
+    '// duration': '19h52m37s',
+    '// asin-0': { asin: '1549103016', duration: '19h53m0s' },
+    '// meta-0': 'Red Country (Booktrack Edition) / Joe Abercrombie / n: Steven Pacey',
+    '// asin-1': { asin: 'B00A0XYUTE', duration: '19h52m0s' },
+    '// meta-1': 'Red Country / Joe Abercrombie / n: Steven Pacey',
+    '// asin-2': { asin: 'B009OROUGU', duration: '19h52m0s' },
+    '// meta-2': 'Red Country / Joe Abercrombie / n: Steven Pacey'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law/Joe Abercrombie - The First Law 07 Sharp Ends': {
+    author: 'Joe Abercrombie', // unique
+    title: 'Sharp Ends', // hint
+    '// duration': '11h48m18s',
+    '// asin-0': { asin: 'B01BLUYRKQ', duration: '11h48m0s' },
+    '// meta-0': 'Sharp Ends / Joe Abercrombie / n: Steven Pacey,Joe Abercrombie',
+    '// asin-1': { asin: 'B01DWED6TC', duration: '11h49m0s' },
+    '// meta-1': 'Sharp Ends / Joe Abercrombie / n: Steven Pacey'
   },
   '/Volumes/Space/archive/media/audiobooks/John Brunner - Stand on Zanzibar': {
     author: 'John Brunner', // unique
@@ -3304,6 +3381,64 @@ export const db = {
     '// duration': '10h11m38s',
     '// asin-0': { asin: '0691231826', duration: '10h11m0s' },
     '// meta-0': 'Twelve Caesars / Mary Beard / n: Mary Beard'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Mary Stewart - Arthurian Saga': {
+    '// No audio files': null
+  },
+  '/Volumes/Space/archive/media/audiobooks/Mary Stewart - Arthurian Saga/Mary Stewart - Arthurian Saga - 01 - The Crystal Cave': {
+    author: 'Mary Stewart', // unique
+    title: 'The Crystal Cave', // unique
+    '// duration': '16h51m37s',
+    '// asin-0': { asin: 'B01LZ8KBNK', duration: '16h51m0s' },
+    '// meta-0': 'The Crystal Cave / Mary Stewart / n: Derek Perkins',
+    '// asin-1': { asin: 'B07KYV9BRF', duration: '16h51m0s' },
+    '// meta-1': 'The Crystal Cave / Mary Stewart / n: Derek Perkins',
+    '// asin-2': { asin: 'B002VA8QW6', duration: '3h9m0s' },
+    '// meta-2': 'The Crystal Cave / Mary Stewart / n: Nicol Williamson'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Mary Stewart - Arthurian Saga/Mary Stewart - Arthurian Saga - 02 - The Hollow Hills': {
+    author: 'Mary Stewart', // unique
+    title: 'The Hollow Hills', // hint
+    '// duration': '16h10m54s',
+    '// asin-0': { asin: 'B01MFH7173', duration: '16h10m0s' },
+    '// meta-0': 'The Hollow Hills / Mary Stewart / n: Derek Perkins',
+    '// asin-1': { asin: 'B07KYV4WMB', duration: '16h10m0s' },
+    '// meta-1': 'The Hollow Hills / Mary Stewart / n: Derek Perkins',
+    '// asin-2': { asin: 'B002V8HM9G', duration: '2h42m0s' },
+    '// meta-2': 'The Hollow Hills / Mary Stewart / n: Nicol Williamson'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Mary Stewart - Arthurian Saga/Mary Stewart - Arthurian Saga - 03 - The Last Enchantment': {
+    author: 'Mary Stewart', // unique
+    title: 'The Last Enchantment', // hint
+    '// duration': '18h0m42s',
+    '// asin-0': { asin: 'B01N0QUHJC', duration: '18h0m0s' },
+    '// meta-0': 'The Last Enchantment / Mary Stewart / n: Derek Perkins',
+    '// asin-1': { asin: 'B07KRJRW3G', duration: '18h0m0s' },
+    '// meta-1': 'The Last Enchantment / Mary Stewart / n: Derek Perkins',
+    '// asin-2': { asin: 'B01J4GLIO2', duration: '3h0m0s' },
+    '// meta-2': 'The Last Enchantment / Mary Stewart / n: Nicol Williamson'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Mary Stewart - Arthurian Saga/Mary Stewart - Arthurian Saga - 04 - The Wicked Day': {
+    author: 'Mary Stewart', // unique
+    title: 'The Wicked Day', // hint
+    '// duration': '14h48m10s',
+    '// asin-0': { asin: 'B076JJ8TCT', duration: '14h48m0s' },
+    '// meta-0': 'The Wicked Day / Mary Stewart / n: Derek Perkins',
+    '// asin-1': { asin: 'B07KYVB48J', duration: '14h47m0s' },
+    '// meta-1': 'The Wicked Day / Mary Stewart / n: Derek Perkins',
+    '// asin-2': { asin: 'B002V5CQU4', duration: '2h58m0s' },
+    '// meta-2': 'The Wicked Day / Mary Stewart / n: Theodore Bikel'
+  },
+  '/Volumes/Space/archive/media/audiobooks/Mary Stewart - Arthurian Saga/Mary Stewart - Arthurian Saga - 05 - The Prince And The Pilgrim': {
+    author: 'Mary Stewart', // unique
+    title: 'The Prince and the Pilgrim', // hint
+    '// duration': '8h8m3s',
+    '// asin-0': { asin: 'B076WZJBXK', duration: '8h8m0s' },
+    '// meta-0': 'The Prince and the Pilgrim / Mary Stewart / n: Derek Perkins',
+    '// asin-1': { asin: 'B07KYL8PKM', duration: '8h7m0s' },
+    '// meta-1': 'The Prince and the Pilgrim / Mary Stewart / n: Derek Perkins',
+    '// asin-2': { asin: 'B002UZDX3E', duration: '3h3m0s' },
+    '// meta-2': 'The Prince and the Pilgrim / Mary Stewart / n: Samantha Eggar'
   },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]': {
     '// No audio files': null
