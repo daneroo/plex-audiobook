@@ -977,6 +977,13 @@ export const db = {
     '// asin-0': { asin: 'B00YAVP7TY', duration: '8h50m0s' },
     '// meta-0': 'Cutting Through Spiritual Materialism / Marvin Casper - editor,John Baker - editor,Chögyam Trungpa,Sakyong Mipham - foreword / n: Jim Gimian'
   },
+  '/Volumes/Space/archive/media/audiobooks/Chris Miller - Chip War': {
+    author: 'Chris Miller', // unique
+    title: "Chip War: The Quest to Dominate the World's Most Critical Technology", // unique
+    '// duration': '12h38m23s',
+    '// asin-0': { asin: 'B09TX11LQB', duration: '12h38m0s' },
+    '// meta-0': 'Chip War / Chris Miller / n: Stephen Graybill'
+  },
   '/Volumes/Space/archive/media/audiobooks/ChristopherHitchens-GodIsNotGreat': {
     author: 'Christopher Hitchens', // unique
     title: 'god is not Great _ How Religion Poisons Everything', // unique
