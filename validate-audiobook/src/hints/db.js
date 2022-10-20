@@ -3938,6 +3938,15 @@ export const db = {
     '// asin-5': { asin: 'B0792WTV25', duration: '24h33m0s' },
     '// meta-5': 'Apex / Ramez Naam / n: Uve Teschner'
   },
+  '/Volumes/Space/archive/media/audiobooks/Richard Powers - The Overstory': {
+    author: 'Richard Powers', // unique
+    title: 'The Overstory', // hint
+    '// duration': '22h58m40s',
+    '// asin-0': { asin: 'B078PJ2TY4', duration: '22h58m0s' },
+    '// meta-0': 'The Overstory / Richard Powers / n: Suzanne Toren',
+    '// asin-1': { asin: '1473566851', duration: '22h58m0s' },
+    '// meta-1': 'The Overstory / Richard Powers / n: Suzanne Toren'
+  },
   '/Volumes/Space/archive/media/audiobooks/RichardMorgan-AlteredCarbon': {
     author: 'Richard Morgan', // hint
     title: 'Altered Carbon', // hint
