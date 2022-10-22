@@ -1,3 +1,4 @@
+// cSpell:disable
 export const db = {
   '/Volumes/Space/archive/media/audiobooks': {
     '// No audio files': null

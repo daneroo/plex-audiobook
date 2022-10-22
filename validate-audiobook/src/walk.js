@@ -56,6 +56,7 @@ async function main () {
     formatElapsed(startMs)
   )
 
+  rewriteHint('// cSpell:disable')
   rewriteHint('export const db = {')
   // per directory validation
   for (const directoryPath of directories) {
@@ -179,7 +180,7 @@ async function rewriteDirectory (directoryPath, bookData) {
       if (isUniqueAndTruthy(bookData.meta.authorDedup)) {
         rewriteHint(`  "author": "${bookData.meta.authorDedup[0]}", // unique`)
       } else {
-        rewriteHint(`  "author": "", // non-unique or falsy`)
+        rewriteHint('  "author": "", // non-unique or falsy')
         rewriteHint(
           '  "// Non-unique Author":',
           JSON.stringify(bookData.meta.authorDedup),
@@ -201,7 +202,7 @@ async function rewriteDirectory (directoryPath, bookData) {
       if (isUniqueAndTruthy(bookData.meta.titleDedup)) {
         rewriteHint(`  "title": "${bookData.meta.titleDedup[0]}", // unique`)
       } else {
-        rewriteHint(`  "title": "", // non-unique or falsy`)
+        rewriteHint('  "title": "", // non-unique or falsy')
         rewriteHint(
           '  "// Non-unique Title":',
           JSON.stringify(bookData.meta.titleDedup),
@@ -276,7 +277,7 @@ async function rewriteDirectory (directoryPath, bookData) {
       }
     }
   }
-  rewriteHint(`},`)
+  rewriteHint('},')
 }
 
 // export a data structure for the directory
@@ -352,9 +353,9 @@ async function classifyDirectory (directoryPath) {
         // data is a Buffer
         const sha256 = data
           ? crypto
-              .createHash('sha256')
-              .update(data)
-              .digest('hex')
+            .createHash('sha256')
+            .update(data)
+            .digest('hex')
           : 'missing'
 
         return JSON.stringify({ format, sha256, type, description })
@@ -369,7 +370,7 @@ async function classifyDirectory (directoryPath) {
         .reduce((total, duration) => total + duration, 0)
     )
     // set to 0 if NaN (NaN is Falsy, and so is 0, so should be safe)
-    bookData.meta.duration = duration ? duration : 0
+    bookData.meta.duration = duration || 0
 
     // copy skip content
     const skipHint = getSkip(directoryPath)
@@ -411,8 +412,8 @@ function validateUniqueAuthorTitle (metas, directoryPath) {
     (titleHint || isUniqueAndTruthy(dedupTitle))
   return {
     valid,
-    author: authorHint ? authorHint : dedupAuthor[0],
-    title: titleHint ? titleHint : dedupTitle[0],
+    author: authorHint || dedupAuthor[0],
+    title: titleHint || dedupTitle[0],
     dedupAuthor,
     dedupTitle
   }
