@@ -1,7 +1,7 @@
 // cSpell:disable
 export const db = {
   '/Volumes/Space/archive/media/audiobooks': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Adam Becker - What Is Real': {
     author: 'Adam Becker', // unique
@@ -14,7 +14,7 @@ export const db = {
     '// meta-1': 'What Is Real? / Adam Becker / n: Greg Tremblay',
   },
   '/Volumes/Space/archive/media/audiobooks/Adrian Tchaikovsky-Time Series': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Adrian Tchaikovsky-Time Series/Adrian Tchaikovsky-Time-#1-Children of Time':
     {
@@ -72,7 +72,7 @@ export const db = {
         'The Secret Adversary & And Then There Were None / Agatha Christie / n: Hugh Fraser,Dan Stevens',
     },
   '/Volumes/Space/archive/media/audiobooks/Agatha Christie - Hercules Poirot': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Agatha Christie - Hercules Poirot/Agatha Christie -04- The Murder of Roger Ackroyd':
     {
@@ -186,7 +186,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Alistair Reynolds - Revelation Space':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Alistair Reynolds - Revelation Space/1. Alastair Reynolds - Revelation Space 01 Revelation Space':
     {
@@ -257,7 +257,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Annie Duke - How to Decide Simple Tools for Making Better Choices':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Annie Duke - How to Decide Simple Tools for Making Better Choices/AudioBook':
     {
@@ -269,7 +269,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Annie Duke - How to Decide Simple Tools for Making Better Choices/eBook':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Annie Duke - Thinking in Bets': {
     author: 'Annie Duke', // unique
@@ -296,11 +296,11 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Arjuna Ardagh - Leap Before You Look/pdf samples':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Arjuna Ardagh - Leap Before You Look/pdf samples/intimacy':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Arthur Conan Doyle - Sherlock Holmes The Definitive Audio Collection':
     {
@@ -348,7 +348,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Bernard Cornwell - The Saxon Chronicles':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Bernard Cornwell - The Saxon Chronicles/Bernard Cornwell - Saxon Chronicles 01 - The Last Kingdom':
     {
@@ -521,7 +521,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Bernard Cornwell, The Arthur series Complete and Unabridged':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Bernard Cornwell, The Arthur series Complete and Unabridged/1 The Winter King':
     {
@@ -566,7 +566,7 @@ export const db = {
       '// meta-3': 'Excalibur / Bernard Cornwell / n: Tim Pigott-Smith',
     },
   '/Volumes/Space/archive/media/audiobooks/BillBryson-5Audiobooks': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/BillBryson-5Audiobooks/A Short History of Nearly Everything':
     {
@@ -653,7 +653,7 @@ export const db = {
     '// meta-1': "Obama's Wars / Bob Woodward / n: Boyd Gaines",
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Arcanum Unbounded - The Cosmere Collection':
     {
@@ -936,7 +936,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Brent Weeks - The LightBringer Saga/The Lightbringer Saga [01] The Black Prism':
     {
@@ -1446,7 +1446,7 @@ export const db = {
   },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 ":
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   "/Volumes/Space/archive/media/audiobooks/Douglas Adams - The Hitchhiker's Guide to the Galaxy 1-5 /Douglas Adams - THGTTG 01 - The Hitchhiker's Guide to the Galaxy":
     {
@@ -1617,11 +1617,11 @@ export const db = {
       'The Post-American World 2.0 / Fareed Zakaria / n: Fareed Zakaria',
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/01 - Dune Saga/01. Dune':
     {
@@ -1732,7 +1732,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/02 - Prelude to Dune':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Frank Herbert - Dune Collection/02 - Prelude to Dune/01. House Atreides':
     {
@@ -1817,15 +1817,15 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Book of the New Sun ebook':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Book of the New Sun maps':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Gene Wolfe - The Book of the New Sun Series/Gene Wolfe - 01 The Shadow of the Torturer':
     {
@@ -1888,7 +1888,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/George MacDonald Fraser - The Flashman Papers/George MacDonald Fraser - The Flashman Papers - 01 - Flashman':
     {
@@ -2083,7 +2083,7 @@ export const db = {
     '// meta-0': 'Tigana / Guy Gavriel Kay / n: Simon Vance',
   },
   '/Volumes/Space/archive/media/audiobooks/Hale Dwoskin': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Hale Dwoskin/Hale Dwoskin - Anger Solution':
     {
@@ -2123,7 +2123,7 @@ export const db = {
     '// meta-0': 'The Fractal Prince / Hannu Rajaniemi / n: Scott Brick',
   },
   '/Volumes/Space/archive/media/audiobooks/Haruki Murakami - 1Q84': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Haruki Murakami - 1Q84/Haruki Murakami - 1Q84 - Book1':
     {
@@ -2293,7 +2293,7 @@ export const db = {
       'The Iliad / Homer,Stephen Mitchell - translator / n: Alfred Molina',
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Iain M. Banks - Culture Novels/Iain M. Banks - Culture 01 - Consider Phlebas':
     {
@@ -2440,7 +2440,7 @@ export const db = {
         'The Titans of Philosophy Collection: Confucius, Plato, Aristotle, Marcus Aurelius, Kant, Kierkegaard / Confucius,Plato,Aristotle,Marcus Aurelius,Immanuel Kant,Soren Kierkegaard / n: Museum Audiobooks Cast',
     },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-FoundationSeries': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-FoundationSeries/1951 - Foundation (Brick) 128k 08.38.00 {475mb}':
     {
@@ -2492,7 +2492,7 @@ export const db = {
       '// meta-1': 'Second Foundation / Isaac Asimov / n: William Hope',
     },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-RobotSeries': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/IsaacAsimov-RobotSeries/1950 - I, Robot (Brick) 96k 08.20.33 {348mb}':
     {
@@ -2618,7 +2618,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Jeff VanderMeer - Southern Reach Trilogy':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Jeff VanderMeer - Southern Reach Trilogy/Jeff VanderMeer - Book 1 - Annihilation':
     {
@@ -2669,7 +2669,7 @@ export const db = {
         'Area X / Jeff VanderMeer / n: Carolyn McCormick,Bronson Pinchot,Xe Sands',
     },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Jim Butcher - The Dresden Files/Dresden Files 0.2 - Restoration of Faith':
     {
@@ -2945,7 +2945,7 @@ export const db = {
     '// meta-4': 'Good to Great / Jim Collins / n: Jim Collins',
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Jo Nesbo - Harry Hole Series/01. The Bat (Hary Hole) - Jo Nesbo (Barrett)':
     {
@@ -3126,7 +3126,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The Age of Madness':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The Age of Madness/Joe Abercrombie - The Age of Madness 01 - A Little Hatred':
     {
@@ -3159,7 +3159,7 @@ export const db = {
       '// meta-1': 'The Wisdom of Crowds / Joe Abercrombie / n: Steven Pacey',
     },
   '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Joe Abercrombie - The First Law/Joe Abercrombie - The First Law 01 The Blade Itself':
     {
@@ -3253,7 +3253,7 @@ export const db = {
         'The Acts of King Arthur and His Noble Knights / John Steinbeck / n: Nezar Alderazi',
     },
   '/Volumes/Space/archive/media/audiobooks/JonKabatZinn': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/JonKabatZinn/Guided Mindfulness Meditation Series 3 - Jon Kabat-Zinn':
     {
@@ -3420,7 +3420,7 @@ export const db = {
     skip: 'not on audible',
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Lee Child - Jack Reacher/01 Killing Floor':
     {
@@ -3976,7 +3976,7 @@ export const db = {
       '// meta-1': 'The Year of the Flood / Margaret Atwood / n: Lorelei King',
     },
   '/Volumes/Space/archive/media/audiobooks/MargaretAtwood-OryxAndCrake': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/MargaretAtwood-OryxAndCrake/Oryx and Crake [Read by John Chancer]':
     {
@@ -4019,7 +4019,7 @@ export const db = {
     '// meta-0': 'Twelve Caesars / Mary Beard / n: Mary Beard',
   },
   '/Volumes/Space/archive/media/audiobooks/Mary Stewart - Arthurian Saga': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Mary Stewart - Arthurian Saga/Mary Stewart - Arthurian Saga - 01 - The Crystal Cave':
     {
@@ -4086,7 +4086,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Maurice Druon - The Accursed Kings [Series]/01-The Iron King':
     {
@@ -4273,7 +4273,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/N.K. Jemison - The Broken earth Series':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/N.K. Jemison - The Broken earth Series/N.K. Jemisin - 01 - The Fifth Season':
     {
@@ -4348,7 +4348,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Neal Stephenson - The Baroque Cycle/Neal Stephenson - The Baroque Cycle - 01 - Quicksilver':
     {
@@ -4782,7 +4782,7 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Scott Lynch - Gentleman Bastard Series':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Scott Lynch - Gentleman Bastard Series/Scott Lynch - GB01 - The Lies of Locke Lamora':
     {
@@ -4893,7 +4893,7 @@ export const db = {
     '// meta-7': 'Troy / Stephen Fry / n: Stephen Fry',
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Khaavren Romances': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Khaavren Romances/Steven Brust - Khaavren Romances - 01 The Phoenix Guards':
     {
@@ -4941,7 +4941,7 @@ export const db = {
       '// meta-0': 'Sethra Lavode / Steven Brust / n: Kevin Stillwell',
     },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos': {
-    '// No audio files': null,
+    skip: 'no audio files',
   },
   '/Volumes/Space/archive/media/audiobooks/Steven Brust - Vlad Taltos/01 - Jhereg':
     {
@@ -5328,7 +5328,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Vernor Vinge - Zones of Thought Trilogy':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Vernor Vinge - Zones of Thought Trilogy/Vernor Vinge - 01 - A Fire Upon the Deep':
     {
@@ -5356,7 +5356,7 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Victoria Schwab - A Darker Shade of Magic Series':
     {
-      '// No audio files': null,
+      skip: 'no audio files',
     },
   '/Volumes/Space/archive/media/audiobooks/Victoria Schwab - A Darker Shade of Magic Series/Victoria Schwab - SoM01 - A Darker Shade of Magic':
     {
