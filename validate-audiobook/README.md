@@ -87,6 +87,16 @@ Top level await require a minimal babel setup, until ESLint 8, or top-level awai
 - [ ] make top level index.js (cli.js) a yargs command thing
 <!-- /* cSpell:enable */ -->
 
+## ffprobe timing
+
+```bash
+for f in convert/converted/*.mp3; do
+  echo "${f}"
+  ffprobe -v quiet -of json -show_format -show_chapters "${f}" | jq '.format.tags'
+  # hyperfine "ffprobe -v quiet -of json -show_format -show_chapters \"${f}\" | jq '.format.tags'"
+done
+```
+
 ## ffmpeg docker timing
 
 ```bash

@@ -126,7 +126,7 @@ async function validateDirectory(directoryPath, bookData) {
       {
         const durationMeta = bookData.meta.duration // rename to avoid shadowing
         const sortedAudible = sortAudibleBooks(bookData.audible, durationMeta)
-        const deltaThreshold = 3 * 60 // 3 minutes
+        const deltaThreshold = 5 * 60 // 5 minutes
         const largeDuration = 1e7
         sortedAudible.forEach((book, index) => {
           const { asin, duration, title, authors, narrators } = book
@@ -247,30 +247,31 @@ async function rewriteDirectory(directoryPath, bookData) {
         {
           const durationMeta = bookData.meta.duration // rename to avoid shadowing
           const sortedAudible = sortAudibleBooks(bookData.audible, durationMeta)
-          // const deltaThreshold = 3 * 60 // 3 minutes
-          // const largeDuration = 1e7
-          sortedAudible.forEach((book, index) => {
-            const { asin, duration, title, authors, narrators } = book
-            // const delta = duration
-            //   ? Math.abs(duration - durationMeta)
-            //   : largeDuration
-            // const check = delta <= deltaThreshold ? '✓' : '✗'
-            rewriteHint(
-              `  "// asin-${index}":`,
-              JSON.stringify({
-                asin,
-                duration: durationToHMS(duration),
-                // delta: durationToHMS(delta)
-                // check
-              }),
-              ','
+          const deltaThreshold = 5 * 60 // 5 minutes
+          const largeDuration = 1e7
+          const asins = sortedAudible
+            .map((book) => {
+              // this is the duration from the audible result
+              const { duration } = book
+              const delta = duration
+                ? Math.abs(duration - durationMeta)
+                : largeDuration
+              const check = delta <= deltaThreshold ? '✓' : '✗'
+              return {
+                ...book,
+                delta, // as a number
+                check,
+              }
+            })
+            // keep all candidates - no filtering
+            // .filter((candidate) => candidate.delta <= deltaThreshold)
+            .map(
+              ({ title, authors, narrators, duration, asin, delta, check }) =>
+                `${asin}: ${check} Δ:${durationToHMS(delta)} - ${durationToHMS(
+                  duration
+                )} -  ${title} / ${authors} / n: ${narrators}`
             )
-            rewriteHint(
-              `  "// meta-${index}":`,
-              JSON.stringify(`${title} / ${authors} / n: ${narrators}`),
-              ','
-            )
-          })
+          rewriteHint('  "asins":', JSON.stringify(asins, null, 2), ',')
         }
       } else {
         console.error('skip audible')
