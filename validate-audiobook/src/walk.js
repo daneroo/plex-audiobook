@@ -70,7 +70,7 @@ async function main() {
 }
 
 async function validateDirectory(directoryPath, bookData) {
-  const validations = []
+  // const validations = []
   console.error('=-=-: Validate', directoryPath.substring(39))
   if (bookData.audioFileCount == 0) {
     console.error('=-=-: No audio files', directoryPath.substring(39))
@@ -248,7 +248,7 @@ async function rewriteDirectory(directoryPath, bookData) {
           const durationMeta = bookData.meta.duration // rename to avoid shadowing
           const sortedAudible = sortAudibleBooks(bookData.audible, durationMeta)
           // const deltaThreshold = 3 * 60 // 3 minutes
-          const largeDuration = 1e7
+          // const largeDuration = 1e7
           sortedAudible.forEach((book, index) => {
             const { asin, duration, title, authors, narrators } = book
             // const delta = duration
@@ -299,9 +299,9 @@ async function classifyDirectory(directoryPath) {
   const filenames = await getFiles(directoryPath)
 
   // just console.error's exceptions
-  if (false) {
-    verifyExtensionsAllAccountedFor(filenames)
-  }
+  // {
+  //   verifyExtensionsAllAccountedFor(filenames)
+  // }
 
   const audioFiles = filenames.filter(filterAudioFileExtensions)
   bookData.audioFileCount = audioFiles.length
@@ -323,20 +323,6 @@ async function classifyDirectory(directoryPath) {
     bookData.meta.authorDedup = dedupAuthor
     bookData.meta.titleDedup = dedupTitle
 
-    if (false) {
-      console.error(
-        '******',
-        JSON.stringify(
-          metas[0],
-          (key, value) => {
-            if (key === 'data' && Array.isArray(value)) return '[removed]'
-            if (key === 'warnings' && Array.isArray(value)) return '[removed]'
-            return value
-          },
-          2
-        )
-      )
-    }
     const dedupFormat = dedupArray(
       metas.map((m) => {
         const { container, codec, codecProfile, bitrate } = m.format
@@ -507,5 +493,5 @@ async function getMetadataForSingleFile(filePath, options) {
       path.basename(filePath)
     )
   }
-  return metadata
+  // return metadata
 }

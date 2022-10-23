@@ -1,7 +1,15 @@
 # Audiobook metadata validation
 
+## Standard => Eslint/Prettier
+
+
+
+Moving away from standard to eslint/prettier.
+Top level await require a minimal babel setup, until ESLint 8, or top-level await reaches stage 4.
+
 ## Plan
 
+- [ ] Fix remaining linting errors
 - [ ] Validate `/archive/media/audiobooks`
   - [x] extract metadata
   - [x] validate all author/titles: unique, override with hint

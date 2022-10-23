@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
     "format": "prettier --write '**/*.js'"
   },
   "author": "Daniel Lauzon",
@@ -19,6 +20,11 @@
     "yargs": "^17.5.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/plugin-syntax-top-level-await": "^7.14.5",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.7.1"
   }
 }
