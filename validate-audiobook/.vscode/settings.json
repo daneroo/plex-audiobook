@@ -1,6 +1,0 @@
-{
-  "editor.defaultFormatter": "standard.vscode-standard",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-}

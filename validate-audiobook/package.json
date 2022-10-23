@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.js'"
   },
   "author": "Daniel Lauzon",
   "license": "ISC",
@@ -16,5 +17,8 @@
     "music-metadata": "^8.0.1",
     "node-fetch": "^3.2.10",
     "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }
