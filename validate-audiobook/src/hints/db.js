@@ -580,10 +580,10 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 10 - Sixth of the Dusk':
     {
-      author: ['', 'empty'],
-      title: ['', 'empty'],
+      author: ['Brandon Sanderson', 'hint'],
+      title: ['Sixth of the Dusk', 'hint'],
       '// duration': '2h5m33s',
-      '// Invalid author or title': 'FIX NOW!',
+      skip: 'not on audible',
     },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 11 - Mistborn 4 - The Alloy of Law':
     {
@@ -597,10 +597,10 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 12 - Mistborn 4.5 - Allomancer Jak and the Pits of Eltania':
     {
-      author: ['', 'empty'],
-      title: ['', 'empty'],
+      author: ['Brandon Sanderson', 'hint'],
+      title: ['Allomancer Jak and the Pits of Eltania', 'hint'],
       '// duration': '48m0s',
-      '// Invalid author or title': 'FIX NOW!',
+      skip: 'not on audible',
     },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 13 - Mistborn 5 - Shadows of Self':
     {
@@ -659,10 +659,14 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 19 - The Stormlight Archive 2.5 - Edgedancer':
     {
-      author: ['', 'empty'],
-      title: ['', 'empty'],
+      author: ['Brandon Sanderson', 'hint'],
+      title: ['Edgedancer', 'hint'],
       '// duration': '5h10m26s',
-      '// Invalid author or title': 'FIX NOW!',
+      asins: [
+        'B07626B9D2: ✗ Δ:1h12m34s - 6h23m0s -  Edgedancer / Brandon Sanderson / n: Kate Reading',
+        'B07F8FCNHT: ✗ Δ:1h12m34s - 6h23m0s -  Edgedancer / Brandon Sanderson / n: Kate Reading',
+        'B0B5M28HZK: ✗ Δ:1h13m34s - 6h24m0s -  Edgedancer / Brandon Sanderson / n: Kate Reading',
+      ],
     },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 2 - Mistborn 2 - The Well of Ascension':
     {
@@ -696,13 +700,6 @@ export const db = {
         '1473231051: ✓ Δ:57s - 57h26m0s -  Rhythm of War / Brandon Sanderson / n: Michael Kramer,Kate Reading',
       ],
     },
-  '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 23-25 - White Sand 1-3 - Volume 1-3':
-    {
-      author: ['', 'empty'],
-      title: ['', 'empty'],
-      '// duration': '59m17s',
-      '// Invalid author or title': 'FIX NOW!',
-    },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 3 - Mistborn 3 - The Hero of Ages':
     {
       author: ['Brandon Sanderson', 'unique'],
@@ -716,17 +713,19 @@ export const db = {
     },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 4 - Mistborn 3.4 - The Eleventh Metal':
     {
-      author: ['', 'empty'],
-      title: ['', 'empty'],
+      author: ['Brandon Sanderson', 'hint'],
+      title: ['The Eleventh Metal', 'hint'],
       '// duration': '46m42s',
-      '// Invalid author or title': 'FIX NOW!',
+      skip: 'not on audible',
     },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 5 - Mistborn 3.5 - Secret History':
     {
-      author: ['', 'empty'],
-      title: ['', 'empty'],
+      author: ['Brandon Sanderson', 'hint'],
+      title: ['Secret History', 'hint'],
       '// duration': '5h29m3s',
-      '// Invalid author or title': 'FIX NOW!',
+      asins: [
+        'B07F88TSBT: ✓ Δ:3s - 5h29m0s -  Secret History / Brandon Sanderson / n: Michael Kramer',
+      ],
     },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 6 - Elantris 1 - Elantris':
     {
@@ -748,17 +747,23 @@ export const db = {
     },
   "/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 7 - Elantris 1.4 - The Emperor's Soul":
     {
-      author: ['', 'empty'],
-      title: ['', 'empty'],
+      author: ['Brandon Sanderson', 'hint'],
+      title: ["The Emperor's Soul", 'hint'],
       '// duration': '3h57m52s',
-      '// Invalid author or title': 'FIX NOW!',
+      asins: [
+        "B009XEKR3O: ✓ Δ:2m52s - 3h55m0s -  The Emperor's Soul / Brandon Sanderson / n: Angela Lin",
+        "1645419134: ✗ Δ:26m52s - 3h31m0s -  The Emperor's Soul [Dramatized Adaptation] / Brandon Sanderson / n: full cast,Kimberly Gilbert,Mort Shelby,Nora Achrati,Thomas Keegan,Chris Genebach,Jacob Yeh,Bradley Smith,Lise Bruneau,Henry Kramer,Scott McCormick,Nanette Savard,Terence Aselford,Ken Jackson,Michael John Casey",
+        "B00BNGVRP2: ✗ Δ:32m8s - 4h30m0s -  The Emperor's Soul / Brandon Sanderson / n: Angela Lin",
+      ],
     },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 8 - Elantris 1.5 - The Hope of Elantris':
     {
-      author: ['', 'empty'],
-      title: ['', 'empty'],
+      author: ['Brandon Sanderson', 'hint'],
+      title: ['The Hope of Elantris', 'hint'],
       '// duration': '48m18s',
-      '// Invalid author or title': 'FIX NOW!',
+      asins: [
+        '164881686X: ✗ Δ:10m18s - 38m0s -  The Hope Of Elantris [Dramatized Adaptation] / Brandon Sanderson / n: full cast,Colleen Delany,Kimberly Gilbert,Mort Shelby,James Lewis,Richard Rohan,Michael John Casey,Danny Gavigan,Tracy Olivera,Eric Messner,Nanette Savard,Chris Davenport',
+      ],
     },
   '/Volumes/Space/archive/media/audiobooks/Brandon Sanderson - Cosmere/Sanderson, Brandon - Cosmere 9 - Shadows for Silence in the Forests of Hell':
     {
