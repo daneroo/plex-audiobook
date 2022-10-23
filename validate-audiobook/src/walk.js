@@ -172,20 +172,26 @@ async function rewriteDirectory(directoryPath, bookData) {
         isUniqueAndTruthy(bookData.meta.authorDedup) &&
         bookData.author === bookData.meta.authorDedup[0]
       ) {
-        rewriteHint(`  "author": "${bookData.author}",  // unique`)
+        rewriteHint(`  "author": ["${bookData.author}",  "unique"],`)
       } else {
-        rewriteHint(`  "author": "${bookData.author}",  // hint`)
+        rewriteHint(`  "author": ["${bookData.author}",  "hint"],`)
       }
     } else {
       if (isUniqueAndTruthy(bookData.meta.authorDedup)) {
-        rewriteHint(`  "author": "${bookData.meta.authorDedup[0]}", // unique`)
-      } else {
-        rewriteHint('  "author": "", // non-unique or falsy')
         rewriteHint(
-          '  "// Non-unique Author":',
-          JSON.stringify(bookData.meta.authorDedup),
-          ','
+          `  "author": ["${bookData.meta.authorDedup[0]}",  "unique"],`
         )
+      } else {
+        if (bookData.meta.authorDedup.length > 1) {
+          rewriteHint('  "author": ["", "multiple"],')
+          rewriteHint(
+            `  "// multiple authors": ${JSON.stringify(
+              bookData.meta.authorDedup
+            )},`
+          )
+        } else {
+          rewriteHint('  "author": ["", "empty"],')
+        }
       }
     }
     if (bookData.title) {
@@ -194,20 +200,24 @@ async function rewriteDirectory(directoryPath, bookData) {
         isUniqueAndTruthy(bookData.meta.titleDedup) &&
         bookData.title === bookData.meta.titleDedup[0]
       ) {
-        rewriteHint(`  "title": "${bookData.title}",  // unique`)
+        rewriteHint(`  "title": ["${bookData.title}",  "unique"],`)
       } else {
-        rewriteHint(`  "title": "${bookData.title}",  // hint`)
+        rewriteHint(`  "title": ["${bookData.title}",  "hint"],`)
       }
     } else {
       if (isUniqueAndTruthy(bookData.meta.titleDedup)) {
-        rewriteHint(`  "title": "${bookData.meta.titleDedup[0]}", // unique`)
+        rewriteHint(`  "title": ["${bookData.meta.titleDedup[0]}", "unique"],`)
       } else {
-        rewriteHint('  "title": "", // non-unique or falsy')
-        rewriteHint(
-          '  "// Non-unique Title":',
-          JSON.stringify(bookData.meta.titleDedup),
-          ','
-        )
+        if (bookData.meta.titleDedup.length > 1) {
+          rewriteHint('  "title": ["", "multiple"],')
+          rewriteHint(
+            `  "// multiple titles": ${JSON.stringify(
+              bookData.meta.titleDedup
+            )},`
+          )
+        } else {
+          rewriteHint('  "title": ["", "empty"],')
+        }
       }
     }
 
