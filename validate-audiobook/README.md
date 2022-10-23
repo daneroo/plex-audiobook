@@ -2,14 +2,11 @@
 
 ## Standard => Eslint/Prettier
 
-
-
 Moving away from standard to eslint/prettier.
 Top level await require a minimal babel setup, until ESLint 8, or top-level await reaches stage 4.
 
 ## Plan
 
-- [ ] Fix remaining linting errors
 - [ ] Validate `/archive/media/audiobooks`
   - [x] extract metadata
   - [x] validate all author/titles: unique, override with hint
@@ -46,6 +43,7 @@ Top level await require a minimal babel setup, until ESLint 8, or top-level awai
   - [ ] find 7 habits `.aa` file
   - Import Steven R. Covey - The 7 Habits of Highly Effective People
   - Import PKF A SCanner Darkly
+<!-- /* cSpell:disable */ -->
 - QA with matching narrator (for asin lookup,..)
 - [ ] Check for multiple authors... array?
 - [ ] Rename in final step Monkey -> Journey to the west...
@@ -87,6 +85,7 @@ Top level await require a minimal babel setup, until ESLint 8, or top-level awai
 - [ ] rewrite db.js - refactor into separate cli
 - [ ] validate: output: info,warn,error - or reporting ov validator array
 - [ ] make top level index.js (cli.js) a yargs command thing
+<!-- /* cSpell:enable */ -->
 
 ## ffmpeg docker timing
 

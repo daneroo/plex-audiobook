@@ -1,17 +1,13 @@
-import path from 'path'
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
-import { parseFile } from 'music-metadata'
 // Internal
 import {
   getDirectories,
   getFiles,
   filterAudioFileExtensions,
-  filterNonAudioExtensionsOrNames,
 } from './traverse/module.js'
-import { searchAudible, sortAudibleBooks, ffprobe } from './extApi/module.js'
-import { getAuthor, getTitle, getSkip } from './hints/authorTitle.js'
-import { formatElapsed, durationToHMS } from './time/module.js'
+import { ffprobe } from './extApi/module.js'
+import { formatElapsed } from './time/module.js'
 
 const defaultRootPath = '/Volumes/Space/archive/media/audiobooks'
 
@@ -42,7 +38,8 @@ async function main() {
   for (const filename of audioFiles) {
     // ffprobe fallback for duration
     const startMs = +new Date()
-    const ffprobeMeta = await ffprobe(filename)
+    // const ffprobeMeta = await ffprobe(filename)
+    await ffprobe(filename)
     console.error('ffprobe', formatElapsed(startMs), filename)
   }
 

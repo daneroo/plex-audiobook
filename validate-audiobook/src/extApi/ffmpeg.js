@@ -18,7 +18,7 @@ const cacheDirectoryPath = join(process.cwd(), 'cache/ffprobe')
  */
 export async function ffprobe(filePath) {
   // get absolute filepath
-  const absoluteFilePath = filePath
+  // const absoluteFilePath = filePath
   // console.error('probing (possibly cached)', absoluteFilePath)
 
   // check cache first
@@ -75,6 +75,7 @@ async function execNative(filePath) {
 // docker run --rm --entrypoint '' -v "$(pwd)/$i":/audio/file:ro jrottenberg/ffmpeg:4.4-ubuntu bash -c 'ffprobe -of json -show_format -show_chapters /audio/file 2>/dev/null' | jq .format.duration; done
 // execute a command in an ffmpeg docker container
 // return JSON from stdout, eat stderr, and catch and log exceptions
+// eslint-disable-next-line no-unused-vars
 async function execDocker(filePath) {
   const image = 'jrottenberg/ffmpeg:4.4-ubuntu'
 
@@ -142,6 +143,7 @@ async function readJSON(path) {
   return json
 }
 
+// eslint-disable-next-line no-unused-vars
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }

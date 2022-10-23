@@ -25,7 +25,7 @@ const delayForAudibleAPIms = 100
  */
 
 /**
- * Sorts Audiblebooks by duration (in seconds)
+ * Sorts Audible books by duration (in seconds)
  *   - The list is sorted with respect to a reference duration
  *   - if this reference duration is not defined, it is set to 0
  * This amounts to sorting a list of audible books by their distance (in duration) to a reference duration
@@ -52,7 +52,7 @@ export function sortAudibleBooks(books, duration = 0) {
  * @returns {Promise<AudibleBook[]>}
  */
 export async function searchAudible({ author, title }) {
-  const AUDIBLE_ENDPOINT = 'https://api.audible.com/1.0/catalog/products'
+  // const AUDIBLE_ENDPOINT = 'https://api.audible.com/1.0/catalog/products'
   const urlHref = urlHrefForSearch({ author, title })
   // console.error('fetching (possibly cached)', urlHref)
 
@@ -115,7 +115,7 @@ function getCacheKeyPath(urlHref) {
 }
 
 /**
- * @param {{ author: string, title: number }} opts - The options
+ * @param {{ author: string, title: string }} opts - The options
  * @returns {string} Return the URL.href
  */
 function urlHrefForSearch({ author, title }) {

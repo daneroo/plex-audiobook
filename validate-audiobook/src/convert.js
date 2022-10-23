@@ -16,7 +16,7 @@ import {
 } from './traverse/module.js'
 import { ffprobe, execCommand } from './extApi/module.js'
 import { getAuthor, getTitle, getSkip } from './hints/authorTitle.js'
-import { formatElapsed, durationToHMS } from './time/module.js'
+import { formatElapsed } from './time/module.js'
 
 const defaultRootPath =
   '/Volumes/Space/archive/media/audiobooks/Adam Becker - What Is Real'
@@ -50,7 +50,8 @@ async function main() {
 
   // per directory conversion
   for (const directoryPath of directories) {
-    const bookData = await convertDirectory(directoryPath)
+    // const bookData = await convertDirectory(directoryPath)
+    await convertDirectory(directoryPath)
   }
   // console.error('Done in', formatElapsed(startMs))
 }
@@ -185,7 +186,7 @@ async function convert() {
 function chaptersFromMetas(metas) {
   let startMillis = 0
 
-  return metas.map((m, i) => {
+  return metas.map((m) => {
     const durationMillis = m.format.duration * 1000
     const endMillis = startMillis + durationMillis
     const result = {
@@ -241,5 +242,4 @@ async function getMetadataForSingleFile(filePath, options) {
       path.basename(filePath)
     )
   }
-  return metadata
 }
