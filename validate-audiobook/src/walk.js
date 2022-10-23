@@ -9,7 +9,7 @@ import {
   getDirectories,
   getFiles,
   filterAudioFileExtensions,
-  filterNonAudioExtensionsOrNames
+  filterNonAudioExtensionsOrNames,
 } from './traverse/module.js'
 import { searchAudible, sortAudibleBooks, ffprobe } from './extApi/module.js'
 import { getAuthor, getTitle, getSkip } from './hints/authorTitle.js'
@@ -18,7 +18,7 @@ import { formatElapsed, durationToHMS } from './time/module.js'
 const defaultRootPath = '/Volumes/Space/archive/media/audiobooks'
 const _rewriteHintDB = true
 
-function rewriteHint (...args) {
+function rewriteHint(...args) {
   if (_rewriteHintDB) {
     console.log(...args)
   }
@@ -26,14 +26,14 @@ function rewriteHint (...args) {
 
 await main()
 
-async function main () {
+async function main() {
   const argv = await yargs(hideBin(process.argv))
     .option('rootPath', {
       alias: 'r',
       type: 'string',
       demandOption: true,
       default: defaultRootPath,
-      describe: 'Path of the root directory to search from'
+      describe: 'Path of the root directory to search from',
     })
     .parseAsync()
   // destructure arguments
@@ -69,7 +69,7 @@ async function main () {
   // console.error('Done in', formatElapsed(startMs))
 }
 
-async function validateDirectory (directoryPath, bookData) {
+async function validateDirectory(directoryPath, bookData) {
   const validations = []
   console.error('=-=-: Validate', directoryPath.substring(39))
   if (bookData.audioFileCount == 0) {
@@ -104,7 +104,7 @@ async function validateDirectory (directoryPath, bookData) {
     // total duration from metadata
     if (!bookData.meta.duration) {
       console.error('Missing audio files duration =>', {
-        duration: bookData.meta.duration
+        duration: bookData.meta.duration,
       })
     }
 
@@ -118,7 +118,7 @@ async function validateDirectory (directoryPath, bookData) {
         console.error({ skipHint })
         console.error(`No audible results (${bookData.audible.length})`, {
           author: bookData.author,
-          title: bookData.title
+          title: bookData.title,
         })
       }
       console.error(`- Audible (${bookData.audible.length})`)
@@ -147,7 +147,7 @@ async function validateDirectory (directoryPath, bookData) {
   }
 }
 
-async function rewriteDirectory (directoryPath, bookData) {
+async function rewriteDirectory(directoryPath, bookData) {
   rewriteHint(`"${directoryPath}": {`)
 
   if (bookData.audioFileCount == 0) {
@@ -214,7 +214,7 @@ async function rewriteDirectory (directoryPath, bookData) {
     // total duration
     if (!bookData.meta.duration) {
       console.error('Missing audio files duration =>', {
-        duration: bookData.meta.duration
+        duration: bookData.meta.duration,
       })
     }
     rewriteHint(
@@ -240,7 +240,7 @@ async function rewriteDirectory (directoryPath, bookData) {
         if (bookData.audible.length == 0) {
           console.error(`No audible results (${bookData.audible.length})`, {
             author: bookData.author,
-            title: bookData.title
+            title: bookData.title,
           })
           rewriteHint('  "// asin lookup results": "zero!",')
         }
@@ -259,7 +259,7 @@ async function rewriteDirectory (directoryPath, bookData) {
               `  "// asin-${index}":`,
               JSON.stringify({
                 asin,
-                duration: durationToHMS(duration)
+                duration: durationToHMS(duration),
                 // delta: durationToHMS(delta)
                 // check
               }),
@@ -281,7 +281,7 @@ async function rewriteDirectory (directoryPath, bookData) {
 }
 
 // export a data structure for the directory
-async function classifyDirectory (directoryPath) {
+async function classifyDirectory(directoryPath) {
   const bookData = {
     audioFileCount: 0,
     author: '',
@@ -290,10 +290,10 @@ async function classifyDirectory (directoryPath) {
       count: 0,
       duration: 0, // aggregated sum, 0 if sum is NaN
       authorDedup: [],
-      titleDedup: []
+      titleDedup: [],
     },
     audible: [], // from audible lookup (author, title) => [shortBook]
-    skip: undefined
+    skip: undefined,
   } // this is what we return
 
   const filenames = await getFiles(directoryPath)
@@ -318,7 +318,7 @@ async function classifyDirectory (directoryPath) {
       author,
       title,
       dedupAuthor,
-      dedupTitle
+      dedupTitle,
     } = validateUniqueAuthorTitle(metas, directoryPath)
     bookData.meta.authorDedup = dedupAuthor
     bookData.meta.titleDedup = dedupTitle
@@ -338,7 +338,7 @@ async function classifyDirectory (directoryPath) {
       )
     }
     const dedupFormat = dedupArray(
-      metas.map(m => {
+      metas.map((m) => {
         const { container, codec, codecProfile, bitrate } = m.format
         return JSON.stringify({ container, codec, codecProfile, bitrate })
       })
@@ -347,15 +347,12 @@ async function classifyDirectory (directoryPath) {
 
     // m.common.picture {format,data,type?,description?}
     const dedupCover = dedupArray(
-      metas.map(m => {
+      metas.map((m) => {
         // careful picture is an array
         const { format, data, type, description } = m.common.picture?.[0] || {}
         // data is a Buffer
         const sha256 = data
-          ? crypto
-              .createHash('sha256')
-              .update(data)
-              .digest('hex')
+          ? crypto.createHash('sha256').update(data).digest('hex')
           : 'missing'
 
         return JSON.stringify({ format, sha256, type, description })
@@ -366,7 +363,7 @@ async function classifyDirectory (directoryPath) {
     // total duration
     const duration = Math.round(
       metas
-        .map(m => m.format.duration)
+        .map((m) => m.format.duration)
         .reduce((total, duration) => total + duration, 0)
     )
     // set to 0 if NaN (NaN is Falsy, and so is 0, so should be safe)
@@ -395,7 +392,7 @@ async function classifyDirectory (directoryPath) {
 }
 
 // returns {valid:,author:,title:,dedupAuthor:,dedupTitle:}
-function validateUniqueAuthorTitle (metas, directoryPath) {
+function validateUniqueAuthorTitle(metas, directoryPath) {
   if (metas.length == 0) {
     // console.error(`${directoryPath} has ${metas.length} entries`)
     return { valid: false } // to prevent further lookup and processing
@@ -404,8 +401,8 @@ function validateUniqueAuthorTitle (metas, directoryPath) {
   // get hint from db to override tag aggregates
   const authorHint = getAuthor(directoryPath)
   const titleHint = getTitle(directoryPath)
-  const dedupAuthor = dedupArray(metas.map(m => m.common.artist))
-  const dedupTitle = dedupArray(metas.map(m => m.common.album))
+  const dedupAuthor = dedupArray(metas.map((m) => m.common.artist))
+  const dedupTitle = dedupArray(metas.map((m) => m.common.album))
 
   const valid =
     (authorHint || isUniqueAndTruthy(dedupAuthor)) &&
@@ -415,12 +412,12 @@ function validateUniqueAuthorTitle (metas, directoryPath) {
     author: authorHint || dedupAuthor[0],
     title: titleHint || dedupTitle[0],
     dedupAuthor,
-    dedupTitle
+    dedupTitle,
   }
 }
 
 // dedup'd array is ok, if it has exactly one entry, which is not falsy: (null or empty)
-function isUniqueAndTruthy (dedupAry) {
+function isUniqueAndTruthy(dedupAry) {
   if (dedupAry.length > 1 || dedupAry.length == 0) return false
   // now we have a single entry
   const first = dedupAry[0]
@@ -430,7 +427,7 @@ function isUniqueAndTruthy (dedupAry) {
 }
 
 // remove duplicates from array
-function dedupArray (ary) {
+function dedupArray(ary) {
   const dedup = [...new Set(ary)]
   return dedup
 }
@@ -438,14 +435,14 @@ function dedupArray (ary) {
 // for filenames in a set (typically a directory),
 // verify that all extensions (and some known filenames are accounted for)
 // simply console.error the unaccounted for files files.
-function verifyExtensionsAllAccountedFor (filenames) {
+function verifyExtensionsAllAccountedFor(filenames) {
   const excludedFilenames = filenames.filter(filterNonAudioExtensionsOrNames)
 
   const audioFiles = filenames.filter(filterAudioFileExtensions)
 
   // make sure all extensions are known, or known to be excluded
   if (audioFiles.length + excludedFilenames.length !== filenames.length) {
-    const unclassified = filenames.filter(filePath => {
+    const unclassified = filenames.filter((filePath) => {
       if (filterAudioFileExtensions(filePath)) return false
       if (filterNonAudioExtensionsOrNames(filePath)) return false
       return true
@@ -456,7 +453,7 @@ function verifyExtensionsAllAccountedFor (filenames) {
         total: filenames.length,
         excluded: excludedFilenames.length,
         audio: audioFiles.length,
-        unclassified: unclassified.length
+        unclassified: unclassified.length,
       },
       'files'
     )
@@ -470,11 +467,11 @@ function verifyExtensionsAllAccountedFor (filenames) {
 }
 
 // get metadata for a collection of audio files (typically a directory)
-async function getMetadataForMultipleFiles (
+async function getMetadataForMultipleFiles(
   audioFiles,
   options = {
     duration: false, // much slower when true even for some .mp3
-    includeChapters: false
+    includeChapters: false,
   }
 ) {
   const metas = []
@@ -493,7 +490,7 @@ async function getMetadataForMultipleFiles (
 }
 
 // get metadata for a single audio file
-async function getMetadataForSingleFile (filePath, options) {
+async function getMetadataForSingleFile(filePath, options) {
   // get metadata
   if (filterNonAudioExtensionsOrNames(filePath)) {
     return

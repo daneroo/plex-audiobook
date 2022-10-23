@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 
 await main()
 
-async function main () {
+async function main() {
   // const asin = 'B00G4K7EUO' // GB03 =23h  - '0593163400' == 26h
   const asin = 'B078P2MS47' // Adam Becker - What Is Real?
   const url = `https://api.audnex.us/books/${asin}/chapters`
@@ -37,7 +37,7 @@ async function main () {
   //  console.log(JSON.stringify(data, null, 2))
 }
 
-function hmsMillis (ms) {
+function hmsMillis(ms) {
   // 23:45:53.617
   return new Date(ms).toISOString().substring(11, 23)
 }

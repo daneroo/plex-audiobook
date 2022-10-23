@@ -1,7 +1,7 @@
 import Walk from '@root/walk'
 
 // get all directories as paths, recursively, including rootPath itself
-export async function getDirectories (rootPath) {
+export async function getDirectories(rootPath) {
   const directories = []
   await Walk.walk(rootPath, async (err, pathname, dirent) => {
     if (err) {

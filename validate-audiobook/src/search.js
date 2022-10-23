@@ -5,17 +5,17 @@ import { searchAudible, sortAudibleBooks } from './extApi/module.js'
 
 main()
 
-async function main () {
+async function main() {
   const argv = await yargs(hideBin(process.argv))
     .option('author', {
       alias: 'a',
       type: 'string',
-      describe: 'specify author for search'
+      describe: 'specify author for search',
     })
     .option('title', {
       alias: 't',
       type: 'string',
-      describe: 'specify author for search'
+      describe: 'specify author for search',
     })
     .demandOption(
       ['author', 'title'],
@@ -29,7 +29,7 @@ async function main () {
   const audibleBooks = await searchAudible({ author, title })
   console.log(`Got ${audibleBooks.length} results from audible API`)
   const sorted = sortAudibleBooks(audibleBooks)
-  sorted.forEach(book => {
+  sorted.forEach((book) => {
     console.log(JSON.stringify(book))
   })
 }

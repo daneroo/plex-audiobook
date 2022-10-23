@@ -1,11 +1,11 @@
 import { db } from './db.js'
-export function getAuthor (directoryPath) {
+export function getAuthor(directoryPath) {
   // console.error('Looking up author for ', directoryPath)
   return db?.[directoryPath]?.author
 }
-export function getTitle (directoryPath) {
+export function getTitle(directoryPath) {
   return db?.[directoryPath]?.title
 }
-export function getSkip (directoryPath) {
+export function getSkip(directoryPath) {
   return db?.[directoryPath]?.skip
 }

@@ -7,7 +7,7 @@ import {
   getDirectories,
   getFiles,
   filterAudioFileExtensions,
-  filterNonAudioExtensionsOrNames
+  filterNonAudioExtensionsOrNames,
 } from './traverse/module.js'
 import { searchAudible, sortAudibleBooks, ffprobe } from './extApi/module.js'
 import { getAuthor, getTitle, getSkip } from './hints/authorTitle.js'
@@ -17,14 +17,14 @@ const defaultRootPath = '/Volumes/Space/archive/media/audiobooks'
 
 await main()
 
-async function main () {
+async function main() {
   const argv = await yargs(hideBin(process.argv))
     .option('rootPath', {
       alias: 'r',
       type: 'string',
       demandOption: true,
       default: defaultRootPath,
-      describe: 'Path of the root directory to search from'
+      describe: 'Path of the root directory to search from',
     })
     .parseAsync()
   // destructure arguments

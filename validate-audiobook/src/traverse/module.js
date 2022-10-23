@@ -5,5 +5,5 @@ export {
   filterAudioFileExtensions,
   filterNonAudioExtensionsOrNames,
   filterNonAudioFileExtensions,
-  filterNonAudioFilenames
+  filterNonAudioFilenames,
 } from './filters.js'

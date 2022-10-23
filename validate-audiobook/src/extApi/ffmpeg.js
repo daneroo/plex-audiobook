@@ -16,7 +16,7 @@ const cacheDirectoryPath = join(process.cwd(), 'cache/ffprobe')
  * @param {{ string }} filePath - the parameters, required
  * @returns {Promise<Object>}
  */
-export async function ffprobe (filePath) {
+export async function ffprobe(filePath) {
   // get absolute filepath
   const absoluteFilePath = filePath
   // console.error('probing (possibly cached)', absoluteFilePath)
@@ -32,7 +32,7 @@ export async function ffprobe (filePath) {
   return results
 }
 
-async function fetchResult (filePath) {
+async function fetchResult(filePath) {
   console.error('fetching (not cached)', filePath)
   try {
     // const jsonString = await execDocker(filePath)
@@ -53,7 +53,7 @@ async function fetchResult (filePath) {
 }
 
 // return JSON from stdout, eat stderr, and catch and log exceptions
-async function execNative (filePath) {
+async function execNative(filePath) {
   // const ffprobeBin =
   //   '/Applications/OpenAudible.app/Contents/Resources/app/bin/mac/ffprobe' // ffprobe version 4.3.1
   const ffprobeBin = 'ffprobe'
@@ -75,7 +75,7 @@ async function execNative (filePath) {
 // docker run --rm --entrypoint '' -v "$(pwd)/$i":/audio/file:ro jrottenberg/ffmpeg:4.4-ubuntu bash -c 'ffprobe -of json -show_format -show_chapters /audio/file 2>/dev/null' | jq .format.duration; done
 // execute a command in an ffmpeg docker container
 // return JSON from stdout, eat stderr, and catch and log exceptions
-async function execDocker (filePath) {
+async function execDocker(filePath) {
   const image = 'jrottenberg/ffmpeg:4.4-ubuntu'
 
   //  no need t use bash -c '', because we can now ignore stderr
@@ -105,7 +105,7 @@ async function execDocker (filePath) {
 // const results = {
 //   example: await execCommand('docker run --rm ubuntu uname -a')
 // }
-export async function execCommand (command) {
+export async function execCommand(command) {
   const { exec: execWithCallback } = await import('node:child_process')
   const { promisify } = await import('node:util')
   // The promisified version of exec
@@ -113,38 +113,35 @@ export async function execCommand (command) {
   return exec(command)
 }
 
-async function getCachedResult (filePath) {
+async function getCachedResult(filePath) {
   const cacheKeyPath = getCacheKeyPath(filePath)
   return await readJSON(cacheKeyPath).catch(() => null)
 }
 
-function getCacheKeyPath (filePath) {
+function getCacheKeyPath(filePath) {
   const cacheKey = sha256sum(filePath)
   const cacheKeyPath = join(cacheDirectoryPath, `${cacheKey}.json`)
   return cacheKeyPath
 }
 
 // The functions below are for caching results
-function sha256sum (input) {
-  return crypto
-    .createHash('sha256')
-    .update(JSON.stringify(input))
-    .digest('hex')
+function sha256sum(input) {
+  return crypto.createHash('sha256').update(JSON.stringify(input)).digest('hex')
 }
 
-async function storeJSON (json, path) {
+async function storeJSON(json, path) {
   const data = JSON.stringify(json, null, 2)
   await fs.writeFile(path, data)
   // console.error('Wrote', path)
   return path
 }
 
-async function readJSON (path) {
+async function readJSON(path) {
   const data = await fs.readFile(path)
   const json = JSON.parse(data.toString())
   return json
 }
 
-function sleep (ms) {
-  return new Promise(resolve => setTimeout(resolve, ms))
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
 }

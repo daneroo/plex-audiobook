@@ -6,7 +6,7 @@
  * @returns {string} Return the formatted string
  */
 
-export function formatElapsed (startMs) {
+export function formatElapsed(startMs) {
   const elapsedSeconds = ((+new Date() - startMs) / 1000).toFixed(3)
   return elapsedSeconds + 's'
 }
@@ -22,7 +22,7 @@ export function formatElapsed (startMs) {
  * @param {number} [seconds=0] - assumed to be integer>0
  * @returns {string} - formatted string e.e. 3m4s or 1h2m3s
  */
-export function durationToHMS (seconds = 0) {
+export function durationToHMS(seconds = 0) {
   // assume seconds is an integer > 0
   const h = Math.floor(seconds / 3600)
   const m = Math.floor((seconds % 3600) / 60)

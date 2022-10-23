@@ -34,7 +34,7 @@ const delayForAudibleAPIms = 100
  * @param {number} [duration=0] - reference duration (defaults to 0)
  * @returns {AudibleBook[]} Return the sorted books
  */
-export function sortAudibleBooks (books, duration = 0) {
+export function sortAudibleBooks(books, duration = 0) {
   // console.error('Sorting around', { duration })
   //  we must be careful, as the duration is not always defined on incoming books (default to a large value in this case)
   const largeDuration = 1e7 // 115 days! - we use || because NaN is falsy, Nullish coalescing will not do.
@@ -51,7 +51,7 @@ export function sortAudibleBooks (books, duration = 0) {
  * @param {{ author: string, title: string }} opts - the parameters, required
  * @returns {Promise<AudibleBook[]>}
  */
-export async function searchAudible ({ author, title }) {
+export async function searchAudible({ author, title }) {
   const AUDIBLE_ENDPOINT = 'https://api.audible.com/1.0/catalog/products'
   const urlHref = urlHrefForSearch({ author, title })
   // console.error('fetching (possibly cached)', urlHref)
@@ -73,22 +73,22 @@ export async function searchAudible ({ author, title }) {
  */
 // casts and renames fields for use as an AudibleBook
 // TODO handle multiple series
-function audibleBook (book) {
+function audibleBook(book) {
   const { asin, authors, title, narrators, series, runtime_length_min } = book
 
   return {
     asin,
-    authors: authors.map(author => author?.name),
+    authors: authors.map((author) => author?.name),
     title,
     series: series?.[0].title,
     seriesPosition: series?.[0].sequence,
-    narrators: narrators?.map(author => author?.name),
+    narrators: narrators?.map((author) => author?.name),
     // this preserves null for duration, but we might want to omit the member altogether
-    duration: runtime_length_min ? runtime_length_min * 60 : runtime_length_min
+    duration: runtime_length_min ? runtime_length_min * 60 : runtime_length_min,
   }
 }
 
-async function fetchResult (urlHref) {
+async function fetchResult(urlHref) {
   // don't overwhelm audible's api server (10/s seems reasonable)
   await sleep(delayForAudibleAPIms)
 
@@ -103,12 +103,12 @@ async function fetchResult (urlHref) {
   return results
 }
 
-async function getCachedResult (urlHref) {
+async function getCachedResult(urlHref) {
   const cacheKeyPath = getCacheKeyPath(urlHref)
   return await readJSON(cacheKeyPath).catch(() => null)
 }
 
-function getCacheKeyPath (urlHref) {
+function getCacheKeyPath(urlHref) {
   const cacheKey = sha256sum(urlHref)
   const cacheKeyPath = join(cacheDirectoryPath, `${cacheKey}.json`)
   return cacheKeyPath
@@ -118,7 +118,7 @@ function getCacheKeyPath (urlHref) {
  * @param {{ author: string, title: number }} opts - The options
  * @returns {string} Return the URL.href
  */
-function urlHrefForSearch ({ author, title }) {
+function urlHrefForSearch({ author, title }) {
   const AUDIBLE_ENDPOINT = 'https://api.audible.com/1.0/catalog/products'
   const url = new URL(AUDIBLE_ENDPOINT)
   const params = {
@@ -128,34 +128,33 @@ function urlHrefForSearch ({ author, title }) {
     num_results: 10,
     products_sort_by: 'Relevance',
     author,
-    title
+    title,
   }
   //  map params object to url's searchParams
-  Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
+  Object.keys(params).forEach((key) =>
+    url.searchParams.append(key, params[key])
+  )
   return url.href
 }
 
 // The functions below are for caching results
-function sha256sum (input) {
-  return crypto
-    .createHash('sha256')
-    .update(JSON.stringify(input))
-    .digest('hex')
+function sha256sum(input) {
+  return crypto.createHash('sha256').update(JSON.stringify(input)).digest('hex')
 }
 
-async function storeJSON (json, path) {
+async function storeJSON(json, path) {
   const data = JSON.stringify(json, null, 2)
   await fs.writeFile(path, data)
   // console.error('Wrote', path)
   return path
 }
 
-async function readJSON (path) {
+async function readJSON(path) {
   const data = await fs.readFile(path)
   const json = JSON.parse(data.toString())
   return json
 }
 
-function sleep (ms) {
-  return new Promise(resolve => setTimeout(resolve, ms))
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
 }

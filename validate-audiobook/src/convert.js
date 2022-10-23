@@ -12,7 +12,7 @@ import {
   getDirectories,
   getFiles,
   filterAudioFileExtensions,
-  filterNonAudioExtensionsOrNames
+  filterNonAudioExtensionsOrNames,
 } from './traverse/module.js'
 import { ffprobe, execCommand } from './extApi/module.js'
 import { getAuthor, getTitle, getSkip } from './hints/authorTitle.js'
@@ -25,14 +25,14 @@ const OUTPUT_DIR = 'convert/converted'
 
 await main()
 
-async function main () {
+async function main() {
   const argv = await yargs(hideBin(process.argv))
     .option('rootPath', {
       alias: 'r',
       type: 'string',
       demandOption: true,
       default: defaultRootPath,
-      describe: 'Path of the root directory to search from'
+      describe: 'Path of the root directory to search from',
     })
     .parseAsync()
   // destructure arguments
@@ -56,7 +56,7 @@ async function main () {
 }
 
 // export a data structure for the directory
-async function convertDirectory (directoryPath) {
+async function convertDirectory(directoryPath) {
   console.error('=-=-: Convert', directoryPath.substring(39))
   await fs.mkdir(TMPDIR, { recursive: true })
 
@@ -80,7 +80,7 @@ async function convertDirectory (directoryPath) {
   // write listing.txt - writeFile takes an iterable (our mapped array in this case)
   await fs.writeFile(
     path.join(TMPDIR, 'listing.txt'),
-    audioFiles.map(f => {
+    audioFiles.map((f) => {
       // https://ffmpeg.org/ffmpeg-utils.html#Examples
       // to escape a single quote: ' => '\''
       const escaped = f.replace(/'/g, "'\\''")
@@ -140,7 +140,7 @@ async function convertDirectory (directoryPath) {
   await move()
 }
 
-async function move () {
+async function move() {
   // move the file to the output directory
   await fs.mkdir(OUTPUT_DIR, { recursive: true })
 
@@ -158,7 +158,7 @@ async function move () {
 // ffmpeg -v quiet -i output.mp3 -f ffmetadata -
 // same with
 // ffprobe -v quiet -print_format json -show_format -show_chapters output.mp3
-async function convert () {
+async function convert() {
   // -y is for allowing overwrite of output.mp3
   // -v quiet is for suppressing ffmpeg output
   // -safe 0 allows unsafe filenames (e.g. with spaces)
@@ -182,7 +182,7 @@ async function convert () {
 }
 // extract common.title and format.duration from metas
 // and map to expected format for ffmeta.stringify
-function chaptersFromMetas (metas) {
+function chaptersFromMetas(metas) {
   let startMillis = 0
 
   return metas.map((m, i) => {
@@ -193,19 +193,19 @@ function chaptersFromMetas (metas) {
       START: startMillis.toFixed(0),
       END: endMillis.toFixed(0),
       metadata: {
-        title: m.common.title
-      }
+        title: m.common.title,
+      },
     }
     startMillis = endMillis
     return result
   })
 }
 // get metadata for a collection of audio files (typically a directory)
-async function getMetadataForMultipleFiles (
+async function getMetadataForMultipleFiles(
   audioFiles,
   options = {
     duration: false, // much slower when true even for some .mp3
-    includeChapters: false
+    includeChapters: false,
   }
 ) {
   const metas = []
@@ -224,7 +224,7 @@ async function getMetadataForMultipleFiles (
 }
 
 // get metadata for a single audio file
-async function getMetadataForSingleFile (filePath, options) {
+async function getMetadataForSingleFile(filePath, options) {
   // get metadata
   if (filterNonAudioExtensionsOrNames(filePath)) {
     return

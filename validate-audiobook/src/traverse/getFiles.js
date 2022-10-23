@@ -2,7 +2,7 @@ import Walk from '@root/walk'
 
 // return all files from rootPath
 // if recurse is false, only get files in rootPath, not subdirectories
-export async function getFiles (rootPath, options = { recurse: false }) {
+export async function getFiles(rootPath, options = { recurse: false }) {
   const pathnames = []
   await Walk.walk(rootPath, async (err, pathname, dirent) => {
     if (err) {
