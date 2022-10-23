@@ -152,7 +152,7 @@ async function rewriteDirectory (directoryPath, bookData) {
 
   if (bookData.audioFileCount == 0) {
     console.error('=-=-: No audio files', directoryPath.substring(39))
-    rewriteHint('  "// No audio files": null,')
+    rewriteHint('  "skip": "no audio files",')
   } else {
     if (bookData.meta.count == 0) {
       console.error(
@@ -353,9 +353,9 @@ async function classifyDirectory (directoryPath) {
         // data is a Buffer
         const sha256 = data
           ? crypto
-            .createHash('sha256')
-            .update(data)
-            .digest('hex')
+              .createHash('sha256')
+              .update(data)
+              .digest('hex')
           : 'missing'
 
         return JSON.stringify({ format, sha256, type, description })
