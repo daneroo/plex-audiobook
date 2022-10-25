@@ -3845,10 +3845,11 @@ export const db = {
   },
   '/Volumes/Space/archive/media/audiobooks/Nick Bostrom - Superintelligence': {
     author: ['Nick Bostrom', 'unique'],
-    title: ['Superintelligence (Unabridged)', 'unique'],
+    title: ['Superintelligence', 'hint'],
     '// duration': '14h17m8s',
-    '// asin lookup results': 'zero!',
-    asins: [],
+    asins: [
+      'B00LPMD72K: ✓ Δ:8s - 14h17m0s -  Superintelligence / Nick Bostrom / n: Napoleon Ryan',
+    ],
   },
   '/Volumes/Space/archive/media/audiobooks/Nicole Perlroth - This Is How They Tell Me the World Ends':
     {
