@@ -126,7 +126,7 @@ async function validateDirectory(directoryPath, bookData) {
       {
         const durationMeta = bookData.meta.duration // rename to avoid shadowing
         const sortedAudible = sortAudibleBooks(bookData.audible, durationMeta)
-        const deltaThreshold = 5 * 60 // 5 minutes
+        const deltaThreshold = 15 * 60 // 15 minutes
         const largeDuration = 1e7
         sortedAudible.forEach((book, index) => {
           const { asin, duration, title, authors, narrators } = book
@@ -134,13 +134,15 @@ async function validateDirectory(directoryPath, bookData) {
             ? Math.abs(duration - durationMeta)
             : largeDuration
           const check = delta <= deltaThreshold ? '✓' : '✗'
-          console.error(
-            `${check} - ${index} ${asin} 'Δ':${durationToHMS(
-              delta
-            )} ${durationToHMS(
-              duration
-            )} - ${title} / ${authors} / n: ${narrators}`
-          )
+          if (delta <= deltaThreshold) {
+            console.error(
+              `${check} - ${index} ${asin} 'Δ':${durationToHMS(
+                delta
+              )} ${durationToHMS(
+                duration
+              )} - ${title} / ${authors} / n: ${narrators}`
+            )
+          }
         })
       }
     }
@@ -257,7 +259,7 @@ async function rewriteDirectory(directoryPath, bookData) {
         {
           const durationMeta = bookData.meta.duration // rename to avoid shadowing
           const sortedAudible = sortAudibleBooks(bookData.audible, durationMeta)
-          const deltaThreshold = 5 * 60 // 5 minutes
+          const deltaThreshold = 15 * 60 // 15 minutes
           const largeDuration = 1e7
           const asins = sortedAudible
             .map((book) => {
@@ -273,8 +275,8 @@ async function rewriteDirectory(directoryPath, bookData) {
                 check,
               }
             })
-            // keep all candidates - no filtering
-            // .filter((candidate) => candidate.delta <= deltaThreshold)
+            // filter out books that are too far off
+            .filter((candidate) => candidate.delta <= deltaThreshold)
             .map(
               ({ title, authors, narrators, duration, asin, delta, check }) =>
                 `${asin}: ${check} Δ:${durationToHMS(delta)} - ${durationToHMS(
