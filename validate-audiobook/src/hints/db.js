@@ -1127,6 +1127,17 @@ export const db = {
         'B078879S4G: ✓ Δ:14m22s - 2h43m0s -  El viejo y el mar [The Old Man and the Sea] / Ernest Hemingway / n: Pablo Lopez',
       ],
     },
+  '/Volumes/Space/archive/media/audiobooks/Erwin Schrodinger - What Is Life': {
+    author: ['Erwin Schrödinger, Roger Penrose - foreword', 'unique'],
+    title: [
+      'What Is Life?: With Mind and Matter and Autobiographical Sketches',
+      'unique',
+    ],
+    '// duration': '6h9m3s',
+    asins: [
+      '1541446410: ✓ Δ:1m3s - 6h8m0s -  What Is Life? / Erwin Schrödinger,Roger Penrose - foreword / n: Bob Souer',
+    ],
+  },
   '/Volumes/Space/archive/media/audiobooks/FareedZakaria-PostAmericanWorld': {
     author: ['Fareed Zakaria', 'unique'],
     title: ['The Post-American World', 'unique'],
