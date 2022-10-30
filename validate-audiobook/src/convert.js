@@ -19,7 +19,8 @@ import { getAuthor, getTitle, getSkip } from './hints/authorTitle.js'
 import { formatElapsed } from './time/module.js'
 
 const defaultRootPath =
-  '/Volumes/Space/archive/media/audiobooks/Adam Becker - What Is Real'
+  '/Volumes/Space/archive/media/audiobooks/Steven Brust - Khaavren Romances/'
+// '/Volumes/Space/archive/media/audiobooks/Adam Becker - What Is Real'
 const TMPDIR = 'convert/tmpdir'
 const OUTPUT_DIR = 'convert/converted'
 
@@ -150,7 +151,7 @@ async function move() {
   const author = meta.common.artist
   const title = meta.common.title
   const to = path.join(OUTPUT_DIR, `${author} - ${title}.mp3`)
-  console.error(`Renaming to ${to}.mp3`)
+  console.error(`Renaming to ${to}`)
   await fs.rename(from, to)
 }
 // All in one step!

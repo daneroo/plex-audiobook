@@ -834,6 +834,13 @@ export const db = {
       '8417347526: ✓ Δ:48s - 14h37m0s -  El problema de los tres cuerpos [The Three-Body Problem] / Cixin Liu / n: Francesc Belda',
     ],
   },
+  '/Volumes/Space/archive/media/audiobooks/Cory Doctorow - Down and Out in the Magic Kingdom':
+    {
+      author: ['Cory Doctorow', 'hint'],
+      title: ['Down and Out in the Magic Kingdom', 'unique'],
+      '// duration': '4h13m4s',
+      skip: 'not on audible',
+    },
   '/Volumes/Space/archive/media/audiobooks/CoryDoctorow-AttackSurface': {
     author: ['Cory Doctorow', 'hint'],
     title: ['Attack Surface', 'unique'],
@@ -3485,6 +3492,15 @@ export const db = {
     '// duration': '5h41m20s',
     asins: [],
   },
+  '/Volumes/Space/archive/media/audiobooks/Rebecca Wragg Sykes - Kindred—Neanderthal Life':
+    {
+      author: ['Rebecca Wragg Sykes', 'unique'],
+      title: ['Kindred', 'unique'],
+      '// duration': '16h26m29s',
+      asins: [
+        '1472962141: ✓ Δ:29s - 16h26m0s -  Kindred / Rebecca Wragg Sykes / n: Rebecca Wragg Sykes',
+      ],
+    },
   '/Volumes/Space/archive/media/audiobooks/Richard Powers - The Overstory': {
     author: ['Richard Powers', 'unique'],
     title: ['The Overstory', 'hint'],
@@ -4226,6 +4242,15 @@ export const db = {
     '// duration': '17h34m49s',
     asins: [],
   },
+  '/Volumes/Space/archive/media/audiobooks/William MacAskill - What We Owe the Future':
+    {
+      author: ['William MacAskill', 'unique'],
+      title: ['What We Owe the Future', 'unique'],
+      '// duration': '8h55m19s',
+      asins: [
+        'B0B75V5B9V: ✓ Δ:19s - 8h55m0s -  What We Owe the Future / William MacAskill / n: William MacAskill',
+      ],
+    },
   "/Volumes/Space/archive/media/audiobooks/Wu Ch'eng-en - Journey to the West (Monkey) [abridged]":
     {
       author: ["Wu Ch'eng-en", 'unique'],
