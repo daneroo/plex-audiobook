@@ -6,6 +6,9 @@ Plex server is running in the plex-audio vm in proxmox@hibert.
 - Local: <http://plex-audiobook.imetrical.com:32400/web>
 - Local: <http://192.168.86.34:32400/web>
 
+- [ ] move to nx-audiobook
+  - Check Plan and TODO in `validate-audiobook:README.md`
+  - remove `validate-audiobook` from this repo
 - [x] snapshots on proxmox
 - [ ] compare metadata (node.js - music-metadata)
 - [ ] canonical folder layout for process
