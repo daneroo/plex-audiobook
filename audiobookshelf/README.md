@@ -11,6 +11,10 @@ Mounting the these 3 directories:
 - ./data/metadata:/metadata
 - ./data/config:/config
 
+```bash
+docker compose up -d
+```
+
 ## References
 
 - [Audiobookshelf Site](https://www.audiobookshelf.org/)

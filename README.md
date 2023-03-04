@@ -1,12 +1,26 @@
 # Plex setup for audiobooks
 
-Plex server is running in the plex-audio vm in proxmox@hibert.
+Plex server is running in the plex-audio vm in proxmox@hilbert.
 
 - Remote: <https://audiobook.dl.imetrical.com:443/web>
 - Local: <http://plex-audiobook.imetrical.com:32400/web>
 - Local: <http://192.168.86.34:32400/web>
 
-- [ ] move to nx-audiobook
+Audiobookshelf is running in the plex-audio vm in proxmox@hilbert.
+
+Pixel 6 Download folder is `/audiobooks` (as a Download folder), the app also can see DropSynFiles (used for Smart AudioBook Player)
+
+- Remote: Not yet, not ever
+- Tailscale: not yet: <http://plex-audiobook.ts.imetrical.com:13378/>
+- Local: <http://plex-audiobook.imetrical.com:13378/>
+- Local: <http://192.168.86.34:13378/web>
+
+## TODO
+
+- [ ] Make audiobookshelf permanent
+- [ ] remove plex stuff, BookCamp 2.0 is never gonna happen...
+- [ ] move to nx-audiobook - including audiobookshelf
+- [ ] finalize move to nx-audiobook
   - Check Plan and TODO in `validate-audiobook:README.md`
   - remove `validate-audiobook` from this repo
 - [x] snapshots on proxmox
