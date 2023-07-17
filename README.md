@@ -1,12 +1,8 @@
 # Plex setup for audiobooks
 
-Plex server is running in the plex-audio vm in proxmox@hilbert.
+_Note_: as of 2023-07-17 I uninstalled plexmediaserver on this host, and will rebuild audiobookshelf on a new server (NixOS)
 
-- Remote: <https://audiobook.dl.imetrical.com:443/web>
-- Local: <http://plex-audiobook.imetrical.com:32400/web>
-- Local: <http://192.168.86.34:32400/web>
-
-Audiobookshelf is running in the plex-audio vm in proxmox@hilbert.
+**Audiobookshelf** is running in the plex-audio vm in proxmox@hilbert.
 
 Pixel 6 Download folder is `/audiobooks` (as a Download folder), the app also can see DropSynFiles (used for Smart AudioBook Player)
 
@@ -15,11 +11,18 @@ Pixel 6 Download folder is `/audiobooks` (as a Download folder), the app also ca
 - Local: <http://plex-audiobook.imetrical.com:13378/>
 - Local: <http://192.168.86.34:13378/web>
 
+Plex server WAS (is) running in the plex-audio vm in proxmox@hilbert.
+
+- Remote: <https://audiobook.dl.imetrical.com:443/web>
+- Local: <http://plex-audiobook.imetrical.com:32400/web>
+- Local: <http://192.168.86.34:32400/web>
+
 ## TODO
 
-- [ ] Make audiobookshelf permanent
+- [ ] Archive this repo
+- [ ] Move to nx-audiobook - including audiobookshelf
+  - [ ] Move audiobookshelf permanent to new NuxOS server
 - [ ] remove plex stuff, BookCamp 2.0 is never gonna happen...
-- [ ] move to nx-audiobook - including audiobookshelf
 - [ ] finalize move to nx-audiobook
   - Check Plan and TODO in `validate-audiobook:README.md`
   - remove `validate-audiobook` from this repo
