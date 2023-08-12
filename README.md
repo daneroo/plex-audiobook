@@ -1,5 +1,6 @@
 # Plex setup for audiobooks
 
+_Note_: as of 2023-08-12 I reinstalled plexmediaserver on this host, by restoring to the 2023-07-16 snapshot.
 _Note_: as of 2023-07-17 I uninstalled plexmediaserver on this host, and will rebuild audiobookshelf on a new server (NixOS)
 
 **Audiobookshelf** is running in the plex-audio vm in proxmox@hilbert.
@@ -45,14 +46,21 @@ Plex server WAS (is) running in the plex-audio vm in proxmox@hilbert.
 - see my plex token : yM_Bj1FZVLpHt-xs1whp
   - <https://plex.tv/api/resources?yM_Bj1FZVLpHt-xs1whp>
 
-Adjust Account Setting: Network: Advanced: Custom server access URLs
+Adjust Account Setting: Network: Advanced: Custom server access URLs:
+to `http://plex-audiobook.imetrical.com:32400/, http://192.168.86.34:32400/"`.
+
+Could re-add <https://audiobook.dl.imetrical.com:443/> which is still mapped in gateway
+Could later add a tailscale address.
 
 This is a snapshot of resulting `Preferences.xml`: plex-audiobook on hilbert
 i.e. '/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Preferences.xml'
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<Preferences OldestPreviousVersion="1.28.2.6106-44a5bbd28" MachineIdentifier="67dac0f7-783f-4084-9eba-fce1b8ae120d" ProcessedMachineIdentifier="8977a39088f381a6df1db65db80f6c84fab496af" AnonymousMachineIdentifier="190563f5-8863-4cae-93e4-9a26ca6bb77d" MetricsEpoch="1" GlobalMusicVideoPathMigrated="1" AcceptedEULA="1" PublishServerOnPlexOnlineKey="0" PlexOnlineToken="yM_Bj1FZVLpHt-xs1whp" PlexOnlineUsername="daneroo" PlexOnlineMail="daniel.lauzon@gmail.com" DvrIncrementalEpgLoader="0" CertificateUUID="381d0e80f81a447cb1c0d21cb381894b" PubSubServer="172.105.13.59" PubSubServerRegion="yyz" PubSubServerPing="1067312801" CertificateVersion="3" CloudSyncNeedsUpdate="0" LanguageInCloud="1" customConnections="https://audiobook.dl.imetrical.com:443/, http://plex-audiobook.imetrical.com:32400/, http://192.168.86.34:32400/"/>
+<Preferences OldestPreviousVersion="1.32.5.7349-8f4248874" MachineIdentifier="27d0d69e-7851-4f42-8d87-1f7deb109e43" ProcessedMachineIdentifier="e59a3c2ab3611dc8357e15fd578e338e80bd16c5" Anonymou
+sMachineIdentifier="bc131371-e5ba-4d1a-a870-7aa0398d0bf6" MetricsEpoch="1" GlobalMusicVideoPathMigrated="1" AcceptedEULA="1" PublishServerOnPlexOnlineKey="0" PlexOnlineToken="kPMGnjpG-d79e2r3sJw
+w" PlexOnlineUsername="daneroo" PlexOnlineMail="daniel.lauzon@gmail.com" DvrIncrementalEpgLoader="0" CertificateUUID="01ff2c859a654348bbac1b4dfd3cd435" PubSubServer="172.105.13.59" PubSubServerR
+egion="yyz" PubSubServerPing="40" CertificateVersion="3" LanguageInCloud="1" customConnections="http://plex-audiobook.imetrical.com:32400/, http://192.168.86.34:32400/&quot;"/>
 ```
 
 ## Tagging
