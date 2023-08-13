@@ -3,6 +3,7 @@ version: "3.7"
 
 services:
   audiobookshelf:
+    # update from 2.2.15 to latest and pin to 2.3.3
     image: ghcr.io/advplyr/audiobookshelf
     ports:
       - 13378:80

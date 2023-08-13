@@ -31,7 +31,7 @@ Plex server WAS (is) running in the plex-audio vm in proxmox@hilbert.
 - [ ] compare metadata (node.js - music-metadata)
 - [ ] canonical folder layout for process
 - [ ] Check token stuff <https://forums.plex.tv/t/give-custom-server-access-urls-presedence-in-api-resources/274363>
-- Process for progressive migration /archive/media/audioboos /Reading/audiobooks
+- Process for progressive migration /archive/media/audiobooks /Reading/audiobooks
 - [ ] Run in docker ? what about plugins: later
   - <https://github.com/plexinc/pms-docker>, image at <https://hub.docker.com/r/plexinc/pms-docker/>
 

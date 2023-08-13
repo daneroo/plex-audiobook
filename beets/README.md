@@ -30,6 +30,7 @@ docker exec -it beets bash
 
 ## copy in some content
 rsync -av --progress "dirac:/Volumes/Space/archive/media/audiobooks/xx.." /Volumes/Space/Beets/untagged/
+rsync  -i -av --progress "galois:/Volumes/Space/archive/media/audiobooks/Steven Erikson - The Malazan Book of the Fallen" /Volumes/Space/Beets/untagged/
 
 # run the tagger on one directory
 time beet -vv import /untagged/xx..
