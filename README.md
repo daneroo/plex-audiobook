@@ -1,5 +1,7 @@
 # Plex setup for audiobooks
 
+**Archiving this repo** - Moved to <https://github.com/daneroo/nx-audiobook>
+
 _Note_: as of 2023-08-12 I reinstalled plexmediaserver on this host, by restoring to the 2023-07-16 snapshot.
 _Note_: as of 2023-07-17 I uninstalled plexmediaserver on this host, and will rebuild audiobookshelf on a new server (NixOS)
 
@@ -20,20 +22,9 @@ Plex server WAS (is) running in the plex-audio vm in proxmox@hilbert.
 
 ## TODO
 
-- [ ] Archive this repo
-- [ ] Move to nx-audiobook - including audiobookshelf
+- [x] Archive this repo
+- [x] Move to nx-audiobook repo - including audiobookshelf
   - [ ] Move audiobookshelf permanent to new NuxOS server
-- [ ] remove plex stuff, BookCamp 2.0 is never gonna happen...
-- [ ] finalize move to nx-audiobook
-  - Check Plan and TODO in `validate-audiobook:README.md`
-  - remove `validate-audiobook` from this repo
-- [x] snapshots on proxmox
-- [ ] compare metadata (node.js - music-metadata)
-- [ ] canonical folder layout for process
-- [ ] Check token stuff <https://forums.plex.tv/t/give-custom-server-access-urls-presedence-in-api-resources/274363>
-- Process for progressive migration /archive/media/audiobooks /Reading/audiobooks
-- [ ] Run in docker ? what about plugins: later
-  - <https://github.com/plexinc/pms-docker>, image at <https://hub.docker.com/r/plexinc/pms-docker/>
 
 ## plex-audiobook VM on hilbert
 
